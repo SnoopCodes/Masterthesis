@@ -1,7 +1,13 @@
 # Ignore auxiliary LaTeX files
 *.aux
+*.bcf
+*fdb_latexmk
+*.fls
+*.lof
 *.log
+*.lot
 *.out
+*.run.xml
 *.toc
 *.bbl
 *.blg
