@@ -1,0 +1,61 @@
+\documentclass[
+    paper=A4,               % Papierformat
+    twoside=false,          % einseitig bedruckt
+    fontsize=11pt,          % Schriftgröße
+    titlepage=true,         % Titelseite
+    listof=totoc,           % Tabellen-/Abb.verzeichnis ins Inhaltsverzeichnis
+    bibliography=totoc,     % Literaturverzeichnis ins Inhaltsverzeichnis
+    listof=left,            % Tabellen-/Abb.verzeichnis ohne Einzug, hängend
+    open=right,             % Kapitel rechts beginnen
+    headsepline=true,       % Header mit Linie abtrennen
+    footsepline=false,      % Footer nicht mit Linie abtrennen
+    captions=tableheading,  % Abstände anpassen, für Captions oberhalb von Tab.
+    numbers=noendperiod,    % keine Punkte am Ende von Kapitel-/Anhangnummern
+    parskip=half-,          % halber Zeilenabstand zwischen Absätzen
+    headings=normal         % Überschriften "normaler" Größe
+]{scrbook}
+
+\usepackage{scrhack}    % this package is NOT really required, but it improves the compatibility and the visual appearance of some other packages
+
+%headers right aligned
+\usepackage{scrlayer-scrpage}
+\automark{chapter}
+\clearpairofpagestyles
+\setkomafont{pagehead}{\sffamily\small\upshape}
+\ohead{\headmark}
+\cfoot*{\pagemark}
+
+
+\usepackage[a4paper]{geometry}
+\geometry{
+    includehead=true, % wg. fancyhdr-Formatierung zählt Head optisch zum Text
+    hmarginratio=1:2, % Rand innen:außen (für Doppelseite ergibt sich: 1:1:1)
+    vmarginratio=3:5, % Rand oben:unten (Standard: typearea 1:2, geometry 2:3)
+    textwidth=170mm,  % Breite der Textfläche (ohne Randnotizen)
+    textheight=230mm, % Höhe der Textfläche (ohne Header)
+    headheight=20pt,  % Header größer gegen overfull vboxes (Standard: 12pt)
+    footskip=15mm,    % Abstand Baseline des Footer zum Textkörper
+    bindingoffset=6mm % Bindekorrektur BCOR
+}
+\usepackage[utf8]{inputenc} % required for more than the standard english ASCII-7-characters. Or in other words: if you want to type Ä or Ö instead of \"A and \"O, you should keep it
+\usepackage[english,ngerman]{babel} % imports hyphenation rules for English and new German spelling rules
+\usepackage[T1]{fontenc}	% verbesserte Darstellung von Umlauten
+\usepackage{csquotes}   % language dependent quotation marks
+
+\usepackage{xcolor} % required because of HWI specific color settings of the title page
+\usepackage{setspace} % also required for the titlepage
+
+
+\usepackage{graphicx} % required for all kinds of graphics
+\usepackage[backend=biber, style=authoryear-icomp, citestyle=authoryear]{biblatex} %set the references and bibliography with the more up-to-date biber than using bibtex
+%individual settings in the main document
+
+% set maximum numbering for toc and sections
+\setcounter{secnumdepth}{2} % subsection
+\setcounter{tocdepth}{2} % subsection
+\newcommand{\dottedsection}[1]{#1.}
+
+\raggedbottom % don't stretch incomplete pages to bottom
+
+\usepackage{tabularx} %required for special settings in toc, tof
+\usepackage{ifthen} %required for conditional compilation of the latex document specifically for certain types of thesises

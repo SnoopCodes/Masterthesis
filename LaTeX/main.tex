@@ -1,0 +1,119 @@
+% HWI bachelor document template
+% author: Prof. Dr.-Ing. Volker Skwarek
+% contact: volker.skwarek@haw-hamburg.de
+\newcommand{\templateversion}{HWI-Template v5 11.10.2021}
+%---------------------------------------
+
+%---------------------------------------
+% in order to make this document more readable
+% all document setting which better shall NOT
+% be changed are moved into the preamble file
+%---------------------------------------
+% it may happen for compatibility reasons of 
+% individually added packagesm that this 
+% preamble needs to be changed nevertheless
+%---------------------------------------
+% but this is, what LaTeX is and it is for...
+%---------------------------------------
+
+%---------------------------------------
+% variables for document personalisation
+%---------------------------------------
+\newcommand{\thesistype}{Masterarbeit}
+% Bachelorarbeit
+% Projektarbeit
+% Masterarbeit
+% Seminararbeit
+% Versuchsbericht
+\newcommand{\thesistitle}{Optimization of on-demand line-based bus services}
+\newcommand{\student}{Alexander Klaus}
+\newcommand{\studentnumber}{7169020}
+\newcommand{\firstsupervisor}{Prof. Dr. Knut Haase}
+\newcommand{\secondsupervisor}{Prof. Dr. Malte Fliedner}
+\newcommand{\thesisdate} {27. August 2025}
+%---------------------------------------
+
+\include{_basic_settings_dont_touch/preamble}
+
+% settings for references and bibliography already preloaded in preamble
+%here: only individual settings
+\ExecuteBibliographyOptions{
+    sorting=nyt, %Sortierung Autor, Titel, Jahr
+    bibwarn=true, %Probleme mit den Daten, die Backend betreffen anzeigen
+    isbn=false, %keine isbn anzeigen
+    url=true
+}
+
+%-------------------------------------
+\addbibresource{your_literature.bib} %Bibliographiedateien laden
+
+%-------------------------------------
+
+%-------------------------------------
+% These here are nice additional settings
+% which may be changed if required
+%-------------------------------------
+
+\usepackage{url}  
+
+%\usepackage{float}
+\usepackage{caption}    %captions below figures and tables
+    \captionsetup{                  % globale Option für caption und subcaption
+      font=normalsize,              % Schrift der Caption (Label+Text)
+      format=hang,                  % Formatierung der Caption
+      justification=RaggedRight,    % linksbündig bei mehreren caption-Zeilen
+      singlelinecheck=true,         % true: einzelne Linie zentriert!
+      labelfont=bf,                 % Schrift des Labels
+      textfont=rm,                  % Schrift des Textes
+      position=bottom               % Normale Caption unter dem Float
+    }
+\usepackage{subcaption}
+
+\usepackage[colorlinks=true,linkcolor=blue, citecolor=magenta]{hyperref}
+\usepackage{booktabs}
+\usepackage{acronym} %define acronyms and list them in a glossary
+\usepackage{siunitx}[=v2]   % Einheitenmakros, Nummernformatierung
+    \sisetup{locale=DE, %Dezimalkomma
+    binary-units = true} %Bit als Einheit
+
+\usepackage{blindtext} %can be removed from final document as this is need for the annex in this template document only.
+    
+    
+%-------------------------------------
+% The main document starts here
+%-------------------------------------
+\begin{document}
+
+\input{_basic_settings_dont_touch/frontmatter}
+
+%-------------------------------------
+% Here should your chapters be included as separate files
+%-------------------------------------
+\input{your_content_folder/Abkuerzungsverzeichnis}
+
+\mainmatter
+\input{your_content_folder/1_Einleitung}
+
+\printbibliography 
+% do not change: sets specific page numbering for annex
+\pretocmd{\chapter}{
+    \clearpage
+    \setcounter{page}{1}
+}{}{}
+\let\oldpagestyle=\thepage
+\renewcommand*{\thepage}{\thechapter-\arabic{page}}
+%----------------------------------------------------
+
+% add annexures here
+\appendix
+\input{your_content_folder/App_A_Beispielanhang}
+\input{your_content_folder/App_B_Noch_Ein_Anhang}
+
+%--------------------------------------
+% you shouldn't make any changes from here
+%--------------------------------------
+
+\clearpage
+\renewcommand*{\thepage}{\oldpagestyle}
+\input{_basic_settings_dont_touch/eidesstatt}
+\end{document}

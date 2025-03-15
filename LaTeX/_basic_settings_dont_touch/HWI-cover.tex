@@ -1,0 +1,94 @@
+%------------------------------------------------------------------------------%
+%------------------------------------------------------------------------------%
+%--- Titel:    HAW-LaTeX-Vorlage und Hinweise zu studentischen Arbeiten     ---%
+%--- Autor:    Rainer Sawatzki <rainer.sawatzki@haw-hamburg.de>             ---%
+%---           Hochschule für Angewandte Wissenschaften Hamburg              ---%
+%---           Fakultät Life Sciences                                       ---%
+%---           Ulmensiet 20, 22033 Hamburg                                  ---%
+%--- Vorlage:  Timo Pe <timo.pe@tuhh.de> <mail@timope.com>                  ---%
+%------------------------------------------------------------------------------%
+%------------------------------------------------------------------------------%
+
+\begin{titlepage}
+\definecolor{hwiFarbe}{RGB}{54,170,106}
+\sffamily\bfseries % Schriftfamilie
+%\onehalfspacing
+\doublespacing
+	
+%------------------------------------------------------------------------------%
+%---- Logos und Anschriften ---------------------------------------------------%
+%------------------------------------------------------------------------------%
+
+% Der Titel soll, unabhängig der Größe der Logos und Anschriften, immer
+% auf gleicher Höhe anfangen. Es wird deshalb eine parbox mit fester Höhe
+% als äußeres Konstrukt verwendet.
+\begin{minipage}[l][7.5cm][t]{\textwidth}
+	\begin{center}
+		\includegraphics[height=3.5cm]{_basic_settings_dont_touch/hwi-logo.jpg} \\	
+	\end{center}
+\end{minipage}
+%------------------------------------------------------------------------------%
+%---- Art der Arbeit ----------------------------------------------------------%
+%------------------------------------------------------------------------------%
+
+\begin{minipage}[l][5.0cm][t]{\textwidth}
+	\begin{center}
+
+		{\Huge
+			\textcolor{hwiFarbe}{\thesistype{}} % siehe Beispiele oben
+		} \\	[\baselineskip]
+	
+%------------------------------------------------------------------------------%
+%---- Titel -------------------------------------------------------------------%
+%------------------------------------------------------------------------------%
+
+		{\Large % Schriftgröße
+			\thesistitle			} \\[\baselineskip]
+			
+%------------------------------------------------------------------------------%
+%---- Autor -------------------------------------------------------------------%
+%------------------------------------------------------------------------------%
+		vorglegt von
+		
+		{\large % Schriftgröße
+
+			\student \\
+			Matrikelnummer \studentnumber
+		} \\
+	\end{center}
+\end{minipage}
+
+
+%------------------------------------------------------------------------------%
+%---- Prüfer, Betreuer, Datum -------------------------------------------------%
+%------------------------------------------------------------------------------%
+
+\vfill % dehnbarer vertikaler Abstand, > volle Texthöhe nutzen
+
+\begin{tabular}{@{}ll}
+	Bereich: & \\
+	1. Gutachter:  & \firstsupervisor \\	
+	2. Gutachter:  & \secondsupervisor \\
+	vorgelegt am:  & \thesisdate
+\end{tabular} \\[-1.0\baselineskip]
+
+\hspace*{.55\linewidth}\begin{minipage}[t][-0.5cm][t]{\textwidth}%
+\raggedright
+\scriptsize
+\singlespacing
+\textcolor{gray}{
+    \scriptsize
+	AM LEHRANGEBOT BETEILIGTE HOCHSCHULEN:\\
+	Universität Hamburg\\
+	Hochschule für Angewandte Wissenschaften Hamburg\\
+	\ifthenelse{\equal{\thesistype}{Bachelorarbeit}}
+    {% True case
+    }
+    {% false case
+        Helmut Schmidt Universität - Universität der Bundeswehr Hamburg\\
+    }
+	%Technische Universität Hamburg-Harburg\\
+}
+\end{minipage}
+\end{titlepage}
+
