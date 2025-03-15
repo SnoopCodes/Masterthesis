@@ -8,8 +8,6 @@ INPUT ./_basic_settings_dont_touch/preamble.tex
 INPUT ./_basic_settings_dont_touch/preamble.tex
 INPUT ./_basic_settings_dont_touch/preamble.tex
 INPUT ./_basic_settings_dont_touch/preamble.tex
-INPUT ./_basic_settings_dont_touch/preamble.tex
-INPUT ./_basic_settings_dont_touch/preamble.tex
 INPUT _basic_settings_dont_touch/preamble.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrbook.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrbook.cls
