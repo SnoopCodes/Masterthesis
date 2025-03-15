@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1742075086.33167 "main.bcf" "main.bbl" "main" 1742076043.09534 0
-  "main.bcf" 1742076042.89637 109316 3c4c6035cb0b80805c0d39c0e7c8789b "pdflatex"
+["biber main"] 1742075086.33167 "main.bcf" "main.bbl" "main" 1742076635.80533 0
+  "main.bcf" 1742076635.59725 109316 3c4c6035cb0b80805c0d39c0e7c8789b "pdflatex"
   "your_literature.bib" 1635187696 6868 4f3d1eec8999eff1c016785fc242be66 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1742076039.93019 "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" "main.pdf" "main" 1742076043.0957 0
+["pdflatex"] 1742076632.53605 "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" "main.pdf" "main" 1742076635.80574 0
   "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" 1742073459.54644 4124 a8cc7b324b3d6ab02b709d04781696a6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -204,15 +204,15 @@
   "_basic_settings_dont_touch/frontmatter.tex" 1635187696 193 df7f238066a6ed0f5a07d14076781b55 ""
   "_basic_settings_dont_touch/hwi-logo.jpg" 1635187696 182773 2a5f94b07ce7df7779ac3a8100758e00 ""
   "_basic_settings_dont_touch/preamble.tex" 1742073642.15759 3074 f4aa293a1a1ffcae734db892ecd3fe42 ""
-  "main.aux" 1742076042.89003 12445 abd4ec086d33477a3a1b1c08384b97ef "pdflatex"
+  "main.aux" 1742076635.59168 12445 abd4ec086d33477a3a1b1c08384b97ef "pdflatex"
   "main.bbl" 1742075100.54104 18565 8f9b8dc8f72240bb0a2622989bbf7b89 "biber main"
-  "main.lof" 1742076042.89741 973 3c161dfadfc1837dc996a123800d6bc6 "pdflatex"
-  "main.lot" 1742076042.89744 175 5ec76aa0b839e8b0a0d380cf30d7d383 "pdflatex"
-  "main.out" 1742076041.81361 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1742076042.8973 2417 e7b2995580f1fec4890139ad505a9399 "pdflatex"
+  "main.lof" 1742076635.59819 973 3c161dfadfc1837dc996a123800d6bc6 "pdflatex"
+  "main.lot" 1742076635.59822 175 5ec76aa0b839e8b0a0d380cf30d7d383 "pdflatex"
+  "main.out" 1742076634.48078 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1742076635.59808 2417 e7b2995580f1fec4890139ad505a9399 "pdflatex"
   "main.tex" 1742073459.54644 4124 a8cc7b324b3d6ab02b709d04781696a6 ""
-  "main.toc" 1742076042.89738 1225 ddd4a4aefe587548b6e2e12c0a773f73 "pdflatex"
-  "your_content_folder/1_Einleitung.tex" 1742076036.50977 22403 38ae3d4832ecadcfb2370f9df0073a8a ""
+  "main.toc" 1742076635.59816 1225 ddd4a4aefe587548b6e2e12c0a773f73 "pdflatex"
+  "your_content_folder/1_Einleitung.tex" 1742076632.30641 22406 c86117bd6d5401b8eefca5af8a6f6545 ""
   "your_content_folder/Abkuerzungsverzeichnis.tex" 1635187696 436 2911b8d21bb07afd050a83d5551c46d4 ""
   "your_content_folder/App_A_Beispielanhang.tex" 1635187696 42 b7f4012cd8c47eb83d9c06c7d513796b ""
   "your_content_folder/App_B_Noch_Ein_Anhang.tex" 1635187696 49 69a2c221cacc0871baa8fcaec95c76fd ""
