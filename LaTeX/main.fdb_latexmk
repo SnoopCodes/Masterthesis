@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1742077396.86195 "main.bcf" "main.bbl" "main" 1742077408.76613 0
-  "main.bcf" 1742077408.56572 109316 3c4c6035cb0b80805c0d39c0e7c8789b "pdflatex"
-  "your_literature.bib" 1635187696 6868 4f3d1eec8999eff1c016785fc242be66 ""
+["biber main"] 1742389249.22945 "main.bcf" "main.bbl" "main" 1742389251.00126 0
+  "main.bcf" 1742077832.53458 109316 3c4c6035cb0b80805c0d39c0e7c8789b "pdflatex"
+  "your_literature.bib" 1742389209.20716 7383 58b3ba78e5b65aded53131999294ac16 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1742077405.62562 "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" "main.pdf" "main" 1742077408.76648 0
-  "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" 1742076843.83789 4122 c28b0457c6715f2f442b4c19943858e7 ""
+["pdflatex"] 1742077829.51731 "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" "main.pdf" "main" 1742389251.0013 0
+  "/Users/alexanderklaus/Desktop/Masterthesis/LaTeX/main.tex" 1742389248.84035 3989 ab2853ea6676e7770d5ce398d8a8a8c0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -204,14 +204,14 @@
   "_basic_settings_dont_touch/frontmatter.tex" 1635187696 193 df7f238066a6ed0f5a07d14076781b55 ""
   "_basic_settings_dont_touch/hwi-logo.jpg" 1635187696 182773 2a5f94b07ce7df7779ac3a8100758e00 ""
   "_basic_settings_dont_touch/preamble.tex" 1742073642.15759 3074 f4aa293a1a1ffcae734db892ecd3fe42 ""
-  "main.aux" 1742077408.55985 12445 abd4ec086d33477a3a1b1c08384b97ef "pdflatex"
-  "main.bbl" 1742077399.29814 18565 8f9b8dc8f72240bb0a2622989bbf7b89 "biber main"
-  "main.lof" 1742077408.56667 973 3c161dfadfc1837dc996a123800d6bc6 "pdflatex"
-  "main.lot" 1742077408.56669 175 5ec76aa0b839e8b0a0d380cf30d7d383 "pdflatex"
-  "main.out" 1742077407.4936 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.run.xml" 1742077408.56657 2417 e7b2995580f1fec4890139ad505a9399 "pdflatex"
-  "main.tex" 1742076843.83789 4122 c28b0457c6715f2f442b4c19943858e7 ""
-  "main.toc" 1742077408.56664 1225 ddd4a4aefe587548b6e2e12c0a773f73 "pdflatex"
+  "main.aux" 1742077832.52906 12445 abd4ec086d33477a3a1b1c08384b97ef "pdflatex"
+  "main.bbl" 1742389250.97716 18565 8f9b8dc8f72240bb0a2622989bbf7b89 "biber main"
+  "main.lof" 1742077832.53556 973 3c161dfadfc1837dc996a123800d6bc6 "pdflatex"
+  "main.lot" 1742077832.53559 175 5ec76aa0b839e8b0a0d380cf30d7d383 "pdflatex"
+  "main.out" 1742077831.44672 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.run.xml" 1742077832.53544 2417 e7b2995580f1fec4890139ad505a9399 "pdflatex"
+  "main.tex" 1742389248.84035 3989 ab2853ea6676e7770d5ce398d8a8a8c0 ""
+  "main.toc" 1742077832.53553 1225 ddd4a4aefe587548b6e2e12c0a773f73 "pdflatex"
   "your_content_folder/1_Einleitung.tex" 1742076632.30641 22406 c86117bd6d5401b8eefca5af8a6f6545 ""
   "your_content_folder/Abkuerzungsverzeichnis.tex" 1635187696 436 2911b8d21bb07afd050a83d5551c46d4 ""
   "your_content_folder/App_A_Beispielanhang.tex" 1635187696 42 b7f4012cd8c47eb83d9c06c7d513796b ""
