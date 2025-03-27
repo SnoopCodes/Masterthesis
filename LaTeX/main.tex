@@ -76,25 +76,24 @@
     \sisetup{locale=DE, %Dezimalkomma
     binary-units = true} %Bit als Einheit
 
-\usepackage{blindtext} %can be removed from final document as this is need for the annex in this template document only.
-    
+\usepackage[T1]{fontenc}     % <-- wichtig für korrektes Mapping
+\usepackage{lmodern}    
     
 %-------------------------------------
 % The main document starts here
 %-------------------------------------
 \begin{document}
-
 \input{_basic_settings_dont_touch/frontmatter}
-
-
-
-
 \input{your_content_folder/Abkuerzungsverzeichnis}
-
 \mainmatter
 \input{your_content_folder/1_Einleitung}
-
+\input{your_content_folder/2_}
+\input{your_content_folder/3_}
+\input{your_content_folder/4_}
+\input{your_content_folder/5_}
 \printbibliography 
+
+
 % do not change: sets specific page numbering for annex
 \pretocmd{\chapter}{
     \clearpage
@@ -106,8 +105,8 @@
 
 % add annexures here
 \appendix
-\input{your_content_folder/App_A_Beispielanhang}
-\input{your_content_folder/App_B_Noch_Ein_Anhang}
+\input{your_content_folder/App_A}
+\input{your_content_folder/App_B}
 
 %--------------------------------------
 % you shouldn't make any changes from here
