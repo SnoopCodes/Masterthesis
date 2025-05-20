@@ -1,0 +1,566 @@
+Fahrzeug-ID,Linie,Abfahrt-Datum,Annahme,Status,angem.Pers,bef.Pers,Einstieg_GTFS,Ausstieg_GTFS,abfahrt_minutes,day,depot,trip_id,einstieg_stop_id,einstieg_stop_sequence,ausstieg_stop_id,ausstieg_stop_sequence,trip_sequence_in_line
+144,821,2024-08-22,I_AUS,DU,1,1,Hagenow Land Bahnhof,Lübtheen Am Jessen. Weg,7,thursday,VLP Ludwigslust,959531,364953,1,605423,32,1
+133,824,2024-08-22,P_StH,DU,1,1,Zarrentin a Schaals. Bahnhofst,Wittenburg (M) Gewerbegebiet,10,thursday,VLP Hagenow,410831,47525,2,601629,27,1
+133,58,2024-08-22,P_NCM,DU,1,1,Dömitz ZOB,Ludwigslust B5,238,thursday,VLP Ludwigslust,786886,567144,3,580758,16,1
+133,58,2024-08-22,P_SKr,DU,1,1,Heiddorf Th.-Körner-Str.,Ludwigslust B5,246,thursday,VLP Ludwigslust,786886,427171,5,580758,16,1
+138,832,2024-08-22,I_AUS,DU,1,1,Boizenburg Markt,Wittenburg (M) Gewerbegebiet,256,thursday,VLP Boizenburg,1079005,614787,1,594376,54,4
+160,822,2024-08-22,I_AUS,DU,1,1,Vellahn Schule,Hagenow Land Bahnhof,262,thursday,VLP Hagenow,1224402,206496,12,364953,41,5
+0,54,2024-08-22,P_hkl,A,1,1,Hagenow Lindenallee,Zarrentin a Schaals. Bahnhofst,265,thursday,VLP Hagenow,1542991,519618,2,47525,27,6
+123,54,2024-08-22,I_ESM,DU,1,1,Hagenow Lindenallee,Zarrentin a Schaals. Bahnhofst,265,thursday,VLP Hagenow,1542991,519618,2,47525,27,6
+0,822,2024-08-22,I_ESM,A,1,1,Hagenow Robert-Stock-Str.,Wittenburg (M) Gewerbegebiet,266,thursday,VLP Hagenow,1258055,592840,2,594376,40,6
+139,832,2024-08-22,I_AUS,DU,1,1,Brahlstorf Wendeschleife,Vellahn B5,274,thursday,VLP Boizenburg,765452,223180,18,659357,23,3
+0,820,2024-08-22,P_lra,A,1,1,Sudenhof,Kirch Jesar Texas,275,thursday,VLP Hagenow,690558,216889,1,157832,2,6
+127,807,2024-08-22,I_AUS,DU,1,1,Ziegendorf b Parchim Schule,Parchim ZOB,297,thursday,VLP Parchim,1253869,296623,8,425691,27,2
+139,822,2024-08-22,I_AUS,DU,1,1,Vellahn B5,Hagenow ZOB,300,thursday,VLP Hagenow,471289,528070,13,540455,37,7
+0,801,2024-08-22,I_ESM,A,1,1,Lübz ZOB,Vietlübbe (b Lübz),304,thursday,VLP Parchim,1519256,593769,1,120161,28,5
+148,841,2024-08-22,I_EFA,DU,1,1,Tramm (b Schwerin) Kirche,Crivitz Bahnhof,305,thursday,VLP Schwerin,857106,97922,40,186789,47,2
+139,822,2024-08-22,P_dip,DU,1,0,Grünhof (b Hagenow),Hagenow ZOB,311,thursday,VLP Hagenow,471289,76462,27,540455,37,7
+136,802,2024-08-22,P_rch,DU,1,1,Ganzlin,Plau am See Bahnhof,313,thursday,VLP Parchim,885476,349669,4,298193,19,4
+134,830,2024-08-22,I_AUS,DU,1,1,Granzin b Boizenburg,Gallin Heisterbusch Mitte,315,thursday,VLP Boizenburg,484526,481748,32,520203,44,6
+155,823,2024-08-22,P_nso,DU,1,1,Stralendorf b Schwer Neubau,Schwerin Süd (NVS),320,thursday,VLP Hagenow,260690,180264,45,657291,54,7
+0,846,2024-08-22,I_ESM,A,1,1,Rampe Diakonie,Cambs Schweriner Str.,321,thursday,VLP Schwerin,372469,386628,18,530976,21,4
+157,849,2024-08-22,I_ESM,DU,1,1,Brüel Schule,Blankenberg Bhf,322,thursday,VLP Sternberg,1189353,565904,10,630643,12,2
+144,832,2024-08-22,I_ESM,DU,1,1,Vellahn Schule,Wittenburg (M) Gewerbegebiet,322,thursday,VLP Boizenburg,1024842,206496,35,594376,54,5
+144,832,2024-08-22,I_AUS,DU,1,1,Vellahn Schule,Wittenburg (M) Gewerbegebiet,322,thursday,VLP Boizenburg,1024842,206496,35,594376,54,5
+140,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Schulzentrum,Zarrentin a Schaals. Bahnhofst,323,thursday,VLP Boizenburg,474516,214705,4,47525,51,7
+140,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Schulzentrum,Zarrentin a Schaals. Bahnhofst,323,thursday,VLP Boizenburg,474516,214705,4,47525,51,7
+140,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Schulzentrum,Zarrentin a Schaals. Bahnhofst,323,thursday,VLP Boizenburg,474516,214705,4,47525,51,7
+148,847,2024-08-22,P_SSt,DU,1,1,Schwerin Keplerstraße,Jamel Am Berg,333,thursday,VLP Schwerin,1148042,431277,1,32477,26,9
+125,822,2024-08-22,I_AUS,DU,1,0,Vellahn Schule,Hagenow Land Bahnhof,337,thursday,VLP Hagenow,1130581,206496,12,364953,41,8
+123,822,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Hagenow Bundeswehrkaserne,340,thursday,VLP Hagenow,945531,592840,2,182842,10,9
+140,830,2024-08-22,I_AUS,DU,1,1,Heidekrug,Gallin (Bzb) Heisterbusch West,340,thursday,VLP Boizenburg,474516,568613,22,208588,43,7
+152,810,2024-08-22,I_ESM,DU,1,1,Grabow (Meckl) Prislicher Str.,Brunow (b Parchim) Kirche,346,thursday,VLP Ludwigslust,1560105,266486,2,14939,31,4
+152,810,2024-08-22,I_ESM,DU,1,0,Grabow (Meckl) Prislicher Str.,Brunow (b Parchim) Kirche,346,thursday,VLP Ludwigslust,1560105,266486,2,14939,31,4
+153,815,2024-08-22,I_ESM,DU,1,1,Alt Brenz Kirche,Neustadt-Glewe Wabeler Str.,349,thursday,VLP Ludwigslust,92282,358474,17,393226,23,3
+127,807,2024-08-22,P_sap,DU,1,1,Groß Godems Schule,Parchim Bahnhof,353,thursday,VLP Parchim,759551,308567,20,124348,30,3
+0,830,2024-08-22,I_AUS,A,1,1,Gallin Heisterbusch Mitte,Granzin b Boizenburg,359,thursday,VLP Boizenburg,216882,347142,9,479549,21,9
+124,832,2024-08-22,I_AUS,DU,1,1,Brahlstorf Wendeschleife,Wittenburg (M) Gewerbegebiet,360,thursday,VLP Boizenburg,235031,223180,38,594376,54,7
+0,808,2024-08-22,I_ESM,A,1,1,Goldenbow b Parchim,Parchim Bahnhof,361,thursday,VLP Parchim,445436,253824,10,124348,33,4
+138,830,2024-08-22,I_ESM,DU,1,1,Schwanheide Bahnhof,Gallin (Bzb) Heisterbusch West,368,thursday,VLP Boizenburg,1515287,264609,23,208588,43,8
+173,814,2024-08-22,I_ESM,DU,1,0,Ludwigslust Alexandrinenplatz,Fahrbinde Dorf,380,thursday,VLP Ludwigslust,1131434,537253,3,660086,16,6
+135,846,2024-08-22,I_ESM,DU,1,0,Rampe Diakonie,Cambs Schweriner Str.,381,thursday,VLP Schwerin,28465,386628,18,530976,21,6
+125,823,2024-08-22,I_ESM,DU,1,1,Besendorf (Meckl),Hagenow Robert-Stock-Str.,385,thursday,VLP Hagenow,616484,577184,27,592840,50,10
+134,847,2024-08-22,I_AUS,DU,1,1,Schwerin Keplerstraße,Sukow (b Schwerin) Wende,390,thursday,VLP Schwerin,686229,431277,1,202841,16,11
+136,804,2024-08-22,I_ESM,DU,1,1,Langenhagen 1,Dobbertin,390,thursday,VLP Parchim,177585,473086,21,390388,43,7
+123,822,2024-08-22,P_tik,DU,1,1,Vellahn Schule,Hagenow Land Bahnhof,394,thursday,VLP Hagenow,1282015,206496,12,364953,41,10
+0,814,2024-08-22,I_ESM,A,1,1,Wöbbelin Funkamt,Rastow Bahnhof,395,thursday,VLP Ludwigslust,1131434,379583,10,523772,18,6
+173,814,2024-08-22,I_ESM,DU,1,1,Wöbbelin Funkamt,Rastow Bahnhof,395,thursday,VLP Ludwigslust,1131434,379583,10,523772,18,6
+173,814,2024-08-22,I_ESM,DU,1,0,Wöbbelin Funkamt,Rastow Bahnhof,395,thursday,VLP Ludwigslust,1131434,379583,10,523772,18,6
+147,840,2024-08-22,I_ESM,DU,1,1,Dümmer Postweg,Schwerin Süd (Bahn),398,thursday,VLP Schwerin,281155,588538,14,262821,53,4
+139,832,2024-08-22,P_NEr,DU,1,1,Melkof Dorf,Vellahn B5,400,thursday,VLP Boizenburg,1023730,340080,15,659357,23,10
+131,813,2024-08-22,I_AUS,DU,1,1,Alt Krenzlin,Picher,401,thursday,VLP Ludwigslust,1048381,374563,10,504365,15,6
+147,840,2024-08-22,P_IID,DU,1,1,Stralendorf b Schwerin,Schwerin Süd (Bahn),404,thursday,VLP Schwerin,281155,540576,25,262821,53,4
+124,820,2024-08-22,P_AlS,DU,1,1,Moraas Abzw n Kuhstorf,Hagenow Robert-Stock-Str.,404,thursday,VLP Hagenow,885035,164397,9,592840,29,10
+125,823,2024-08-22,I_ESM,DU,1,1,Gammelin,Hagenow ZOB,405,thursday,VLP Hagenow,616484,653304,42,597045,51,10
+140,54,2024-08-22,I_ESM,DU,1,1,Hagenow Krankenhaus,Zarrentin a Schaals. Bahnhofst,406,thursday,VLP Hagenow,479060,323296,6,47525,27,9
+152,810,2024-08-22,P_NCM,DU,1,1,Brunow (b Parchim) Kirche,Grabow (Meckl) Binnung,408,thursday,VLP Ludwigslust,789580,14939,3,325288,33,5
+139,832,2024-08-22,I_ESM,DU,1,1,Vellahn Schule,Boizenburg Markt,408,thursday,VLP Boizenburg,1023730,206496,21,614787,55,10
+139,832,2024-08-22,I_ESM,DU,1,1,Vellahn Schule,Bennin Dorf,408,thursday,VLP Boizenburg,1023730,206496,21,86708,40,10
+132,821,2024-08-22,P_dis,DU,1,1,Hagenow Finanzamt,Lübtheen R.-Breitscheid-Str.,409,thursday,VLP Ludwigslust,728710,552637,4,369432,29,12
+138,830,2024-08-22,I_ESM,DU,1,1,Nieklitz,Zarrentin a Schaals. Bahnhofst,410,thursday,VLP Boizenburg,935218,147641,35,47525,51,10
+128,816,2024-08-22,P_NCM,DU,1,1,Suckow Mentiner Str.,Parchim ZOB,411,thursday,VLP Parchim,1546340,165646,6,86550,28,6
+138,830,2024-08-22,P_KHo,DU,1,1,Gallin (b Zarrentin),Zarrentin a Schaals. Bahnhofst,413,thursday,VLP Boizenburg,935218,486701,39,47525,51,10
+138,830,2024-08-22,I_ESM,DU,1,1,Gallin Galliner Ring Süd,Zarrentin a Schaals. Markt,414,thursday,VLP Boizenburg,935218,467958,41,463815,52,10
+124,820,2024-08-22,I_ESM,DU,1,1,Redefin B5,Hagenow Land Bahnhof,416,thursday,VLP Hagenow,885035,652959,18,364953,28,10
+0,844,2024-08-22,P_jbe,A,1,1,Gustävel,Golchen,419,thursday,VLP Sternberg,302770,558492,4,372661,15,6
+0,592,2024-08-22,P_EsY,DU,1,1,Balow Dambecker Weg,Grabow (Meckl) Binnung,422,thursday,VLP Ludwigslust,1545917,123559,6,325288,23,8
+0,845,2024-08-22,I_EFA,A,1,1,Langen Brütz,Brahlstorf b. Cambs,425,thursday,VLP Schwerin,1339767,72731,11,457197,26,7
+134,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Gädebehn,425,thursday,VLP Sternberg,437521,186789,1,143822,8,6
+0,840,2024-08-22,P_kes,A,2,2,Dümmer Dümmerstück Hof,Wittenförden Dorfeingang,427,thursday,VLP Schwerin,342305,529159,47,220190,51,5
+0,823,2024-08-22,I_ESM,A,1,1,Schwerin Süd (NVS),Stralendorf b Schwerin,430,thursday,VLP Hagenow,631065,535705,1,245855,9,13
+135,842,2024-08-22,I_ESM,DU,1,1,Demen Siedlung,Crivitz Bahnhof,434,thursday,VLP Sternberg,948298,505713,3,186789,25,7
+0,812,2024-08-22,P_ViB,A,1,1,Heiddorf R. Raddenf.,Vielank,434,thursday,VLP Ludwigslust,1403012,112853,5,227959,15,8
+136,843,2024-08-22,P_MaS,DU,1,1,Ruchow,Sternberg (Meckl) ZOB,434,thursday,VLP Sternberg,28259,271355,8,641458,46,8
+135,842,2024-08-22,P_fbi,DU,0,0,Demen Siedlung,Crivitz Große Straße,434,thursday,VLP Sternberg,948298,505713,3,143142,23,7
+135,842,2024-08-22,P_fbi,DU,0,0,Demen Siedlung,Crivitz Große Straße,434,thursday,VLP Sternberg,948298,505713,3,143142,23,7
+135,842,2024-08-22,P_fbi,DU,3,0,Demen Siedlung,Crivitz Große Straße,434,thursday,VLP Sternberg,948298,505713,3,143142,23,7
+171,830,2024-08-22,I_ESM,DU,1,0,Boizenburg Markt,Nostorf,441,thursday,VLP Boizenburg,505884,614787,3,443791,10,12
+123,823,2024-08-22,I_ESM,DU,1,1,Hoort,Pampow (b Schwerin) Feuerwehr,442,thursday,VLP Hagenow,1419960,480747,24,197323,49,12
+0,830,2024-08-22,I_ESM,A,1,1,Schwartow,Zarrentin a Schaals. Bahnhofst,455,thursday,VLP Boizenburg,505884,85837,15,47525,51,12
+139,830,2024-08-22,I_AUS,DU,1,1,Gresse (Meckl),Zarrentin a Schaals. Bahnhofst,459,thursday,VLP Boizenburg,505884,335637,20,47525,51,12
+128,807,2024-08-22,I_ESM,DU,1,1,Parchim Juri-Gagarin-Ring,Groß Godems Schule,462,thursday,VLP Parchim,1222538,205739,2,308567,11,8
+127,805,2024-08-22,P_dip,DU,1,1,Parchim Juri-Gagarin-Ring,Darze (b Parchim),462,thursday,VLP Parchim,674459,205739,2,328538,5,7
+125,822,2024-08-22,P_JaW,DU,1,1,Kloddram,Hagenow Robert-Stock-Str.,466,thursday,VLP Hagenow,499573,53354,15,592840,40,13
+125,822,2024-08-22,P_NCM,DU,1,0,Kloddram,Hagenow Robert-Stock-Str.,466,thursday,VLP Hagenow,499573,53354,15,592840,40,13
+124,54,2024-08-22,P_FSi,DU,1,1,Hagenow ZOB,Wittenburg (M) Gewerbegebiet,467,thursday,VLP Hagenow,746243,392321,5,594376,14,10
+124,54,2024-08-22,I_AUS,DU,1,1,Hagenow Krankenhaus,Wittenburg (M) Gewerbegebiet,469,thursday,VLP Hagenow,746243,323296,6,594376,14,10
+0,822,2024-08-22,P_FSi,A,1,1,Hagenow ZOB,Wittenburg (M) Gewerbegebiet,470,thursday,VLP Hagenow,60612,540455,5,594376,40,14
+140,832,2024-08-22,P_NEr,DU,1,1,Vellahn B5,Melkof Dorf,474,thursday,VLP Boizenburg,513398,528070,33,668721,41,11
+152,811,2024-08-22,I_ESM,DU,1,1,Eldena (Meckl) Bahnhofstr.,Lenzen (Elbe) Markt,475,thursday,VLP Ludwigslust,204982,293222,13,289959,14,9
+0,816,2024-08-22,I_ESM,A,1,1,Marnitz,Parchim Bahnhof,477,thursday,VLP Parchim,1493393,252000,7,124348,27,8
+131,821,2024-08-22,P_FSi,DU,1,1,Redefin Belscher Straße,Hagenow Robert-Stock-Str.,478,thursday,VLP Ludwigslust,1204418,556709,34,592840,52,13
+131,821,2024-08-22,P_kes,DU,1,1,Warlitz,Pritzier Kita,480,thursday,VLP Ludwigslust,1204418,424930,39,58509,42,13
+153,809,2024-08-22,I_ESM,DU,1,1,Raduhn,Parchim Bahnhof,480,thursday,VLP Parchim,1121073,168246,7,124348,22,8
+131,821,2024-08-22,P_ap,DU,1,1,Goldenitz,Hagenow ZOB,481,thursday,VLP Ludwigslust,1204418,327888,40,540455,51,13
+137,846,2024-08-22,P_SKr,DU,1,1,Rubow,Ventschow Bahnhof,482,thursday,VLP Schwerin,541197,212102,17,106633,21,9
+134,806,2024-08-22,P_mmp,DU,1,1,Groß Pankow,Parchim ZOB,483,thursday,VLP Parchim,203659,639917,4,425691,18,7
+134,806,2024-08-22,I_AUS,DU,1,0,Groß Pankow,Parchim Juri-Gagarin-Ring,483,thursday,VLP Parchim,203659,639917,4,205739,20,7
+0,808,2024-08-22,P_MIv,A,2,2,Bergrade Hof,Parchim ZOB,488,thursday,VLP Parchim,810679,99882,18,425691,30,7
+128,807,2024-08-22,I_ESM,DU,1,1,Wulfsahl,Parchim Fr.-W.-Raiffeisenring,488,thursday,VLP Parchim,1316051,179991,17,32601,28,7
+138,830,2024-08-22,I_ESM,DU,1,1,Zweedorf b Boizenbg.,Boizenburg (Elbe),491,thursday,VLP Boizenburg,22542,228321,27,649660,51,13
+147,54,2024-08-22,I_ESM,DU,1,1,Wittenburg (Meckl) Helmer Weg,Zarrentin a Schaals. Bahnhofst,492,thursday,VLP Hagenow,746243,267645,15,47525,27,10
+138,830,2024-08-22,I_AUS,DU,1,1,Schwanheide Bahnhof,Boizenburg (Elbe),492,thursday,VLP Boizenburg,22542,264609,30,649660,51,13
+128,807,2024-08-22,P_SöO,DU,1,1,Groß Godems,Parchim Bahnhof,494,thursday,VLP Parchim,1316051,212949,19,124348,30,7
+0,840,2024-08-22,P_ViB,A,1,1,Stralendorf b Schwerin,Schwerin Süd (NVS),500,thursday,VLP Schwerin,1282243,540576,25,657291,54,8
+123,822,2024-08-22,I_ESM,DU,1,1,Lehsen,Hagenow ZOB,501,thursday,VLP Hagenow,313727,226486,3,540455,37,15
+0,831,2024-08-22,P_NiH,A,1,1,Vorderhagen,Boizenburg (Elbe),503,thursday,VLP Boizenburg,356700,468083,14,649660,24,12
+138,830,2024-08-22,I_ESM,DU,1,1,Bickhusen,Boizenburg Markt,504,thursday,VLP Boizenburg,22542,152056,44,614787,50,13
+0,803,2024-08-22,P_dip,A,1,1,Wendisch Waren,Goldberg (Meckl) Bahnhof,504,thursday,VLP Parchim,1017827,216462,19,155160,21,10
+127,839,2024-08-22,I_ESM,DU,1,1,Prestin,Crivitz Bahnhof,510,thursday,VLP Sternberg,678506,149237,9,186789,23,9
+158,849,2024-08-22,I_AUS,DU,1,1,Sülten (b Sternberg),Sternberg (Meckl) ZOB,513,thursday,VLP Sternberg,652921,651097,9,641458,16,9
+147,824,2024-08-22,P_jk,DU,2,2,Lassahn,Zarrentin a Schaals. Bahnhofst,517,thursday,VLP Hagenow,1254020,645661,18,47525,27,13
+0,841,2024-08-22,P_Bur,A,1,1,Tramm (b Schwerin) Kirche,Crivitz Große Straße,518,thursday,VLP Schwerin,673571,97922,40,143142,46,8
+132,814,2024-08-22,P_BKa,DU,1,1,Dreenkrögen,Ludwigslust Alexandrinenplatz,520,thursday,VLP Ludwigslust,751112,656688,22,537253,33,10
+146,821,2024-08-22,P_ViB,DU,1,1,Lübtheen Am Jessen. Weg,Hagenow ZOB,520,thursday,VLP Ludwigslust,426468,605423,22,540455,51,15
+171,804,2024-08-22,P_StH,DU,5,5,Welzin (b Lübz),Lübz ZOB,522,thursday,VLP Parchim,347448,638858,32,593769,45,11
+0,808,2024-08-22,P_jk,A,1,1,Zölkow Schüler,Parchim Bahnhof,524,thursday,VLP Parchim,1348176,53843,6,124348,33,9
+125,822,2024-08-22,I_ESM,DU,1,1,Hagenow Land Bahnhof,Wulfskuhl,525,thursday,VLP Hagenow,1304828,364953,1,361564,37,16
+129,806,2024-08-22,P_mmp,DU,1,0,Parchim ZOB,Groß Pankow,525,thursday,VLP Parchim,196411,425691,4,639917,18,10
+0,813,2024-08-22,P_KHo,A,1,1,Ludwigslust Parkstraße,Groß Krams,530,thursday,VLP Ludwigslust,698609,146178,5,285215,23,11
+0,811,2024-08-22,I_ESM,A,1,1,Dömitz ZOB,Lenzen (Elbe) Markt,530,thursday,VLP Ludwigslust,987207,567144,1,289959,32,12
+128,816,2024-08-22,P_NCM,DU,1,1,Suckow Mentiner Str.,Parchim Bahnhof,531,thursday,VLP Parchim,1398794,165646,6,124348,27,10
+128,816,2024-08-22,P_NCM,DU,1,1,Suckow Mentiner Str.,Parchim Bahnhof,531,thursday,VLP Parchim,1398794,165646,6,124348,27,10
+138,830,2024-08-22,I_AUS,DU,1,1,Zweedorf b Boizenbg.,Zarrentin a Schaals. Bahnhofst,532,thursday,VLP Boizenburg,988977,228321,26,47525,51,14
+128,816,2024-08-22,P_ViB,DU,1,1,Marnitz,Parchim Bahnhof,534,thursday,VLP Parchim,1398794,252000,7,124348,27,10
+124,823,2024-08-22,I_ESM,DU,1,1,Gammelin,Hagenow ZOB,534,thursday,VLP Hagenow,734170,653304,42,597045,51,15
+128,816,2024-08-22,P_SSt,DU,2,0,Marnitz,Parchim Bahnhof,534,thursday,VLP Parchim,1398794,252000,7,124348,27,10
+128,816,2024-08-22,P_SSt,DU,1,0,Marnitz,Parchim Bahnhof,534,thursday,VLP Parchim,1398794,252000,7,124348,27,10
+128,816,2024-08-22,P_SSt,DU,0,0,Marnitz,Parchim Bahnhof,534,thursday,VLP Parchim,1398794,252000,7,124348,27,10
+173,813,2024-08-22,P_IID,DU,1,1,Kummer b Ludwig. Dorf (Schule),Ludwigslust Alexandrinenplatz,536,thursday,VLP Ludwigslust,1032323,181782,18,537253,33,10
+0,810,2024-08-22,P_rre,A,1,1,Muchow Neustädter Str.,Balow Schule,539,thursday,VLP Ludwigslust,7472,592135,18,487528,30,10
+153,810,2024-08-22,P_HiL,DU,1,1,Möllenbeck (LWL) Grabower Ch.,Grabow (Meckl) Binnung,540,thursday,VLP Ludwigslust,813311,591839,13,325288,33,9
+138,830,2024-08-22,I_ESM,DU,1,0,Nieklitz,Zarrentin a Schaals. Markt,540,thursday,VLP Boizenburg,988977,147641,35,463815,52,14
+138,830,2024-08-22,P_sob,DU,1,0,Nieklitz,Zarrentin a Schaals. Markt,540,thursday,VLP Boizenburg,988977,147641,35,463815,52,14
+147,824,2024-08-22,P_NCM,DU,1,1,Zarrentin a Schaals. Markt,Döbbersen,543,thursday,VLP Hagenow,618383,463815,1,39395,18,14
+139,830,2024-08-22,I_AUS,DU,1,1,Granzin b Boizenburg,Boizenburg Markt,545,thursday,VLP Boizenburg,481595,479549,21,614787,50,15
+0,840,2024-08-22,P_MaS,A,1,1,Dümmer Zum Kahlberg,Schwerin Süd (NVS),546,thursday,VLP Schwerin,1132010,230261,10,657291,54,9
+0,846,2024-08-22,P_SSt,A,2,2,Liessow (b Schwerin),Cambs Schweriner Str.,548,thursday,VLP Schwerin,139959,613449,10,530976,21,12
+0,811,2024-08-22,I_ESM,A,1,1,Eldena (Meckl) Bahnhofstr.,Lenzen (Elbe) Markt,550,thursday,VLP Ludwigslust,4166,293222,13,289959,14,11
+135,847,2024-08-22,P_ANL,DU,1,1,Banzkow Kirche,Schwerin Keplerstraße,552,thursday,VLP Schwerin,363780,205332,19,431277,36,16
+123,823,2024-08-22,I_AUS,DU,1,1,Gammelin,Warsow Abzweig nach Schossin,554,thursday,VLP Hagenow,904435,653304,13,303724,34,16
+148,801,2024-08-22,P_KHo,DU,1,1,Vietlübbe (b Lübz),Lübz ZOB,556,thursday,VLP Parchim,605192,120161,10,593769,37,13
+152,58,2024-08-22,I_AUS,DU,1,1,Dömitz Roggenfelder Str.,Ludwigslust Alexandrinenplatz,560,thursday,VLP Ludwigslust,569208,150615,1,537253,21,10
+129,800,2024-08-22,P_hkl,DU,1,1,Plauerhagen,Plau am See Bahnhof,569,thursday,VLP Parchim,96160,461783,6,298193,9,12
+0,843,2024-08-22,P_hkl,A,1,1,Dessin,Sternberg (Meckl) ZOB,570,thursday,VLP Sternberg,881141,403937,22,641458,46,12
+0,832,2024-08-22,P_ViB,A,2,2,Bennin Dorf,Dodow,572,thursday,VLP Boizenburg,1523417,86708,16,376412,52,15
+137,804,2024-08-22,P_Bur,DU,2,2,Mestlin,Dobbertin,576,thursday,VLP Parchim,524380,234316,26,390388,43,12
+138,824,2024-08-22,I_ESM,DU,1,1,Lassahn,Zarrentin a Schaals. Bahnhofst,576,thursday,VLP Hagenow,641916,645661,18,47525,27,15
+138,824,2024-08-22,P_jbk,DU,1,1,Stintenburg Abzweig,Zarrentin a Schaals. Bahnhofst,577,thursday,VLP Hagenow,641916,146321,19,47525,27,15
+127,841,2024-08-22,P_Bur,DU,1,1,Tramm (b Schwerin) Kirche,Crivitz Große Straße,578,thursday,VLP Schwerin,626979,97922,40,143142,46,10
+146,821,2024-08-22,I_ESM,DU,1,0,Lübtheen Kirchplatz,Hagenow ZOB,582,thursday,VLP Ludwigslust,100078,106351,23,540455,51,17
+146,821,2024-08-22,I_ESM,DU,1,0,Lübtheen Kirchplatz,Hagenow ZOB,582,thursday,VLP Ludwigslust,100078,106351,23,540455,51,17
+0,805,2024-08-22,P_dip,A,1,1,Parchim Juri-Gagarin-Ring,Darze (b Parchim),582,thursday,VLP Parchim,781271,205739,2,328538,5,11
+0,804,2024-08-22,P_StH,A,3,3,Welzin (b Lübz),Lübz ZOB,582,thursday,VLP Parchim,959753,638858,32,593769,45,13
+124,821,2024-08-22,I_ESM,DU,1,1,Hagenow ZOB,Lübtheen Am Jessen. Weg,585,thursday,VLP Ludwigslust,1096035,540455,3,605423,32,18
+0,806,2024-08-22,P_mmp,A,1,1,Parchim ZOB,Groß Pankow,585,thursday,VLP Parchim,1021191,425691,4,639917,18,12
+0,830,2024-08-22,P_hkl,A,1,1,Zarrentin a Schaals. Bahnhofst,Gallin (b Zarrentin),591,thursday,VLP Boizenburg,151735,586271,2,462468,14,17
+129,803,2024-08-22,P_SKr,DU,1,1,Bobzin (Lübz),Lübz ZOB,593,thursday,VLP Parchim,484095,578957,40,593769,42,12
+140,832,2024-08-22,P_KHo,DU,1,1,Brahlstorf Dorf,Boizenburg Markt,594,thursday,VLP Boizenburg,735019,273718,17,614787,55,16
+131,813,2024-08-22,P_KHo,DU,1,1,Ludwigslust Parkstraße,Groß Krams,594,thursday,VLP Ludwigslust,1169477,146178,5,285215,23,13
+147,830,2024-08-22,P_ViB,DU,1,1,Lüttow Dorf,Zarrentin a Schaals. Markt,597,thursday,VLP Boizenburg,791399,213279,49,463815,52,16
+146,821,2024-08-22,I_ESM,DU,1,1,Redefin B5,Hagenow Robert-Stock-Str.,598,thursday,VLP Ludwigslust,100078,652959,35,592840,52,17
+158,843,2024-08-22,P_MaS,DU,1,1,Sternberg (Meckl) ZOB,Ruchow,605,thursday,VLP Sternberg,652442,641458,1,69969,40,15
+0,807,2024-08-22,I_ESM,A,1,1,Wulfsahl,Parchim Fr.-W.-Raiffeisenring,608,thursday,VLP Parchim,148025,179991,17,32601,28,11
+136,844,2024-08-22,I_ESM,DU,1,1,Golchen,Weberin,608,thursday,VLP Sternberg,378721,372661,18,250125,32,11
+137,843,2024-08-22,I_ESM,DU,1,1,Ruchow,Sternberg (Meckl) ZOB,614,thursday,VLP Sternberg,1538024,271355,8,641458,46,14
+127,842,2024-08-22,I_ESM,DU,1,1,Demen Siedlung,Crivitz Am Krankenhaus,614,thursday,VLP Sternberg,1495181,505713,3,239392,22,13
+127,842,2024-08-22,P_StH,DU,1,1,Demen Siedlung,Crivitz Große Straße,614,thursday,VLP Sternberg,1495181,505713,3,143142,23,13
+0,842,2024-08-22,I_AUS,A,3,3,Demen Siedlung,Crivitz Bahnhof,614,thursday,VLP Sternberg,1495181,505713,3,186789,25,13
+127,842,2024-08-22,P_IID,DU,3,3,Demen Siedlung,Crivitz Bahnhof,614,thursday,VLP Sternberg,1495181,505713,3,186789,25,13
+129,804,2024-08-22,I_AUS,DU,1,1,Greven (b Lübz),Mestlin,615,thursday,VLP Parchim,881465,518371,6,234316,26,14
+171,802,2024-08-22,P_SMo,DU,1,1,Retzow (b Lübz),Plau am See Lange Straße,617,thursday,VLP Parchim,339754,338000,7,378762,19,14
+128,816,2024-08-22,I_AUS,DU,1,1,Tessenow Ausbau,Parchim ZOB,619,thursday,VLP Parchim,176936,467238,19,86550,28,12
+138,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Markt,Bickhusen,621,thursday,VLP Boizenburg,1096772,614787,3,478668,9,18
+137,843,2024-08-22,P_hkl,DU,1,1,Dessin,Sternberg (Meckl) ZOB,630,thursday,VLP Sternberg,1538024,403937,22,641458,46,14
+127,842,2024-08-22,I_ESM,DU,1,1,Weberin,Crivitz Bahnhof,632,thursday,VLP Sternberg,1495181,250125,13,186789,25,13
+0,811,2024-08-22,P_ach,A,1,1,Lenzen (Elbe) Markt,Grabow (Meckl) Binnung,635,thursday,VLP Ludwigslust,1499513,289959,32,325288,45,14
+169,821,2024-08-22,I_ESM,DU,1,1,Hagenow Land Bahnhof,Redefin B5,637,thursday,VLP Ludwigslust,322362,364953,1,652959,19,20
+136,841,2024-08-22,I_ESM,DU,1,1,Zapel Siedlung,Crivitz Bahnhof,639,thursday,VLP Schwerin,1437474,75247,42,186789,47,12
+136,841,2024-08-22,I_ESM,DU,1,1,Zapel Siedlung,Crivitz Bahnhof,639,thursday,VLP Schwerin,1437474,75247,42,186789,47,12
+124,821,2024-08-22,P_ViB,DU,0,1,Lübtheen Am Jessen. Weg,Hagenow Land Bahnhof,640,thursday,VLP Ludwigslust,88334,605423,22,364953,53,19
+124,821,2024-08-22,P_ViB,DU,2,1,Lübtheen Am Jessen. Weg,Hagenow Land Bahnhof,640,thursday,VLP Ludwigslust,88334,605423,22,364953,53,19
+128,816,2024-08-22,P_NCM,DU,2,2,Parchim Bahnhof,Suckow Mentiner Str.,640,thursday,VLP Parchim,756820,181213,2,283339,23,13
+138,830,2024-08-22,I_AUS,DU,1,1,Schwanheide Bahnhof,Zarrentin a Schaals. Bahnhofst,641,thursday,VLP Boizenburg,1096772,264609,23,47525,51,18
+146,822,2024-08-22,I_ESM,DU,1,1,Hagenow Land Bahnhof,Vellahn Schule,643,thursday,VLP Hagenow,956061,364953,1,206496,30,20
+146,822,2024-08-22,P_JaW,DU,1,1,Hagenow Robert-Stock-Str.,Kloddram,648,thursday,VLP Hagenow,956061,592840,2,53354,27,20
+146,822,2024-08-22,P_NCM,DU,1,0,Hagenow Robert-Stock-Str.,Kloddram,648,thursday,VLP Hagenow,956061,592840,2,53354,27,20
+123,830,2024-08-22,P_hkl,DU,1,1,Zarrentin a Schaals. Bahnhofst,Gallin (b Zarrentin),651,thursday,VLP Boizenburg,745377,586271,2,462468,14,19
+145,822,2024-08-22,I_ESM,DU,1,1,Setzin,Hagenow Robert-Stock-Str.,653,thursday,VLP Hagenow,1411276,446803,26,592840,40,19
+151,804,2024-08-22,I_ESM,DU,1,1,Greven (b Lübz),Lübz ZOB,653,thursday,VLP Parchim,1353458,322763,41,593769,45,15
+179,832,2024-08-22,I_EFA,DU,1,1,Vellahn B5,Melkof Dorf,666,thursday,VLP Boizenburg,1100005,528070,33,668721,41,17
+151,804,2024-08-22,I_ESM,DU,1,0,Lübz ZOB,Dobbertin,668,thursday,VLP Parchim,1244119,593769,2,390388,43,16
+171,801,2024-08-22,P_KHo,DU,1,1,Lübz ZOB,Vietlübbe (b Lübz),668,thursday,VLP Parchim,226401,593769,1,120161,28,16
+127,842,2024-08-22,P_chs,DU,0,0,Crivitz Große Straße,Demen Siedlung,670,thursday,VLP Sternberg,357082,143142,3,110968,23,14
+127,842,2024-08-22,P_chs,DU,2,1,Crivitz Große Straße,Demen Siedlung,670,thursday,VLP Sternberg,357082,143142,3,110968,23,14
+0,844,2024-08-22,I_AUS,A,1,1,Golchen,Keez B104,671,thursday,VLP Sternberg,993239,372661,15,658956,17,14
+129,804,2024-08-22,P_hkl,DU,1,1,Dobbertin,Lübz ZOB,673,thursday,VLP Parchim,1299879,390388,4,593769,45,17
+129,804,2024-08-22,P_Bur,DU,2,2,Dobbertin,Mestlin,673,thursday,VLP Parchim,1299879,390388,4,234316,21,17
+137,842,2024-08-22,I_AUS,DU,1,1,Demen Gaststätte,Crivitz Große Straße,674,thursday,VLP Sternberg,319785,531477,2,143142,23,15
+137,842,2024-08-22,P_StH,DU,1,0,Demen Siedlung,Crivitz Bahnhof,674,thursday,VLP Sternberg,319785,505713,3,186789,25,15
+137,842,2024-08-22,I_ESM,DU,1,1,Demen Siedlung,Crivitz Bahnhof,674,thursday,VLP Sternberg,319785,505713,3,186789,25,15
+0,831,2024-08-22,I_ESM,A,1,1,Boizenburg Markt,Teldau Am Mittelholz,678,thursday,VLP Boizenburg,1358410,614787,3,593418,13,18
+158,843,2024-08-22,I_AUS,DU,2,2,Borkow,Sternberg (Meckl) ZOB,679,thursday,VLP Sternberg,460930,141555,15,641458,46,16
+131,812,2024-08-22,P_NYo,DU,1,0,Heidhof Gaststätte,Ludwigslust Alexandrinenplatz,682,thursday,VLP Ludwigslust,548958,151648,9,537253,44,16
+179,832,2024-08-22,P_hkl,DU,0,1,Bennin Dorf,Boizenburg Markt,688,thursday,VLP Boizenburg,688783,86708,40,614787,55,18
+179,832,2024-08-22,P_hkl,DU,2,1,Bennin Dorf,Boizenburg Markt,688,thursday,VLP Boizenburg,688783,86708,40,614787,55,18
+179,832,2024-08-22,P_ViB,DU,1,0,Bennin Dorf,Boizenburg (Elbe),688,thursday,VLP Boizenburg,688783,86708,40,649660,54,18
+145,820,2024-08-22,P_FSi,DU,1,1,Hagenow Robert-Stock-Str.,Redefin Belscher Straße,690,thursday,VLP Hagenow,829544,592840,4,556709,16,20
+135,839,2024-08-22,P_rre,DU,1,1,Wessin,Crivitz Am Krankenhaus,696,thursday,VLP Sternberg,1061262,143350,16,239392,22,15
+125,823,2024-08-22,I_AUS,DU,1,1,Hoort,Hagenow ZOB,698,thursday,VLP Hagenow,71842,480747,31,597045,51,21
+138,830,2024-08-22,I_ESM,DU,1,1,Badekow,Greven (b Boizenbg.),698,thursday,VLP Boizenburg,1526304,104644,19,90360,31,20
+159,849,2024-08-22,I_ESM,DU,1,1,Groß Görnow,Brüel (Meckl) Markt,699,thursday,VLP Sternberg,1557240,62877,4,576759,11,16
+0,810,2024-08-22,P_EmW,A,1,1,Muchow Neustädter Str.,Berge (b Perleberg) Berge ZOB,699,thursday,VLP Ludwigslust,303390,592135,18,345439,33,15
+124,821,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Redefin B5,700,thursday,VLP Ludwigslust,531976,592840,2,652959,19,22
+153,812,2024-08-22,P_ach,DU,1,1,Ludwigslust Alexandrinenplatz,Leussow b Ludwigsl.,705,thursday,VLP Ludwigslust,460345,537253,3,41882,6,17
+146,822,2024-08-22,P_rre,DU,2,2,Setzin Wendeschleife,Hagenow Robert-Stock-Str.,712,thursday,VLP Hagenow,435435,54952,23,592840,40,21
+147,832,2024-08-22,I_ESM,DU,1,1,Vellahn B5,Wittenburg (M) Gewerbegebiet,714,thursday,VLP Boizenburg,446965,528070,33,594376,54,19
+152,813,2024-08-22,P_RoK,DU,1,1,Kummer b Ludwig. Abzw n Warlow,Ludwigslust Alexandrinenplatz,716,thursday,VLP Ludwigslust,1230025,514965,19,537253,33,16
+146,822,2024-08-22,P_SSt,DU,2,2,Grünhof (b Hagenow),Hagenow Land Bahnhof,716,thursday,VLP Hagenow,435435,76462,27,364953,41,21
+132,814,2024-08-22,P_BKa,DU,1,1,Ludwigslust Alexandrinenplatz,Dreenkrögen,720,thursday,VLP Ludwigslust,1348457,537253,3,637844,14,17
+123,824,2024-08-22,P_jbk,DU,1,1,Zarrentin a Schaals. Markt,Stintenburg Abzweig,721,thursday,VLP Hagenow,404003,463815,1,146321,9,20
+0,823,2024-08-22,I_AUS,A,1,1,Gammelin,Schwerin Süd (NVS),724,thursday,VLP Hagenow,233897,653304,13,657291,54,22
+159,170,2024-08-22,I_AUS,DU,2,1,Sternberg (Meckl) ZOB,Schwerin Hauptbahnhof,725,thursday,VLP Schwerin,803630,641458,2,132871,24,20
+158,843,2024-08-22,P_hkl,DU,1,1,Sternberg (Meckl) ZOB,Dessin,725,thursday,VLP Sternberg,561191,641458,1,403937,25,19
+158,843,2024-08-22,I_ESM,DU,1,1,Sternberg (Meckl) ZOB,Ruchow,725,thursday,VLP Sternberg,561191,641458,1,69969,40,19
+159,170,2024-08-22,I_AUS,DU,0,0,Sternberg (Meckl) ZOB,Schwerin Hauptbahnhof,725,thursday,VLP Schwerin,803630,641458,2,132871,24,20
+129,803,2024-08-22,I_ESM,DU,1,1,Lübz ZOB,Neu Brüz,728,thursday,VLP Parchim,305017,593769,1,197992,10,19
+135,841,2024-08-22,P_Bur,DU,1,1,Crivitz Am Krankenhaus,Tramm (b Schwerin) Kirche,730,thursday,VLP Schwerin,490814,239392,3,97922,8,17
+147,824,2024-08-22,P_rre,DU,1,1,Wittenburg (M) Gewerbegebiet,Raguth,731,thursday,VLP Hagenow,613867,594376,1,272973,9,21
+169,811,2024-08-22,I_ESM,DU,1,1,Lenzen (Elbe) Markt,Klein Schmölen,740,thursday,VLP Ludwigslust,554575,289959,14,189160,43,17
+169,811,2024-08-22,I_ESM,DU,1,1,Lenzen (Elbe) Markt,Dömitz ZOB,740,thursday,VLP Ludwigslust,554575,289959,14,567144,45,17
+151,804,2024-08-22,I_EFA,DU,1,1,Goldberg (Meckl) Neubau,Lübz ZOB,742,thursday,VLP Parchim,1109201,31208,12,593769,45,19
+0,832,2024-08-22,I_AUS,A,1,1,Boizenburg (Elbe),Brahlstorf Dorf,745,thursday,VLP Boizenburg,16841,649660,2,273718,39,21
+179,831,2024-08-22,I_ESM,DU,1,0,Boizenburg Markt,Teldau Am Mittelholz,750,thursday,VLP Boizenburg,740328,614787,3,593418,13,21
+147,825,2024-08-22,I_ESM,DU,1,1,Kogel (b Zarrentin),Zarrentin a Schaals. Markt,754,thursday,VLP Boizenburg,1402194,285317,10,463815,14,20
+0,170,2024-08-22,I_EFA,A,3,3,Cambs Schweriner Str.,Schwerin Hauptbahnhof,757,thursday,VLP Schwerin,803630,530976,16,132871,24,20
+129,816,2024-08-22,P_ViB,DU,1,1,Parchim Bahnhof,Marnitz,760,thursday,VLP Parchim,301361,181213,2,431286,22,17
+0,822,2024-08-22,I_ESM,A,1,1,Vellahn Schule,Hagenow Land Bahnhof,763,thursday,VLP Hagenow,503096,206496,12,364953,41,23
+177,810,2024-08-22,I_AUS,DU,1,1,Grabow (Meckl) Binnung,Werle b Ludwigslust,765,thursday,VLP Ludwigslust,251580,325288,1,308471,10,18
+177,810,2024-08-22,I_AUS,DU,0,1,Grabow (Meckl) Binnung,Werle b Ludwigslust,765,thursday,VLP Ludwigslust,251580,325288,1,308471,10,18
+177,810,2024-08-22,P_EsY,DU,1,1,Grabow (Meckl) Binnung,Prislich Neubau,765,thursday,VLP Ludwigslust,251580,325288,1,215463,9,18
+177,810,2024-08-22,P_HiL,DU,1,1,Grabow (Meckl) Binnung,Möllenbeck (LWL) Grabower Ch.,765,thursday,VLP Ludwigslust,251580,325288,1,388744,21,18
+177,810,2024-08-22,P_hkl,DU,1,0,Grabow (Meckl) Binnung,Werle b Ludwigslust,765,thursday,VLP Ludwigslust,251580,325288,1,308471,10,18
+0,820,2024-08-22,P_NCM,A,1,1,Hagenow Land Bahnhof,Sudenhof,766,thursday,VLP Hagenow,1486451,364953,5,79057,32,22
+0,822,2024-08-22,I_AUS,A,2,2,Goldenbow b Boizenbg,Hagenow Land Bahnhof,767,thursday,VLP Hagenow,503096,332983,18,364953,41,23
+140,822,2024-08-22,I_ESM,DU,1,1,Körchow (b Hagenow),Vellahn B5,770,thursday,VLP Hagenow,1448094,28007,11,528070,13,24
+0,821,2024-08-22,I_ESM,A,1,1,Pritzier Bahnhof,Hagenow ZOB,770,thursday,VLP Ludwigslust,712211,237190,28,540455,51,23
+147,830,2024-08-22,I_ESM,DU,1,1,Zarrentin a Schaals. Bahnhofst,Gallin Galliner Ring Süd,771,thursday,VLP Boizenburg,914954,586271,2,232380,12,23
+0,823,2024-08-22,I_AUS,A,2,2,Viez Dorf,Hagenow Land Bahnhof,772,thursday,VLP Hagenow,850639,369514,38,364953,54,23
+0,822,2024-08-22,P_SSt,A,2,2,Grünhof (b Hagenow),Hagenow Land Bahnhof,774,thursday,VLP Hagenow,503096,76462,27,364953,41,23
+141,832,2024-08-22,I_ESM,DU,1,0,Vellahn B5,Boizenburg Lindhorst,780,thursday,VLP Boizenburg,312966,659357,23,567740,53,22
+0,806,2024-08-22,P_NCM,A,2,2,Groß Pankow,Parchim ZOB,780,thursday,VLP Parchim,665276,639917,4,425691,18,17
+137,842,2024-08-22,I_ESM,DU,1,0,Crivitz Bahnhof,Weberin,785,thursday,VLP Sternberg,1057749,186789,1,250125,13,18
+0,830,2024-08-22,I_ESM,A,1,1,Lüttenmark,Boizenburg Schulzentrum,787,thursday,VLP Boizenburg,914954,288016,24,214705,49,23
+0,840,2024-08-22,P_ViB,A,2,2,Parum (b Hagenow),Schwerin Süd (NVS),787,thursday,VLP Schwerin,386423,594189,13,657291,54,18
+146,832,2024-08-22,P_KHo,DU,1,1,Boizenburg Markt,Brahlstorf Dorf,788,thursday,VLP Boizenburg,421905,614787,1,273718,39,23
+146,832,2024-08-22,I_ESM,DU,1,1,Boizenburg (Elbe),Brahlstorf Dorf,793,thursday,VLP Boizenburg,421905,649660,2,273718,39,23
+0,846,2024-08-22,I_EFA,A,3,3,Retgendorf Bungalow,Cambs Schweriner Str.,796,thursday,VLP Schwerin,856946,621836,15,530976,21,20
+0,846,2024-08-22,P_rre,A,2,2,Retgendorf Dorf,Cambs Schweriner Str.,796,thursday,VLP Schwerin,856946,141787,16,530976,21,20
+140,830,2024-08-22,I_ESM,DU,1,1,Boizenburg (Elbe),Zweedorf b Boizenbg.,798,thursday,VLP Boizenburg,1205283,649660,2,228321,26,24
+0,816,2024-08-22,I_AUS,A,1,1,Suckow (b Parchim),Putlitz Alte Post,801,thursday,VLP Parchim,301361,279125,26,45581,28,17
+0,804,2024-08-22,I_EFA,A,1,1,Goldberg (Meckl) Neubau,Lübz ZOB,802,thursday,VLP Parchim,868680,31208,12,593769,45,21
+0,844,2024-08-22,I_ESM,A,1,1,Weberin,Golchen,804,thursday,VLP Sternberg,870162,250125,1,372661,15,20
+141,832,2024-08-22,P_rre,DU,1,1,Beckendorf,Boizenburg Markt,807,thursday,VLP Boizenburg,312966,66825,43,614787,55,22
+0,820,2024-08-22,I_ESM,A,1,1,Hagenow Robert-Stock-Str.,Kirch Jesar Wartehalle,810,thursday,VLP Hagenow,989660,592840,4,165332,27,24
+151,802,2024-08-22,P_SMo,DU,1,1,Plau am See Lange Straße,Retzow (b Lübz),813,thursday,VLP Parchim,1373108,279144,2,338000,14,21
+126,820,2024-08-22,P_NCM,DU,1,1,Hagenow Land Bahnhof,Sudenhof,815,thursday,VLP Hagenow,989660,364953,5,79057,32,24
+0,805,2024-08-22,P_SKr,A,1,1,Parchim Bahnhof,Mestlin,820,thursday,VLP Parchim,69894,181213,1,234316,17,19
+0,808,2024-08-22,P_ViB,A,1,1,Parchim Bahnhof,Zölkow Schüler,820,thursday,VLP Parchim,11607,181213,1,53843,28,20
+169,821,2024-08-22,I_AUS,DU,1,1,Lübtheen Am Jessen. Weg,Hagenow Finanzamt,822,thursday,VLP Ludwigslust,1300504,605423,22,446038,50,26
+0,830,2024-08-22,P_ach,A,1,1,Zarrentin a Schaals. Bahnhofst,Boizenburg (Elbe),831,thursday,VLP Boizenburg,349629,586271,2,649660,51,25
+171,816,2024-08-22,P_SKr,DU,1,1,Drenkow,Parchim Fr.-W.-Raiffeisenring,831,thursday,VLP Parchim,1015860,480108,2,618372,25,20
+158,849,2024-08-22,I_ESM,DU,1,1,Brüel (Meckl) Markt,Groß Görnow,832,thursday,VLP Sternberg,277574,126906,6,62877,13,19
+164,812,2024-08-22,I_ESM,DU,1,1,Leussow b Ludwigsl.,Ludwigslust Alexandrinenplatz,834,thursday,VLP Ludwigslust,1136683,293096,41,537253,44,20
+137,842,2024-08-22,I_AUS,DU,0,1,Crivitz Bahnhof,Demen Siedlung,845,thursday,VLP Sternberg,1442592,186789,1,110968,23,20
+137,842,2024-08-22,I_AUS,DU,0,1,Crivitz Bahnhof,Demen Siedlung,845,thursday,VLP Sternberg,1442592,186789,1,110968,23,20
+137,842,2024-08-22,I_AUS,DU,0,1,Crivitz Bahnhof,Demen Siedlung,845,thursday,VLP Sternberg,1442592,186789,1,110968,23,20
+137,842,2024-08-22,P_StH,DU,1,0,Crivitz Bahnhof,Demen Siedlung,845,thursday,VLP Sternberg,1442592,186789,1,110968,23,20
+137,842,2024-08-22,I_AUS,DU,4,1,Crivitz Bahnhof,Demen Siedlung,845,thursday,VLP Sternberg,1442592,186789,1,110968,23,20
+0,842,2024-08-22,I_ESM,A,1,1,Crivitz Bahnhof,Weberin,845,thursday,VLP Sternberg,1442592,186789,1,250125,13,20
+0,845,2024-08-22,I_EFA,A,1,1,Langen Brütz,Brahlstorf b. Cambs,845,thursday,VLP Schwerin,689648,72731,11,457197,26,34
+146,832,2024-08-22,I_ESM,DU,1,1,Rodenwalde,Wittenburg (M) Gewerbegebiet,848,thursday,VLP Boizenburg,421905,130084,47,594376,54,23
+146,832,2024-08-22,I_ESM,DU,1,1,Rodenwalde,Wittenburg (M) Gewerbegebiet,848,thursday,VLP Boizenburg,421905,130084,47,594376,54,23
+124,821,2024-08-22,I_ESM,DU,1,1,Jessenitz-Werk,Hagenow Land Bahnhof,848,thursday,VLP Ludwigslust,865462,404077,7,364953,53,28
+0,804,2024-08-22,P_ejf,A,1,1,Lübz ZOB,Goldberg (Meckl) Neubau,848,thursday,VLP Parchim,1068583,593769,2,31208,35,22
+130,808,2024-08-22,I_ESM,DU,1,1,Bergrade Hof,Parchim ZOB,848,thursday,VLP Parchim,807047,99882,18,425691,30,19
+0,804,2024-08-22,P_LF,A,1,1,Lübz ZOB,Dobbertin,848,thursday,VLP Parchim,1068583,593769,2,390388,43,22
+154,822,2024-08-22,I_ESM,DU,1,1,Albertinenhof,Wittenburg (M) Gewerbegebiet,850,thursday,VLP Hagenow,1369332,392779,23,594376,40,27
+159,839,2024-08-22,P_rre,DU,1,1,Crivitz Am Krankenhaus,Wessin,850,thursday,VLP Sternberg,989321,239392,3,93680,8,20
+0,810,2024-08-22,P_rre,A,1,1,Balow Schule,Muchow Neustädter Str.,853,thursday,VLP Ludwigslust,491371,520858,4,286656,16,20
+177,846,2024-08-22,I_ESM,DU,1,1,Retgendorf Dorf,Cambs Schweriner Str.,856,thursday,VLP Schwerin,251767,141787,16,530976,21,22
+0,530,2024-08-22,P_ANL,DU,1,1,Gallin (Bzb) Heisterbusch West,Boizenburg (Elbe),857,thursday,VLP Boizenburg,1242548,91253,3,649660,17,20
+0,830,2024-08-22,I_ESM,A,1,1,Boizenburg (Elbe),Gallin Galliner Ring West,858,thursday,VLP Boizenburg,421994,649660,2,129231,42,26
+138,832,2024-08-22,P_hkl,DU,2,2,Boizenburg Markt,Bennin Dorf,860,thursday,VLP Boizenburg,32324,614787,1,86708,16,26
+141,830,2024-08-22,I_AUS,DU,1,1,Boizenburg Markt,Schwanheide Bahnhof,861,thursday,VLP Boizenburg,421994,614787,3,264609,23,26
+141,830,2024-08-22,P_LF,DU,1,0,Boizenburg Markt,Schwanheide Bahnhof,861,thursday,VLP Boizenburg,421994,614787,3,264609,23,26
+146,832,2024-08-22,I_AUS,DU,1,1,Wittenburg (M) Gewerbegebiet,Boizenburg Markt,862,thursday,VLP Boizenburg,9367,601629,2,614787,55,25
+0,830,2024-08-22,I_ESM,A,1,1,Bickhusen,Boizenburg Schulzentrum,864,thursday,VLP Boizenburg,349629,152056,44,214705,49,25
+169,823,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Besendorf (Meckl),865,thursday,VLP Hagenow,1344234,592840,5,469634,28,29
+131,831,2024-08-22,P_rre,DU,1,1,Gülze b. Boizenburg,Boizenburg (Elbe),866,thursday,VLP Boizenburg,56652,221897,17,649660,24,25
+0,832,2024-08-22,P_rre,A,1,1,Beckendorf,Boizenburg Markt,867,thursday,VLP Boizenburg,1375907,66825,43,614787,55,24
+0,823,2024-08-22,I_ESM,A,1,1,Hoort,Hagenow ZOB,867,thursday,VLP Hagenow,1254296,480747,31,597045,51,28
+126,847,2024-08-22,P_ach,DU,1,1,Schwerin Keplerstraße,Banzkow Kindergarten,870,thursday,VLP Schwerin,768151,431277,1,220650,18,27
+151,804,2024-08-22,I_ESM,DU,1,1,Mestlin,Lübz ZOB,872,thursday,VLP Parchim,735802,234316,21,593769,45,23
+130,816,2024-08-22,P_NCM,DU,1,1,Parchim ZOB,Suckow Mentiner Str.,875,thursday,VLP Parchim,1164445,425691,1,283339,23,21
+123,824,2024-08-22,P_rre,DU,1,1,Raguth,Wittenburg (M) Gewerbegebiet,875,thursday,VLP Hagenow,288772,272973,19,601629,27,24
+0,823,2024-08-22,I_AUS,A,1,1,Hülseburg,Hagenow Robert-Stock-Str.,878,thursday,VLP Hagenow,1254296,425263,36,592840,50,28
+171,805,2024-08-22,P_SKr,DU,1,1,Parchim Bahnhof,Mestlin,880,thursday,VLP Parchim,1095886,181213,1,234316,17,21
+0,808,2024-08-22,I_ESM,A,1,1,Parchim Bahnhof,Goldenbow b Parchim,880,thursday,VLP Parchim,253819,181213,1,351641,24,22
+164,822,2024-08-22,P_rre,DU,2,1,Hagenow Robert-Stock-Str.,Setzin Wendeschleife,882,thursday,VLP Hagenow,1020437,592840,2,54952,19,30
+164,822,2024-08-22,P_rre,DU,0,1,Hagenow Robert-Stock-Str.,Setzin Wendeschleife,882,thursday,VLP Hagenow,1020437,592840,2,54952,19,30
+0,846,2024-08-22,P_SSt,A,2,2,Cambs Ventschower Str.,Liessow (b Schwerin),884,thursday,VLP Schwerin,257943,650276,2,149342,12,23
+152,810,2024-08-22,I_ESM,DU,1,1,Grabow (Meckl) Binnung,Möllenbeck (LWL) Grabower Ch.,885,thursday,VLP Ludwigslust,295325,325288,1,388744,21,22
+0,808,2024-08-22,I_ESM,A,1,1,Parchim ZOB,Bergrade Hof,885,thursday,VLP Parchim,253819,425691,4,99882,16,22
+0,811,2024-08-22,P_SKr,A,1,1,Grabow (Meckl) Binnung,Eldena (Meckl) Bahnhofstr.,885,thursday,VLP Ludwigslust,945110,325288,1,293222,13,23
+0,812,2024-08-22,P_NYo,A,1,1,Ludwigslust Alexandrinenplatz,Heidhof Gaststätte,886,thursday,VLP Ludwigslust,498663,537253,3,151648,38,23
+0,812,2024-08-22,I_ESM,A,1,1,Ludwigslust Alexandrinenplatz,Leussow b Ludwigsl.,886,thursday,VLP Ludwigslust,498663,537253,3,41882,6,23
+0,820,2024-08-22,I_ESM,A,1,1,Groß Krams,Hagenow Robert-Stock-Str.,887,thursday,VLP Hagenow,1269750,285215,15,592840,29,27
+127,816,2024-08-22,I_ESM,DU,1,1,Drenkow,Parchim ZOB,888,thursday,VLP Parchim,1172281,480108,2,86550,28,22
+134,822,2024-08-22,I_AUS,DU,2,0,Hagenow Bundeswehrkaserne,Hagenow Land Bahnhof,888,thursday,VLP Hagenow,519790,182842,32,364953,41,28
+134,822,2024-08-22,I_AUS,DU,0,0,Hagenow Bundeswehrkaserne,Hagenow Land Bahnhof,888,thursday,VLP Hagenow,519790,182842,32,364953,41,28
+127,816,2024-08-22,P_ViB,DU,1,1,Drenkow,Parchim ZOB,888,thursday,VLP Parchim,1172281,480108,2,86550,28,22
+164,822,2024-08-22,I_AUS,DU,1,1,Hagenow ZOB,Vellahn B5,892,thursday,VLP Hagenow,1020437,540455,5,659357,29,30
+0,823,2024-08-22,I_ESM,A,1,1,Hagenow Robert-Stock-Str.,Besendorf (Meckl),892,thursday,VLP Hagenow,5101,592840,5,469634,28,30
+0,804,2024-08-22,I_ESM,A,1,1,Dobbertin Kloster,Dobbertin,893,thursday,VLP Parchim,1068583,510518,42,390388,43,22
+169,823,2024-08-22,I_ESM,DU,1,1,Alt Zachun Bahnhof,Schwerin Süd (Bahn),895,thursday,VLP Hagenow,1344234,319555,27,262821,53,29
+169,823,2024-08-22,I_ESM,DU,1,1,Alt Zachun Bahnhof,Schwerin Süd (Bahn),895,thursday,VLP Hagenow,1344234,319555,27,262821,53,29
+0,830,2024-08-22,I_AUS,A,1,1,Gallin (Bzb) Heisterbusch West,Heidekrug,896,thursday,VLP Boizenburg,878975,91253,10,599658,31,27
+136,805,2024-08-22,I_ESM,DU,1,1,Herzberg,Grebbin,898,thursday,VLP Parchim,1064448,260668,4,241425,7,22
+136,805,2024-08-22,I_ESM,DU,1,1,Herzberg,Grebbin,898,thursday,VLP Parchim,1064448,260668,4,241425,7,22
+173,814,2024-08-22,I_ESM,DU,1,1,Ludwigslust Alexandrinenplatz,Wöbbelin Neustädter Straße,900,thursday,VLP Ludwigslust,1300879,537253,3,517170,9,23
+123,824,2024-08-22,P_jk,DU,2,0,Zarrentin a Schaals. Bahnhofst,Lassahn,901,thursday,VLP Hagenow,901790,47525,2,140630,10,26
+123,824,2024-08-22,P_jk,DU,0,0,Zarrentin a Schaals. Bahnhofst,Lassahn,901,thursday,VLP Hagenow,901790,47525,2,140630,10,26
+158,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,905,thursday,VLP Sternberg,720705,186789,1,110968,23,22
+158,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,905,thursday,VLP Sternberg,720705,186789,1,110968,23,22
+158,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,905,thursday,VLP Sternberg,720705,186789,1,110968,23,22
+0,803,2024-08-22,P_ejf,A,1,1,Lübz ZOB,Goldberg (Meckl) Rummelsberg,908,thursday,VLP Parchim,603053,593769,1,133021,21,25
+152,807,2024-08-22,I_ESM,DU,1,1,Groß Godems Schule,Parchim Bahnhof,911,thursday,VLP Parchim,852111,308567,20,124348,30,21
+138,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Lindhorst,Zarrentin a Schaals. Bahnhofst,914,thursday,VLP Boizenburg,767352,567740,1,47525,51,28
+151,806,2024-08-22,I_ESM,DU,1,1,Lancken Kirche,Parchim ZOB,915,thursday,VLP Parchim,1156463,40930,14,425691,18,21
+0,804,2024-08-22,P_nso,A,1,1,Dobbertin Kloster,Goldberg (Meckl) Neubau,917,thursday,VLP Parchim,1155357,510518,7,31208,12,25
+179,830,2024-08-22,I_ESM,DU,1,1,Bickhusen,Boizenburg Schulzentrum,921,thursday,VLP Boizenburg,878975,152056,44,214705,49,27
+179,830,2024-08-22,I_ESM,DU,1,1,Bickhusen,Boizenburg Schulzentrum,921,thursday,VLP Boizenburg,878975,152056,44,214705,49,27
+179,830,2024-08-22,I_ESM,DU,1,0,Bickhusen,Boizenburg Schulzentrum,921,thursday,VLP Boizenburg,878975,152056,44,214705,49,27
+154,845,2024-08-22,P_nso,DU,1,1,Raben Steinfeld Oberdorf,Langen Brütz Ausbau,930,thursday,VLP Schwerin,635595,181002,2,557813,10,39
+177,811,2024-08-22,P_SKr,DU,1,1,Grabow (Meckl) Binnung,Eldena (Meckl) Bahnhofstr.,930,thursday,VLP Ludwigslust,224196,325288,1,293222,13,25
+0,820,2024-08-22,I_ESM,A,1,1,Hagenow Land Bahnhof,Kirch Jesar Texas,935,thursday,VLP Hagenow,78493,364953,5,268358,31,28
+0,820,2024-08-22,P_hkl,A,1,1,Hagenow Land Bahnhof,Redefin B5,935,thursday,VLP Hagenow,78493,364953,5,7257,15,28
+169,823,2024-08-22,I_ESM,DU,1,1,Hoort,Hagenow ZOB,938,thursday,VLP Hagenow,1278698,480747,31,597045,51,31
+136,842,2024-08-22,I_ESM,DU,1,1,Gädebehn,Crivitz Am Krankenhaus,940,thursday,VLP Sternberg,1108970,671989,18,239392,22,23
+0,820,2024-08-22,I_ESM,A,1,1,Hagenow Heide am Mühlenweg,Redefin B5,943,thursday,VLP Hagenow,78493,666054,8,7257,15,28
+0,845,2024-08-22,I_ESM,A,1,1,Cambs Schweriner Str.,Leezen (b Schwerin) Schule,944,thursday,VLP Schwerin,177828,647822,1,38151,10,41
+151,807,2024-08-22,I_AUS,DU,1,1,Parchim ZOB,Ziegendorf b Parchim Schule,945,thursday,VLP Parchim,1125948,425691,4,296623,23,24
+127,808,2024-08-22,I_ESM,DU,1,1,Parchim ZOB,Bergrade Hof,945,thursday,VLP Parchim,988573,425691,4,99882,16,24
+151,807,2024-08-22,I_ESM,DU,1,1,Parchim ZOB,Wulfsahl,945,thursday,VLP Parchim,1125948,425691,4,179991,14,24
+0,821,2024-08-22,P_hkl,A,1,1,Hagenow Land Bahnhof,Redefin B5,948,thursday,VLP Ludwigslust,391251,364953,1,652959,19,32
+169,823,2024-08-22,I_AUS,DU,1,1,Hülseburg,Hagenow Robert-Stock-Str.,949,thursday,VLP Hagenow,1278698,425263,36,592840,50,31
+131,813,2024-08-22,I_ESM,DU,1,1,Ludwigslust Alexandrinenplatz,Leussow b Ludwigsl.,950,thursday,VLP Ludwigslust,167500,537253,3,41882,33,25
+0,843,2024-08-22,I_ESM,A,1,1,Schlowe,Borkow,950,thursday,VLP Sternberg,460925,301148,32,141555,33,25
+179,830,2024-08-22,P_sob,DU,1,1,Zarrentin a Schaals. Markt,Nieklitz,951,thursday,VLP Boizenburg,919938,463815,1,147641,18,29
+179,830,2024-08-22,P_ViB,DU,1,1,Zarrentin a Schaals. Bahnhofst,Lüttow Dorf,951,thursday,VLP Boizenburg,919938,586271,2,358011,4,29
+131,813,2024-08-22,I_ESM,DU,1,1,Ludwigslust Parkstraße,Redefin B5,954,thursday,VLP Ludwigslust,167500,146178,5,652959,24,25
+139,832,2024-08-22,I_AUS,DU,1,1,Vellahn B5,Brahlstorf Wendeschleife,954,thursday,VLP Boizenburg,945388,528070,33,223180,38,27
+154,847,2024-08-22,I_AUS,DU,1,1,Sukow (b Schwerin) Wende,Schwerin Keplerstraße,956,thursday,VLP Schwerin,280585,202841,22,431277,36,30
+124,54,2024-08-22,I_ESM,DU,1,0,Hagenow Krankenhaus,Zarrentin a Schaals. Bahnhofst,957,thursday,VLP Hagenow,826792,323296,6,47525,27,22
+123,822,2024-08-22,I_ESM,DU,1,1,Hagenow Bundeswehrkaserne,Hagenow Robert-Stock-Str.,959,thursday,VLP Hagenow,1362504,182842,32,592840,40,31
+164,811,2024-08-22,I_ESM,DU,1,1,Klein Schmölen,Lenzen (Elbe) Markt,960,thursday,VLP Ludwigslust,1092972,125494,3,289959,32,26
+128,842,2024-08-22,P_IID,DU,3,3,Crivitz Bahnhof,Demen Siedlung,965,thursday,VLP Sternberg,678258,186789,1,110968,23,24
+128,842,2024-08-22,I_AUS,DU,2,2,Crivitz Bahnhof,Demen Siedlung,965,thursday,VLP Sternberg,678258,186789,1,110968,23,24
+136,841,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Zapel Siedlung,965,thursday,VLP Schwerin,507095,186789,1,75247,6,25
+136,841,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Zapel Siedlung,965,thursday,VLP Schwerin,507095,186789,1,75247,6,25
+158,842,2024-08-22,I_AUS,DU,2,2,Crivitz Bahnhof,Demen Siedlung,965,thursday,VLP Sternberg,678258,186789,1,110968,23,24
+0,842,2024-08-22,I_AUS,A,3,3,Crivitz Bahnhof,Demen Wendeplatz,965,thursday,VLP Sternberg,678258,186789,1,467514,25,24
+138,825,2024-08-22,I_ESM,DU,1,1,Zarrentin a Schaals. Markt,Kogel (b Zarrentin),965,thursday,VLP Boizenburg,687536,463815,1,285317,6,28
+0,843,2024-08-22,P_SKr,A,1,1,Sternberg (Meckl) ZOB,Kukuk,965,thursday,VLP Sternberg,676533,641458,1,577207,30,27
+158,842,2024-08-22,P_rre,DU,1,1,Crivitz Bahnhof,Demen Siedlung,965,thursday,VLP Sternberg,678258,186789,1,110968,23,24
+171,848,2024-08-22,I_AUS,DU,1,0,Crivitz Bahnhof,Mestlin,965,thursday,VLP Schwerin,736449,186789,1,234316,24,24
+131,813,2024-08-22,I_AUS,DU,1,1,Picher Schule,Alt Krenzlin,970,thursday,VLP Ludwigslust,167500,437582,21,374563,26,25
+134,822,2024-08-22,I_ESM,DU,1,1,Wittenburg (M) Gewerbegebiet,Vellahn Schule,973,thursday,VLP Hagenow,899049,601629,2,206496,12,33
+0,804,2024-08-22,I_AUS,A,1,1,Dobbertin,Lübz ZOB,973,thursday,VLP Parchim,201241,390388,4,593769,45,27
+0,801,2024-08-22,I_ESM,A,1,1,Vietlübbe (b Lübz),Klein Dammerow,976,thursday,VLP Parchim,477154,120161,10,624489,11,27
+0,801,2024-08-22,I_AUS,A,1,1,Vietlübbe (b Lübz),Lübz ZOB,976,thursday,VLP Parchim,477154,120161,10,593769,37,27
+0,839,2024-08-22,P_MaS,A,1,1,Zölkow Ausbau,Crivitz Bahnhof,978,thursday,VLP Sternberg,800626,52040,3,186789,23,25
+139,830,2024-08-22,P_NCM,DU,1,1,Boizenburg (Elbe),Lüttenmark,978,thursday,VLP Boizenburg,1346722,649660,2,288016,29,30
+0,843,2024-08-22,I_ESM,A,1,1,Schlowe,Sternberg (Meckl) ZOB,980,thursday,VLP Sternberg,878694,301148,16,641458,46,26
+139,830,2024-08-22,I_AUS,DU,1,1,Boizenburg Markt,Gallin (b Zarrentin),981,thursday,VLP Boizenburg,1346722,614787,3,486701,39,30
+0,848,2024-08-22,P_MaS,A,1,1,Zölkow Ausbau,Crivitz Bahnhof,982,thursday,VLP Schwerin,423823,52040,3,186789,24,25
+0,804,2024-08-22,I_AUS,A,1,1,Goldberg (Meckl) Bahnhof,Lübz ZOB,984,thursday,VLP Parchim,201241,155160,13,593769,45,27
+159,845,2024-08-22,I_ESM,DU,1,1,Cambs Schweriner Str.,Leezen (b Schwerin) Schule,985,thursday,VLP Schwerin,709857,647822,1,38151,10,44
+0,810,2024-08-22,I_ESM,A,1,1,Kremmin,Grabow (Meckl) Prislicher Str.,990,thursday,VLP Ludwigslust,418648,318115,31,124902,32,24
+154,840,2024-08-22,I_ESM,DU,1,0,Dümmer am Forstweg,Schwerin Süd (NVS),993,thursday,VLP Schwerin,782763,396280,15,657291,54,25
+0,812,2024-08-22,P_SKr,A,1,1,Vielank,Dömitz Roggenfelder Str.,995,thursday,VLP Ludwigslust,1255928,227959,32,150615,46,25
+0,807,2024-08-22,I_ESM,A,1,1,Parchim Bahnhof,Wulfsahl,1000,thursday,VLP Parchim,700904,181213,1,179991,14,26
+123,820,2024-08-22,P_jpi,DU,1,1,Hagenow Robert-Stock-Str.,Moraas,1002,thursday,VLP Hagenow,619730,592840,4,473261,25,30
+0,815,2024-08-22,I_ESM,A,1,1,Ludwigslust Alexandrinenplatz,Wöbbelin Neustädter Straße,1004,thursday,VLP Ludwigslust,845544,537253,3,517170,9,50
+0,832,2024-08-22,I_ESM,A,1,1,Bennin Dorf,Vellahn Schule,1004,thursday,VLP Boizenburg,1471880,86708,16,206496,35,30
+0,821,2024-08-22,I_ESM,A,1,1,Hagenow Land Bahnhof,Vielank,1007,thursday,VLP Ludwigslust,998128,364953,1,227959,53,34
+152,810,2024-08-22,I_ESM,DU,1,1,Brunow (b Parchim) Kirche,Grabow (Meckl) Prislicher Str.,1008,thursday,VLP Ludwigslust,247604,14939,3,124902,32,25
+152,810,2024-08-22,I_ESM,DU,1,1,Brunow (b Parchim) Kirche,Grabow (Meckl) Prislicher Str.,1008,thursday,VLP Ludwigslust,247604,14939,3,124902,32,25
+127,809,2024-08-22,I_ESM,DU,1,1,Rusch (Meckl),Parchim Bahnhof,1009,thursday,VLP Parchim,132612,578572,6,124348,22,26
+126,847,2024-08-22,P_SSt,DU,1,1,Jamel Am Berg,Schwerin Keplerstraße,1010,thursday,VLP Schwerin,526519,32477,12,431277,36,32
+151,595,2024-08-22,P_HiL,DU,1,1,Grabow (Meckl) Binnung,Groß Warnow B5,1010,thursday,VLP Ludwigslust,765558,325288,1,142080,6,17
+169,821,2024-08-22,I_ESM,DU,1,1,Pritzier Bahnhof,Redefin B5,1010,thursday,VLP Ludwigslust,1104121,237190,28,652959,35,33
+138,830,2024-08-22,I_ESM,DU,1,1,Zarrentin a Schaals. Bahnhofst,Nieklitz,1011,thursday,VLP Boizenburg,1516364,586271,2,147641,18,31
+126,847,2024-08-22,I_AUS,DU,1,1,Jamel Am Berg,Plate (Meckl) Bahnhof,1011,thursday,VLP Schwerin,526519,32477,12,25952,30,32
+0,821,2024-08-22,I_ESM,A,1,1,Hagenow Robert-Stock-Str.,Redefin B5,1012,thursday,VLP Ludwigslust,998128,592840,2,652959,19,34
+0,846,2024-08-22,P_rre,A,2,2,Retgendorf Dorf,Ventschow Bahnhof,1012,thursday,VLP Schwerin,1559303,315347,6,106633,21,27
+134,822,2024-08-22,I_AUS,DU,2,1,Hagenow Bundeswehrkaserne,Hagenow Land Bahnhof,1017,thursday,VLP Hagenow,899049,182842,32,364953,41,33
+134,822,2024-08-22,I_AUS,DU,0,1,Hagenow Bundeswehrkaserne,Hagenow Land Bahnhof,1017,thursday,VLP Hagenow,899049,182842,32,364953,41,33
+134,822,2024-08-22,I_ESM,DU,1,1,Hagenow Bundeswehrkaserne,Hagenow Land Bahnhof,1017,thursday,VLP Hagenow,899049,182842,32,364953,41,33
+0,823,2024-08-22,I_ESM,A,1,1,Hagenow ZOB,Bandenitz Sandkrug B321,1017,thursday,VLP Hagenow,749823,597045,4,512824,29,34
+138,830,2024-08-22,I_ESM,DU,1,1,Gallin Heisterbusch Mitte,Boizenburg Schulzentrum,1019,thursday,VLP Boizenburg,1516364,347142,9,214705,49,31
+138,830,2024-08-22,I_ESM,DU,1,1,Gallin Heisterbusch Mitte,Boizenburg Schulzentrum,1019,thursday,VLP Boizenburg,1516364,347142,9,214705,49,31
+138,830,2024-08-22,I_ESM,DU,1,1,Gallin Heisterbusch Mitte,Boizenburg Schulzentrum,1019,thursday,VLP Boizenburg,1516364,347142,9,214705,49,31
+159,846,2024-08-22,P_FSi,DU,1,1,Ventschow Bahnhof,Rubow,1022,thursday,VLP Schwerin,1144352,106633,1,266873,5,28
+0,805,2024-08-22,I_ESM,A,1,1,Grebbin,Herzberg,1023,thursday,VLP Parchim,222765,283015,11,260668,14,25
+136,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,1025,thursday,VLP Sternberg,9568,186789,1,110968,23,26
+136,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,1025,thursday,VLP Sternberg,9568,186789,1,110968,23,26
+0,842,2024-08-22,I_ESM,A,1,1,Crivitz Große Straße,Demen Siedlung,1030,thursday,VLP Sternberg,9568,143142,3,110968,23,26
+0,844,2024-08-22,I_ESM,A,1,1,Golchen,Brüel (Meckl) Markt,1031,thursday,VLP Sternberg,1072167,372661,15,126906,25,26
+128,844,2024-08-22,I_ESM,DU,1,1,Golchen,Keez B104,1031,thursday,VLP Sternberg,1072167,372661,15,658956,17,26
+0,823,2024-08-22,P_NCM,A,1,1,Gammelin,Pampow (b Schwerin) Feuerwehr,1036,thursday,VLP Hagenow,749823,653304,13,197323,49,34
+0,830,2024-08-22,I_AUS,A,2,2,Boizenburg (Elbe),Gallin (b Zarrentin),1038,thursday,VLP Boizenburg,1401383,649660,2,486701,39,32
+123,814,2024-08-22,I_ESM,DU,1,1,Rastow Bahnhof,Wöbbelin Funkamt,1050,thursday,VLP Ludwigslust,1467148,548885,18,379583,28,28
+0,824,2024-08-22,I_AUS,A,1,1,Drönnewitz,Wittenburg (M) Gewerbegebiet,1051,thursday,VLP Hagenow,1154664,614612,17,601629,27,30
+126,845,2024-08-22,I_ESM,DU,1,1,Leezen (b Schwerin) Schule,Cambs Schweriner Str.,1052,thursday,VLP Schwerin,444882,38151,19,530976,29,47
+134,832,2024-08-22,I_AUS,DU,1,1,Wittenburg (M) Gewerbegebiet,Brahlstorf Wendeschleife,1054,thursday,VLP Boizenburg,783228,601629,2,223180,18,33
+130,816,2024-08-22,I_AUS,DU,1,1,Parchim ZOB,Tessenow Ausbau,1055,thursday,VLP Parchim,890192,425691,1,526210,10,27
+0,824,2024-08-22,P_rre,A,2,2,Stintenburg Abzweig,Zarrentin a Schaals. Markt,1058,thursday,VLP Hagenow,41722,146321,19,463815,26,31
+130,816,2024-08-22,I_ESM,DU,1,1,Parchim Bahnhof,Marnitz,1060,thursday,VLP Parchim,890192,181213,2,431286,22,27
+0,809,2024-08-22,I_ESM,A,1,1,Parchim Bahnhof,Dütschow Kirche,1060,thursday,VLP Parchim,1328797,181213,1,45962,8,27
+0,821,2024-08-22,I_ESM,A,1,1,Lübtheen Am Jessen. Weg,Hagenow ZOB,1062,thursday,VLP Ludwigslust,537222,605423,22,540455,51,35
+131,813,2024-08-22,P_KHo,DU,1,1,Groß Krams,Ludwigslust Parkstraße,1063,thursday,VLP Ludwigslust,444901,285215,13,586204,31,28
+0,840,2024-08-22,P_LF,A,1,1,Stralendorf b Schwer Neubau,Schwerin Süd (NVS),1065,thursday,VLP Schwerin,79528,194988,23,657291,54,27
+154,820,2024-08-22,P_AlS,DU,1,1,Hagenow Robert-Stock-Str.,Moraas Abzw n Kuhstorf,1071,thursday,VLP Hagenow,895034,592840,4,164397,24,32
+0,844,2024-08-22,I_ESM,A,1,1,Brüel (Meckl) Markt,Golchen,1078,thursday,VLP Sternberg,1040912,576759,8,372661,18,29
+0,822,2024-08-22,P_rre,A,1,1,Hagenow Bundeswehrkaserne,Hagenow Land Bahnhof,1079,thursday,VLP Hagenow,1261858,182842,32,364953,41,35
+127,805,2024-08-22,I_ESM,DU,1,1,Grebbin,Herzberg,1083,thursday,VLP Parchim,332629,283015,11,260668,14,27
+127,805,2024-08-22,I_ESM,DU,1,1,Grebbin,Herzberg,1083,thursday,VLP Parchim,332629,283015,11,260668,14,27
+0,8859,2024-08-22,P_ViB,A,1,1,Zarrentin a Schaals. Markt,Gudow Zarrentiner Straße,1085,thursday,VLP Boizenburg,1115989,463815,2,65844,8,28
+128,841,2024-08-22,I_EFA,DU,1,1,Crivitz Bahnhof,Tramm (b Schwerin) Kirche,1085,thursday,VLP Schwerin,503873,186789,1,97922,8,29
+0,848,2024-08-22,I_AUS,A,1,1,Crivitz Bahnhof,Mestlin,1085,thursday,VLP Schwerin,142392,186789,1,234316,24,28
+0,803,2024-08-22,I_AUS,A,2,2,Karow (Meckl) Bahnhof,Kuppentin,1087,thursday,VLP Parchim,775846,588775,1,51312,25,30
+126,823,2024-08-22,I_AUS,DU,1,0,Schwerin Süd (NVS),Warsow Abzweig nach Schossin,1088,thursday,VLP Hagenow,633475,535705,1,303724,21,37
+0,822,2024-08-22,I_EFA,A,1,1,Hagenow ZOB,Vellahn B5,1091,thursday,VLP Hagenow,901954,540455,5,659357,29,36
+0,845,2024-08-22,I_ESM,A,1,1,Leezen (b Schwerin) Schule,Cambs Schweriner Str.,1092,thursday,VLP Schwerin,188502,38151,19,530976,29,50
+136,842,2024-08-22,I_ESM,DU,1,1,Demen Siedlung,Crivitz Am Krankenhaus,1094,thursday,VLP Sternberg,1437166,505713,3,239392,22,29
+0,814,2024-08-22,P_NCM,A,1,1,Wöbbelin Neustädter Straße,Rastow Bahnhof,1095,thursday,VLP Ludwigslust,250505,517170,9,523772,18,30
+138,832,2024-08-22,I_ESM,DU,1,1,Boizenburg Markt,Vellahn Schule,1098,thursday,VLP Boizenburg,416567,614787,1,206496,35,34
+0,812,2024-08-22,P_FSi,A,1,1,Heidhof Gaststätte,Ludwigslust Alexandrinenplatz,1102,thursday,VLP Ludwigslust,1012822,151648,9,537253,44,30
+127,804,2024-08-22,I_AUS,DU,3,0,Goldberg (Meckl) Bahnhof,Mestlin,1104,thursday,VLP Parchim,31710,155160,13,234316,21,31
+127,804,2024-08-22,I_AUS,DU,0,0,Goldberg (Meckl) Bahnhof,Mestlin,1104,thursday,VLP Parchim,31710,155160,13,234316,21,31
+127,804,2024-08-22,I_AUS,DU,0,0,Goldberg (Meckl) Bahnhof,Mestlin,1104,thursday,VLP Parchim,31710,155160,13,234316,21,31
+127,804,2024-08-22,P_hkl,DU,1,0,Goldberg (Meckl) Bahnhof,Mestlin,1104,thursday,VLP Parchim,31710,155160,13,234316,21,31
+0,830,2024-08-22,I_AUS,A,1,1,Boizenburg (Elbe),Schwanheide Bahnhof,1108,thursday,VLP Boizenburg,913474,649660,2,264609,23,34
+128,841,2024-08-22,P_SKr,DU,1,1,Pinnow Zum Petersberg,Plate (Meckl) Bahnhof,1114,thursday,VLP Schwerin,503873,410390,23,25952,40,29
+0,803,2024-08-22,P_dip,A,1,1,Goldberg (Meckl) Bahnhof,Wendisch Waren,1119,thursday,VLP Parchim,412907,155160,22,133432,24,31
+0,809,2024-08-22,I_ESM,A,1,1,Parchim Bahnhof,Rusch (Meckl),1120,thursday,VLP Parchim,1226700,181213,1,578572,17,29
+126,820,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Moraas Abzw n Kuhstorf,1122,thursday,VLP Hagenow,1390279,592840,4,164397,24,34
+171,806,2024-08-22,I_AUS,DU,1,0,Parchim Juri-Gagarin-Ring,Groß Pankow,1122,thursday,VLP Parchim,1450332,205739,2,639917,18,30
+123,821,2024-08-22,I_AUS,DU,1,1,Hagenow Land Bahnhof,Lübtheen Am Jessen. Weg,1127,thursday,VLP Ludwigslust,532904,364953,1,605423,32,38
+124,822,2024-08-22,I_AUS,DU,1,1,Hagenow Land Bahnhof,Wittenburg (M) Gewerbegebiet,1127,thursday,VLP Hagenow,1075561,364953,1,594376,40,38
+0,808,2024-08-22,P_rre,A,2,2,Kladrum Kirche,Parchim Bahnhof,1130,thursday,VLP Parchim,919806,609181,8,124348,33,29
+124,822,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Setzin,1132,thursday,VLP Hagenow,1075561,592840,2,446803,16,38
+123,821,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Lübtheen Kirchplatz,1132,thursday,VLP Ludwigslust,532904,592840,2,380866,31,38
+123,821,2024-08-22,I_ESM,DU,1,1,Hagenow Robert-Stock-Str.,Redefin B5,1132,thursday,VLP Ludwigslust,532904,592840,2,652959,19,38
+0,832,2024-08-22,I_EFA,A,1,1,Vellahn B5,Boizenburg (Elbe),1140,thursday,VLP Boizenburg,1225225,659357,23,649660,54,35
+136,839,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Prestin,1145,thursday,VLP Sternberg,1548019,186789,1,149237,15,30
+0,832,2024-08-22,I_ESM,A,1,1,Boizenburg Markt,Vellahn Schule,1148,thursday,VLP Boizenburg,890058,614787,1,206496,35,36
+0,830,2024-08-22,I_AUS,A,1,1,Gallin Galliner Ring Süd,Boizenburg Markt,1150,thursday,VLP Boizenburg,382561,232380,12,614787,50,35
+0,843,2024-08-22,P_ViB,A,1,1,Sternberg (Meckl) ZOB,Dabel Dorf,1150,thursday,VLP Sternberg,501680,641458,1,151883,21,33
+127,804,2024-08-22,I_ESM,DU,1,1,Lübz ZOB,Mestlin,1152,thursday,VLP Parchim,650066,593769,2,234316,26,33
+0,823,2024-08-22,I_ESM,A,1,1,Schwerin Süd (Bahn),Alt Zachun Bahnhof,1152,thursday,VLP Hagenow,1152575,356067,2,191260,28,39
+124,822,2024-08-22,I_ESM,DU,1,1,Wittenburg (M) Gewerbegebiet,Vellahn B5,1155,thursday,VLP Hagenow,1002953,601629,2,528070,13,39
+0,804,2024-08-22,P_rre,A,1,1,Dobbertin Kloster,Lübz ZOB,1157,thursday,VLP Parchim,31792,510518,7,593769,45,32
+0,830,2024-08-22,I_AUS,A,1,1,Boizenburg (Elbe),Greven (b Boizenbg.),1158,thursday,VLP Boizenburg,1145040,649660,2,90360,31,36
+0,842,2024-08-22,I_AUS,A,1,1,Demen Siedlung,Crivitz Bahnhof,1171,thursday,VLP Sternberg,312634,505713,3,186789,25,31
+131,810,2024-08-22,P_EsY,DU,1,1,Prislich Neubau,Balow Dambecker Weg,1174,thursday,VLP Ludwigslust,693445,215463,9,123559,27,31
+138,832,2024-08-22,I_ESM,DU,1,1,Wittenburg (M) Gewerbegebiet,Albertinenhof,1174,thursday,VLP Boizenburg,226619,601629,2,325465,11,37
+126,820,2024-08-22,I_ESM,DU,1,1,Hagenow Land Bahnhof,Kirch Jesar Texas,1176,thursday,VLP Hagenow,890179,364953,5,268358,31,36
+0,807,2024-08-22,I_ESM,A,1,1,Berge (b Perleberg) Berge ZOB,Parchim Bahnhof,1179,thursday,VLP Parchim,715659,345439,1,124348,30,31
+130,816,2024-08-22,P_ViB,DU,1,1,Parchim ZOB,Drenkow,1180,thursday,VLP Parchim,1301374,425691,1,480108,27,31
+0,54,2024-08-22,I_ESM,A,1,1,Hagenow Land Bahnhof,Zarrentin a Schaals. Bahnhofst,1180,thursday,VLP Hagenow,1048388,644280,1,47525,27,29
+123,821,2024-08-22,I_ESM,DU,1,1,Lübtheen Am Jessen. Weg,Hagenow ZOB,1182,thursday,VLP Ludwigslust,491864,605423,22,540455,51,39
+0,832,2024-08-22,P_ViB,A,2,2,Dodow,Bennin Dorf,1183,thursday,VLP Boizenburg,226619,376412,4,86708,40,37
+134,846,2024-08-22,I_ESM,DU,1,1,Cambs Schweriner Str.,Retgendorf Dorf,1184,thursday,VLP Schwerin,107691,647822,1,315347,6,33
+134,846,2024-08-22,I_EFA,DU,3,1,Cambs Schweriner Str.,Retgendorf Bungalow,1184,thursday,VLP Schwerin,107691,647822,1,474847,7,33
+134,846,2024-08-22,I_EFA,DU,0,1,Cambs Schweriner Str.,Retgendorf Bungalow,1184,thursday,VLP Schwerin,107691,647822,1,474847,7,33
+134,846,2024-08-22,I_EFA,DU,0,1,Cambs Schweriner Str.,Retgendorf Bungalow,1184,thursday,VLP Schwerin,107691,647822,1,474847,7,33
+128,809,2024-08-22,I_ESM,DU,1,1,Parchim Bahnhof,Garwitz,1185,thursday,VLP Parchim,61895,181213,1,288621,15,31
+128,809,2024-08-22,I_ESM,DU,1,1,Parchim Bahnhof,Rusch (Meckl),1185,thursday,VLP Parchim,61895,181213,1,578572,17,31
+0,809,2024-08-22,I_ESM,A,1,1,Parchim Bahnhof,Klinken Speuß,1185,thursday,VLP Parchim,61895,181213,1,363795,21,31
+164,807,2024-08-22,P_ViB,DU,1,1,Parchim Juri-Gagarin-Ring,Granzin bei Stolpe,1187,thursday,VLP Parchim,349022,205739,2,99842,9,32
+0,810,2024-08-22,I_ESM,A,1,1,Berge (b Perleberg) Berge ZOB,Muchow Neustädter Str.,1192,thursday,VLP Ludwigslust,771196,345439,1,286656,16,32
+124,822,2024-08-22,I_AUS,DU,1,0,Schwaberow,Hagenow Robert-Stock-Str.,1197,thursday,VLP Hagenow,1002953,208896,29,592840,40,39
+0,830,2024-08-22,I_ESM,A,1,1,Gallin Galliner Ring West,Boizenburg (Elbe),1199,thursday,VLP Boizenburg,107647,525425,11,649660,51,37
+0,824,2024-08-22,P_NCM,A,2,2,Zarrentin a Schaals. Markt,Lassahn,1203,thursday,VLP Hagenow,171686,463815,1,140630,10,36
+136,843,2024-08-22,P_MaS,DU,1,1,Sternberg (Meckl) ZOB,Dabel Dorf,1205,thursday,VLP Sternberg,1167086,641458,1,151883,21,35
+0,843,2024-08-22,P_ViB,A,1,1,Sternberg (Meckl) ZOB,Woserin,1210,thursday,VLP Sternberg,1167086,641458,1,554666,35,35
+0,824,2024-08-22,I_ESM,A,1,1,Wittenburg (M) Gewerbegebiet,Drönnewitz,1210,thursday,VLP Hagenow,1315704,594376,1,614612,11,37
+0,815,2024-08-22,I_AUS,A,2,2,Neustadt-Glewe Wabeler Str.,Hohewisch,1221,thursday,VLP Ludwigslust,1387815,641958,2,73050,18,64
+127,842,2024-08-22,P_SKr,DU,2,1,Crivitz Bahnhof,Demen Siedlung,1223,thursday,VLP Sternberg,1456079,186789,1,110968,23,32
+127,842,2024-08-22,P_SKr,DU,0,1,Crivitz Bahnhof,Demen Siedlung,1223,thursday,VLP Sternberg,1456079,186789,1,110968,23,32
+127,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,1223,thursday,VLP Sternberg,1456079,186789,1,110968,23,32
+127,842,2024-08-22,I_ESM,DU,1,0,Crivitz Bahnhof,Demen Siedlung,1223,thursday,VLP Sternberg,1456079,186789,1,110968,23,32
+127,842,2024-08-22,P_ViB,DU,1,0,Crivitz Bahnhof,Demen Siedlung,1223,thursday,VLP Sternberg,1456079,186789,1,110968,23,32
+154,842,2024-08-22,I_ESM,DU,1,1,Crivitz Bahnhof,Demen Siedlung,1223,thursday,VLP Sternberg,1456079,186789,1,110968,23,32
+0,804,2024-08-22,P_ViB,A,1,1,Goldberg (Meckl) Bahnhof,Mestlin,1225,thursday,VLP Parchim,1252181,155160,13,234316,21,35
+127,842,2024-08-22,I_AUS,DU,1,1,Crivitz Große Straße,Demen Gaststätte,1228,thursday,VLP Sternberg,1456079,143142,3,155409,24,32
+0,815,2024-08-22,I_AUS,A,2,2,Groß Laasch,Hohewisch,1239,thursday,VLP Ludwigslust,1387815,485697,13,73050,18,64
+128,816,2024-08-22,I_ESM,DU,1,1,Parchim ZOB,Drenkow,1240,thursday,VLP Parchim,147750,425691,1,480108,27,33
+0,844,2024-08-22,I_AUS,A,4,4,Keez B104,Golchen,1243,thursday,VLP Sternberg,136211,404184,17,372661,18,33
+134,846,2024-08-22,I_EFA,DU,0,0,Cambs Schweriner Str.,Retgendorf Bungalow,1244,thursday,VLP Schwerin,1235540,647822,1,474847,7,35
+134,846,2024-08-22,I_EFA,DU,0,0,Cambs Schweriner Str.,Retgendorf Bungalow,1244,thursday,VLP Schwerin,1235540,647822,1,474847,7,35
+134,846,2024-08-22,I_EFA,DU,3,0,Cambs Schweriner Str.,Retgendorf Bungalow,1244,thursday,VLP Schwerin,1235540,647822,1,474847,7,35
+128,816,2024-08-22,I_ESM,DU,1,1,Parchim Bahnhof,Suckow (b Parchim),1245,thursday,VLP Parchim,147750,181213,2,279125,26,33
+128,816,2024-08-22,I_ESM,DU,1,1,Parchim Bahnhof,Marnitz,1245,thursday,VLP Parchim,147750,181213,2,431286,22,33
+164,807,2024-08-22,I_ESM,DU,1,1,Parchim Fr.-W.-Raiffeisenring,Wulfsahl,1247,thursday,VLP Parchim,231706,618372,3,179991,14,34
+136,804,2024-08-22,I_ESM,DU,1,1,Dobbertin,Lübz ZOB,1256,thursday,VLP Parchim,649091,390388,4,593769,45,36
+123,822,2024-08-22,I_ESM,DU,1,1,Hagenow ZOB,Lehsen,1260,thursday,VLP Hagenow,330930,540455,5,192806,39,43
+124,821,2024-08-22,P_dis,DU,1,1,Lübtheen R.-Breitscheid-Str.,Hagenow Finanzamt,1262,thursday,VLP Ludwigslust,688020,280708,25,446038,50,42
+134,124,2024-08-22,I_AUS,DU,1,1,Schwerin Hauptbahnhof,Pinnow (b Schwerin) Abzweig,1265,thursday,VLP Schwerin,93258,561892,1,472596,9,30
+134,124,2024-08-22,I_ESM,DU,1,1,Schwerin Hauptbahnhof,Pinnow Zum Petersberg,1265,thursday,VLP Schwerin,93258,561892,1,40896,11,30
+136,804,2024-08-22,P_ViB,DU,1,1,Goldberg (Meckl) Bahnhof,Mestlin,1267,thursday,VLP Parchim,649091,155160,13,234316,21,36
+139,824,2024-08-22,I_ESM,DU,1,1,Zarrentin a Schaals. Bahnhofst,Lassahn,1268,thursday,VLP Hagenow,469241,47525,2,140630,10,38
+139,824,2024-08-22,P_NCM,DU,2,1,Zarrentin a Schaals. Markt,Lassahn,1268,thursday,VLP Hagenow,469241,463815,1,140630,10,38
+139,824,2024-08-22,P_NCM,DU,0,1,Zarrentin a Schaals. Markt,Lassahn,1268,thursday,VLP Hagenow,469241,463815,1,140630,10,38
+0,822,2024-08-22,I_AUS,A,1,1,Schwaberow,Hagenow Robert-Stock-Str.,1272,thursday,VLP Hagenow,1283919,208896,29,592840,40,42
+0,832,2024-08-22,P_SKr,A,2,2,Boizenburg (Elbe),Klein Bengerstorf,1273,thursday,VLP Boizenburg,1084671,649660,2,224328,12,40
+0,500,2024-08-22,I_AUS,A,4,4,Boizenburg (Elbe),Boizenburg Dr. Alexander Str.,1275,thursday,VLP Boizenburg,1558386,381707,1,138166,8,29
+0,77,2024-08-22,P_NCM,A,1,1,Plau am See Bahnhof,Lübz ZOB,1288,thursday,VLP Parchim,1342938,407481,10,86959,20,49
+138,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Schulzentrum,Lüttenmark,1289,thursday,VLP Boizenburg,359355,214705,4,288016,29,40
+138,830,2024-08-22,I_ESM,DU,1,1,Boizenburg Schulzentrum,Bickhusen,1289,thursday,VLP Boizenburg,359355,214705,4,478668,9,40
+138,830,2024-08-22,P_ach,DU,1,1,Boizenburg Schulzentrum,Bickhusen,1289,thursday,VLP Boizenburg,359355,214705,4,478668,9,40
+0,842,2024-08-22,I_AUS,A,2,2,Crivitz Seeblick,Demen Siedlung,1292,thursday,VLP Sternberg,576303,406681,5,110968,23,34
+0,811,2024-08-22,P_MaS,A,2,2,Lenzen (Elbe) Markt,Dömitz ZOB,1295,thursday,VLP Ludwigslust,450442,289959,14,567144,45,35
+0,847,2024-08-22,P_ach,A,1,1,Schwerin Keplerstraße,Consrade Am Berg,1295,thursday,VLP Schwerin,428847,431277,1,312274,2,41
+0,816,2024-08-22,I_AUS,A,1,1,Parchim ZOB,Marnitz,1300,thursday,VLP Parchim,1561934,425691,1,431286,22,36
+0,816,2024-08-22,I_ESM,A,1,1,Parchim ZOB,Drenkow,1300,thursday,VLP Parchim,1561934,425691,1,480108,27,36
+134,847,2024-08-22,I_ESM,DU,1,1,Plate (Meckl) Friedhof,Goldenstädt Lewitzstraße,1301,thursday,VLP Schwerin,428847,317416,5,217134,27,41
+0,77,2024-08-22,P_rre,A,3,3,Malchow Inselstadt,Lübz ZOB,1302,thursday,VLP Parchim,404995,17472,2,86959,25,50
+0,77,2024-08-22,P_dip,A,1,1,Malchow Inselstadt,Wessentin Abzweig,1302,thursday,VLP Parchim,404995,17472,2,543984,20,50
+0,816,2024-08-22,I_ESM,A,1,1,Parchim Bahnhof,Suckow (b Parchim),1305,thursday,VLP Parchim,1561934,181213,2,279125,26,36
+0,77,2024-08-22,P_rre,A,3,3,Parchim Bahnhof,Lübz ZOB,1305,thursday,VLP Parchim,580738,124348,1,86959,10,51
+139,830,2024-08-22,I_ESM,DU,1,1,Zarrentin a Schaals. Markt,Gallin Galliner Ring Süd,1309,thursday,VLP Boizenburg,310443,463815,1,232380,12,41
+126,823,2024-08-22,I_AUS,DU,1,0,Hagenow Robert-Stock-Str.,Hülseburg,1310,thursday,VLP Hagenow,241656,592840,5,425263,19,45
+0,806,2024-08-22,I_AUS,A,1,1,Parchim ZOB,Klein Pankow,1310,thursday,VLP Parchim,1039486,425691,4,326682,19,36
+0,807,2024-08-22,I_AUS,A,1,1,Parchim ZOB,Marnitz,1310,thursday,VLP Parchim,1545049,425691,4,431286,25,36
+0,806,2024-08-22,I_AUS,A,1,1,Parchim ZOB,Groß Pankow,1310,thursday,VLP Parchim,1039486,425691,4,639917,18,36
+0,832,2024-08-22,I_AUS,A,1,1,Brahlstorf Dorf,Boizenburg (Elbe),1314,thursday,VLP Boizenburg,1088632,273718,17,649660,54,41
+138,830,2024-08-22,I_ESM,DU,1,1,Gallin Galliner Ring Süd,Zarrentin a Schaals. Bahnhofst,1320,thursday,VLP Boizenburg,359355,467958,41,47525,51,40
+0,822,2024-08-22,I_ESM,A,1,1,Hagenow Land Bahnhof,Hagenow Bundeswehrkaserne,1325,thursday,VLP Hagenow,426373,364953,1,182842,10,46
+157,844,2024-08-22,I_AUS,DU,2,2,Keez B104,Golchen,1327,thursday,VLP Sternberg,834242,404184,17,372661,18,36
+155,847,2024-08-22,P_ach,DU,1,0,Schwerin Keplerstraße,Zietlitz b Schwerin,1355,thursday,VLP Schwerin,1095920,431277,1,257849,11,43
+0,54,2024-08-22,I_EFA,A,1,1,Hagenow Land Bahnhof,Zarrentin a Schaals. Markt,1357,thursday,VLP Hagenow,332956,644280,1,463815,26,35
+133,814,2024-08-22,I_ESM,DU,1,1,Wöbbelin Neustädter Straße,Ludwigslust Alexandrinenplatz,1365,thursday,VLP Ludwigslust,404799,517170,27,537253,33,38
+0,823,2024-08-22,I_AUS,A,1,1,Hagenow Robert-Stock-Str.,Hülseburg,1372,thursday,VLP Hagenow,1269861,592840,5,425263,19,47
+0,842,2024-08-22,I_ESM,A,1,1,Crivitz Bahnhof,Demen Siedlung,1385,thursday,VLP Sternberg,1045794,186789,1,110968,23,36
+0,842,2024-08-22,I_ESM,A,1,1,Crivitz Am Krankenhaus,Demen Siedlung,1390,thursday,VLP Sternberg,1045794,239392,4,110968,23,36
+0,170,2024-08-22,P_rre,A,1,1,Schwerin Hauptbahnhof,Brüel (Meckl) Markt,1390,thursday,VLP Schwerin,1008449,244784,1,126906,17,47
+0,170,2024-08-22,I_ESM,A,1,1,Schwerin Hauptbahnhof,Rampe B104,1390,thursday,VLP Schwerin,1008449,244784,1,342991,7,47
+0,170,2024-08-22,P_SiM,A,1,1,Schwerin Hauptbahnhof,Thurow B104,1390,thursday,VLP Schwerin,1008449,244784,1,660530,15,47
+0,170,2024-08-22,I_ESM,A,1,1,Schwerin Hauptbahnhof,Brüel (Meckl) Friedhof,1390,thursday,VLP Schwerin,1008449,244784,1,211261,18,47
+0,841,2024-08-22,P_ach,A,1,1,Zietlitz b Schwerin,Pinnow (b Schwerin) Dorf,1409,thursday,VLP Schwerin,1510204,300299,19,600287,24,36
+148,806,2024-08-22,I_AUS,DU,1,0,Parchim ZOB,Klein Pankow,1415,thursday,VLP Parchim,162283,425691,4,326682,19,38
+0,805,2024-08-22,P_NCM,A,1,1,Parchim ZOB,Herzberg,1415,thursday,VLP Parchim,722370,425691,4,260668,14,38
+0,831,2024-08-22,P_ViB,A,1,1,Boizenburg (Elbe),Gülze b. Boizenburg,1423,thursday,VLP Boizenburg,547815,649660,2,397289,9,43
