@@ -1,11 +1,19 @@
 \chapter{Implementierung \& Validierung des Modells}
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 \section{Grundlagen der Implementierung}
 \begin{itemize}
+    \item Hardware (Macbook Pro mit M1 Prozessor, 16 GB RAM, in VS Code)
     \item Programmiersprache (z.B. Julia/Python)
     \item Verwendete Solver (z.B. Gurobi, GLPK)
     \item Datenstrukturen: Graphenmodell, Knoten/Arc-Logik
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 \section{Struktur der Implementierung}
 \begin{itemize}
     \item Modularer Aufbau: Dateninput, Modellkonstruktion, Lösung, Output
@@ -13,23 +21,36 @@
     \item Beispiel für den Workflow einer Instanz: Einlesen → Modellaufbau → Lösung → Auswertung
 \end{itemize}
 
-
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 \section{Herausforderungen bei der Umsetzung}
 \begin{itemize}
-    \item Denkfehler beim Setaufbau (z.B. Annahme, dass 1 Bus alle Touren übernehmen kann)
+    \item Setaufbau
     \item Speicher-/Performanceprobleme bei großen Instanzen
     \item Umgang mit überlappenden Trips und Duplikaten (siehe Paper)
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Validierung der Implementierung} 
 
-\section{Validierung der Implementierung} %anhand der Originalergebnisse
-% Hier darauf achten, dass es 9 Szenarios gibt
+Anhand der Originalergebnisse
+
+Hier darauf achten, dass es 9 Szenarios gibt -> Referenz auf beschriebene Settings in Kapitel 3.3(?)
+
 \begin{itemize}
     \item Szenarien aus Schulz/Vlćek: Fahrplan aus Mecklenburg-Vorpommern
     \item Umsetzung von Settings 1 bis 3 (jeweils relevante Details nennen)
     \item Beispiel: Setting 1 mit künstlich hoher Geschwindigkeit → Reproduzierbarkeit des theoretischen Optimums
 \end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 \section{Ergebnisvergleich \& Plausibilität}
 \begin{itemize}
 \item Tourenanzahl, Busanzahl, Tourverläufe: Vergleich Paper vs. eigene Lösung

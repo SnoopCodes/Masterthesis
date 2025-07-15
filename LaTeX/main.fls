@@ -410,7 +410,9 @@ INPUT ./your_content_folder/2_.tex
 INPUT ./your_content_folder/2_.tex
 INPUT ./your_content_folder/2_.tex
 INPUT your_content_folder/2_.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT ./your_content_folder/3_.tex
 INPUT ./your_content_folder/3_.tex
 INPUT ./your_content_folder/3_.tex
@@ -451,7 +453,10 @@ INPUT ./main.out
 INPUT ./main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
