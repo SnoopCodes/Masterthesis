@@ -35,17 +35,8 @@
 
 \input{_basic_settings_dont_touch/preamble}
 
-% settings for references and bibliography already preloaded in preamble
-%here: only individual settings
-\ExecuteBibliographyOptions{
-    sorting=nyt, %Sortierung Autor, Titel, Jahr
-    bibwarn=true, %Probleme mit den Daten, die Backend betreffen anzeigen
-    isbn=false, %keine isbn anzeigen
-    url=true
-}
-
 %-------------------------------------
-\addbibresource{your_literature.bib} %Bibliographiedateien laden
+\addbibresource{Meine Bibliothek.bib} %Bibliographiedateien laden
 
 %-------------------------------------
 
@@ -53,6 +44,27 @@
 % These here are nice additional settings
 % which may be changed if required
 %-------------------------------------
+\DefineBibliographyStrings{ngerman}{
+  andothers = {et\addabbrvspace al\adddot} % ersetzt "u. a." durch "et al."
+}
+\renewcommand*{\nameyeardelim}{\addcomma\space %fügt Komma zwischen Autor und Jahr ein
+}
+
+% settings for references and bibliography already preloaded in preamble
+%here: only individual settings
+\ExecuteBibliographyOptions{
+    sorting=nyt, %Sortierung Autor, Titel, Jahr
+    bibwarn=true, %Probleme mit den Daten, die Backend betreffen anzeigen
+    isbn=false, %keine isbn anzeigen
+    url=true,
+    maxnames=2,       % max. angezeigte Autoren
+    minnames=1,       % min. angezeigte Autoren
+    maxbibnames=99,   % im Literaturverzeichnis alle anzeigen
+    uniquename=false, % keine künstlichen Namensabkürzungen
+    giveninits=true   % Vornamen nur mit Initialen
+}
+\newcommand{\pc}{\parencite}
+\newcommand{\tc}{\textcite}
 
 \usepackage{url}  
 
