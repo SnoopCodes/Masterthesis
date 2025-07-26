@@ -1,18 +1,97 @@
-\chapter{Methodik \& Modellbeschreibung}
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-\section{Ziel des Modells}
-Ziel des Modells ist die Minimierung der Anzahl benötigter Busse unter Berücksichtigung bekannter Nachfrage und Einsatz von 
+\chapter{Problem- und Modellbeschreibung}
+\label{chapter:3}
+
+Nachfolgend wird der Aufbau des Problems, sowie das mathematische Modell von Schulz \& Vlćek beschrieben. 
+\section{Problemstellung}
+\label{sec:3.1}
+\label{sec:Problemstellung}
+Das zu lösende Optimierungsproblem beschäftigt sich mit der Einsatzplanung von Bussen in einem, auf Abruf operierenden, linienbasierten System mehrerer Buslinien. Ziel ist es, in allen Settings, die Anzahl der eingesetzten Busse zu minimieren.
+Grundsätzlich kann eine Buslinie mehrmals im zu betrachtenden Zeitraum bedient bzw. gestartet werden. 
+Daher wird im weiteren Verlauf jede einzigartige Kombination aus Buslinie und Startzeit der Buslinie als Tour \( l \in L = \{1,  \dots , n\} \) bezeichnet. 
+Das linienbasierte System wird durch ein Graphenmodell mit Knoten und Kanten aufgebaut. Jede Buslinie besteht aus einer Anzahl von Haltestellen (Knoten) $s_1, \dots, s_{m}$. Hier sei erwähnt, dass sich die Zusammensetzung und Reihenfolge der Haltestellen je Buslinie mit unterschiedlicher Startzeit durch die einzelnen Touren hinweg nicht verändert. Deshalb kann die Notation der Tour mit in die Notation der Haltestellen aufgenommen werden und es ergibt sich für jede Tour eine Abfolge von Haltestellen $s^l_1,  \dots , s^l_{m_l}$.
+Jeder Haltestelle wird eine Zeit $\bar{t}_{s^l_j}$ zugewiesen zu der der Bus dort hält, es gilt: $\bar{t}_{s^l_j}$, $l \in L,\ j = 1, \dots, m_l$.
 
 
-Motivation: Ressourceneffizienz \& Angebotsoptimierung
+\textbf{HIER NOCH ERKLÄREN WIE DIE ZEITEN DER HALTESTELLEN ERMITTELT / FESTGELEGT WERDEN}
+
+
+Schulz \& Vlćek argumentieren, dass die Zeiten für Ein- und Ausstieg in Relation zur Fahrzeit zur vernachlässigen sind. Daher können die Busse die Haltestellen im Vorbeifahren bedienen.
+Für die Fahrtzeit zwischen zwei beliebigen Haltestellen im System $t_{s^l_j, s^{l'}_{j'}}$ muss gelten $t_{s^l_j, s^{l'}_{j'}}> 0$, $l, l' \in L$, $j = 1, \dots, m_l$, $j' = 1, \dots, m_{l'}$, da die beiden Haltestellen sonst identisch sind.
+In der Problemstellung von Schulz \& Vlćek haben alle Busse ein einzelnes Depot $D$ als Start- und Endpunkt der Schicht bzw. dem Betrachtungszeitraum. Die Verbindung vom Depot zu jeder Haltestelle im System muss möglich sein. Für die Fahrzeiten zwischen dem Depot und einer beliebigen Haltestelle der Tour $l$ gilt entsprechend $t_{D, s^l_j} > 0$ und $t_{s^l_j, D} > 0$, $l \in L$, $j = 1, \dots, m_l$. Allgemein gilt die Dreiecksungleichung für alle Fahrtzeiten.
+Für die im Modell verwendeten Busse $k \in K = \{1, \dots, |K|\}$ wird eine Kapazität $Q_k$ festgelegt, die angibt wie hoch die zulässige ganzzahlige Anzahl der, gleichzeitig im Bus transportierbaren, Fahrgäste ist.
+
+Es folgt eine kurze Beschreibung der drei Settings, bevor sie im weiteren Verlauf dieser Arbeit durch die mathematische Formulierung detaillierter beschrieben werden.
+
+Im ersten Setting werden homogene, autonome Busse eingesetzt, um alle Touren vollständig zu bedienen. Es wird eine unendliche Kapazität angenommen und daher noch keine Nachfrage berücksichtigt.
+
+Im zweiten Setting werden weiterhin keine Fahrer eingesetzt, daher sind die Busse auch in diesem Setting als autonom anzusehen. Allerdings unterliegen die Busse einer Kapazitätsbeschränkung und werden als heterogen betrachtet. Folglich wird nun auch die Nachfrage zwischen zwei Haltestellen $d_{s^l_j, s^l_{j'}}$ mit $l \in L$, sowie $j, j' = 1, \dots, m_l$ und $j' > j$ relevant. %HIer noch der Kommentar, dass  maximal so und so viele Busse gebracuht werden mpssten je nach Anzahl an Touren
+
+Im dritten Setting wird das zweite Setting durch den Einsatz von Fahrern erweitert. Die Busse sind somit nicht mehr autonom. Für die Fahrer werden Arbeits- und Pausenzeiten berücksichtigt. Durch die feste Zuweisung von Fahrer zu Bus ergibt sich der Zeitpunkt $a_k$, zu dem der Bus $k$ verfügbar wird, dem Arbeitszeitbeginn des Fahrers. Folglich ergibt sich auch der Zeitpunkt $b_k$, zu dem der Fahrer seine Pause mit der Länge $p$ beginnt und der Zeitpunkt $c_k$, zu dem der Fahrer seine Schicht beendet und ab dem der Bus nicht mehr verfügbar ist. 
+
+Ziel des Lösens des Problems ist es aufzuzeigen, welcher Einfluss auf die minimale Anzahl der Busse besteht, wenn anstelle vollständiger Touren ausschließlich nachgefragte Haltestellen einer Tour $l$ bedient werden müssen.
+
+\textbf{HIER EVTL ERKLÄREN, DASS FÜR ALLE DREI SETTINGS JE DREI SZENARIEN GEPRÜFT WERDEN, ABER NOCH UNSICHER, DA NICHT SICHER OB HIER RICHTIGE STELLE IST, ODER OB DAS NICHT BESSER ERST SPÄTER KOMMT}
+
+Schulz \& Vlćek stellen einige vereinfachenden Annahmen auf, unter anderem:
+\begin{itemize}
+    \item Es wird ein gemeinsames Depot für alle Busse angenommen
+    \item Die Arbeits- und Pausenzeiten der Fahrer entsprechen den gesetzlichen Regelungen
+    \item Die feste Planung einer festgelegten Pausenzeit für die Fahrer steht im Einklang mit geltendem Recht
+    \item Die Zuteilung von Fahrer und Bus erfolgt im Vorfeld des Betrachtungszeitraums und wird als gegeben angenommen. Der Bus ist somit durch die Fähigkeiten des Fahrers zwischen Beginn und  Schichtende des Fahrers verfügbar
+    \item Die Busse müssen während des Betrachtungszeitraums nicht tanken/aufgeladen werden, da sie als ausreichend betankt/aufgeladen vor Start aus dem Depot angenommen werden
+    \item Die Busse sind bis auf die Kapazität homogen
+\end{itemize}
+
+
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Erläuterung der drei Settings}
+\chapter{Mathematisches Modell}
+Für alle Settings ist die Menge aller relevanter Knoten $V$, sowie die Menge $A$ aller Verbindungen bzw. Kanten zwischen den Knoten aufzustellen.
+\section{Erstes Setting}
+Zur Erinnerung: In diesem Setting werden homogene autonome Busse eingesetzt, die keinen Einfluss auf die Lösung haben. Die Busse werden in der Modellformulierung nicht erwähnt, sind aber die Instanz, die die Verbindungen nutzt und die Knoten bedient.
+\label{sec:4.1}
+\subsection{Alle Touren vollständig bedient}
+\label{sec:4.1.1}
+Zunächst wird von Schulz \& Vlćek der Fall betrachtet, in dem alle Touren (Buslinien zu unterschiedlichen Startzeiten) vollständig bedient werden müssen.
+%Hier evtl. Grafik, aber nicht sicher, weil zu nah an Schulz \& Vlćek dran
+Die Menge aller relevanter Knoten ergibt sich in diesem ersten Szenario daher aus:
+
+\[
+V_1 = \{ D, s^1_1, \dots, s^n_1, s^1_{m_1}, \dots, s^n_m \}
+\]
+
+Um alle Möglichkeiten für das Lösen des Problems zu erhalten, sind Verbindungen zwischen Touren möglich und werden durch die Fahrtzeit zwischen der letzten Haltestelle von Tour $l$ und der ersten Haltestelle von Tour $l'$ mit $t_{s^l_{m_l}, s^{l'}_1}$ beschrieben. Eine Verbindung von zwei Touren darf in einer möglichen Lösung des Problems nur dann bestehen, wenn folgende Gleichung erfüllt ist:
+\begin{equation}
+    t_{s^l_{m_l}} + t_{s^l_{m_l}, s^{l'}_1} \leq t_{s^{l}_1}
+\end{equation}
+
+Folglich ergibt sich für das erste Setting:
+\[
+A_1 = \{(D, s_1^1), \ldots, (D, s_1^n), (s_{m_1}^1, D), \ldots, (s_{m_n}^n, D), (s_1^1, s_{m_1}^1), \ldots, (s_1^n, s_{m_n}^n)\}   \\   
+\cup \{(s_{m_l}^l, s_1^{l'}) : \bar{t}_{s_{m_l}^l} + t_{s_{m_l}^l, s_1^{l'}} \leq \bar{t}_{s_1^{l'}}\}
+\]
+
+Die folgende Modellformulierung für das erste Setting von Schulz \& Vlćek verwendet die binäre Entscheidungsvariable $x_{ij}$, welche 1 ist, wenn die Verbindung $(i,j) \in A_1$ von $i$ nach $j$  genutzt wird und sonst den Wert 0 hat.
+
+\begin{equation}
+    min \sum_{j:(D,j) \in A_1} x_{Dj}
+\label{eq:4.2}
+\end{equation}
+unter den Nebenbedingungen:
+\begin{alignat}{3}
+    &\sum_{j:(i,j) \in A_1} x_{ij} - \sum_{j:(j,i) \in A_1} x_{ji} &&= \quad 0 \hspace{4cm} &&\forall i \in V \label{eq:4.3}\\
+    &\hspace{3cm} x_{s_1^l, s_{m_l}^l} &&= \quad 1\hspace{4cm} &&\forall l \in L\label{eq:4.4}\\
+    &\hspace{3.5cm} x_{ij} &&\geq \quad 0 \hspace{4cm}&&\forall (i,j) \in A_1\label{eq:4.5}
+\end{alignat}
+
+Die Zielfunktion \ref{eq:4.2} minimiert die Anzahl der Busse die das Depot verlassen. Die Nebenbedingung \ref{eq:4.3} stellt sicher, dass die Flusserhaltung für jeden Knoten gilt, d.h. die Anzahl der eingehenden Verbindungen ist gleich der Anzahl der ausgehenden Verbindungen. Nebenbedingung \ref{eq:4.4} stellt sicher, dass jede Tour bedient wird. Nebenbedingung \ref{eq:4.5} ist die Nichtnegativitätsbedingung der Entscheidungsvariable.
+
+\textbf{HIER NOCH CHECKEN OB KLASSIFIZIERUNG ALS EINE BESTIMMTE ART VON MODELL WIE BEI Schulz \& Vlćek}
+
+
+Vlćek \& Schulz unterscheiden in drei Settings, aus denen sich insgesamt 9 Szenarien ergeben. 
 \begin{itemize}
     \item \textbf{Homogene autonome Busse:} Keine Fahrer, gleiche Kapazität. Fokus auf reine Tourenoptimierung.
     \item \textbf{Heterogene Busse:} Verschiedene Kapazitäten \(\rightarrow\) neue Zuordnungsprobleme. Selektive Tourabdeckung bei Bedarf.
@@ -24,11 +103,4 @@ Verweis auf  9 Szenarien im Paper, die diese Settings abdecken.
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Zentrale Modellannahmen, Eingaben \& Nebenbedingungen}
-\begin{itemize}
-    \item Fester Fahrplan \& Linienstruktur
-    \item Fahrzeugkapazität \& Depotstruktur
-    \item Statischer Demand (vor Fahrtbeginn bekannt)
-    \item Kein Laden/Tanken
-    \item Übersicht zu relevanten Parametern (Stopps, Zeiten, Kapazität, Fahrzeiten)
-\end{itemize}
+

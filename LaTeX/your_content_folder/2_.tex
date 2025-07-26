@@ -1,83 +1,92 @@
-\chapter{Stand der Forschung}
+\chapter{Literaturüberblick}
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Linienverkehr vs. Ridepooling vs. on-demand}
+\section{Typologie und Abgrenzung relevanter Mobilitätsformen}
+\label{sec:2.1}
+\label{sec:LinienverkehrVsOnDemandVsRidepooling}
 
-$\rightarrow$ warum ist das Thema relevant?
-\begin{itemize}
-    \item hier mit Verweis auf Literaturtabelle argumentieren, dass DRT in rural areas noch nicht so viel erforscht ist
-    \item 
-\end{itemize}
+Linienverkehr vs. on-demand vs. Ridepooling
 
-Je Thema:
-\begin{itemize}
-    \item Definitionen \& Merkmale
-    \item Anwendungsbereiche \& typische Zielkonflikte
-    \item Literaturübersicht zu semi-flexiblen Systemen (z.B. MAST, Schulbusse)
-    \item Suchstruktur darstellen als:
-    \begin{itemize}
-        \item generell zum Thema on-demand in Relation zu Bussen: Searchstrings: (on-demand bus), ...
-        \item klassisches bus system in rural areas
-        \item on-demand in rural areas
-        \item dann Kombination von on-demand und line-based
-        
-        
-        \item 
-    \end{itemize}
-\end{itemize}
+Leitfrage ist: $\rightarrow$ Was ist der Kontext des zu implementierenden Modells?
 
-
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-
-\section{Einordnung des zu betrachtenden Modells}
-
-
-
-BESCHREIBUNG DER VORGEHENSWEISE:
-
+Herleiten mit:
 \begin{enumerate}
-    \item SUCHEN MITTELS REVIEW PAPER (SEARCHSTRING)
-    \item ...
+    \item Zunächst die Definitionen \& Merkmale der unterschiedlichen Systeme geben
+    \begin{enumerate}
+        \item line-based (Searchstring)
+        \begin{itemize}
+            \item Linien-basiert  wird definiert als ein System mit festen Routen, Haltestellen und einzuhaltendem Fahrplan. Beispiele sind Bus-, Straßenbahn- und U-Bahn-Netze in Großstädten
+        \end{itemize}
+        \item on-demand (Searchstring)
+        \begin{itemize}
+            \item On-demand, bzw. auf Abruf, wird definiert als Eigenschaft eines Systems auf die Nachfrage der Fahrgäste zu reagieren. Die kann in Echtzeit oder auch vorverarbeitet in einem zuvor abgegrenzten Zeitraum erfolgen. Die Nachfrage wird dann innerhalb eines festgelegten Zeitraums bedient. Zeiträume können sich überschneiden und so zum Beispiel die Form eines Rolling-Horizon annehmen.
+        \end{itemize}
+        \item Ridepooling (Searchstring)
+        \begin{itemize}
+            \item Ridepooling wird definiert als eine Form des Personenverkehrs, bei der die Fahrtwünsche von mehreren Fahrgästen mit einem Fahrzeug bedient werden. Definitionsgemäß ist auch ein klassischer Bus ein Beispiel für die Anwendung von Ridepooling. Ein weiteres Beispiel liefern Anbieter wie MOIA, die mit Minibussen (Kapazität von ca. 7 Personen) mehrere Personen gleichzeitig abseits von festen Routen und Fahrplänen zu spezifischen Adressen innerhalb eines Service-Gebiets befördern. Heutzutage sind Menschen daran gewöhnt viele Dinge und Leistungen jederzeit durch das Internet abrufen zu können. Daher kommt der Fähigkeit auf Abruf innerhalb eines kurzen Zeitraums reagieren zu können eine wichtige Rolle zu.
+        \end{itemize}
+
+        
+    \end{enumerate}
+    \item Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
+    \begin{enumerate}
+        \item line-based bus system
+        \begin{enumerate}
+            \item in urban areas (Searchstring)
+            \item in rural areas (Searchstring)
+        \end{enumerate}
+        \item on-demand bus
+        \begin{enumerate}
+            \item in urban areas (Searchstring)
+            \item in rural areas (Searchstring)
+        \end{enumerate}
+        \item ridepooling
+        \begin{enumerate}
+            \item in urban areas (Searchstring)
+            \item in rural areas (Searchstring)
+        \end{enumerate}
+    \end{enumerate}
 \end{enumerate}
 
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 
-$\rightarrow$ was gibt es schon?
+\section{Semi-flexible Systeme - Einordnung des zu betrachtenden Modells}
+\label{sec:Einordnung}
+\label{sec:2.2}
+Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, daher: semi-flexible Systeme
 
-\begin{itemize}
-    \item Modell von Schulz \& Vlćek: Kombination aus Linienverkehr \& Bedarfssteuerung
-    \item Überleitung zum Beispiel:
+\vspace{1em}
+
+Vorgehensweise bei der Suche darstellen:
+\begin{enumerate}
+    \item Zuerst versucht Review Paper zu finden (Searchstring) 
+    \item dann speziellere Searchstrings
+    \item Verwandte Probleme (siehe Paper von Schulz \& Vlćek)
     \begin{itemize}
-        \item on-demand wird in urban areas viel geforscht, aber nicht in rural areas, da sich dort on-demand eigentlich immer lohnt, aufgrund der geringen Nachfrage
-        \item %kombination von on-demand und line base nochmal evtl. aufgreifen nachdem entsprechend mit searchstring bewiesen oder nicht bewiesen ist, dass es diese kombination so noch nicht extensiv gibt
+        \item Überblick über verwandte Optimierungsansätze (z.B. DARP, MIP, Netzwerkflussmodelle)
+        \item Besonderheiten des gewählten Modells (Netzwerkstruktur, einfache Erweiterbarkeit)
+        \item Überblick zur Methodik: LP/IP, Flow-Modelle, Erweiterbarkeit für verschiedene Szenarien
     \end{itemize}
-    \item Beitrag: Reduktion der Fahrtenzahl durch On-Demand-Verkürzung
-    \item Einordnung in die Forschung zur flexiblen Linienplanung
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-\section{Relevante Modelle \& Literatur}
-\textbf{$\rightarrow$ evtl. 2.2 und 2.3 zusammenlegen....}
-\begin{itemize}
-    \item Überblick über verwandte Optimierungsansätze (z.B. DARP, MIP, Netzwerkflussmodelle)
-    \item Besonderheiten des gewählten Modells (Netzwerkstruktur, einfache Erweiterbarkeit)
-    \item Überblick zur Methodik: LP/IP, Flow-Modelle, Erweiterbarkeit für verschiedene Szenarien
-\end{itemize}
+\end{enumerate}
 
-Hier evtl. dann die tabellarische Übersicht der gefundenen Literatur
+Verweis auf tabellarische Übersicht der gefundenen Literatur %(entweder im Dokument, wenn Platz ist oder sonst in Anhang)
+
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Offene Forschungsfragen}
+\label{sec:2.3}
+\label{sec:OffeneForschungsfragen}
 \begin{itemize}
+    \item welche offenen Punkte aus anderen Papern greifen Schulz \& Vlćek eventuell auf?
     \item Kapazitätsfragen, Depotstruktur, Echtzeitfähigkeit
+    \item kombination von on-demand und line-based nochmal evtl. aufgreifen nachdem entsprechend mit searchstring bewiesen oder nicht bewiesen ist, dass es diese kombination so noch nicht extensiv gibt
     \item Zukunftsperspektiven: adaptive Fahrpläne, Realtime-Demand
     \item Bewertung der Robustheit und Praktikabilität in Realanwendungen
     

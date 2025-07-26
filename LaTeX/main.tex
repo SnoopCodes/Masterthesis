@@ -67,7 +67,7 @@
 \newcommand{\tc}{\textcite}
 
 \usepackage{url}  
-
+\usepackage{amsmath}
 %\usepackage{float}
 \usepackage{caption}    %captions below figures and tables
     \captionsetup{                  % globale Option für caption und subcaption
@@ -83,6 +83,7 @@
 
 \usepackage[colorlinks=true,linkcolor=blue, citecolor=magenta]{hyperref}
 \usepackage{booktabs}
+\usepackage{longtable}  
 \usepackage{acronym} %define acronyms and list them in a glossary
 \usepackage{siunitx}[=v2]   % Einheitenmakros, Nummernformatierung
     \sisetup{locale=DE, %Dezimalkomma
@@ -97,6 +98,7 @@
 \begin{document}
 \input{_basic_settings_dont_touch/frontmatter}
 \input{your_content_folder/Abkuerzungsverzeichnis}
+\input{your_content_folder/Symbolverzeichnis.tex}
 \mainmatter
 \input{your_content_folder/1_}
 \input{your_content_folder/2_}
