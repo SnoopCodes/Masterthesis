@@ -1,42 +1,69 @@
-\chapter{Erweiterungsmöglichkeiten \& Diskussion}
+\chapter{Implementierung \& Validierung des Modells}
+\label{chapter:5}
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Limitierungen des aktuellen Modells}
+\section{Grundlagen der Implementierung}
+Das Modell von Schulz \& Vlćek wurde in der Programmeirsprache Julia in der Entwicklungsumgebung Visual Studio Code implementiert. Die Analysen wurden mit einem Apple Macbook Pro mit M1 Pro Prozessor und 16 Gigabyte Arbeitsspeicher ausgeführt. Zum Lösen des Modells wurde der HiGHS Solver verwendet. 
+
+Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}), sowie die Nachfrage nach Fahrten von und nach einzelnen Stops dieses Netzwerks, wird in der Implementierung in einem Testdatensatz aufgebaut. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glaube zu lang
+
+Die Datengrundlage des Modells bildete ein eigens generierter Testdatensatz, der die essentiellen Strukturen des Modells enthält. Der Datensatz besteht aus folgenden Tabellen:
+
+Tabelle 1 beinhaltet die unterschiedlichen Buslinien inklusive aller sich auf der jeweiligen Linie befindlichen Stops. Für jeden Stop sind die Koordinaten, sowie die einzuhaltende Abfahrtzeit festgelegt. 
+
+Tabelle 2 legt fest zu welchen unterschiedlichen Startzeiten die einzelnen Touren je Buslinie vom Depot aus gestartet werden. 
+
+Tabelle 3 stellt eine fiktive Nachfragesituation zu Beginn eines Betrachtungszeitfensters dar. Die hier simuliert Nachfragesituation umfasst insgesamt XX angemeldete Kundenfahrten. 
+
+Tabelle 4 legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Verfügung stehenden Busse fest. Je Bus sind die Kapazität, sowie die, dem Bus zugeteilten, Schicht- und Pausenzeiten des Busfahrers festgelegt.
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Struktur der Implementierung}
 \begin{itemize}
-    \item Nur ein Depot
-    \item Statischer Demand
-    \item Keine dynamische Tourenbildung, keine Live-Reaktionen
-    \item Keine Betriebskostenbetrachtung
+    \item Modularer Aufbau: Dateninput, Modellkonstruktion, Lösung, Output
+    \item Relevante Klassen/Methoden (z.B. für Pfadgenerierung, Kapazitätsprüfung)
+    \item Beispiel für den Workflow einer Instanz: Einlesen → Modellaufbau → Lösung → Auswertung
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Mögliche Erweiterungen}
+\section{Herausforderungen bei der Umsetzung}
 \begin{itemize}
-    \item Liniennetz überschneidet sich nicht, daher auch keine Linien übergreifenden Touren möglich
-    \item unterscheidlich abzufahrende Stops (Linienzusammensetzung) je Tour
-    \item Mehrere Depots: Flexibilität bei der Tourenplanung, bessere Abdeckung
-    \item Depotzuordnung optimieren
-    \item Zeitfensterbasierte oder dynamische Nachfrage
-    \item Realtime-Routing mit Rolling Horizon
-    \begin{itemize}
-        \item dynamische Änderungen der Fahrzeiten zwischen den Stops sie Abstract von \textcite{lian_-demand_2023} 
-    \end{itemize}
-    \item Erweiterung um Ladezeiten, Servicelevel-Bedingungen
-    \item größerer Datensatz
+    \item Setaufbau
+    \item Speicher-/Performanceprobleme bei großen Instanzen
+    \item Umgang mit überlappenden Trips und Duplikaten (siehe Paper)
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Praxisrelevanz \& Umsetzung}
+\section{Validierung der Implementierung} 
+
+Anhand der Originalergebnisse
+
+Hier darauf achten, dass es 9 Szenarios gibt -> Referenz auf beschriebene Settings
+
 \begin{itemize}
-    \item Welche Erkenntnisse sind direkt anwendbar?
-    \item Welche Modellannahmen müssen für reale Implementierung angepasst werden?
-    \item Bewertung der Lösung hinsichtlich Kosten, Fahrgastkomfort, Nachhaltigkeit
+    \item Szenarien aus Schulz/Vlćek: Fahrplan aus Mecklenburg-Vorpommern
+    \item Umsetzung von Settings 1 bis 3 (jeweils relevante Details nennen)
+    \item Beispiel: Setting 1 mit künstlich hoher Geschwindigkeit → Reproduzierbarkeit des theoretischen Optimums
 \end{itemize}
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Ergebnisvergleich \& Plausibilität}
+\begin{itemize}
+\item Tourenanzahl, Busanzahl, Tourverläufe: Vergleich Paper vs. eigene Lösung
+\item Abweichungen und deren mögliche Ursachen (z.B. Rundungsfehler, alternative Pfade)
+\item Qualität \& Robustheit der eigenen Implementierung
+\end{itemize}
+

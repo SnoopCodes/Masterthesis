@@ -16,5 +16,73 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{lian_-demand_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8579b893986e658557170de468d8f0bf}{%
+           family={Lian},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=286014b8a74be26029f6966ae67fb337}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Flavien},
+           giveni={F\bibinitperiod}}}%
+        {{hash=029683c0f75670b0a53c1f33dc2732d0}{%
+           family={Sörensen},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{497d1ac48345703d1cccbbfed06702ae}
+      \strng{fullhash}{532f1af25209d0d483968b9acc080390}
+      \strng{fullhashraw}{532f1af25209d0d483968b9acc080390}
+      \strng{bibnamehash}{532f1af25209d0d483968b9acc080390}
+      \strng{authorbibnamehash}{532f1af25209d0d483968b9acc080390}
+      \strng{authornamehash}{497d1ac48345703d1cccbbfed06702ae}
+      \strng{authorfullhash}{532f1af25209d0d483968b9acc080390}
+      \strng{authorfullhashraw}{532f1af25209d0d483968b9acc080390}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose to solve a real-time traffic variation of the On-Demand Bus Routing Problem ({ODBRP}) introduced by Melis and Sörensen (2022). The {ODBRP} belongs to the category of the Dial-A-Ride Problems ({DARP}), and features departure and arrival bus station selection. This problem is specifically aimed at planning a fleet of on-demand buses in an urban environment. However, cities are frequently plagued by traffic congestion, which may cause delays and missed time windows for passengers. To deal with this situation, we introduce, study, and solve a variant of the {ODBRP} in which the travel times are both time-dependent (i.e., the travel time between two nodes depends on the departure time) and updated dynamically. In our approach, congested roads that might cause passenger delays are modeled by frequently updating the travel speed on the road segments that constitute them. The resulting problem is solved by using a K-shortest-path procedure to determine alternative paths between bus stations, as well as a Variable Neighborhood Descent ({VND}) procedure to repair violated time windows. Our experimental results show the overall efficacy of this real-time control under divergent degrees of flexibility (congestion and the number of buses available). Specifically, the average tardiness, maximum tardiness, and the number of late passengers are significantly reduced under a wide range of congestion scenarios, from slight to severe. In addition, this efficacy holds for various ratios of requests to the number of vehicles.}
+      \field{day}{1}
+      \field{issn}{2772-5863}
+      \field{journaltitle}{Multimodal Transportation}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{Multimodal Transportation}
+      \field{title}{The on-demand bus routing problem with real-time traffic information}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100093}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.multra.2023.100093
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/CIBF3KQR/Lian et al. - 2023 - The on-demand bus routing problem with real-time traffic information.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2772586323000254
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2772586323000254
+      \endverb
+      \keyw{Dynamic travel speed,Metaheuristic,On-demand bus,Real-time control,Real-time traffic information,Two-stage problem}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

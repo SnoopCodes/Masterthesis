@@ -239,6 +239,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
@@ -433,12 +435,12 @@ INPUT ./your_content_folder/3_.tex
 INPUT ./your_content_folder/3_.tex
 INPUT your_content_folder/3_.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT ./your_content_folder/4_.tex
 INPUT ./your_content_folder/4_.tex
 INPUT ./your_content_folder/4_.tex
 INPUT ./your_content_folder/4_.tex
 INPUT your_content_folder/4_.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT ./your_content_folder/5_.tex
 INPUT ./your_content_folder/5_.tex
 INPUT ./your_content_folder/5_.tex
@@ -449,6 +451,11 @@ INPUT ./your_content_folder/6_.tex
 INPUT ./your_content_folder/6_.tex
 INPUT ./your_content_folder/6_.tex
 INPUT your_content_folder/6_.tex
+INPUT ./your_content_folder/7_.tex
+INPUT ./your_content_folder/7_.tex
+INPUT ./your_content_folder/7_.tex
+INPUT ./your_content_folder/7_.tex
+INPUT your_content_folder/7_.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd

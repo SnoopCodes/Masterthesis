@@ -68,6 +68,7 @@
 
 \usepackage{url}  
 \usepackage{amsmath}
+\numberwithin{equation}{chapter} 
 %\usepackage{float}
 \usepackage{caption}    %captions below figures and tables
     \captionsetup{                  % globale Option für caption und subcaption
@@ -88,7 +89,7 @@
 \usepackage{siunitx}[=v2]   % Einheitenmakros, Nummernformatierung
     \sisetup{locale=DE, %Dezimalkomma
     binary-units = true} %Bit als Einheit
-
+\usepackage{enumitem}
 \usepackage[T1]{fontenc}     % <-- wichtig für korrektes Mapping
 \usepackage{lmodern}    
     
@@ -106,6 +107,7 @@
 \input{your_content_folder/4_}
 \input{your_content_folder/5_}
 \input{your_content_folder/6_}
+\input{your_content_folder/7_}
 \printbibliography 
 
 

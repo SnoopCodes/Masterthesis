@@ -1,14 +1,43 @@
-\chapter{Fazit \& Ausblick}
-6.1 Wichtigste Erkenntnisse
-Implementierung gelungen / Modell nachvollziehbar repliziert
-Validierung zeigt Übereinstimmungen und Grenzen
-Modell zeigt Potenzial bei Ressourceneinsparung und Flexibilisierung
+\chapter{Erweiterungsmöglichkeiten \& Diskussion}
+\label{chapter:6}
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Limitierungen des aktuellen Modells}
+\begin{itemize}
+    \item Nur ein Depot
+    \item Statischer Demand
+    \item Keine dynamische Tourenbildung, keine Live-Reaktionen
+    \item Keine Betriebskostenbetrachtung
+\end{itemize}
 
-6.2 Bewertung der Zielerreichung
-Rückblick auf Ziele aus Kapitel 1.3
-Welche Ziele wurden vollständig erreicht? Wo gab es Einschränkungen?
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Mögliche Erweiterungen}
+\begin{itemize}
+    \item Liniennetz überschneidet sich nicht, daher auch keine Linien übergreifenden Touren möglich
+    \item unterscheidlich abzufahrende Stops (Linienzusammensetzung) je Tour
+    \item Mehrere Depots: Flexibilität bei der Tourenplanung, bessere Abdeckung
+    \item Depotzuordnung optimieren
+    \item Zeitfensterbasierte oder dynamische Nachfrage
+    \item Realtime-Routing mit Rolling Horizon
+    \begin{itemize}
+        \item dynamische Änderungen der Fahrzeiten zwischen den Stops sie Abstract von \textcite{lian_-demand_2023} 
+    \end{itemize}
+    \item Erweiterung um Ladezeiten, Servicelevel-Bedingungen
+    \item größerer Datensatz
+\end{itemize}
 
-6.3 Zukunftsperspektiven
-Technische Weiterentwicklung des Modells
-Einsatz in kommunalen Verkehrsprojekten
-Integration in Planungssoftware / Fahrplangenerierungssysteme
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Praxisrelevanz \& Umsetzung}
+\begin{itemize}
+    \item Welche Erkenntnisse sind direkt anwendbar?
+    \item Welche Modellannahmen müssen für reale Implementierung angepasst werden?
+    \item Bewertung der Lösung hinsichtlich Kosten, Fahrgastkomfort, Nachhaltigkeit
+\end{itemize}
