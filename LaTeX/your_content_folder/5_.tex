@@ -5,17 +5,17 @@
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Grundlagen der Implementierung}
-Das Modell von Schulz \& Vlćek wurde in der Programmeirsprache Julia in der Entwicklungsumgebung Visual Studio Code implementiert. Die Analysen wurden mit einem Apple Macbook Pro mit M1 Pro Prozessor und 16 Gigabyte Arbeitsspeicher ausgeführt. Zum Lösen des Modells wurde der HiGHS Solver verwendet. 
+Das Modell von Schulz \& Vlćek wurde in der Programmiersprache Julia in der Entwicklungsumgebung Visual Studio Code implementiert. Die Analysen wurden mit einem Apple Macbook Pro mit M1 Pro Prozessor und 16 Gigabyte Arbeitsspeicher ausgeführt. Zum Lösen des Modells wurde der HiGHS Solver verwendet. 
 
-Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}), sowie die Nachfrage nach Fahrten von und nach einzelnen Stops dieses Netzwerks, wird in der Implementierung in einem Testdatensatz aufgebaut. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glaube zu lang
+Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}), sowie die Nachfrage nach Fahrten von und nach einzelnen Stops dieses Netzwerks, wird in der Implementierung mittels eines Testdatensatzes aufgebaut. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glaube zu lang
 
-Die Datengrundlage des Modells bildete ein eigens generierter Testdatensatz, der die essentiellen Strukturen des Modells enthält. Der Datensatz besteht aus folgenden Tabellen:
+Der generierte Datensatz besteht aus folgenden Tabellen:
 
-Tabelle 1 beinhaltet die unterschiedlichen Buslinien inklusive aller sich auf der jeweiligen Linie befindlichen Stops. Für jeden Stop sind die Koordinaten, sowie die einzuhaltende Abfahrtzeit festgelegt. 
+Tabelle 1 beinhaltet die unterschiedlichen Buslinien inklusive aller sich auf der jeweiligen Linie befindlichen Haltestellen. Für jede Haltestelle sind die Koordinaten (in X- und Y-Richtung), sowie die einzuhaltende Abfahrtzeit festgelegt. 
 
 Tabelle 2 legt fest zu welchen unterschiedlichen Startzeiten die einzelnen Touren je Buslinie vom Depot aus gestartet werden. 
 
-Tabelle 3 stellt eine fiktive Nachfragesituation zu Beginn eines Betrachtungszeitfensters dar. Die hier simuliert Nachfragesituation umfasst insgesamt XX angemeldete Kundenfahrten. 
+Tabelle 3 stellt eine fiktive Nachfragesituation zu Beginn eines Betrachtungszeitraums dar. Die hier simuliert Nachfragesituation umfasst insgesamt \textbf{XXXXXX} angemeldete Kundenfahrten. 
 
 Tabelle 4 legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Verfügung stehenden Busse fest. Je Bus sind die Kapazität, sowie die, dem Bus zugeteilten, Schicht- und Pausenzeiten des Busfahrers festgelegt.
 
@@ -24,6 +24,7 @@ Tabelle 4 legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Ve
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Struktur der Implementierung}
+\textbf{KÖNNTE SICH NOCHMAL ÄNDERN, WENN IMPLEMENTIERUNG AUF SZENARIEN ANSTATT SETTINGS ANGEPASST WIRD}
 \begin{itemize}
     \item Modularer Aufbau: Dateninput, Modellkonstruktion, Lösung, Output
     \item Relevante Klassen/Methoden (z.B. für Pfadgenerierung, Kapazitätsprüfung)
@@ -47,7 +48,7 @@ Tabelle 4 legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Ve
 %%%%%%%%%%%%%%%%%%%%
 \section{Validierung der Implementierung} 
 
-Anhand der Originalergebnisse
+\textbf{Anhand der Originalergebnisse  - fraglich, da ihr ja direkt mit realdtensatz arbeitet}
 
 Hier darauf achten, dass es 9 Szenarios gibt -> Referenz auf beschriebene Settings
 

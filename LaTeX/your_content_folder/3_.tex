@@ -1,7 +1,13 @@
 \chapter{Problemstellung}
 \label{chapter:3}
 \label{chapter:Problemstellung}
-Das zu lösende Optimierungsproblem beschäftigt sich mit der Einsatzplanung von Bussen in einem, auf Abruf operierenden, linienbasierten System mehrerer Buslinien. Ziel ist es, in allen Settings, die Anzahl der eingesetzten Busse zu minimieren.
+Das zu lösende Optimierungsproblem von Schulz \& Vlćek beschäftigt sich mit der Einsatzplanung von Bussen in einem, auf Abruf operierenden, linienbasierten System mehrerer Buslinien. 
+
+In einem ersten Schritt werden die Nachfragewünsche der Fahrgäste konsolidiert und vorverarbeitet, im darauffolgenden Optimierungsprozess wird für das jeweilige Szenario die optimale, minimale Anzahl von Bussen zu Nachfragebedienung bestimmt. Szenarien siehe ....
+
+
+
+
 Grundsätzlich kann eine Buslinie mehrmals im zu betrachtenden Zeitraum bedient bzw. gestartet werden. 
 Daher wird im weiteren Verlauf jede einzigartige Kombination aus Buslinie und Startzeit der Buslinie als Tour \( l \in L = \{1,  \dots , n\} \) bezeichnet. 
 Das linienbasierte System wird durch ein Graphenmodell mit Knoten und Kanten aufgebaut. Jede Buslinie besteht aus einer Anzahl von Haltestellen (Knoten) $s_1, \dots, s_{m}$. Hier sei erwähnt, dass sich die Zusammensetzung und Reihenfolge der Haltestellen je Buslinie mit unterschiedlicher Startzeit durch die einzelnen Touren hinweg nicht verändert. Deshalb kann die Notation der Tour mit in die Notation der Haltestellen aufgenommen werden und es ergibt sich für jede Tour eine Abfolge von Haltestellen $s^l_1,  \dots , s^l_{m_l}$.

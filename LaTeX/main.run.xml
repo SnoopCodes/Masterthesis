@@ -82,7 +82,7 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>Meine Bibliothek.bib</file>
+      <file>Meine_Bibliothek.bib</file>
     </requires>
   </external>
 </requests>

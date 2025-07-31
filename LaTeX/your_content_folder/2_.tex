@@ -1,55 +1,53 @@
+%Leitfrage ist: $\rightarrow$ Was ist der Kontext des zu implementierenden Modells?
+
 \chapter{Literaturüberblick}
 \label{chapter:2}
+Das von Schulz \& Vlćek vorgeschlagene System stellt eine Kombination des klassischen Linienbusverkehrs und Elementen eines, auf Abruf basierenden Ridepooling-Dienstes dar. Das präsentierte mathematische Modell ist dem Bereich der OR-Probleme, genauer gesagt der Familie des Vehicle Routing Problems (VRP) \textbf{EVENTUELL NOCH ANDERER PROBLEME? DARP?}(Quelle) zuzuordnen. Eine ausführlichere Beschreibung erfolgt in Kapitel \ref{sec:Einordnung}. Mit dem vorgeschlagenen System werden Elemente aus unterschiedlichen Systemen, Problemstellungen und Modellen verknüpft. Um ein einheitliches Verständnis zu schaffen, wird zunächst die Definition zentraler Begriffe vorgenommen. Im Anschluss erfolgt die Klärung der Anwendungsbereiche relevanter Mobilitätsformen, sowie möglicher Zielkonflikte (\textbf{checken, ob das wirklich gemacht wurde!}). Nachfolgend wird das Modell von Schulz \& Vlćek in die Menge verwandter Untersuchungen eingeordnet. Da Schulz \& Vlćek ein öffentliches Bus-System in einer ländlicheren Gegend untersuchen, fokussiert sich die folgende Literaturübersicht auf Forschungsarbeiten die auf den ländlichen Kontext anwendbar sind. Andere Mobilitätsformen wie zum Beispiel das klassische Taxi oder U-Bahnen werden zur kontextuellen Abgrenzung erwähnt, sind aber kein Teil des Untersuchungsbereiches dieser Arbeit.
+
+Die in der Arbeit genutzten zentralen Begriffe werden wie folgt definiert:
+
+\textbf{Linienbasiert} (engl.: line-based) bedeutet für das ÖPNV-System die Einhaltung von festen Routen, festgelegten Haltestellen und Fahrplänen wie es von städtischen Bus-, Straßenbahn- und U-Bahn-Netzen bekannt ist.
+
+\textbf{Auf Abruf} (engl.: on-demand) ist die Eigenschaft eines Systems auf die realisierte Nachfrage der Fahrgäste zu reagieren \parencite[vgl.][S.3]{vansteenwegen_survey_2022}. Dies kann in Echtzeit oder auch vorverarbeitet in einem zuvor abgegrenzten Zeitraum erfolgen. Die Nachfrage wird dann innerhalb eines festgelegten Zeitraums bedient. Zeiträume können sich überschneiden und so zum Beispiel die Form eines rollierenden Horizonts annehmen.
+
+\textbf{Ridepooling} wird vom \textcite[][]{verband_der_automobilindustrie_ridepooling_2025} (\textbf{Achtung online Quelle}) als kombinierte Mobilitätsform von ÖPNV und Taxi definiert. Der Ablauf bei dieser besonderen Form des Personenverkehrswerden ist wie folgt: Der Fahrgast wird an seinem individuellen Startpunkt abgeholt. Auf dem Weg zum individuellen Ziel steigen andere Fahrgäste zu und/oder wieder aus. Je nach Zielpunkt werden die Routen so kombiniert, dass benachbarte Ziele mit einem Fahrzeug bedient werden können.   
+
+Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben. Dabei wird unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Für eine  systematische Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. Alle verwendeten Veröffentlichungen sind in Anhang \textbf{XXXXX} jenem Searchstring zugeordnet, mit dem sie gefunden wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. \textbf{Vielleicht noch eine Aussage darüber wie viele Paper betrachtet wurden?}
+
+\textbf{Aussage darüber wie Searchstrings aufgebaut sind im Paper oder im Anhang? oder gar nicht?}
+
+
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Typologie und Abgrenzung relevanter Mobilitätsformen}
 \label{sec:2.1}
-\label{sec:LinienverkehrVsOnDemandVsRidepooling}
+\label{sec:Kontext}
 
-Linienverkehr vs. on-demand vs. Ridepooling
+Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
 
-Leitfrage ist: $\rightarrow$ Was ist der Kontext des zu implementierenden Modells?
+Generell Zielkonflikt von echten on-demand Lösungen in rural areas: geringere Kosten (durch weniger Fahrzeuge) vs. Abdeckung(?) Soll darauf hinführen, dass Schulz \& Vlćek weniger Busse nutzen bei Beibehaltung der Flexibilität.
 
-Herleiten mit:
 \begin{enumerate}
-    \item Zunächst die Definitionen \& Merkmale der unterschiedlichen Systeme geben
+    \item line-based bus system
     \begin{enumerate}
-        \item line-based (Searchstring)
-        \begin{itemize}
-            \item Linien-basiert  wird definiert als ein System mit festen Routen, Haltestellen und einzuhaltendem Fahrplan. Beispiele sind Bus-, Straßenbahn- und U-Bahn-Netze in Großstädten
-        \end{itemize}
-        \item on-demand (Searchstring)
-        \begin{itemize}
-            \item On-demand, bzw. auf Abruf, wird definiert als Eigenschaft eines Systems auf die Nachfrage der Fahrgäste zu reagieren. Die kann in Echtzeit oder auch vorverarbeitet in einem zuvor abgegrenzten Zeitraum erfolgen. Die Nachfrage wird dann innerhalb eines festgelegten Zeitraums bedient. Zeiträume können sich überschneiden und so zum Beispiel die Form eines Rolling-Horizon annehmen.
-        \end{itemize}
-        \item Ridepooling (Searchstring)
-        \begin{itemize}
-            \item Ridepooling wird definiert als eine Form des Personenverkehrs, bei der die Fahrtwünsche von mehreren Fahrgästen mit einem Fahrzeug bedient werden. Definitionsgemäß ist auch ein klassischer Bus ein Beispiel für die Anwendung von Ridepooling. Ein weiteres Beispiel liefern Anbieter wie MOIA, die mit Minibussen (Kapazität von ca. 7 Personen) mehrere Personen gleichzeitig abseits von festen Routen und Fahrplänen zu spezifischen Adressen innerhalb eines Service-Gebiets befördern. Heutzutage sind Menschen daran gewöhnt viele Dinge und Leistungen jederzeit durch das Internet abrufen zu können. Daher kommt der Fähigkeit auf Abruf innerhalb eines kurzen Zeitraums reagieren zu können eine wichtige Rolle zu.
-        \end{itemize}
-
-        
+        \item in urban areas (Searchstring)
+        \item in rural areas (Searchstring)
     \end{enumerate}
-    \item Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
+    \item on-demand bus
     \begin{enumerate}
-        \item line-based bus system
-        \begin{enumerate}
-            \item in urban areas (Searchstring)
-            \item in rural areas (Searchstring)
-        \end{enumerate}
-        \item on-demand bus
-        \begin{enumerate}
-            \item in urban areas (Searchstring)
-            \item in rural areas (Searchstring)
-        \end{enumerate}
-        \item ridepooling
-        \begin{enumerate}
-            \item in urban areas (Searchstring)
-            \item in rural areas (Searchstring)
-        \end{enumerate}
+        \item in urban areas (Searchstring)
+        \item in rural areas (Searchstring)
+    \end{enumerate}
+    \item ridepooling
+    \begin{enumerate}
+        \item in urban areas (Searchstring)
+        \item in rural areas (Searchstring)
     \end{enumerate}
 \end{enumerate}
+
+
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
@@ -69,7 +67,17 @@ Vorgehensweise bei der Suche darstellen:
     \item dann speziellere Searchstrings
     \item Verwandte Probleme (siehe Paper von Schulz \& Vlćek)
     \begin{itemize}
-        \item Überblick über verwandte Optimierungsansätze (z.B. DARP, MIP, Netzwerkflussmodelle)
+        \item Überblick über verwandte OR-Modelle
+        \begin{itemize}
+            \item DARP - Dial a ride Problem
+            \item VRP - Vehicle Routing Problem
+            \item PTP (?) - Public Transport Planning
+            \item Line Planning
+            \item Vehicle Scheduling
+            \item MIP
+            \item Netzwerkflussmodelle
+            \item 
+        \end{itemize}
         \item Besonderheiten des gewählten Modells (Netzwerkstruktur, einfache Erweiterbarkeit)
         \item Überblick zur Methodik: LP/IP, Flow-Modelle, Erweiterbarkeit für verschiedene Szenarien
     \end{itemize}
@@ -93,4 +101,7 @@ Verweis auf tabellarische Übersicht der gefundenen Literatur %(entweder im Doku
     
     $\rightarrow$ Enden mit Rechtfertigung dafür, dass es sich lohnt die Kombination, die Vlćek und Schulz gemacht haben, weiter zu untersuchen
 \end{itemize}
+
+\textbf{--> Aussage on-demand senkt kosten in rural areas, aber ...}
+
 %Hier Überleitung und EIngrenzung dessen was in der Arbeit behandelt wird
