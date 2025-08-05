@@ -1,7 +1,18 @@
 \chapter{Mathematisches Modell}
 \label{chapter:4}
+Von den 9 Szenarien werden im nachfolgend die mathematischen Modellformulierungen dieser Szenarien aufgestellt:
+
+Szenario 1.A (uneingeschränkter, autonomer Betrieb \& Bedienung des gesamten Netzes) wurde ausgewählt, um ein grundlegendes Konstrukt aufzubauen, welches möglich uneingeschränkt ist und somit als Basis für die anderen Szenarien zu sehen ist.
+
+Szenario 1.B (uneingeschränkter, autonomer Betrieb \& Bedienung der nachgefragten Touren) wurde ausgewählt, um \textbf{... zu validieren, dass das modell auch für andere Sets korrekt funktioniert?}
+
+Szenario 2.C (Kapazitätsbeschränkung im autonomen Betrieb \& Bedienung der nachgefragten Haltestellen) wurde ausgewählt, um  \textbf{einen Zwischenstand der Komplexität abzubilden, der die Berücksichtigung von Nachfrage und Möglichkeit der reinen Bedienung nachgefragter Haltestellen erlaubt.}
+
+Szenario 3.C (Fahrer- und Kapazitätsbeschränkung \& Bedienung der nachgefragten Haltestellen) wurde ausgewählt, um einen möglichst realitätsnahen Anwendungsfall abzubilden.
+
 \section{Zentrale Modellannahmen}
-Schulz \& Vlćek stellen foglende vereinfachenden Annahmen auf:
+\label{sec:4.1}
+Schulz \& Vlćek stellen folgende vereinfachenden Annahmen auf:
 \begin{itemize}
     \item Es wird ein gemeinsames Depot für alle Busse angenommen
     \item Die Arbeits- und Pausenzeiten der Fahrer entsprechen den gesetzlichen Regelungen
@@ -9,16 +20,15 @@ Schulz \& Vlćek stellen foglende vereinfachenden Annahmen auf:
     \item Die Zuteilung von Fahrer zu Bus erfolgt im Vorfeld des Betrachtungszeitraums und wird als gegeben angenommen. Der Bus ist somit im Rahmen der Fähigkeiten des Fahrers zwischen Beginn und  Schichtende des Fahrers verfügbar
     \item Die Busse müssen während des Betrachtungszeitraums nicht tanken/aufgeladen werden, da sie für den gesamten Betrachtungszeitraum als ausreichend betankt/aufgeladen angenommen werden
     \item Die Busse sind bis auf die Kapazität homogen
+    \item 
 \end{itemize}
 
 Für alle Settings ist die Menge aller relevanter Knoten $V$, sowie die Menge $A$ aller Verbindungen bzw. Kanten zwischen den Knoten aufzustellen.
 
-\section{Erstes Setting}
-Zur Erinnerung: In diesem Setting werden homogene autonome Busse eingesetzt, die keinen Einfluss auf die Lösung haben. Die Busse werden in der Modellformulierung nicht erwähnt, sind aber die Instanz, die die Verbindungen nutzt und die Knoten bedient.
-\label{sec:4.1}
-\subsection{Szenario 1.1: Alle Touren vollständig bedienen}
-\label{sec:4.1.1}
-Zunächst wird von Schulz \& Vlćek der Fall betrachtet, in dem alle Touren (Buslinien zu unterschiedlichen Startzeiten) vollständig bedient werden müssen.
+\section{Szenario 1.A)}
+\label{sec:4.2}
+\label{sec:Szenario 1.A)}
+Zunächst wird von Schulz \& Vlćek der Fall betrachtet, in dem alle Touren (Buslinien zu unterschiedlichen Startzeiten) vollständig bedient werden müssen. Zur Erinnerung: In diesem Setting werden homogene autonome Busse eingesetzt, deren Eigenschaften keinen Einfluss auf die Lösung haben. Die Busse werden in der Modellformulierung nicht erwähnt, sind aber die Instanz, die die Verbindungen nutzt und die Knoten bedient
 %Hier evtl. Grafik, aber nicht sicher, weil zu nah an Schulz \& Vlćek dran
 Die Menge aller relevanter Knoten ergibt sich in diesem ersten Szenario daher aus:
 
@@ -26,14 +36,14 @@ Die Menge aller relevanter Knoten ergibt sich in diesem ersten Szenario daher au
 V = \{ D, s^1_1, \dots, s^n_1, s^1_{m_1}, \dots, s^n_m \}
 \]
 
-Um alle Möglichkeiten für das Lösen des Problems zu erhalten, sind Verbindungen zwischen Touren möglich und werden durch die Fahrtzeit zwischen der letzten Haltestelle von Tour $l$ und der ersten Haltestelle von Nachfolgertour $l'$ mit $t_{s^l_{m_l}, s^{l'}_1}$ beschrieben. Eine Verbindung von zwei Touren darf in einer möglichen Lösung des Problems nur dann bestehen, wenn folgende Gleichung erfüllt ist: 
+Um alle Möglichkeiten für das Lösen des Problems zu erhalten, erlauben Schulz \& Vlćek Verbindungen zwischen Touren. Diese werden durch die Fahrtzeit zwischen der letzten Haltestelle von Tour $l$ und der ersten Haltestelle von Nachfolgertour $l'$ mit $t_{s^l_{m_l}, s^{l'}_1}$ beschrieben. Eine Verbindung von zwei Touren darf in einer möglichen Lösung des Problems nur dann bestehen, wenn folgende Gleichung erfüllt ist: 
 
 \begin{equation}
     \label{eq:4.1}
     \bar{t}_{s^l_{m_l}} + t_{s^l_{m_l}, s^{l'}_1} \leq \bar{t}_{s^{l'}_1}
 \end{equation}
 
-Gleichung \ref{eq:4.1} beschreibt, dass der zeitliche Abstand zwischen der letzten Haltestelle einer Tour $s^l_{m_l}$ und der ersten Haltestelle der Nachfolgertour $s^{l'}_1$ groß genug sein muss, um die Fahrtzeit zwischen den Haltestellen abdecken zu können.
+MIt Gleichung \ref{eq:4.1} beschreiben Schulz \& Vlćek, dass der zeitliche Abstand zwischen der letzten Haltestelle einer Tour $s^l_{m_l}$ und der ersten Haltestelle der Nachfolgertour $s^{l'}_1$ groß genug sein muss, um die Fahrtzeit zwischen den Haltestellen abdecken zu können.
 
 Folglich ergibt sich für das erste Setting:
 \[
@@ -41,25 +51,26 @@ A = \{(D, s_1^1), \ldots, (D, s_1^n), (s_{m_1}^1, D), \ldots, (s_{m_n}^n, D), (s
 \cup \{(s_{m_l}^l, s_1^{l'}) : \bar{t}_{s_{m_l}^l} + t_{s_{m_l}^l, s_1^{l'}} \leq \bar{t}_{s_1^{l'}}\}
 \]
 
-Die folgende Modellformulierung für das erste Setting von Schulz \& Vlćek verwendet die binäre Entscheidungsvariable $x_{ij}$, welche 1 ist, wenn die Verbindung $(i,j) \in A$ von $i$ nach $j$  genutzt wird und sonst den Wert 0 hat.
+Schulz \& Vlćek verwenden in der folgenden Modellformulierung des Szenarios 1.A) die binäre Entscheidungsvariable $x_{ij}$, deren Wert 1 ist, wenn die Verbindung $(i,j) \in A$ von $i$ nach $j$  genutzt wird und sonst 0.
 
 \begin{equation}
-    min \sum_{j:(D,j) \in A_1} x_{Dj}
-\label{eq:4.2}
+    \label{eq:4.2}
+    min \sum_{j:(D,j) \in A} x_{Dj}
 \end{equation}
 unter den Nebenbedingungen:
 \begin{alignat}{3}
-    &\sum_{j:(i,j) \in A_1} x_{ij} - \sum_{j:(j,i) \in A_1} x_{ji} &&= \quad 0 \hspace{4cm} &&\forall i \in V \label{eq:4.3}\\
+    &\sum_{j:(i,j) \in A} x_{ij} - \sum_{j:(j,i) \in A} x_{ji} &&= \quad 0 \hspace{4cm} &&\forall i \in V \label{eq:4.3}\\
     &\hspace{3cm} x_{s_1^l, s_{m_l}^l} &&= \quad 1\hspace{4cm} &&\forall l \in L\label{eq:4.4}\\
-    &\hspace{3.5cm} x_{ij} &&\geq \quad 0 \hspace{4cm}&&\forall (i,j) \in A_1\label{eq:4.5}
+    &\hspace{3.5cm} x_{ij} &&\geq \quad 0 \hspace{4cm}&&\forall (i,j) \in A\label{eq:4.5}
 \end{alignat}
 
-Die Zielfunktion \ref{eq:4.2} minimiert die Anzahl der Busse die das Depot verlassen. Die Nebenbedingung \ref{eq:4.3} stellt sicher, dass die Flusserhaltung für jeden Knoten gilt, d.h. die Anzahl der eingehenden Verbindungen ist gleich der Anzahl der ausgehenden Verbindungen. Nebenbedingung \ref{eq:4.4} stellt sicher, dass jede Tour bedient wird. Nebenbedingung \ref{eq:4.5} ist die Nichtnegativitätsbedingung der Entscheidungsvariable.
+Der Wert der Zielfunktion \ref{eq:4.2} gibt die Anzahl der Busse die das Depot verlassen wieder und ist zu minimieren. Die Nebenbedingung \ref{eq:4.3} stellt sicher, dass die Flusserhaltung für jeden Knoten gilt, d.h. die Anzahl der eingehenden Verbindungen ist gleich der Anzahl der ausgehenden Verbindungen. Nebenbedingung \ref{eq:4.4} stellt sicher, dass jede Tour bedient wird. Nebenbedingung \ref{eq:4.5} ist die Nichtnegativitätsbedingung der Entscheidungsvariable.
 
 \textbf{HIER NOCH CHECKEN OB KLASSIFIZIERUNG ALS EINE BESTIMMTE ART VON MODELL WIE BEI Schulz \& Vlćek}
 
-\subsection{Szenario 1.2: Nur Touren mit Nachfrage bedienen}
-In diesem Szenario werden XXXXXX bedient die ....
+\section{Szenario 1.B)}
+\label{sec:4.3}
+In diesem Szenario lassen Schulz \& Vlćek jene Touren vollständig bedienen, für die mindestens an einer Haltestelle eine Nachfrage bekannt ist. 
 
 \textbf{HIER EVTL. GRAFIK ZUR VISUALISIERUNG}
 
@@ -74,7 +85,7 @@ sodass nun alle Haltestellen im System, sowie das Depot aufgenommen sind. Auch d
 \bar{A}= \{(D, s_1^1), \ldots, (D, s^n_{m_n}), (s_1^1, D), \ldots, (s_{m_n}^n, D), (s_1^1, s_{m_1}^1), \ldots, (s_1^n, s_{m_n}^n)\}   \\   
 \cup \{(s_i^l, s_j^{l'}) : \bar{t}_{s_i^l} + t_{s_i^l, s_j^{l'}} \leq \bar{t}_{s_j^{l'}}\},
 \]
-mit \(i =  {1, \dots m_l}\) und \(j = {1, \dots m_{l'}}\).
+mit \(i = {1, \dots m_l}\) und \(j = {1, \dots m_{l'}}\).
 
 \textbf{HIER DIE THEMATIK MIT ÜBERLAPPENDEN CUSTOMER TRIPS ERKLÄREN}
 
@@ -82,4 +93,72 @@ mit \(i =  {1, \dots m_l}\) und \(j = {1, \dots m_{l'}}\).
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
+\section{Szenario 2.C)}
+\label{sec:4.4}
+\label{sec:Szenario 2.C)}
+In diesem Szenario berücksichtigen Schulz \& Vlćek eine Kapazitätsbeschränkung für die Busse. Die Busse sind somit als heterogen zu betrachten. Außerdem lassen Schulz \& Vlćek nur noch die einzelnen Haltestellen bedienen, die zu Beginn des Betrachtungszeitraums nachgefragt sind.
 
+Dementsprechend ändert sich die Menge aller relevanter Verbindungen zu:
+\begin{align*}
+    \hat{A} =
+    & \big\{(D, s_1^1), \dots, (D, s_{m_n}^n), (s_1^1, D), \dots, (s_{m_n}^n, D)\big\} \cup \big\{(s_i^l, s_j^{l'}) :i = 1, \dots m_l,j = 1, \dots m_{l'}, \bar{t}_{s_i^l} + t_{s_i^l, s_j^{l'}} \leq \bar{t}_{s_j^{l'}} \big\} \\
+    & \cup \big\{ (s_i^l, s_j^l) : i,j = 1,\dots, m_l,\ i > j,\ 
+    \exists k < j < i : d_{s_k^l, s_i^l} > 0,\ 
+    \exists k > j : d_{s_j^l, s_k^l} > 0 \big\}
+\end{align*}
+    
+Mittels Set Â erlauben Schulz \& Vlćek, im Gegenteil zu Set $\bar{A}$, dass ein Bus, im Falle von verschachtelten Kundenfahrten zu einer vorigen Haltestelle der gleichen Tour \glqq zurückfahren\grqq{} kann, um die dortige Nachfrage zu bedienen. Diese Fähigkeit von Set Â wird in Nebenbedingung 9 ausgestaltet und nach der Modellformulierung weiter erläutert. Für eine genauere Erklärung wird auf Schulz \& Vlćek verwiesen. Nach wie vor gilt für den Wert der binären Entscheidungsvariable $x_{ijk}$: 1, wenn die Verbindung $(i,j) \in \hat{A}$ zwischen $i$ und $j$  genutzt wird und sonst 0. Die Modellformulierung für das Szenario 2.C) ist wie folgt:
+ 
+\begin{equation}
+    min \sum_{k=1}^{K} {\sum_{j:(D,j) \in \hat{A}} x_{Djk}}
+\label{eq:4.6}
+\end{equation}
+unter den Nebenbedingungen:    
+\begin{alignat}{2}
+    \sum_{j:(i,j) \in \hat{A}} x_{ijk} - \sum_{j:(j,i) \in \hat{A}} x_{jik} &= 0
+    &\qquad &\forall i \in V,\, k \in K \label{eq:4.7}\\
+    \sum_{k=1}^{K} x_{ijk} &= 1
+    &&\forall i,j \in V: (i,j) \in \hat{A} \wedge d_{ij} > 0 \label{eq:4.8}\\
+    \sum_{j:(D,j) \in \hat{A}} x_{Djk}&\leq 1
+    &&\forall k \in K \label{eq:4.9}\\
+    x_{s_i^l s_j^{l'} k} &\leq 1 - x_{s_h^l s_{h'}^l k} 
+    &&\forall l, l' \in L, k \in K, i=\{1,\dots,m_l\},\ j=\{1,\dots,m_{l'}\},\nonumber \\ 
+    &&&(s_i^l, s_j^{l'}) \in \hat{A}, h, h' \in \{1,\dots,m_l\}:\ h \leq i < h'\wedge \nonumber\\
+    &&& d_{s_h^l, s_{h'}^l} > 0 \ \wedge \bar{t}_{s_{h'}^l} + t_{s_{h'}^l, s_j^{l'}} > \bar{t}_{s_j^{l'}} \label{eq:4.10}\\
+    \sum_{j,j' = 1,\dots,m_l: s_j^l \leq s_i^l < s_{j'}^l}
+    d_{s_j^l, s_{j'}^l} \cdot x_{s_j^l s_{j'}^l k} &\leq Q_k 
+    &&\forall l \in L,\ i \in \{1,\dots,m_l\},\ k \in K \label{eq:4.11}\\
+    x_{ijk} &\in \{0,1\}
+    &&\forall (i,j) \in \hat{A},\ k \in K \label{eq:4.12}
+\end{alignat}
+Die Zielfunktion \ref{eq:4.6} wurde im Vergleich zu den vorigen Szenarien 1.A) und 1.B) mit den neuen Sets angepasst und verwendet die, um den Index der Busse ergänzte, Entscheidungsvariable $x_{ijk}$. Der Zielfunktionswert (Anzahl der Busse, die das Depot verlassen) ist, für ein optimales Ergebnis, weiterhin zu minimieren. Nebenbedingung \ref{eq:4.7} stellt wie zuvor in den Kapiteln \ref{sec:4.2} und \ref{sec:4.3} die Flusserhaltung für jeden Knoten sicher. Nebenbedingung \ref{eq:4.8} sorgt dafür, dass alle nachgefragten Verbindungen bedient werden. Nebenbedingung \ref{eq:4.9} beschränkt das Verlassen des Depots von jedem Bus auf ein einziges Mal. Nebenbedingung \ref{eq:4.10} stellt die Bedingungen für das \glqq Zurückfahren\grqq{} eines Busses für den Fall von sich überschneidenden Kundenfahrten auf. Dabei wird für jedes Wechseln eines Busses auf eine andere Tour sichergestellt, dass dies nur vom letzten Teil der Überlappung aus geschieht. Sollte versucht werden von einer anderen, als dieser Haltestelle zu wechseln, wird die Summe auf der rechten Seite der Gleichung null und die Entscheidungsvariable auf der linken Seite gezwungen, den Wert null anzunehmen. Nebenbedingung \ref{eq:4.11} stellt die Einhaltung der Kapazitätsbeschränkung für jeden Bus je Buslinie sicher, indem für jede Haltestelle $s_i^l$ die Summe aller Fahrgäste, die von Haltestelle $s_j^l$ zu Haltestelle $s_{j'}^l$ transportiert werden, gebildet wird und die Kapazität des Busses $Q_k$ nicht überschritten werden darf. Nebenbedingung \ref{eq:4.12} ist die Nichtnegativitätsbedingung der Entscheidungsvariable.
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Szenario 3.C)}
+\label{sec:4.5}
+\label{sec:Szenario 3.C)}
+In diesem Szenario wird das in Kapitel \ref{sec:Szenario 2.C)} beschriebene Modell lediglich durch die Berücksichtigung der Schicht- und Pausenzeiten der Busfahrer erweitert. Die Fahrzeiten zwischen zwei Haltestellen $t_{s_i^l,s_j^{l'}}$ mit $l,l' \in L, i = \{1,...,m_l\}, j =\{1,...,m_{l'}\}$, sowie zwischen dem Depot und den Haltestellen $t_{D,s_i^l}$, $t_{s_i^l,D}$ mit $l \in L, i,j = \{1,...,m_l\}$, als auch die Zeiten zu denen jede Haltestellen auf den unterschiedlichen Touren bedient werden muss $\bar{t}_{s_i^l}$ mit $l \in L, i = \{1,...,m_l\}$ sind bekannt. Daher können genau die Entscheidungsvariablen der Bus-spezifischen, mit den Schicht- und Pausenzeiten der Fahrer unvereinbaren, Verbindungen im Vorfeld des Lösens auf 0 gesetzt werden:
+\begin{itemize}
+    \item[(i)] $x_{D s_i^l k} = 0$ \quad if \quad $\bar{t}_{s_i^l} - t_{D s_i^l} < a_k$,
+    
+    \item[(ii)] $x_{s_i^l D k} = 0$ \quad if \quad $\bar{t}_{s_i^l} + t_{s_i^l D} > c_k$,
+    
+    \item[(iii)] $x_{s_i^l s_j^l k} = 0$ \quad if \quad $b_k < \bar{t}_{s_i^l} < b_k + p \lor (\bar{t}_{s_i^l} < b_k \land b_k + p < \bar{t}_{s_j^{l'}})$,
+    
+    \item[(iv)] $x_{s_i^l s_j^{l'} k} = 0$ \quad if \quad $b_k < \bar{t}_{s_i^l} < b_k + p 
+        \lor \bar{t}_{s_j^{l'}} < b_k + p 
+        \lor (\bar{t}_{s_j^{l'}} - \bar{t}_{s_i^l} - t_{s_i^l s_j^{l'}} < p 
+        \land \bar{t}_{s_i^l} < b_k 
+        \land \bar{t}_{s_j^{l'}} > b_k + p)$
+\end{itemize}
+
+Durch (i) wird sichergestellt, dass kein Bus das Depot vor dem Schichtbeginn $a_k$ verlassen kann. (ii) sorgt dafür, dass kein Bus eine Tour bedienen kann, die nach dem Schichtende enden würde. (iii) stellt zum Einen sicher, dass kein Bus an einer Haltestelle während einer Pause sein darf und um anderen, dass keine Fahrt zwischen zwei Haltestellen vor der Pause beginnen und nach der Pause enden darf. (iv) spiegelt (iii) für den Fall wieder, dass es sich bei der Fahrt um einen Wechsel zwischen Buslinien handelt. Dabei darf die Fahrt nur mit dem Zusatz zu (iii) stattfinden, wenn die Zeitspanne zwischen den beiden Haltestellen groß genug ist, um die Fahrtzeit und die Pausenzeit zu beinhalten.
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%

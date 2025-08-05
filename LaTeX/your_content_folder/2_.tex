@@ -4,18 +4,14 @@
 \label{chapter:2}
 Das von Schulz \& Vlćek vorgeschlagene System stellt eine Kombination des klassischen Linienbusverkehrs und Elementen eines, auf Abruf basierenden Ridepooling-Dienstes dar. Das präsentierte mathematische Modell ist dem Bereich der OR-Probleme, genauer gesagt der Familie des Vehicle Routing Problems (VRP) \textbf{EVENTUELL NOCH ANDERER PROBLEME? DARP?}(Quelle) zuzuordnen. Eine ausführlichere Beschreibung erfolgt in Kapitel \ref{sec:Einordnung}. Mit dem vorgeschlagenen System werden Elemente aus unterschiedlichen Systemen, Problemstellungen und Modellen verknüpft. Um ein einheitliches Verständnis zu schaffen, wird zunächst die Definition zentraler Begriffe vorgenommen. Im Anschluss erfolgt die Klärung der Anwendungsbereiche relevanter Mobilitätsformen, sowie möglicher Zielkonflikte (\textbf{checken, ob das wirklich gemacht wurde!}). Nachfolgend wird das Modell von Schulz \& Vlćek in die Menge verwandter Untersuchungen eingeordnet. Da Schulz \& Vlćek ein öffentliches Bus-System in einer ländlicheren Gegend untersuchen, fokussiert sich die folgende Literaturübersicht auf Forschungsarbeiten die auf den ländlichen Kontext anwendbar sind. Andere Mobilitätsformen wie zum Beispiel das klassische Taxi oder U-Bahnen werden zur kontextuellen Abgrenzung erwähnt, sind aber kein Teil des Untersuchungsbereiches dieser Arbeit.
 
-Die in der Arbeit genutzten zentralen Begriffe werden wie folgt definiert:
+Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben. Dabei wird unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Für eine  systematische Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. Alle verwendeten Veröffentlichungen sind in Anhang \textbf{XXXXX} jenem Searchstring zugeordnet, mit dem sie gefunden wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. 
 
-\textbf{Linienbasiert} (engl.: line-based) bedeutet für das ÖPNV-System die Einhaltung von festen Routen, festgelegten Haltestellen und Fahrplänen wie es von städtischen Bus-, Straßenbahn- und U-Bahn-Netzen bekannt ist.
-
-\textbf{Auf Abruf} (engl.: on-demand) ist die Eigenschaft eines Systems auf die realisierte Nachfrage der Fahrgäste zu reagieren \parencite[vgl.][S.3]{vansteenwegen_survey_2022}. Dies kann in Echtzeit oder auch vorverarbeitet in einem zuvor abgegrenzten Zeitraum erfolgen. Die Nachfrage wird dann innerhalb eines festgelegten Zeitraums bedient. Zeiträume können sich überschneiden und so zum Beispiel die Form eines rollierenden Horizonts annehmen.
-
-\textbf{Ridepooling} wird vom \textcite[][]{verband_der_automobilindustrie_ridepooling_2025} (\textbf{Achtung online Quelle}) als kombinierte Mobilitätsform von ÖPNV und Taxi definiert. Der Ablauf bei dieser besonderen Form des Personenverkehrswerden ist wie folgt: Der Fahrgast wird an seinem individuellen Startpunkt abgeholt. Auf dem Weg zum individuellen Ziel steigen andere Fahrgäste zu und/oder wieder aus. Je nach Zielpunkt werden die Routen so kombiniert, dass benachbarte Ziele mit einem Fahrzeug bedient werden können.   
-
-Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben. Dabei wird unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Für eine  systematische Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. Alle verwendeten Veröffentlichungen sind in Anhang \textbf{XXXXX} jenem Searchstring zugeordnet, mit dem sie gefunden wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. \textbf{Vielleicht noch eine Aussage darüber wie viele Paper betrachtet wurden?}
+\textbf{Vielleicht noch eine Aussage darüber wie viele Paper betrachtet wurden?}
 
 \textbf{Aussage darüber wie Searchstrings aufgebaut sind im Paper oder im Anhang? oder gar nicht?}
 
+
+Es wurden nur Veröffentlichungen berücksichtigt, die in einer vollständigen Version mittels des VPN-Zugangs der Universität Hamburg bzw. der Helmut-Schmidt-Univerität zugänglich waren. Dabei wurde die Literatur  anhand des Titels und Abtracts bewertet und gegebenenfalls  für die Verwendung in dieser Arbeit ausgewählt.
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
@@ -24,15 +20,28 @@ Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Beg
 \section{Typologie und Abgrenzung relevanter Mobilitätsformen}
 \label{sec:2.1}
 \label{sec:Kontext}
+Die in der Arbeit genutzten zentralen Begriffe werden wie folgt definiert:
+
+\textbf{Linienbasiert} (engl.: line-based) bedeutet für das ÖPNV-System die Einhaltung von festen Routen, festgelegten Haltestellen und Fahrplänen wie es von städtischen Bus-, Straßenbahn- und U-Bahn-Netzen bekannt ist.
+
+\textbf{Auf Abruf} (engl.: on-demand) ist die Eigenschaft eines Systems auf die realisierte Nachfrage der Fahrgäste zu reagieren \parencite[vgl.][S.3]{vansteenwegen_survey_2022}. Dies kann in Echtzeit oder auch vorverarbeitet in einem zuvor abgegrenzten Zeitraum erfolgen. Die Nachfrage wird dann innerhalb eines festgelegten Zeitraums bedient. Zeiträume können sich überschneiden und so zum Beispiel die Form eines rollierenden Horizonts annehmen.
+
+\textbf{Ridepooling} wird vom \textcite[][]{verband_der_automobilindustrie_ridepooling_2025} (\textbf{Achtung online Quelle}) als kombinierte Mobilitätsform von ÖPNV und Taxi definiert. Der Ablauf bei dieser besonderen Form des Personenverkehrswerden ist wie folgt: Der Fahrgast wird an seinem individuellen Startpunkt abgeholt. Auf dem Weg zum individuellen Ziel steigen andere Fahrgäste zu und/oder wieder aus. Je nach Zielpunkt werden die Routen so kombiniert, dass benachbarte Ziele mit einem Fahrzeug bedient werden können.   
+
+\vspace{5em}
 
 Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
 
 Generell Zielkonflikt von echten on-demand Lösungen in rural areas: geringere Kosten (durch weniger Fahrzeuge) vs. Abdeckung(?) Soll darauf hinführen, dass Schulz \& Vlćek weniger Busse nutzen bei Beibehaltung der Flexibilität.
 
+Forschung auf den Gebieten:
 \begin{enumerate}
     \item line-based bus system
     \begin{enumerate}
         \item in urban areas (Searchstring)
+        \begin{itemize}
+            \item line-based sind einfach der backbone in urban areas und sind, wenn nicht das eine, dann das teil des zentralen public transport networks um hohe Nachfrage kosteneffizient zu bedienen (hinweis Richtung Forschung zu feeder-networks)
+        \end{itemize}
         \item in rural areas (Searchstring)
     \end{enumerate}
     \item on-demand bus
@@ -83,6 +92,8 @@ Vorgehensweise bei der Suche darstellen:
     \end{itemize}
 \end{enumerate}
 
+Aussage darüber, dass viel zu "on-demand rural" mit "line-based rural" gefunden wurde -> zeigt enge verbundenheit der begriffe usw.
+
 Verweis auf tabellarische Übersicht der gefundenen Literatur %(entweder im Dokument, wenn Platz ist oder sonst in Anhang)
 
 %%%%%%%%%%%%%%%%%%%%
@@ -98,6 +109,7 @@ Verweis auf tabellarische Übersicht der gefundenen Literatur %(entweder im Doku
     \item kombination von on-demand und line-based nochmal evtl. aufgreifen nachdem entsprechend mit searchstring bewiesen oder nicht bewiesen ist, dass es diese kombination so noch nicht extensiv gibt
     \item Zukunftsperspektiven: adaptive Fahrpläne, Realtime-Demand
     \item Bewertung der Robustheit und Praktikabilität in Realanwendungen
+    \item 
     
     $\rightarrow$ Enden mit Rechtfertigung dafür, dass es sich lohnt die Kombination, die Vlćek und Schulz gemacht haben, weiter zu untersuchen
 \end{itemize}
