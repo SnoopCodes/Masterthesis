@@ -1,15 +1,41 @@
-\chapter{Erweiterungsmöglichkeiten \& Diskussion}
-\label{chapter:6}
+\chapter{Diskussion \& Erweiterungsmöglichkeiten des Modells} \label{chapter:6}
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Limitierungen des aktuellen Modells}
+Durch die von Schulz \& Vlćek dargelegten Annahmen ergeben sich bereits erste Limitierungen des Modells. 
+
+Die Annahme, dass der Bus sich mit einer durchschnittlichen Geschwindigkeit bewegt, birgt die erste Einschränkung, da sich je nach Topologie unter Umständen unterschiedliche Geschwindigkeiten und damit Fahrtzeiten zwischen den Stops ergeben.
+
+Auch wird der Einfluss von verkehrsbedingten Verzögerungen nicht mit berücksichtigt. Dies ist durch eine Fallstudie zu untersuchen.
+
+Das von Schulz \& Vlćek aufgestellt Modell betrachtet die Nachfrage zu Beginn des Betrachtungszeitraums als statisch. Die Länge des Betrachtungszeitraums ist entscheidend für die Eignung als on-demand Modell. Wird ein ganzer Tag im Voraus geplant bringt dies wenig Flexibilität, wohingegen durch einen Planungshorizont von, zum Beispiel, 90 Minuten viel besser auf Nachfrageänderungen reagiert werden kann.
+
+Für eine größere Nähe zum DARP wäre zu untersuchen, inwieweit sich Live-Anfragen die zu einer bereits geplanten Tour hinzufügen lassen.
+
+Die Betrachtung der Betriebskosten wurde in diesem Modell außen vor gelassen und bringt somit den Anspruch weiterer Forschung mit sich. 
+        Zu untersuchen wäre so Beispielsweise eine mehrstufige Optimierung, bei der die Grundlage das Modell von Schulz \& Vlćek biilden würde und darum herum noch die Gesamtkosten des Systems versucht werden zu minimieren.
+
+
+
+Schulz \& Vlćek betrachten das Problem rein aus der Sicht des Betreibers, der versucht so wenig Ressourcen wie möglich einzusetzen, um der Nachfrage gerecht zu werden. Dadurch wird, abhängig von der Topologie des Netzwerks, in diesem Fall jedoch im ländlichen Bereich durch Landstraßen als passend empfunden, der Benzinverbrauch durch eine Reduzierung an gefahrenen Kilometern reduzieren. (\textbf{CHECK; OB DAS SO IST, EVTL: BEI MEINEM MODELL DURCH AUSGABE DER GESAMTKILOMETER}) Interessant wäre daher eine Variante dieses Modells, bei der die Kundensicht auch ein Gewicht hat. So ließe sich die, für die Fahrgäste relevante, Zeit, die sie im Fahrzeug verbringen, betrachten.
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Praxisrelevanz \& Umsetzung}
+Die Ergebnisse der vorgenommenen Implementierung zeigen, dass sich eine Reduktion der Anzahl an benötigten Bussen vornehmen lässt. Dies bildeten den maßgeblichen Indikator für weitere Forschung und Einschränkung des Lösungsraums durch das Näherbringen des Modells an die Realität. \textbf{umformulieren} Ebenso 
+
+Die Berücksichtigung von Arbeits- und Pausenzeiten der Fahrer im Modell macht das Modell definitiv realitätsnäher und bereiter um in die Realität überführt zu werden. Die Möglichkeit Überstunden oder Notfälle die eine Abweichung von Schicht- bzw. Pausenplan verursachen würden, werden noch nicht berücksichtigt, könnten allerdings zu Beginn jedes Planungszeitraums berücksichtigt werden, wenn die definierten Rechenzeiträume, durch das erneute Einlesen von Eingangsdaten nicht zu lang werden.
+
+Auch die Berücksichtigung von Kapazitäten ist für eine Umsetzung in der Realität unabdingbar.
+
 \begin{itemize}
-    \item Nur ein Depot
-    \item Statischer Demand bzw. je nach größe des Betrachtungszeitraums: 90 Minuten Fenster verursacht ziemlich hoch Dynamik bzw. Unsicherheit in der Nachfrage.... Betrachtungszeitraum eines Tages im Voraus hingegen bietet mehr Planungssicherheit
-    \item Keine dynamische Tourenbildung, keine Live-Reaktionen
-    \item Keine Betriebskostenbetrachtung
+    \item Welche Erkenntnisse sind direkt anwendbar?
+    \item Welche Modellannahmen müssen für reale Implementierung angepasst werden?
+    \item Bewertung der Lösung hinsichtlich Kosten, Fahrgastkomfort, Nachhaltigkeit
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%
@@ -25,7 +51,7 @@
     \item Zeitfensterbasierte oder dynamische Nachfrage
     \item Realtime-Routing mit Rolling Horizon
     \begin{itemize}
-        \item dynamische Änderungen der Fahrzeiten zwischen den Stops sie Abstract von \textcite{lian_-demand_2023} 
+        \item dynamische Änderungen der Fahrzeiten zwischen den Stops sie Abstract von \textcite{lian_-demand_2023}
     \end{itemize}
     \item Erweiterung um Ladezeiten, Servicelevel-Bedingungen
     \item größerer Datensatz
@@ -35,9 +61,3 @@
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Praxisrelevanz \& Umsetzung}
-\begin{itemize}
-    \item Welche Erkenntnisse sind direkt anwendbar?
-    \item Welche Modellannahmen müssen für reale Implementierung angepasst werden?
-    \item Bewertung der Lösung hinsichtlich Kosten, Fahrgastkomfort, Nachhaltigkeit
-\end{itemize}

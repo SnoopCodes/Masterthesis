@@ -1,13 +1,13 @@
-\chapter{Implementierung \& Validierung des Modells}
+\chapter{Implementierung des Modells}
 \label{chapter:5}
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Grundlagen der Implementierung}
-Das Modell von Schulz \& Vlćek wurde in der Programmiersprache Julia in der Entwicklungsumgebung Visual Studio Code implementiert. Die Analysen wurden mit einem Apple Macbook Pro mit M1 Pro Prozessor und 16 Gigabyte Arbeitsspeicher ausgeführt. Zum Lösen des Modells wurde der HiGHS Solver verwendet. 
+Das Modell von Schulz \& Vlćek wurde in der Programmiersprache Julia in der Entwicklungsumgebung Visual Studio Code implementiert. \textbf{Dabei wurde der Code mittels Jupyter Notebooks (.pynb-Dateien) direkt ausführbar gestaltet, sodass zunächst jedes Szenario einzeln aufgebaut und getestet werden konnte.} Die Analysen wurden mit einem Apple Macbook Pro mit M1 Pro Prozessor und 16 Gigabyte Arbeitsspeicher ausgeführt. Zum Lösen des Modells wurde der HiGHS Solver verwendet. 
 
-Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}), sowie die Nachfrage nach Fahrten von und nach einzelnen Stops dieses Netzwerks, wird in der Implementierung mittels eines Testdatensatzes aufgebaut. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glaube zu lang
+Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}), sowie die Nachfrage nach Fahrten von und nach einzelnen Haltestellen dieses Netzwerks, wird in der Implementierung mittels eines Testdatensatzes aufgebaut. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glaube zu lang
 
 Der generierte Datensatz besteht aus folgenden Tabellen:
 
@@ -24,47 +24,79 @@ Tabelle 4 legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Ve
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Struktur der Implementierung}
-\textbf{KÖNNTE SICH NOCHMAL ÄNDERN, WENN IMPLEMENTIERUNG AUF SZENARIEN ANSTATT SETTINGS ANGEPASST WIRD}
-\begin{itemize}
-    \item Modularer Aufbau: Dateninput, Modellkonstruktion, Lösung, Output
-    \item Relevante Klassen/Methoden (z.B. für Pfadgenerierung, Kapazitätsprüfung)
-    \item Beispiel für den Workflow einer Instanz: Einlesen → Modellaufbau → Lösung → Auswertung
-\end{itemize}
+Die in  Kapitel \ref{chapter:4} beschriebenen Szenarien wurden jeweils in eigenen Jupyter Notebooks umgesetzt, sodass der Code unmittelbar ausgeführt werden konnte. Die Notebooks sind alle gleich strukturiert aufgebaut: 1. Begonnen wird mit der Einbindung aller relevanter Bibliotheken. 2. Anschließend werden alle, für das Szenario relevante, Eingangsdaten in Form von CSV-Dateien geladen und in pandas Dataframes geschrieben. 3. Alle relevanten Eingabeparameter werden gesetzt. 4. Die Strukturen des Graphenmodells, die Knoten und Kanten, werden aufgebaut. 5. Die szenario-spezifischen Sets $A$ und $V$ werden aufgebaut. 6. Die szenario-spezifische Modelldefinition wird vorgenommen. 7. Das Model wird gelöst und die Parameter-bezogenen Ergebnisse, sowie der Lösungsstatus, der Zielfunktionswert \textbf{NOCH ANDERE???}, die \textbf{erreichte GAP und Laufzeit ????} werden ausgegeben. 8. Zur grafischen Darstellung wird am Ende ein 3D-Plot ausgegeben, der die gefahrenen Touren im Zeitverlauf darstellt. \textbf{HIE IRGENDWIE NOCH UNSICHER, OB DAS ALLES IST UND SO BLEIBEN SOLL}
+
+\textbf{Relevante Klassen/Methoden (z.B. für Pfadgenerierung, Kapazitätsprüfung) ????}
+
+\textbf{EVENTUELL ALS GRAFIKEN: Ablaufdiagramm für Code-Struktur und Organigramm für Klassenstruktur}
+
+\textbf{ÜBERALL NOCHMAL DIE VERWIESE AUF DEN ANHANG CHECKEN}
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Herausforderungen bei der Umsetzung}
-\begin{itemize}
-    \item Setaufbau
-    \item Speicher-/Performanceprobleme bei großen Instanzen
-    \item Umgang mit überlappenden Trips und Duplikaten (siehe Paper)
-\end{itemize}
+Die Übertragung der kompakten, mathematischen Modellformulierung in experimentierfähigen Code war gut durchführbar, brachte allerdings einige Herausforderungen mit sich auf die an dieser Stelle eingegangen wird.
+
+\textbf{Aufbau der Sets und Indexstrukturen}
+Die wohl größte Herausforderung bei der Übertragung der mathematischen Modellformulierung in experimentierfähgien Code stellte der Aufbau der Sets $A, \bar{A}, \hat{A}$ dar. Die Sets, mit den zu zulässigen, nutzbaren Verbindungen, bilden die Grundlage des Optimierungsproblems und sind daher entscheidend korrekt aufzubauen.
+
+\textbf{}
+
+ \begin{enumerate}
+    \item Aufbau der Sets und Indexstrukturen
+    \begin{itemize}
+        \item Herausforderung: die im Paper abstrakt beschriebenen Mengen ($A, \bar{A}, \hat{A}$) korrekt in Datenstrukturen zu überführen.
+        \item Schwierigkeit: sicherzustellen, dass die Verbindungen und Knoten konsistent erzeugt werden und den Modellbedingungen entsprechen.
+        \item Besonders  XXXX, da die Sets die Grundlage für alle Nebenbedingungen bilden.
+    \end{itemize}
+    
+    \item Zeitabhängige Modellierung
+    \begin{itemize}
+        \item Herausforderung: die korrekte Abbildung von Fahrzeiten.
+        \item Innerhalb einer Linie mussten kumulierte Teilfahrzeiten gebildet werden. Für Verbindungen zwischen Linien war eine Distanz-basierte Fahrzeitberechnung erforderlich.
+        \item Die saubere Trennung dieser Logiken war essenziell, um das Modell konsistent aufzubauen.
+    \end{itemize}
+   
+    
+    \item Interpretation überlappender Kundenfahrten (Szenario 2.C)
+        \begin{itemize}
+            \item Theoretische Herausforderung: zu verstehen, wie Rücksprünge innerhalb einer Tour modelllogisch zulässig sind, ohne Kapazitätsbeschränkungen zu verletzen.
+            \item Praktisch war die Umsetzung durch die klare Bauanleitung der Modellformeln jedoch relativ direkt (Übersetzung in If-Bedingungen).
+            \item Damit zeigt sich eine Diskrepanz zwischen „Verstehen der Modelllogik“ und „Implementierung der Modellformulierung“.
+        \end{itemize}
+    
+    \item  Verifikation der Implementierung
+    \begin{itemize}
+        \item ohne Reale Daten schwierig -> ausformulieren
+        \item Zwar konnten die Modellgleichungen nahezu 1:1 in JuMP übertragen werden.
+        \item Die Unsicherheit lag jedoch im Aufbau der Sets und deren Interaktion mit den Constraints: Ist die Implementierung tatsächlich identisch zum mathematischen Modell?
+        \item Die Verifikation war eine strukturelle Herausforderung, die sich nicht allein durch das Lösen des Modells (Gap=0.0) beantworten ließ, sondern zusätzlich durch Plausibilitätschecks der Ergebnisse.
+    \end{itemize}
+    
+    \item Skalierbarkeit und Effizienz
+   \begin{itemize}
+    \item Auch wenn keine großen Instanzen getestet wurden, ist die Skalierbarkeit ein offensichtlicher Knackpunkt für die Weiterentwicklung.
+    \item In der aktuellen Form mit Jupyter Notebooks wäre die Umsetzung bei steigenden Instanzgrößen vermutlich nicht effizient genug, sodass eine funktional modulare Implementierung nötig wäre.
+   \end{itemize} 
+    
+ \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Validierung der Implementierung} 
+\section{Verifikation \& Validierung}
+Bei der durchgeführten Implementierung handelt es sich um einen quasi Proof of Concept anhand eines Testdatensatzes, der speziell für dieses Modell erstellt wurde. Daher ist die Implementierung noch mit einem weiteren realitätsnäheren Datensatz zu validieren. Es wird erwartet, dass der größere Anteil des Aufwands für dieses Vorhaben in der Vorverarbeitung der dann zur Verfügung stehenden Daten liegen wird, gefolgt von der Verarbeitung der Daten zu nutzbaren Strukturen.
 
-\textbf{Anhand der Originalergebnisse  - fraglich, da ihr ja direkt mit realdtensatz arbeitet}
-
-Hier darauf achten, dass es 9 Szenarios gibt -> Referenz auf beschriebene Settings
-
-\begin{itemize}
-    \item Szenarien aus Schulz/Vlćek: Fahrplan aus Mecklenburg-Vorpommern
-    \item Umsetzung von Settings 1 bis 3 (jeweils relevante Details nennen)
-    \item Beispiel: Setting 1 mit künstlich hoher Geschwindigkeit → Reproduzierbarkeit des theoretischen Optimums
-\end{itemize}
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-\section{Ergebnisvergleich \& Plausibilität}
 \begin{itemize}
 \item Tourenanzahl, Busanzahl, Tourverläufe: Vergleich Paper vs. eigene Lösung
 \item Abweichungen und deren mögliche Ursachen (z.B. Rundungsfehler, alternative Pfade)
-\item Qualität \& Robustheit der eigenen Implementierung
+\item Validierung der eigenen Implementierung
+\begin{itemize}
+    \item \textbf{ Da MIP Modell mit Gap 0.0 erreicht wurde, ist die Implementierung als validiert anzusehen. ????}
+\end{itemize}
 \end{itemize}
 
+Nach der Betrachtung der vorgenommenen Implementierung wird im folgenden Kapitel das Modell selbst diskutiert. 

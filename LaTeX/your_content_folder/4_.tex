@@ -1,6 +1,11 @@
 \chapter{Mathematisches Modell}
 \label{chapter:4}
+
+\textbf{CHECKEN, OB ICH HIER SAGEN MUSS, DASS DIESER TEIL SEHR NAH AN DEM PAPAER VON Schulz \& Vlćek IST ???}
+
 Von den 9 Szenarien werden im nachfolgend die mathematischen Modellformulierungen dieser Szenarien aufgestellt:
+
+\textbf{WÄRE ES NICHT EIGENTLICH GUT FÜR EINEN VERGLECIH AM ENDE DAS SZENARIO 3.A) ZU BETRACHTEN, UM DEN ON-DEMAND EFFEKT BESSER DARSTELLEN ZU KÖNNEN?}
 
 Szenario 1.A (uneingeschränkter, autonomer Betrieb \& Bedienung des gesamten Netzes) wurde ausgewählt, um ein grundlegendes Konstrukt aufzubauen, welches möglich uneingeschränkt ist und somit als Basis für die anderen Szenarien zu sehen ist.
 
@@ -30,7 +35,7 @@ Für alle Settings ist die Menge aller relevanter Knoten $V$, sowie die Menge $A
 \label{sec:Szenario 1.A)}
 Zunächst wird von Schulz \& Vlćek der Fall betrachtet, in dem alle Touren (Buslinien zu unterschiedlichen Startzeiten) vollständig bedient werden müssen. Zur Erinnerung: In diesem Setting werden homogene autonome Busse eingesetzt, deren Eigenschaften keinen Einfluss auf die Lösung haben. Die Busse werden in der Modellformulierung nicht erwähnt, sind aber die Instanz, die die Verbindungen nutzt und die Knoten bedient
 %Hier evtl. Grafik, aber nicht sicher, weil zu nah an Schulz \& Vlćek dran
-Die Menge aller relevanter Knoten ergibt sich in diesem ersten Szenario daher aus:
+Die Menge aller relevanter Knoten ergibt sich in diesem ersten Szenario daher aus dem Depot, sowie allen Start- und Endknoten einer Linie:
 
 \[
 V = \{ D, s^1_1, \dots, s^n_1, s^1_{m_1}, \dots, s^n_m \}
@@ -43,7 +48,7 @@ Um alle Möglichkeiten für das Lösen des Problems zu erhalten, erlauben Schulz
     \bar{t}_{s^l_{m_l}} + t_{s^l_{m_l}, s^{l'}_1} \leq \bar{t}_{s^{l'}_1}
 \end{equation}
 
-MIt Gleichung \ref{eq:4.1} beschreiben Schulz \& Vlćek, dass der zeitliche Abstand zwischen der letzten Haltestelle einer Tour $s^l_{m_l}$ und der ersten Haltestelle der Nachfolgertour $s^{l'}_1$ groß genug sein muss, um die Fahrtzeit zwischen den Haltestellen abdecken zu können.
+Mit Gleichung \ref{eq:4.1} beschreiben Schulz \& Vlćek, dass der zeitliche Abstand zwischen der letzten Haltestelle einer Tour $s^l_{m_l}$ und der ersten Haltestelle der Nachfolgertour $s^{l'}_1$ groß genug sein muss, um die Fahrtzeit zwischen den Haltestellen abdecken zu können.
 
 Folglich ergibt sich für das erste Setting:
 \[
@@ -107,7 +112,7 @@ Dementsprechend ändert sich die Menge aller relevanter Verbindungen zu:
     \exists k > j : d_{s_j^l, s_k^l} > 0 \big\}
 \end{align*}
     
-Mittels Set Â erlauben Schulz \& Vlćek, im Gegenteil zu Set $\bar{A}$, dass ein Bus, im Falle von verschachtelten Kundenfahrten zu einer vorigen Haltestelle der gleichen Tour \glqq zurückfahren\grqq{} kann, um die dortige Nachfrage zu bedienen. Diese Fähigkeit von Set Â wird in Nebenbedingung 9 ausgestaltet und nach der Modellformulierung weiter erläutert. Für eine genauere Erklärung wird auf Schulz \& Vlćek verwiesen. Nach wie vor gilt für den Wert der binären Entscheidungsvariable $x_{ijk}$: 1, wenn die Verbindung $(i,j) \in \hat{A}$ zwischen $i$ und $j$  genutzt wird und sonst 0. Die Modellformulierung für das Szenario 2.C) ist wie folgt:
+Mittels Set Â erlauben Schulz \& Vlćek, im Gegenteil zu Set $\bar{A}$, dass ein Bus, im Falle von verschachtelten Kundenfahrten zu einer vorigen Haltestelle der gleichen Tour \glqq zurückfahren\grqq{} kann, um die dortige Nachfrage zu bedienen. Diese Fähigkeit von Set Â wird in Nebenbedingung \ref{eq:4.10} ausgestaltet und nach der Modellformulierung weiter erläutert. Für eine genauere Erklärung wird auf Schulz \& Vlćek verwiesen. Nach wie vor gilt für den Wert der binären Entscheidungsvariable $x_{ijk}$: 1, wenn die Verbindung $(i,j) \in \hat{A}$ zwischen $i$ und $j$  genutzt wird und sonst 0. Die Modellformulierung für das Szenario 2.C) ist wie folgt:
  
 \begin{equation}
     min \sum_{k=1}^{K} {\sum_{j:(D,j) \in \hat{A}} x_{Djk}}

@@ -4,52 +4,64 @@
 \label{chapter:2}
 Das von Schulz \& Vlćek vorgeschlagene System stellt eine Kombination des klassischen Linienbusverkehrs und Elementen eines, auf Abruf basierenden Ridepooling-Dienstes dar. Das präsentierte mathematische Modell ist dem Bereich der OR-Probleme, genauer gesagt der Familie des Vehicle Routing Problems (VRP) \textbf{EVENTUELL NOCH ANDERER PROBLEME? DARP?}(Quelle) zuzuordnen. Eine ausführlichere Beschreibung erfolgt in Kapitel \ref{sec:Einordnung}. Mit dem vorgeschlagenen System werden Elemente aus unterschiedlichen Systemen, Problemstellungen und Modellen verknüpft. Um ein einheitliches Verständnis zu schaffen, wird zunächst die Definition zentraler Begriffe vorgenommen. Im Anschluss erfolgt die Klärung der Anwendungsbereiche relevanter Mobilitätsformen, sowie möglicher Zielkonflikte (\textbf{checken, ob das wirklich gemacht wurde!}). Nachfolgend wird das Modell von Schulz \& Vlćek in die Menge verwandter Untersuchungen eingeordnet. Da Schulz \& Vlćek ein öffentliches Bus-System in einer ländlicheren Gegend untersuchen, fokussiert sich die folgende Literaturübersicht auf Forschungsarbeiten die auf den ländlichen Kontext anwendbar sind. Andere Mobilitätsformen wie zum Beispiel das klassische Taxi oder U-Bahnen werden zur kontextuellen Abgrenzung erwähnt, sind aber kein Teil des Untersuchungsbereiches dieser Arbeit.
 
-Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben. Dabei wird unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Für eine  systematische Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. Alle verwendeten Veröffentlichungen sind in Anhang \textbf{XXXXX} jenem Searchstring zugeordnet, mit dem sie gefunden wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. 
+Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben. Dabei wird unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Kontexte wie private Bereiche (Universiäts-Campus-Shuttle, etc.) sind nicht Teil des Untersuchungsbereiches. Für eine  systematische Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. Alle verwendeten Veröffentlichungen sind in Anhang \textbf{XXXXX} jenem Searchstring zugeordnet, mit dem sie gefunden wurden. An dieser Stelle sei erwähnt, dass dieselben Veröffentlichungen teilweise mit mehreren Searchstrings gefunden wurden, allerdings nur einem Searchstring zugeordnet wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. 
 
-\textbf{Vielleicht noch eine Aussage darüber wie viele Paper betrachtet wurden?}
+\textbf{Vielleicht noch eine Aussage darüber wie viele Paper betrachtet wurden? - macht kein Sinn denke ich, wenn ich nicht mit aufnehme wie viele ich mir angeschait habe, da ich dadurch nicht weiß wie viele ich "abgelehnt" habe.}
 
 \textbf{Aussage darüber wie Searchstrings aufgebaut sind im Paper oder im Anhang? oder gar nicht?}
 
 
-Es wurden nur Veröffentlichungen berücksichtigt, die in einer vollständigen Version mittels des VPN-Zugangs der Universität Hamburg bzw. der Helmut-Schmidt-Univerität zugänglich waren. Dabei wurde die Literatur  anhand des Titels und Abtracts bewertet und gegebenenfalls  für die Verwendung in dieser Arbeit ausgewählt.
+Es wurden nur Veröffentlichungen berücksichtigt, die in einer vollständigen PDF-Version mittels des VPN-Zugangs der Universität Hamburg bzw. der Helmut-Schmidt-Univerität zugänglich waren. Auf der Plattform Scopus, wurden die Searchstrings im Rahmen der funktion \glqq TITLE-ABS-KEY()\grqq{} gesucht. Anschließend wurde die Literatur zuerst mit der Sortierung \glqq Cited by highest \grqq{} durchgeschaut und im Anschluss nochmal mit \glqq Date (newest)\grqq{}. Die Literatur wurde anhand des Titels und Abtracts bewertet und somit für die weitere Analyse und eventuelle spätere Verwendung in dieser Arbeit ausgewählt. 
 
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%
-\section{Typologie und Abgrenzung relevanter Mobilitätsformen}
-\label{sec:2.1}
-\label{sec:Kontext}
 Die in der Arbeit genutzten zentralen Begriffe werden wie folgt definiert:
 
 \textbf{Linienbasiert} (engl.: line-based) bedeutet für das ÖPNV-System die Einhaltung von festen Routen, festgelegten Haltestellen und Fahrplänen wie es von städtischen Bus-, Straßenbahn- und U-Bahn-Netzen bekannt ist.
 
 \textbf{Auf Abruf} (engl.: on-demand) ist die Eigenschaft eines Systems auf die realisierte Nachfrage der Fahrgäste zu reagieren \parencite[vgl.][S.3]{vansteenwegen_survey_2022}. Dies kann in Echtzeit oder auch vorverarbeitet in einem zuvor abgegrenzten Zeitraum erfolgen. Die Nachfrage wird dann innerhalb eines festgelegten Zeitraums bedient. Zeiträume können sich überschneiden und so zum Beispiel die Form eines rollierenden Horizonts annehmen.
 
-\textbf{Ridepooling} wird vom \textcite[][]{verband_der_automobilindustrie_ridepooling_2025} (\textbf{Achtung online Quelle}) als kombinierte Mobilitätsform von ÖPNV und Taxi definiert. Der Ablauf bei dieser besonderen Form des Personenverkehrswerden ist wie folgt: Der Fahrgast wird an seinem individuellen Startpunkt abgeholt. Auf dem Weg zum individuellen Ziel steigen andere Fahrgäste zu und/oder wieder aus. Je nach Zielpunkt werden die Routen so kombiniert, dass benachbarte Ziele mit einem Fahrzeug bedient werden können.   
+\textbf{Hier evtl. nochmal Klarstellung, dass on-demand zwar demand-responsive ist, aber nicht andersrum, wie fälschlicherweise von \textcite{wang_multilevel_2014} in ihrem Paper behauptet}
 
-\vspace{5em}
+\textbf{Ridepooling} wird vom \textcite{verband_der_automobilindustrie_ridepooling_2025} (\textbf{Achtung online Quelle} - Schulz \& Vlćek nutzen hier \parencite{vansteenwegen_survey_2022}) als kombinierte Mobilitätsform von ÖPNV und Taxi definiert. Der Ablauf bei dieser besonderen Form des Personenverkehrswerden ist wie folgt: Der Fahrgast wird an seinem individuellen Startpunkt abgeholt. Auf dem Weg zum individuellen Ziel steigen andere Fahrgäste zu und/oder wieder aus. Je nach Zielpunkt werden die Routen so kombiniert, dass benachbarte Ziele mit einem Fahrzeug bedient werden können.   
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{Forschung auf den Gebieten der zentrale Begriffe}
+\label{sec:2.1}
+\label{sec:Kontext}
+
+\textbf{An dieser Stelle sei erwähnt, dass in diesem Kapitel zunächst die Breite der Forschung dargestellt wird, bevor in Kapitel \ref{sec:2.2} das Modell von Schulz \& Vlćek eingeordnet wird.}
 
 Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
 
+line-based sind einfach der backbone in urban areas und sind, wenn nicht asl einziges, dann das teil des zentralen public transport networks um hohe Nachfrage kosteneffizient zu bedienen (hinweis Richtung Forschung zu feeder-networks). werden verwendet als Schulbusse, Schienenersatzverkehr, ...
+
+on-demand häufig als "Feeder" zu den hoch-volumigen Systemen wie Metro oder Line-based buses
+
 Generell Zielkonflikt von echten on-demand Lösungen in rural areas: geringere Kosten (durch weniger Fahrzeuge) vs. Abdeckung(?) Soll darauf hinführen, dass Schulz \& Vlćek weniger Busse nutzen bei Beibehaltung der Flexibilität.
+
+Aussage darüber, dass viel zu "on-demand rural" mit "line-based rural" gefunden wurde -> zeigt enge verbundenheit der begriffe usw.
+
+\begin{center}
+    \textbf{1.A) bis 4.B) ALS TABELLE}
+\end{center}
 
 Forschung auf den Gebieten:
 \begin{enumerate}
     \item line-based bus system
     \begin{enumerate}
         \item in urban areas (Searchstring)
-        \begin{itemize}
-            \item line-based sind einfach der backbone in urban areas und sind, wenn nicht das eine, dann das teil des zentralen public transport networks um hohe Nachfrage kosteneffizient zu bedienen (hinweis Richtung Forschung zu feeder-networks)
-        \end{itemize}
         \item in rural areas (Searchstring)
     \end{enumerate}
-    \item on-demand bus
+    \item on-demand: \textbf{Es ist ersichtlich, das dieses Thema seit mehr als 20 Jahren eine große Aufmerksamkeit genießt. IN 2003 haben Quelle bereits eine Übersicht erstellt. 2014 noch eine und die eneuste 2022 von Quelle}
     \begin{enumerate}
+        \item 
         \item in urban areas (Searchstring)
         \item in rural areas (Searchstring)
     \end{enumerate}
-    \item ridepooling
+    \item ridepooling: dem zugrundeliegend ist das DARP -> wofür entwickelt (Quelle), dann überführen auf Busse (Quelle) siehe Schulz \& Vlćek, \textbf{ganze wichtig: reiter et al. 2024} - das beschreiben Schulz \& Vlćek als sehr nah dran, aber Schulz \& Vlćek berücksichtigen einen vorgegebenen Fahrplan
+    
+    \item \textbf{hier evtl. anführen, dass in der Literatur verschiedene Begriffe wie ride-sharing, ridpooling oft synonym verwendet werden --> sol darauf hinaus, dass es schwierig ist dann nach Literatur zu suchen.}
     \begin{enumerate}
         \item in urban areas (Searchstring)
         \item in rural areas (Searchstring)
@@ -57,6 +69,21 @@ Forschung auf den Gebieten:
 \end{enumerate}
 
 
+
+
+
+Nachdem die Forschungsgebiete der zentralen Begriffe nun beleuchtet wurden, werden im Folgenden Kapitel Arbeiten aufgezeigt, die mit dem von Schulz \& Vlćek vorgestellten Modell verwandt sind, um das Modell von Schulz \& Vlćek einzuordnen und abzugrenzen.
+
+Es ist zwar nicht Teil des Untersuchungsgebietes dieser Arbeit, da Schulz \& Vlćek einen fest vorgegebenen Fahrplan für ihr Modell nutzen, aber es sei an dieser Stelle auf die Forschung im Bereich für die Vorhersage der Ankunftszeiten, etc. mit Quelle1, Quelle 2 usw. verwiesen
+
+\textbf{DAS HIER IST ÜBERLEITUNG MIT DEM "REINEN" DARP UND VRP ZU DEN SEMI-FLEXIBLEN SYSTEMEN}
+Das, in dieser Arbeit zu testende, Modell von Schulz \& Vlćek kombiniert Elemente eines klassischen Linienbus-Services mit der Flexibilität die Routen anhand der gestellten Nachfrage zu optimieren. Die Problemstellung von Schulz \& Vlćek ist mit denen des Dial-a-Ride Problems (DARP) und des Vehicle Routing Problems (VRP) verwandt, \textbf{lässt sich aber nicht klar einer der beiden Problemfamilien zuordnen ???}. Das DARP wird bereits seit Jahrzenten untersucht \parencite{psaraftis_dynamic_1980}, die Forschung zu diesem Problem ist dementsprechend sehr umfassend. Den wohl aktuellsten Überblick zum DARP und seinen Vairanten geben \textcite{molenbruch_typology_2017} und \textcite{ho_survey_2018}. 
+
+Auch das VRP ist ein seit Jahrzehnten erforschtes Problem \parencite{orloff_fundamental_1974}. Das VRP allein ist ein so breit und intensiv erforschtes Problem, dass es dazu über 150 Review-Paper für spezifische Varianten oder Aspekte gibt. Es wird mit dem Searchstring \textbf{XXXX (siehe Anhang XXX)} auf die Literatur dieser Reviews \textbf{und damit indirekt auf die einzelnen Veröffentlichungen ???} verwiesen. Reviews des Problems haben unter anderem \textcite{braekers_vehicle_2016} und \textcite{vidal_concise_2020} gegeben. 
+
+\textbf{Irgendwie noch erwähnen, dass auch die CVRP Variante ein breit erforschtes Thema ist, daher nicht tiefer im Detail betrachtet}
+
+Überleitung: Da Mdoell von Schulz \& Vlćek semiflexibel und nicht so richtig ein reines DARP pder VRP wird anschließend auf die verwandten Problemstellungen verwiesen und eingeordnet.
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
@@ -66,35 +93,45 @@ Forschung auf den Gebieten:
 \section{Semi-flexible Systeme - Einordnung des zu betrachtenden Modells}
 \label{sec:Einordnung}
 \label{sec:2.2}
-Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, daher: semi-flexible Systeme
 
-\vspace{1em}
 
-Vorgehensweise bei der Suche darstellen:
-\begin{enumerate}
-    \item Zuerst versucht Review Paper zu finden (Searchstring) 
-    \item dann speziellere Searchstrings
-    \item Verwandte Probleme (siehe Paper von Schulz \& Vlćek)
+\textbf{Hier Recherche mit Kombi-Searchstrings -> Frage der klassifizierung mit VRP?}
+
+Irgendwie Aussage darüber, dass in der Forschung oft gesagt wird, dass durch autonome vehicle erst so richtig ermöglichen demand responsive zu agiere, um fixed-schedule abzulösen (sieh)
+
+Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, daher: semi-flexible Systeme --> \textbf{HIER EVENTUELL mehrere Quellen die Felxibilitt definieren?}
+
+\textbf{EINORDNUNG ÜBER EINEN TABELARISCHEN VERGLEICH IN HINBLICK AUF OPTIMIERUNGSZIELE, WIE: total rider time, total number of vehicles --> UNterscheidung auch durch: "aus sicht des betreibers" oder aus sicht des fahrgastes"}
+
+
+\begin{itemize}
+    \item Überblick über verwandte OR-Modelle
     \begin{itemize}
-        \item Überblick über verwandte OR-Modelle
+        \item DARP - Dial a ride Problem
+        \item VRP - Vehicle Routing Problem: Screenshots der ChatGPT Begründungen in Word bei searchstrings
         \begin{itemize}
-            \item DARP - Dial a ride Problem
-            \item VRP - Vehicle Routing Problem
-            \item PTP (?) - Public Transport Planning
-            \item Line Planning
-            \item Vehicle Scheduling
-            \item MIP
-            \item Netzwerkflussmodelle
+            \item CVRP
+            \item VRPTW
             \item 
         \end{itemize}
-        \item Besonderheiten des gewählten Modells (Netzwerkstruktur, einfache Erweiterbarkeit)
-        \item Überblick zur Methodik: LP/IP, Flow-Modelle, Erweiterbarkeit für verschiedene Szenarien
+        \item PTP (?) - Public Transport Planning
+        \item Line Planning
+        \item Vehicle Scheduling
+        \item MIP
+        \item Netzwerkflussmodelle
+        \item 
     \end{itemize}
-\end{enumerate}
+    \item Besonderheiten des gewählten Modells (Netzwerkstruktur, einfache Erweiterbarkeit)
+    \item Überblick zur Methodik: LP/IP, Flow-Modelle, Erweiterbarkeit für verschiedene Szenarien
+\end{itemize}
 
-Aussage darüber, dass viel zu "on-demand rural" mit "line-based rural" gefunden wurde -> zeigt enge verbundenheit der begriffe usw.
+\begin{center}
+    \textbf{TABELLE Übersicht der Modelle}
+\end{center}
 
-Verweis auf tabellarische Übersicht der gefundenen Literatur %(entweder im Dokument, wenn Platz ist oder sonst in Anhang)
+
+
+%(entweder im Dokument, wenn Platz ist oder sonst in Anhang)
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
@@ -109,7 +146,6 @@ Verweis auf tabellarische Übersicht der gefundenen Literatur %(entweder im Doku
     \item kombination von on-demand und line-based nochmal evtl. aufgreifen nachdem entsprechend mit searchstring bewiesen oder nicht bewiesen ist, dass es diese kombination so noch nicht extensiv gibt
     \item Zukunftsperspektiven: adaptive Fahrpläne, Realtime-Demand
     \item Bewertung der Robustheit und Praktikabilität in Realanwendungen
-    \item 
     
     $\rightarrow$ Enden mit Rechtfertigung dafür, dass es sich lohnt die Kombination, die Vlćek und Schulz gemacht haben, weiter zu untersuchen
 \end{itemize}
