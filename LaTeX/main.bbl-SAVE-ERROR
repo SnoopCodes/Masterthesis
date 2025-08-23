@@ -1,0 +1,1089 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{braekers_vehicle_2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3cf86c8dcf831e8150d8777451c24bd2}{%
+           family={Braekers},
+           familyi={B\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod}}}%
+        {{hash=63fca9a4747688fd78d60284855de123}{%
+           family={Ramaekers},
+           familyi={R\bibinitperiod},
+           given={Katrien},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7c1d5cb2da6673d864f25c82bce3d6ef}{%
+           family={Van\bibnamedelima Nieuwenhuyse},
+           familyi={V\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Inneke},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{194c184c44270dda39c4a2a67c4c9ab2}
+      \strng{fullhash}{e9e501009391ff2b9d1b3c6c4d0fa9e6}
+      \strng{fullhashraw}{e9e501009391ff2b9d1b3c6c4d0fa9e6}
+      \strng{bibnamehash}{e9e501009391ff2b9d1b3c6c4d0fa9e6}
+      \strng{authorbibnamehash}{e9e501009391ff2b9d1b3c6c4d0fa9e6}
+      \strng{authornamehash}{194c184c44270dda39c4a2a67c4c9ab2}
+      \strng{authorfullhash}{e9e501009391ff2b9d1b3c6c4d0fa9e6}
+      \strng{authorfullhashraw}{e9e501009391ff2b9d1b3c6c4d0fa9e6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Over the past decades, the Vehicle Routing Problem ({VRP}) and its variants have grown ever more popular in the academic literature. Yet, the problem characteristics and assumptions vary widely and few literature reviews have made an effort to classify the existing articles accordingly. In this article, we present a taxonomic review of the {VRP} literature published between 2009 and June 2015. Based on an adapted version of an existing comprehensive taxonomy, we classify 277 articles and analyze the trends in the {VRP} literature. This classiﬁcation is the ﬁrst to categorize the articles to this level of detail.}
+      \field{issn}{03608352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Computers \& Industrial Engineering}
+      \field{shorttitle}{The vehicle routing problem}
+      \field{title}{The vehicle routing problem: State of the art classification and review}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{99}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{300\bibrangedash 313}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.cie.2015.12.007
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/VQQK98PS/Braekers et al. - 2016 - The vehicle routing problem State of the art classification and review.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0360835215004775
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0360835215004775
+      \endverb
+    \endentry
+    \entry{cirella_transport_2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=f7d7a76f4c92a3f7c75e8880a3875ebd}{%
+           family={Cirella},
+           familyi={C\bibinitperiod},
+           given={G.T.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5b05344c370165bae8d1f78de9534aa5}{%
+           family={Bąk},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ce4113240805cdac9c68b4dd25e00e60}{%
+           family={Kozlak},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=69d63fc2dd5030d17ec98acb92e17bb9}{%
+           family={Pawłowska},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9f716fa2ce5575f207b5043ede88c881}{%
+           family={Borkowski},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea466edd00db2b5246dd5dac245b6e2d}
+      \strng{fullhash}{1386d9efc5a23085ede39920f2a234cf}
+      \strng{fullhashraw}{1386d9efc5a23085ede39920f2a234cf}
+      \strng{bibnamehash}{1386d9efc5a23085ede39920f2a234cf}
+      \strng{authorbibnamehash}{1386d9efc5a23085ede39920f2a234cf}
+      \strng{authornamehash}{ea466edd00db2b5246dd5dac245b6e2d}
+      \strng{authorfullhash}{1386d9efc5a23085ede39920f2a234cf}
+      \strng{authorfullhashraw}{1386d9efc5a23085ede39920f2a234cf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently published transport innovation, transport service, mobility narratives and transportation alternatives literature focus on mounting needs for older people in reflection of increasing longevity and active and healthier lifestyles over previous generations. The aim of this review is to raise awareness and stress the knowledge gap on the importance of transport innovations for this age group, particularly in regards to needs and innovative requisites (i.e., vehicle, transport infrastructure and organisational makeup). A scoping literature search identified 106 publications as relevant literature from the more than 2500 reviewed publications. Transport need for the elderly is discussed by way of accessibility, affordability, availability and acceptability. Vehicle innovation examines pedestrian data, vehicle design (i.e., private cars and vehicles in public transport), fixed route services, paratransit vehicles and slow mode alternatives such as cycling, motorised mobility scooters and powered wheelchairs. Transport infrastructure innovation takes into account technical infrastructural adjustments, related recommendations and guidelines and specific solutions for peri-urban and rural areas. Organisational innovation investigates governmental support mechanisms, legislation, financial limitations, education and social-based training and internet as well as relating information and communication technology-based findings. Vast majority of the research is centric to developed countries. Identified gaps in the literature and novel areas for future research are examined.}
+      \field{issn}{2210-5395}
+      \field{journaltitle}{Research in Transportation Business \& Management}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{Publisher: Elsevier {BV}}
+      \field{title}{Transport innovations for elderly people}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{30}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100381}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rtbm.2019.100381
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/C5C68E6T/Cirella et al. - 2019 - Transport innovations for elderly people.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2210539519300823
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2210539519300823
+      \endverb
+    \endentry
+    \entry{das_planning_2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=98b61782ae99e706b5c3dd8f4fa240ad}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sudhanshu\bibnamedelima Sekhar},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a2e41668dbedbf71702c3ad5626a8f74}{%
+           family={Maitra},
+           familyi={M\bibinitperiod},
+           given={Bhargab},
+           giveni={B\bibinitperiod}}}%
+        {{hash=18a01bf029840dfc5bba74519b0c5919}{%
+           family={Boltze},
+           familyi={B\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbace862dab791fd51fd353ea4b3483d}
+      \strng{fullhash}{48def99a76919221e6384f7ef88a2d80}
+      \strng{fullhashraw}{48def99a76919221e6384f7ef88a2d80}
+      \strng{bibnamehash}{48def99a76919221e6384f7ef88a2d80}
+      \strng{authorbibnamehash}{48def99a76919221e6384f7ef88a2d80}
+      \strng{authornamehash}{dbace862dab791fd51fd353ea4b3483d}
+      \strng{authorfullhash}{48def99a76919221e6384f7ef88a2d80}
+      \strng{authorfullhashraw}{48def99a76919221e6384f7ef88a2d80}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rural feeder service between villages and bus stops is largely a missing component in developing countries such as India. Traditionally, planning of rural feeder service has been carried out without due consideration to indirect costs associated with hard factors (e.g., walking distance and waiting time) and soft factors (e.g., crowding inside vehicles) of the service. A case study is presented for the planning of rural feeder service with due consideration to direct and indirect costs to users and operational viability of the service. Direct and indirect costs to users are expressed in terms of a comprehensive measure called generalized cost ({GC}). {GC} is developed on the basis of the willingness to pay ({WTP}) of rural commuters with respect to various attributes of rural feeder service. The work demonstrates the effect of catchment characteristics (i.e., number of villages, size of villages, and spatial separation represented by road network connecting villages to bus stop) on feeder service attributes (i.e., type of vehicle, route, headway of service and fare). It is also shown that planning of feeder service could be instrumental in bringing benefits to rural communities. The results presented in the paper are case specific, but the methodology can be applied to the planning of feeder services in other rural regions. {DOI}: 10.1061/({ASCE}){TE}.1943-5436.0000419. © 2012 American Society of Civil Engineers.}
+      \field{issn}{0733-947X, 1943-5436}
+      \field{journaltitle}{Journal of Transportation Engineering}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{Publisher: American Society of Civil Engineers ({ASCE})}
+      \field{number}{10}
+      \field{shortjournal}{J. Transp. Eng.}
+      \field{title}{Planning of Fixed-Route Fixed-Schedule Feeder Service to Bus Stops in Rural India}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{138}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1274\bibrangedash 1281}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1061/(asce)te.1943-5436.0000419
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/85TYFS8D/Das et al. - 2012 - Planning of Fixed-Route Fixed-Schedule Feeder Service to Bus Stops in Rural India.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ascelibrary.org/doi/10.1061/%28ASCE%29TE.1943-5436.0000419
+      \endverb
+      \verb{url}
+      \verb https://ascelibrary.org/doi/10.1061/%28ASCE%29TE.1943-5436.0000419
+      \endverb
+    \endentry
+    \entry{guiver_buses_2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6c1e82b23e2884498ba64737b2e648a0}{%
+           family={Guiver},
+           familyi={G\bibinitperiod},
+           given={Jo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=51b9304502d052ed3a0950b78e3f5a7d}{%
+           family={Lumsdon},
+           familyi={L\bibinitperiod},
+           given={Les},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7b6d97e481431b28c9798761c4218630}{%
+           family={Weston},
+           familyi={W\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3a1ab7b7f7211dc0c2cc61e887efac6b}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={Maggie},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{566ebc01f3bb1ba40ee5729514c09573}
+      \strng{fullhash}{cf80b1110fce9f39ec77397cd09219fc}
+      \strng{fullhashraw}{cf80b1110fce9f39ec77397cd09219fc}
+      \strng{bibnamehash}{cf80b1110fce9f39ec77397cd09219fc}
+      \strng{authorbibnamehash}{cf80b1110fce9f39ec77397cd09219fc}
+      \strng{authornamehash}{566ebc01f3bb1ba40ee5729514c09573}
+      \strng{authorfullhash}{cf80b1110fce9f39ec77397cd09219fc}
+      \strng{authorfullhashraw}{cf80b1110fce9f39ec77397cd09219fc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A review of tourism policy documents reveals three key objectives: environmental, social and economic sustainability. This paper examines the role of scheduled buses in meeting these objectives, using data from a large survey of bus passengers in rural tourist destinations. It ﬁnds that buses achieve modest modal shift from cars, allow access to the countryside for people without cars and generate spending in local economies. It suggests how these functions could be improved by market-segmentation, better publicity and service delivery and questions why many such services struggle for funding each year.}
+      \field{issn}{0967-070X}
+      \field{journaltitle}{Transport Policy}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{note}{Publisher: Elsevier {BV}}
+      \field{number}{4}
+      \field{shorttitle}{Do buses help meet tourism objectives?}
+      \field{title}{Do buses help meet tourism objectives? The contribution and potential of scheduled buses in rural destination areas}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{275\bibrangedash 282}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.tranpol.2007.02.006
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/7AHB8PJ5/Guiver et al. - 2007 - Do buses help meet tourism objectives The contribution and potential of scheduled buses in rural de.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0967070X07000157
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0967070X07000157
+      \endverb
+    \endentry
+    \entry{ho_survey_2018}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=ce3d200e48885cdbeaca0d76752b5576}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Sin\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=fc843a2437aac842e638d32f2900c88f}{%
+           family={Szeto},
+           familyi={S\bibinitperiod},
+           given={W.Y.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=0617eceb8c14611883dce72bd54c8ea4}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Yong-Hong},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=f19229889e0b063d6ef2c178d047f472}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Janny\bibnamedelima M.Y.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=92e0197f99cf362762f236cb8697d28a}{%
+           family={Petering},
+           familyi={P\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e66f06c8e6554596fbbbdba835a236f4}{%
+           family={Tou},
+           familyi={T\bibinitperiod},
+           given={Terence\bibnamedelima W.H.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fafae0c7d878a13801c9fcbe3ebdd6e3}
+      \strng{fullhash}{7818ed2104b5e457bebf971474bacea0}
+      \strng{fullhashraw}{7818ed2104b5e457bebf971474bacea0}
+      \strng{bibnamehash}{7818ed2104b5e457bebf971474bacea0}
+      \strng{authorbibnamehash}{7818ed2104b5e457bebf971474bacea0}
+      \strng{authornamehash}{fafae0c7d878a13801c9fcbe3ebdd6e3}
+      \strng{authorfullhash}{7818ed2104b5e457bebf971474bacea0}
+      \strng{authorfullhashraw}{7818ed2104b5e457bebf971474bacea0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{There has been a resurgence of interest in demand-responsive shared-ride systems, motivated by concerns for the environment and also new developments in technologies which enable new modes of operations. This paper surveys the research developments on the Dial-A-Ride Problem ({DARP}) since 2007. We provide a classiﬁcation of the problem variants and the solution methodologies, and references to benchmark instances. We also present some application areas for the {DARP}, discuss some future trends and challenges, and indicate some possible directions for future research.}
+      \field{issn}{01912615}
+      \field{journaltitle}{Transportation Research Part B: Methodological}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shortjournal}{Transportation Research Part B: Methodological}
+      \field{shorttitle}{A survey of dial-a-ride problems}
+      \field{title}{A survey of dial-a-ride problems: Literature review and recent developments}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{111}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{395\bibrangedash 421}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/j.trb.2018.02.001
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/EB7F8KAC/Ho et al. - 2018 - A survey of dial-a-ride problems Literature review and recent developments.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0191261517304484
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0191261517304484
+      \endverb
+    \endentry
+    \entry{lian_-demand_2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8579b893986e658557170de468d8f0bf}{%
+           family={Lian},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=286014b8a74be26029f6966ae67fb337}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Flavien},
+           giveni={F\bibinitperiod}}}%
+        {{hash=029683c0f75670b0a53c1f33dc2732d0}{%
+           family={Sörensen},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{497d1ac48345703d1cccbbfed06702ae}
+      \strng{fullhash}{532f1af25209d0d483968b9acc080390}
+      \strng{fullhashraw}{532f1af25209d0d483968b9acc080390}
+      \strng{bibnamehash}{532f1af25209d0d483968b9acc080390}
+      \strng{authorbibnamehash}{532f1af25209d0d483968b9acc080390}
+      \strng{authornamehash}{497d1ac48345703d1cccbbfed06702ae}
+      \strng{authorfullhash}{532f1af25209d0d483968b9acc080390}
+      \strng{authorfullhashraw}{532f1af25209d0d483968b9acc080390}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose to solve a real-time traffic variation of the On-Demand Bus Routing Problem ({ODBRP}) introduced by Melis and Sörensen (2022). The {ODBRP} belongs to the category of the Dial-A-Ride Problems ({DARP}), and features departure and arrival bus station selection. This problem is specifically aimed at planning a fleet of on-demand buses in an urban environment. However, cities are frequently plagued by traffic congestion, which may cause delays and missed time windows for passengers. To deal with this situation, we introduce, study, and solve a variant of the {ODBRP} in which the travel times are both time-dependent (i.e., the travel time between two nodes depends on the departure time) and updated dynamically. In our approach, congested roads that might cause passenger delays are modeled by frequently updating the travel speed on the road segments that constitute them. The resulting problem is solved by using a K-shortest-path procedure to determine alternative paths between bus stations, as well as a Variable Neighborhood Descent ({VND}) procedure to repair violated time windows. Our experimental results show the overall efficacy of this real-time control under divergent degrees of flexibility (congestion and the number of buses available). Specifically, the average tardiness, maximum tardiness, and the number of late passengers are significantly reduced under a wide range of congestion scenarios, from slight to severe. In addition, this efficacy holds for various ratios of requests to the number of vehicles.}
+      \field{day}{1}
+      \field{issn}{2772-5863}
+      \field{journaltitle}{Multimodal Transportation}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{Multimodal Transportation}
+      \field{title}{The on-demand bus routing problem with real-time traffic information}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{2}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100093}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.multra.2023.100093
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/CIBF3KQR/Lian et al. - 2023 - The on-demand bus routing problem with real-time traffic information.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2772586323000254
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2772586323000254
+      \endverb
+      \keyw{Metaheuristic,Dynamic travel speed,On-demand bus,Real-time control,Real-time traffic information,Two-stage problem}
+    \endentry
+    \entry{molenbruch_typology_2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ed20c43215e55e5e2436156fa7f1c494}{%
+           family={Molenbruch},
+           familyi={M\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3cf86c8dcf831e8150d8777451c24bd2}{%
+           family={Braekers},
+           familyi={B\bibinitperiod},
+           given={Kris},
+           giveni={K\bibinitperiod}}}%
+        {{hash=34123c97ca6830d368bf7be67bbb1578}{%
+           family={Caris},
+           familyi={C\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3871489bd5c2ecc7fa8b0f81e4ba49d2}
+      \strng{fullhash}{6344c3e9d5d3da93be896b4a6fb8edde}
+      \strng{fullhashraw}{6344c3e9d5d3da93be896b4a6fb8edde}
+      \strng{bibnamehash}{6344c3e9d5d3da93be896b4a6fb8edde}
+      \strng{authorbibnamehash}{6344c3e9d5d3da93be896b4a6fb8edde}
+      \strng{authornamehash}{3871489bd5c2ecc7fa8b0f81e4ba49d2}
+      \strng{authorfullhash}{6344c3e9d5d3da93be896b4a6fb8edde}
+      \strng{authorfullhashraw}{6344c3e9d5d3da93be896b4a6fb8edde}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dial-a-ride problems consist of designing vehicle routes and time schedules in a system of demand-dependent, collective people transportation. In the standard problem, operational costs are minimized, subject to full demand satisfaction and service level requirements. However, to enhance the practical applicability of solution methods, authors increasingly focus on problem variants that adopt additional real-life characteristics. First, this work introduces an up-to-date classification that distinguishes multiple categories of real-life characteristics. Second, the wide range of solution methods proposed in the literature is reviewed in a structured manner. Although the existing literature is reviewed exhaustively, specific attention is devoted to recent developments. Third, an extensive overview table provides full details on all problem characteristics and solution methods applied in each paper discussed. Fourth, lacunae in research conducted to date and opportunities for future work are identified.}
+      \field{day}{1}
+      \field{issn}{1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{1}
+      \field{shortjournal}{Ann Oper Res}
+      \field{title}{Typology and literature review for dial-a-ride problems}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{259}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{295\bibrangedash 325}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/s10479-017-2525-0
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/Z6TPKVX8/Molenbruch et al. - 2017 - Typology and literature review for dial-a-ride problems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10479-017-2525-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10479-017-2525-0
+      \endverb
+      \keyw{Demand-responsive transportation,Dial-a-ride,Literature review,Patient transportation,Real-life characteristics,Rich vehicle routing}
+    \endentry
+    \entry{orloff_fundamental_1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=f731f87bad7e911ab5fef397e291322c}{%
+           family={Orloff},
+           familyi={O\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f731f87bad7e911ab5fef397e291322c}
+      \strng{fullhash}{f731f87bad7e911ab5fef397e291322c}
+      \strng{fullhashraw}{f731f87bad7e911ab5fef397e291322c}
+      \strng{bibnamehash}{f731f87bad7e911ab5fef397e291322c}
+      \strng{authorbibnamehash}{f731f87bad7e911ab5fef397e291322c}
+      \strng{authornamehash}{f731f87bad7e911ab5fef397e291322c}
+      \strng{authorfullhash}{f731f87bad7e911ab5fef397e291322c}
+      \strng{authorfullhashraw}{f731f87bad7e911ab5fef397e291322c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract An important but difficult combinatorial problem, in general, is to find the optimal route for a single vehicle on a given network. This paper defines a problem type, called the General Routing Problem, and gives an algorithm for its solution. The classical Traveling Salesman Problem and the Chinese Postman Problem are shown to be special limiting cases of the General Routing Problem. The algorithm provides a unified approach to both node and arc oriented routing problems, and exploits special properties of most real transportation networks such as sparsity of the associated adjacency matrix, and the tendency for arc symmetry at many nodes. For node oriented routing problems, this approach tends to produce large reduction in effective problem size.}
+      \field{issn}{0028-3045, 1097-0037}
+      \field{journaltitle}{Networks}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Networks}
+      \field{title}{A fundamental problem in vehicle routing}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{35\bibrangedash 64}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1002/net.3230040105
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/QVVG43ZN/Orloff - 1974 - A fundamental problem in vehicle routing.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/net.3230040105
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1002/net.3230040105
+      \endverb
+    \endentry
+    \entry{petersen_watching_2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d6c455c7bdea4c8372a976ffda6a1db7}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{fullhash}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{fullhashraw}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{bibnamehash}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{authorbibnamehash}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{authornamehash}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{authorfullhash}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \strng{authorfullhashraw}{d6c455c7bdea4c8372a976ffda6a1db7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Public transport in rural and exurban areas faces major challenges, with low population densities making it difficult to provide high-quality, high-occupancy services. While demand-responsive transport is sometimes prescribed as an innovative strategy for service provision, the network planning approach to public transport suggests that integrated timed-transfer or pulse timetable networks should be explored first. This paper examines the rural network approach using examples from Switzerland, which has among the highest rates of public transport use in Western Europe, as well as nationally-coordinated Taktfahrplan scheduling that extends deep into rural areas. The basic Swiss pulse timetabling technique is reviewed, along with the application of the approach to a remote rural case study in Graubünden’s Lower Engadine and Val Müstair. Characteristics of pulse timetable networks and the wider rural network approach are considered, drawing broad lessons for their potential application elsewhere.}
+      \field{day}{1}
+      \field{issn}{0967-070X}
+      \field{journaltitle}{Transport Policy}
+      \field{month}{11}
+      \field{shortjournal}{Transport Policy}
+      \field{shorttitle}{Watching the Swiss}
+      \field{title}{Watching the Swiss: A network approach to rural and exurban public transport}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{52}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{175\bibrangedash 185}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.tranpol.2016.07.012
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/9AL7BZ8J/Petersen - 2016 - Watching the Swiss A network approach to rural and exurban public transport.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0967070X16301469
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0967070X16301469
+      \endverb
+      \keyw{Demand-responsive,Integrated timed-transfer,Network planning,Pulse timetable,Rural public transport,Taktfahrplan}
+    \endentry
+    \entry{psaraftis_dynamic_1980}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=428ed8f58d053827885fb9ac4095ac18}{%
+           family={Psaraftis},
+           familyi={P\bibinitperiod},
+           given={Harilaos\bibnamedelima N.},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{fullhash}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{fullhashraw}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{bibnamehash}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{authorbibnamehash}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{authornamehash}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{authorfullhash}{428ed8f58d053827885fb9ac4095ac18}
+      \strng{authorfullhashraw}{428ed8f58d053827885fb9ac4095ac18}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An investigation of the single-vehicle, many-to-many, immediate-request dial-a-ride problem is developed in two parts (I and {II}). Part I focuses on the "static" case of the problem. In this case, intermediate requests that may appear during the execution of the route are not considered. A generalized objective function is examined, the minimization of a weighted combination of the time to service all customers and of the total degree of "dissatisfaction" experienced by them while waiting for service. This dissatisfaction is assumed to be a linear function of the waiting and riding times of each customer. Vehicle capacity constraints and special priority rules are part of the problem. A Dynamic Programming approach is developed. The algorithm exhibits a computational effort which, although an exponential function of the size of the problem, is asymptotically lower than the corresponding effort of the classical Dynamic Programming algorithm applied to a Traveling Salesman Problem of the same size. Part {II} extends this approach to solving the equivalent "dynamic" case. In this case, new customer requests are automatically eligible for consideration at the time they occur. The procedure is an open-ended sequence of updates, each following every new customer request. The algorithm optimizes only over known inputs and does not anticipate future customer requests. Indefinite deferment of a customer's request is prevented by the priority rules introduced in Part I. Examples in both "static" and "dynamic" cases are presented.}
+      \field{issn}{0041-1655}
+      \field{journaltitle}{Transportation Science}
+      \field{note}{Publisher: {INFORMS}}
+      \field{number}{2}
+      \field{title}{A Dynamic Programming Solution to the Single Vehicle Many-to-Many Immediate Request Dial-a-Ride Problem}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{130\bibrangedash 154}
+      \range{pages}{25}
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/9M5L4YSI/Psaraftis - 1980 - A Dynamic Programming Solution to the Single Vehicle Many-to-Many Immediate Request Dial-a-Ride Prob.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/25767975
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/25767975
+      \endverb
+    \endentry
+    \entry{takamatsu_bus_2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=38df8d8744319ea55de7103993eee4d3}{%
+           family={Takamatsu},
+           familyi={T\bibinitperiod},
+           given={Mizuyo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=54896b7425b918a55ed360a66845bfa2}{%
+           family={Taguchi},
+           familyi={T\bibinitperiod},
+           given={Azuma},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8392459be409a9ea126e152f9177ebb6}
+      \strng{fullhash}{8392459be409a9ea126e152f9177ebb6}
+      \strng{fullhashraw}{8392459be409a9ea126e152f9177ebb6}
+      \strng{bibnamehash}{8392459be409a9ea126e152f9177ebb6}
+      \strng{authorbibnamehash}{8392459be409a9ea126e152f9177ebb6}
+      \strng{authornamehash}{8392459be409a9ea126e152f9177ebb6}
+      \strng{authorfullhash}{8392459be409a9ea126e152f9177ebb6}
+      \strng{authorfullhashraw}{8392459be409a9ea126e152f9177ebb6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study investigates the timetable design problem in areas with low-frequency public transportation services. In Japan, rural areas face sparse populations and rapid growth in the percentage of elderly people. In these areas, many bus lines offer fewer than 10 services per day. In addition to low-frequency services, it is also inconvenient to transfer to another bus or train service. Thus, there is a strong need to design a timetable that ensures smooth transfers among buses and trains. We tackle this problem by adopting existing bus lines and train timetables as much as possible to avoid drastic changes such as an increase in the number of services. Based on this approach, we present a mathematical optimization model to generate a revised bus timetable that shortens waiting time for transfers compared with the current timetable. We apply our model to a part of the Tohoku District in Japan and demonstrate its usefulness in the real world.}
+      \field{issn}{0041-1655}
+      \field{journaltitle}{Transportation Science}
+      \field{month}{9}
+      \field{note}{Publisher: {INFORMS}}
+      \field{number}{5}
+      \field{title}{Bus Timetable Design to Ensure Smooth Transfers in Areas with Low-Frequency Public Transportation Services}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{54}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1238\bibrangedash 1250}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1287/trsc.2019.0918
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/M967PQEU/Takamatsu und Taguchi - 2020 - Bus Timetable Design to Ensure Smooth Transfers in Areas with Low-Frequency Public Transportation Se.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubsonline.informs.org/doi/abs/10.1287/trsc.2019.0918
+      \endverb
+      \verb{url}
+      \verb https://pubsonline.informs.org/doi/abs/10.1287/trsc.2019.0918
+      \endverb
+      \keyw{bus and railway network,event–activity network,mathematical optimization,timetable design}
+    \endentry
+    \entry{tsigdinos_route_2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=61e01819b7bdedad20e2de6abb6fa392}{%
+           family={Tsigdinos},
+           familyi={T\bibinitperiod},
+           given={Stefanos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=73f635fd8917dfcb5d0ceba5362a2c01}{%
+           family={Karolemeas},
+           familyi={K\bibinitperiod},
+           given={Christos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=872fc61f232d34e480288e706ab668a6}{%
+           family={Siti},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8fc2bfe390bcddf7415fcb86e7b53215}{%
+           family={Papadaki},
+           familyi={P\bibinitperiod},
+           given={Kalliopi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=89c8ceb5a7178fb491e0cda3d33fc4b0}{%
+           family={Athanasopoulos},
+           familyi={A\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2649891f419519e9bc7f30d7d527ae69}{%
+           family={Tzouras},
+           familyi={T\bibinitperiod},
+           given={Panagiotis\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3afddc2d4b193f7cb086f1481bfd6106}
+      \strng{fullhash}{8e38220884f9831498d0c8883c8888a6}
+      \strng{fullhashraw}{8e38220884f9831498d0c8883c8888a6}
+      \strng{bibnamehash}{8e38220884f9831498d0c8883c8888a6}
+      \strng{authorbibnamehash}{8e38220884f9831498d0c8883c8888a6}
+      \strng{authornamehash}{3afddc2d4b193f7cb086f1481bfd6106}
+      \strng{authorfullhash}{8e38220884f9831498d0c8883c8888a6}
+      \strng{authorfullhashraw}{8e38220884f9831498d0c8883c8888a6}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Flexible public transport is defined as a future mobility solution that adapts to user needs and the fluctuating demand patterns that mainly appear in rural areas. However, the temporal variations in traveler preferences for flexible bus services remain largely unexplored in existing research. This constrains the realization of adaptive and customized solutions. Therefore, this study attempts to develop a distinct method for strategic planning of a flexible bus service. To this end, a combinatorial method is undertaken: quantitative social research (questionnaires) and spatial analysis. This combinatorial approach is applied at Korinth and Loutraki in Greece, two significant rural areas neighboring the Athens Metropolitan Area. The results signify that cost and time are the most crucial factors affecting the use of a flexible service. Furthermore, respondents preferred a door-to-door service in the morning and a stop-based service in the afternoon/evening. Concerning route planning, eight routes with different purposes are suggested (e.g., train feeder, touristic, etc.) covering adequately both urban and rural parts of the study area. Notably, the applied methodological approach can be a guideline for planners and policymakers, assisting them in finding effective strategies for introducing flexible public transport in rural areas, especially in contexts where collective transport culture is limited.}
+      \field{issn}{2673-7590}
+      \field{journaltitle}{Future Transportation}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{4}
+      \field{shorttitle}{Route Planning for Flexible Bus Services in Regional Cities and Rural Areas}
+      \field{title}{Route Planning for Flexible Bus Services in Regional Cities and Rural Areas: Combining User Preferences with Spatial Analysis}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1476\bibrangedash 1500}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.3390/futuretransp4040071
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/PMMQFRGR/Tsigdinos et al. - 2024 - Route Planning for Flexible Bus Services in Regional Cities and Rural Areas Combining User Preferen.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2673-7590/4/4/71
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2673-7590/4/4/71
+      \endverb
+      \keyw{flexible transport,on-demand transport,regional cities,route planning,stated preferences}
+    \endentry
+    \entry{vansteenwegen_survey_2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=85b194412e9df03e17681d032860a348}{%
+           family={Vansteenwegen},
+           familyi={V\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3e9f00269109b0cde212b27771207ec7}{%
+           family={Melis},
+           familyi={M\bibinitperiod},
+           given={Lissa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ee7ac13f7b82de9454e330e81eacf287}{%
+           family={Aktaş},
+           familyi={A\bibinitperiod},
+           given={Dilay},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6238f4d3a09b60a94fffe0e0bb3c6a9e}{%
+           family={Montenegro},
+           familyi={M\bibinitperiod},
+           given={Bryan\bibnamedelimb David\bibnamedelima Galarza},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=c8cb7bd444dee5abb7620dba4a27b64c}{%
+           family={Sartori\bibnamedelima Vieira},
+           familyi={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Fábio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=029683c0f75670b0a53c1f33dc2732d0}{%
+           family={Sörensen},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f53467d119fde5326dc5487055e020b}
+      \strng{fullhash}{9c4bc7419aaec0f89c07715836c2d4d5}
+      \strng{fullhashraw}{9c4bc7419aaec0f89c07715836c2d4d5}
+      \strng{bibnamehash}{9c4bc7419aaec0f89c07715836c2d4d5}
+      \strng{authorbibnamehash}{9c4bc7419aaec0f89c07715836c2d4d5}
+      \strng{authornamehash}{5f53467d119fde5326dc5487055e020b}
+      \strng{authorfullhash}{9c4bc7419aaec0f89c07715836c2d4d5}
+      \strng{authorfullhashraw}{9c4bc7419aaec0f89c07715836c2d4d5}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When demand for transportation is low or highly variable, traditional public bus services tend to lose their efficiency and typically frustrate (potential) passengers. In the literature, a large number of demand-responsive systems, that promise improved flexibility, have therefore been developed. At present, however, a comprehensive survey of these systems is lacking. In this paper, we fill this gap by presenting a unifying framework that classifies all demand-responsive public bus systems. The classification is mainly based on three degrees of responsiveness: dynamic online, dynamic offline, and static. For each system we discuss the specific optimization problem modeled, whether realistic data is considered, and the size of the instances used for testing. Where possible, we try to draw conclusions on the current state of the literature and try to identify potential avenues for future research. Different tables are included to structure and summarize the information of all papers.}
+      \field{day}{1}
+      \field{issn}{0968-090X}
+      \field{journaltitle}{Transportation Research Part C: Emerging Technologies}
+      \field{month}{4}
+      \field{shortjournal}{Transportation Research Part C: Emerging Technologies}
+      \field{title}{A survey on demand-responsive public bus systems}
+      \field{urlday}{22}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{137}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103573}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.trc.2022.103573
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/4TDJNCJX/Vansteenwegen et al. - 2022 - A survey on demand-responsive public bus systems.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X22000195
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0968090X22000195
+      \endverb
+      \keyw{Classification,Demand-responsive public bus systems,Flexible public transport,On-demand transportation,Taxonomy}
+    \endentry
+    \entry{verband_der_automobilindustrie_ridepooling_2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=c6352690257a1adf551bae6d55024d02}{%
+           family={{Verband der Automobilindustrie}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6352690257a1adf551bae6d55024d02}
+      \strng{fullhash}{c6352690257a1adf551bae6d55024d02}
+      \strng{fullhashraw}{c6352690257a1adf551bae6d55024d02}
+      \strng{bibnamehash}{c6352690257a1adf551bae6d55024d02}
+      \strng{authorbibnamehash}{c6352690257a1adf551bae6d55024d02}
+      \strng{authornamehash}{c6352690257a1adf551bae6d55024d02}
+      \strng{authorfullhash}{c6352690257a1adf551bae6d55024d02}
+      \strng{authorfullhashraw}{c6352690257a1adf551bae6d55024d02}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ridepooling ist ein neues Mobilitätsangebot als Kombination aus Ö{PNV} und Taxi. Es ergänzt bestehende Mobilitätsangebote. Übersicht, Potentiale und Chancen.}
+      \field{langid}{german}
+      \field{title}{Ridepooling - Eine Lösung für den ländlichen Raum}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/alexanderklaus/Zotero/storage/G4HSI8UK/ridepooling.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.vda.de/de/themen/digitalisierung/mobility-as-a-service/ridepooling
+      \endverb
+      \verb{url}
+      \verb https://www.vda.de/de/themen/digitalisierung/mobility-as-a-service/ridepooling
+      \endverb
+    \endentry
+    \entry{vidal_concise_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f8b1fe2b57f8a82a140583738588869a}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Thibaut},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1d6e9fe0f2d8b8a132ebe0ace7645d51}{%
+           family={Laporte},
+           familyi={L\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1276cad76b7c1bf40b2b08b00586b7a0}{%
+           family={Matl},
+           familyi={M\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f14b4d033960169db8e536b480066b9f}
+      \strng{fullhash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{fullhashraw}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{bibnamehash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authorbibnamehash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authornamehash}{f14b4d033960169db8e536b480066b9f}
+      \strng{authorfullhash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authorfullhashraw}{ed84fff1d17f359a12ae1e35f6118132}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vehicle routing problems have been the focus of extensive research over the past sixty years, driven by their economic importance and their theoretical interest. The diversity of applications has motivated the study of a myriad of problem variants with different attributes. In this article, we provide a concise overview of existing and emerging problem variants. Models are typically reﬁned along three lines: considering more relevant objectives and performance metrics, integrating vehicle routing evaluations with other tactical decisions, and capturing ﬁne-grained yet essential aspects of modern supply chains. We organize the main problem attributes within this structured framework. We discuss recent research directions and pinpoint current shortcomings, recent successes, and emerging challenges.}
+      \field{issn}{03772217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{2}
+      \field{shortjournal}{European Journal of Operational Research}
+      \field{title}{A concise guide to existing and emerging vehicle routing problem variants}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{286}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{401\bibrangedash 416}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2019.10.010
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/EYVMDI53/Vidal et al. - 2020 - A concise guide to existing and emerging vehicle routing problem variants.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0377221719308422
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0377221719308422
+      \endverb
+    \endentry
+    \entry{wang_multilevel_2014}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=3ad93e4c675a68a22a9c2c52b38e2751}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=41f88546ac18e2d38408089bf2e97df1}{%
+           family={Quddus},
+           familyi={Q\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=099353be5026af828d4628effb1e2375}{%
+           family={Enoch},
+           familyi={E\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6fb088879a4af0366cddcdef6a88db2e}{%
+           family={Ryley},
+           familyi={R\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7229987b64ab4cf1f0022e1a376b31a3}{%
+           family={Davison},
+           familyi={D\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d52f59d2dfd78bc079116445c2eddc4}
+      \strng{fullhash}{385639a2bb5020f14a51739f8c9090a5}
+      \strng{fullhashraw}{385639a2bb5020f14a51739f8c9090a5}
+      \strng{bibnamehash}{385639a2bb5020f14a51739f8c9090a5}
+      \strng{authorbibnamehash}{385639a2bb5020f14a51739f8c9090a5}
+      \strng{authornamehash}{4d52f59d2dfd78bc079116445c2eddc4}
+      \strng{authorfullhash}{385639a2bb5020f14a51739f8c9090a5}
+      \strng{authorfullhashraw}{385639a2bb5020f14a51739f8c9090a5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Providing public transport in areas of low demand has long proved to be a challenge to policy makers and practitioners. With the developing economic, social and environmental trends, there is pressure for alternative solutions to the policy of subsidising conventional bus services. One potential solution is to adopt more flexible routes and/or timetables to better match the required demand. Therefore such ‘on demand’ or ‘Demand Responsive Transport’ ({DRT}) services (known as paratransit in the {US}) have been adopted in a number of locations. This paper seeks to explore the effects of area-wide factors on the demand of {DRT} by reporting the results of a statistical analysis of {DRT} service provision in the metropolitan region of Greater Manchester, the public transport authority of which offers one of the largest and most diverse range of {DRT} schemes in the {UK}. Specifically, this paper employs a multilevel modelling approach to investigate the impact of both {DRT} supply-oriented factors at the service area level and socio-economic factors at the lower super output area ({LSOA}) level on the average number of trips made by {DRT} per year. This hierarchical or ‘nested’ structure was adopted because typically the {LSOAs} within the same Service Area may share similar characteristics. It is found that the demand for {DRT} services was higher in areas with low car ownership, low population density, high proportion of white people, and high levels of social deprivation, measured in terms of income, employment, education, housing and services, health and disability, and living environment.}
+      \field{day}{1}
+      \field{issn}{1572-9435}
+      \field{journaltitle}{Transportation}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{shortjournal}{Transportation}
+      \field{title}{Multilevel modelling of Demand Responsive Transport ({DRT}) trips in Greater Manchester based on area-wide socio-economic data}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{41}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{589\bibrangedash 610}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s11116-013-9506-1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/HWT585PW/Wang et al. - 2014 - Multilevel modelling of Demand Responsive Transport (DRT) trips in Greater Manchester based on area-.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11116-013-9506-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11116-013-9506-1
+      \endverb
+      \keyw{Flexible public transport,Area-wide socio-economic factors,Demand Responsive Transport ({DRT}),Multilevel statistical modelling,Paratransit,System-wide effects}
+    \endentry
+    \entry{zhen_feeder_2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ea56d5bbfdc262a69700db71dad1d20a}{%
+           family={Zhen},
+           familyi={Z\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=307314247649409525a0b8386f88616b}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c82f289a9f15427baed34168040ca25e}
+      \strng{fullhash}{c82f289a9f15427baed34168040ca25e}
+      \strng{fullhashraw}{c82f289a9f15427baed34168040ca25e}
+      \strng{bibnamehash}{c82f289a9f15427baed34168040ca25e}
+      \strng{authorbibnamehash}{c82f289a9f15427baed34168040ca25e}
+      \strng{authornamehash}{c82f289a9f15427baed34168040ca25e}
+      \strng{authorfullhash}{c82f289a9f15427baed34168040ca25e}
+      \strng{authorfullhashraw}{c82f289a9f15427baed34168040ca25e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In rapidly sprawling urban areas and booming intercity express rail networks, efficiently designed feeder bus systems are more essential than ever to transport passengers to and from trunk-line rail terminals. When the feeder service region is sufficiently large, the spatial heterogeneity in demand distribution must be considered. This paper develops continuum approximation models for optimizing a heterogeneous fixed-route feeder network in a rectangular service region next to a rail terminal. Our work enhances previous studies by: (i) optimizing heterogeneous stop spacings along with line spacings and headways; (ii) accounting for passenger boarding and alighting numbers on bus dwell times and patron transfer delays at the rail terminal; and (iii) examining the advantages of asymmetric coordination between trunk and feeder schedules in both service directions. To tackle the increased modeling complexity, we introduce a semi-analytical method that combines analytically derived properties of the optimal solution with an iterative search algorithm. Local transit agencies can readily utilize this approach to design a real fixed-route feeder system.}
+      \field{issn}{09658564}
+      \field{journaltitle}{Transportation Research Part A: Policy and Practice}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Transportation Research Part A: Policy and Practice}
+      \field{title}{Feeder bus service design under spatially heterogeneous demand}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{189}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{104214}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.tra.2024.104214
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/ZAZJWRDB/Zhen und Gu - 2024 - Feeder bus service design under spatially heterogeneous demand.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0965856424002623
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0965856424002623
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

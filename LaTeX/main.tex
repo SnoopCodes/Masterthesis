@@ -66,13 +66,24 @@
 }
 \newcommand{\pc}{\parencite}
 \newcommand{\tc}{\textcite}
-
-\usepackage{url}  
-\usepackage{amsmath}
-\numberwithin{equation}{chapter} 
-%\usepackage{float}
-\usepackage{caption}    %captions below figures and tables
-    \captionsetup{                  % globale Option für caption und subcaption
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{pdflscape}
+\usepackage{longtable}  
+\usepackage{xltabular} 
+% Luft vor/nach longtable
+\setlength{\LTpre}{0.75\baselineskip}   % Abstand vor der Tabelle (nur auf erster Seite)
+\setlength{\LTpost}{0.5\baselineskip}   % Abstand nach der Tabelle (auf letzter Seite)
+\setlength{\LTcapwidth}{\textwidth}     % Caption auf Textbreite
+\usepackage{csvsimple-l3}
+\usepackage{arydshln}
+\usepackage{caption}
+\captionsetup{                  % globale Option für caption und subcaption
       font=normalsize,              % Schrift der Caption (Label+Text)
       format=hang,                  % Formatierung der Caption
       justification=RaggedRight,    % linksbündig bei mehreren caption-Zeilen
@@ -80,19 +91,21 @@
       labelfont=bf,                 % Schrift des Labels
       textfont=rm,                  % Schrift des Textes
       position=bottom               % Normale Caption unter dem Float
-    }
+}
 \usepackage{subcaption}
-\usepackage{csvsimple}
+\usepackage{url}  
+\usepackage{amsmath}
+\numberwithin{equation}{chapter} 
 \usepackage[colorlinks=true,linkcolor=blue, citecolor=magenta]{hyperref}
-\usepackage{booktabs}
-\usepackage{longtable}  
+\usepackage{adjustbox}
+\usepackage{makecell}
+\usepackage{pgfplotstable}
+\usepackage{rotating} % sidewaystable (dreht die Tabelle, Seite bleibt hochkant)
 \usepackage{acronym} %define acronyms and list them in a glossary
 \usepackage{siunitx}[=v2]   % Einheitenmakros, Nummernformatierung
-    \sisetup{locale=DE, %Dezimalkomma
-    binary-units = true} %Bit als Einheit
+\sisetup{locale=DE,binary-units = true} %Bit als Einheit
 \usepackage{enumitem}
-\usepackage[T1]{fontenc}     % <-- wichtig für korrektes Mapping
-\usepackage{lmodern}    
+
     
 %-------------------------------------
 % The main document starts here
