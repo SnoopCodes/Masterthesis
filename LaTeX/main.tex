@@ -88,11 +88,12 @@
 \setlength{\LTcapwidth}{\textwidth}     % Caption auf Textbreite
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}m{#1}}
 \newcolumntype{C}[1]{>{\Centering\arraybackslash}m{#1}}
+
 % Header-Helfer (fett, links, Umbrüche erlaubt):
 \newcommand{\LH}[1]{\makecell[l]{\bfseries #1}}
-\newcommand{\rotH}[1]{\rotatebox[origin=c]{90}{\scriptsize #1}}
+\newcommand{\rotH}[1]{\rotatebox[origin=c]{90}{\makecell[c]{#1}}}
 \renewcommand{\arraystretch}{1.12}
-\usepackage{pgfplotstable}
+
 \usepackage{caption}
 \captionsetup{                  % globale Option für caption und subcaption
       font=normalsize,              % Schrift der Caption (Label+Text)

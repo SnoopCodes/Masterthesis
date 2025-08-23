@@ -1863,6 +1863,65 @@
       \endverb
       \keyw{Computer Science - Systems and Control,Electrical Engineering and Systems Science - Systems and Control}
     \endentry
+    \entry{fagnant_dynamic_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a7fbbd4b4644ec08dc87a10ebc6cb185}{%
+           family={Fagnant},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=627db73a88bb753821f1ea1aa638df76}{%
+           family={Kockelman},
+           familyi={K\bibinitperiod},
+           given={Kara\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{fullhash}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{fullhashraw}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{bibnamehash}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{authorbibnamehash}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{authornamehash}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{authorfullhash}{0f0d09e6209c4dbec14774b824086dfe}
+      \strng{authorfullhashraw}{0f0d09e6209c4dbec14774b824086dfe}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Shared autonomous (fully-automated) vehicles ({SAVs}) represent an emerging transportation mode for driverless and on-demand transport. Early actors include Google and Europe’s {CityMobil}2, who seek pilot deployments in low-speed settings. This work investigates {SAVs}’ potential for U.S. urban areas via multiple applications across the Austin, Texas, network. This work describes advances to existing agent- and network-based {SAV} simulations by enabling dynamic ride-sharing ({DRS}, which pools multiple travelers with similar origins, destinations and departure times in the same vehicle), optimizing fleet sizing, and anticipating profitability for operators in settings with no speed limitations on the vehicles and at adoption levels below 10 \% of all personal trip-making in the region. Results suggest that {DRS} reduces average service times (wait times plus in-vehicle travel times) and travel costs for {SAV} users, even after accounting for extra passenger pick-ups, drop-offs and non-direct routings. While the base-case scenario (serving 56,324 person-trips per day, on average) suggest that a fleet of {SAVs} allowing for {DRS} may result in vehicle-miles traveled ({VMT}) that exceed person-trip miles demanded (due to anticipatory relocations of empty vehicles, between trip calls), it is possible to reduce overall {VMT} as trip-making intensity ({SAV} membership) rises and/or {DRS} users become more flexible in their trip timing and routing. Indeed, {DRS} appears critical to avoiding new congestion problems, since {VMT} may increase by over 8 \% without any ride-sharing. Finally, these simulation results suggest that a private fleet operator paying \$70,000 per new {SAV} could earn a 19 \% annual (long-term) return on investment while offering {SAV} services at \$1.00 per mile for a non-shared trip (which is less than a third of Austin’s average taxi cab fare).}
+      \field{day}{1}
+      \field{issn}{1572-9435}
+      \field{journaltitle}{Transportation}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Transportation}
+      \field{title}{Dynamic ride-sharing and fleet sizing for a system of shared autonomous vehicles in Austin, Texas}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{45}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{143\bibrangedash 158}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s11116-016-9729-z
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/B7HAXVNM/Fagnant und Kockelman - 2018 - Dynamic ride-sharing and fleet sizing for a system of shared autonomous vehicles in Austin, Texas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11116-016-9729-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11116-016-9729-z
+      \endverb
+      \keyw{Connected and autonomous vehicles,Dynamic ride-sharing,{MATSim} simulation,Shared autonomous vehicles}
+    \endentry
     \entry{fehn_ride-parcel-pooling_2023}{book}{}{}
       \name{author}{4}{}{%
         {{hash=705a7b845b4850e7810b6005db336a8e}{%
@@ -8393,7 +8452,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{fagnant\_2018\_dynamicridesharing}
 \endrefsection
 \endinput
 
