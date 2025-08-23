@@ -76,16 +76,23 @@
 \usepackage{pdflscape}
 \usepackage{longtable}  
 \usepackage{xltabular} 
+\usepackage{csvsimple-l3}
+\usepackage{makecell}
+\usepackage{arydshln}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{pgfplotstable}
 % Luft vor/nach longtable
 \setlength{\LTpre}{0.75\baselineskip}   % Abstand vor der Tabelle (nur auf erster Seite)
 \setlength{\LTpost}{0.5\baselineskip}   % Abstand nach der Tabelle (auf letzter Seite)
 \setlength{\LTcapwidth}{\textwidth}     % Caption auf Textbreite
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}m{#1}}
+\newcolumntype{C}[1]{>{\Centering\arraybackslash}m{#1}}
 % Header-Helfer (fett, links, Umbrüche erlaubt):
 \newcommand{\LH}[1]{\makecell[l]{\bfseries #1}}
+\newcommand{\rotH}[1]{\rotatebox[origin=c]{90}{\scriptsize #1}}
 \renewcommand{\arraystretch}{1.12}
-\usepackage{csvsimple-l3}
-\usepackage{arydshln}
+\usepackage{pgfplotstable}
 \usepackage{caption}
 \captionsetup{                  % globale Option für caption und subcaption
       font=normalsize,              % Schrift der Caption (Label+Text)
@@ -102,8 +109,8 @@
 \numberwithin{equation}{chapter} 
 \usepackage[colorlinks=true,linkcolor=blue, citecolor=magenta]{hyperref}
 \usepackage{adjustbox}
-\usepackage{makecell}
-\usepackage{pgfplotstable}
+
+
 \usepackage{rotating} % sidewaystable (dreht die Tabelle, Seite bleibt hochkant)
 \usepackage{acronym} %define acronyms and list them in a glossary
 \usepackage{siunitx}[=v2]   % Einheitenmakros, Nummernformatierung
