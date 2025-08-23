@@ -80,6 +80,10 @@
 \setlength{\LTpre}{0.75\baselineskip}   % Abstand vor der Tabelle (nur auf erster Seite)
 \setlength{\LTpost}{0.5\baselineskip}   % Abstand nach der Tabelle (auf letzter Seite)
 \setlength{\LTcapwidth}{\textwidth}     % Caption auf Textbreite
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}m{#1}}
+% Header-Helfer (fett, links, Umbrüche erlaubt):
+\newcommand{\LH}[1]{\makecell[l]{\bfseries #1}}
+\renewcommand{\arraystretch}{1.12}
 \usepackage{csvsimple-l3}
 \usepackage{arydshln}
 \usepackage{caption}

@@ -41,15 +41,7 @@ Ridepooling: dem zugrundeliegend ist das DARP -> wofür entwickelt (Quelle), dan
 
 Ridepooling: Synonyme Verwendung der Begriffe Ride-sharing, ridepooling usw
 
-\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}m{#1}}
-% Header-Helfer (fett, links, Umbrüche erlaubt):
-\newcommand{\LH}[1]{\makecell[l]{\bfseries #1}}
-\renewcommand{\arraystretch}{1.12}
-
-
-
 \begin{landscape} 
-    
     \begin{table}[p]
         \centering
         \caption{Forschungsergebnisse zu Line-based — rural}
@@ -122,67 +114,58 @@ Ridepooling: Synonyme Verwendung der Begriffe Ride-sharing, ridepooling usw
           \textcite{tang_data-driven_2021} & Fahrplanoptimierung & China & Linie & Taktfahrplan & Matem. Optimierungsmodell & Realdaten & Ø-Wartezeit / Reisezeit & zweckmäßige MOEA-Fahrpläne verkürzen Warte- und Reisezeiten auf städtischen Linien. \\ \hline
           \textcite{tian_autonomous_2021} & Flottenoptimierung & China & Linie & Autonom & Matem. Optimierungsmodell & — & Kosten/Fahrgast-km / Flottengröße & autonome Flotten mit Unsicherheiten können Betreiberkosten senken und Leistung stabilisieren. \\ \hline
           \textcite{wei_optimizing_2020} & Integration Metro-Bus & China & Netz & Integration & Matem. Optimierungsmodell / Fallstudie & Realdaten & Ø-Wartezeit / Reisezeit & koordinierte Metro-Bus-Planung senkt Nutzerzeiten und verbessert Gesamtleistung. \\ \hline
-          
         \end{tabular}
         }% end resizebox
     \end{table}
 \end{landscape}
 
+
 \begin{landscape}
+
     \scriptsize
     \setlength{\tabcolsep}{2.2pt}
-    \renewcommand{\arraystretch}{1.10}
     \setlength{\arrayrulewidth}{0.1pt}
     \begin{xltabular}{\textwidth}{%
-        
         L{1.8cm}:
-        L{2.0cm}:
+        L{1.8cm}:
+        L{1.8cm}:
         L{1.8cm}:
         L{2.2cm}:
         L{2.3cm}:
-        L{2.5cm}:
-        L{1.5cm}:
+        L{2.0cm}:
         L{2.6cm}:
         L{5.5cm}:
     }
-    \caption{Forschungsergebnisse zu on-demand — rural}\label{tab:od-rural}\\
-    \hline
-    \LH{Paper} & \LH{Zielsetzung} & \LH{Region /\\Land} & \LH{Betrachtungs-\\ebene} &
-    \LH{Fokus / \\ Anwendungsfeld} & \LH{Methode} & \LH{Daten} & \LH{KPI} & \LH{Zentrale\\Erkenntnisse} \\
-    \Xhline{0.6pt}
-    \endfirsthead
+        \caption{Forschungsergebnisse zu on-demand — rural}\\
+        \hline
+        \LH{Paper} & \LH{Zielsetzung} & \LH{Region /\\Land} & \LH{Betrachtungs-\\ebene} &
+        \LH{Fokus / \\ Anwendungsfeld} & \LH{Methode} & \LH{Daten} & \LH{KPI} & \LH{Zentrale\\Erkenntnisse} \\
+        \Xhline{0.6pt}
+        \endfirsthead
 
-    \multicolumn{9}{l}{\small\itshape Fortsetzung von Tabelle~\ref{tab:od-rural}.}\\[0.6\baselineskip]
-    \hline
-    \LH{Paper} & \LH{Zielsetzung} & \LH{Region /\\Land} & \LH{Betrachtungs-\\ebene} &
-    \LH{Fokus / \\ Anwendungsfeld} & \LH{Methode} & \LH{Daten} & \LH{KPI} & \LH{Zentrale\\Erkenntnisse} \\
-    \Xhline{0.6pt}
-    \endhead
+        \multicolumn{9}{l}{\small\itshape Fortsetzung von Tabelle~\ref{tab:od-rural}.}\\[0.6\baselineskip]
+        \hline
+        \LH{Paper} & \LH{Zielsetzung} & \LH{Region /\\Land} & \LH{Betrachtungs-\\ebene} &
+        \LH{Fokus / \\ Anwendungsfeld} & \LH{Methode} & \LH{Daten} & \LH{KPI} & \LH{Zentrale\\Erkenntnisse} \\
+        \Xhline{0.6pt}
+        \endhead
 
-    \hline
-    \multicolumn{9}{r}{\small\itshape Fortsetzung auf der nächsten Seite}
-    \endfoot
+        \hline
+        \multicolumn{9}{r}{\small\itshape Fortsetzung auf der nächsten Seite}
+        \endfoot
 
-    \hline
-    \endlastfoot
+        \hline
+        \endlastfoot
 
-    \textcite{bauchinger_developing_2021} & Konnektivität verbessern & Europa & Region & Feeder, Multimodal & Fallstudie, Empirie & Mix & Erreichbarkeit, Umsteigezeit & Komplementäre Dienste (DRT, multimodal) verbessern Erreichbarkeit und ÖPNV-Anbindung in ländlich--urbanen Regionen. \\ \hline
-
-    \textcite{brake_demand_2004} & DRT-Markt prüfen & UK & Region & Inklusion & Fallstudie & Realdaten & — & Britische DRT-Erfahrungen fördern soziale Inklusion und Intermodalität; Umsetzung wird durch Finanzierungs- und Betriebsfragen begrenzt. \\ \hline
-
-    \textcite{calabro_designing_2023} & DRT-Bedingungen vergleichen & Italien & Region & Kleinstädte & Simulation & synthetisch & Ø-Wartezeit, Auslastung & ABM zeigt: DRT ist FRT in Kleinstädten überlegen, wenn Umwege, Warte- und Gehzeiten minimiert und Teilfahrten gebündelt werden. \\ \hline
-
-    \textcite{coutinho_impacts_2020} & Linienersatz bewerten & Niederlande & Linie & Linienersatz & Empirie & Realdaten & Fahrgast-km, CO\(_2\) & Im Mokumflex-Pilot sanken Fahrgast-km, Kosten und Emissionen pro Fahrgast deutlich, jedoch ging die Nachfrage stark zurück. \\ \hline
-
-    \textcite{dorso_transforming_2025} & DRT-Effekte bewerten & Italien & Region & Pilotstudie & Empirie, Simulation & Mix & Ø-Wartezeit, Reisezeit & DRT steigerte Erreichbarkeit und senkte Warte- und Fahrzeiten im suburbanen Palermo; wirtschaftliche und rechtliche Rahmenbedingungen bleiben kritisch. \\ \hline
-
-    \textcite{daduna_evolution_2020} & Entwicklung skizzieren & ohne Bezug & Region & Autonom/Digital & Literatur-Review & Literatur & — & Autonome Fahrzeuge und Digitalisierung können Kostenstrukturen ländlicher ÖPNV-Angebote grundlegend verändern, ersetzen Linienverkehr jedoch nicht vollständig. \\ \hline
-
-    \textcite{daniels_flexible_2012} & Barrieren identifizieren & Australien & Region & Implementierung & Empirie & Umfrage & — & Fünf Barrierefelder (Regulierung, Finanzierung, Betrieb, Einstellungen, Information) hemmen FTS-Einführung in Niedrigdichtegebieten. \\ \hline
-
-    \textcite{white_roles_2016} & Rollen vergleichen & UK & Region & Kostenvergleich & Literatur-Review & Literatur & Kosten/Fahrgast-km, Auslastung & Konventionelle Interurban-Linien sind oft kosteneffizienter; DRT weist häufig hohe Kosten je Fahrt auf und eignet sich eher für Zielgruppen-/Mindestbedienung. \\ \hline
-
-   
+        \textcite{bauchinger_developing_2021} & Konnektivität verbessern & Europa & Region & Feeder, Multimodal & Fallstudie, Empirie & Mix & Erreichbarkeit, Umsteigezeit & Komplementäre Dienste (DRT, multimodal) verbessern Erreichbarkeit und ÖPNV-Anbindung in ländlich--urbanen Regionen. \\ \hline
+        \textcite{brake_demand_2004} & DRT-Markt prüfen & UK & Region & Inklusion & Fallstudie & Realdaten & — & Britische DRT-Erfahrungen fördern soziale Inklusion und Intermodalität; Umsetzung wird durch Finanzierungs- und Betriebsfragen begrenzt. \\ \hline
+        \textcite{calabro_designing_2023} & DRT-Bedingungen vergleichen & Italien & Region & Kleinstädte & Simulation & synthetisch & Ø-Wartezeit, Auslastung & ABM zeigt: DRT ist FRT in Kleinstädten überlegen, wenn Umwege, Warte- und Gehzeiten minimiert und Teilfahrten gebündelt werden. \\ \hline
+        \textcite{coutinho_impacts_2020} & Linienersatz bewerten & Niederlande & Linie & Linienersatz & Empirie & Realdaten & Fahrgast-km, CO\(_2\) & Im Mokumflex-Pilotprojekt sanken Fahrgast-km, Kosten und Emissionen pro Fahrgast deutlich, jedoch ging die Nachfrage stark zurück. \\ \hline
+        \textcite{dorso_transforming_2025} & DRT-Effekte bewerten & Italien & Region & Pilotstudie & Empirie, Simulation & Mix & Ø-Wartezeit, Reisezeit & DRT steigerte Erreichbarkeit und senkte Warte- und Fahrzeiten im suburbanen Palermo; wirtschaftliche und rechtliche Rahmenbedingungen bleiben kritisch. \\ \hline
+        \textcite{daduna_evolution_2020} & Entwicklung skizzieren & ohne Bezug & Region & Autonom/Digital & Literatur-Review & Literatur & — & Autonome Fahrzeuge und Digitalisierung können Kostenstrukturen ländlicher ÖPNV-Angebote grundlegend verändern, ersetzen Linienverkehr jedoch nicht vollständig. \\ \hline
+        \textcite{daniels_flexible_2012} & Barrieren identifizieren & Australien & Region & Implementierung & Empirie & Umfrage & — & Fünf Barrierefelder (Regulierung, Finanzierung, Betrieb, Einstellungen, Information) hemmen FTS-Einführung in Niedrigdichtegebieten. \\ \hline
+        \textcite{white_roles_2016} & Rollen vergleichen & UK & Region & Kostenvergleich & Literatur-Review & Literatur & Kosten/Fahrgast-km, Auslastung & Konventionelle Interurban-Linien sind oft kosteneffizienter; DRT weist häufig hohe Kosten je Fahrt auf und eignet sich eher für Zielgruppen-/Mindestbedienung. \\ \hline
+        
     \end{xltabular}
 \end{landscape}
 
