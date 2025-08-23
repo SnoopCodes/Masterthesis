@@ -19,6 +19,84 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{bauchinger_developing_2021}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=3a0d46e0e506e7f2503ec318a8655a48}{%
+           family={Bauchinger},
+           familyi={B\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=df632d594101edcbfe70626fe87cbd5e}{%
+           family={Reichenberger},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c6dd04125e5ea205923cba2d33155b94}{%
+           family={Goodwin-Hawkins},
+           familyi={G\bibinithyphendelim H\bibinitperiod},
+           given={Bryonny},
+           giveni={B\bibinitperiod}}}%
+        {{hash=da6f69d9e9106548f285c71d1274833d}{%
+           family={Kobal},
+           familyi={K\bibinitperiod},
+           given={Jurij},
+           giveni={J\bibinitperiod}}}%
+        {{hash=de6e7bd6c4623fa82521a5830e184ec1}{%
+           family={Hrabar},
+           familyi={H\bibinitperiod},
+           given={Mojca},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d7da949da5636c604226d6974f7b285}{%
+           family={Oedl-Wieser},
+           familyi={O\bibinithyphendelim W\bibinitperiod},
+           given={Theresia},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{759c3cf0ac67d0ac335b94ef8ddd18f0}
+      \strng{fullhash}{600a1fc6b93c6dd01e2775dcc84a4cf7}
+      \strng{fullhashraw}{600a1fc6b93c6dd01e2775dcc84a4cf7}
+      \strng{bibnamehash}{600a1fc6b93c6dd01e2775dcc84a4cf7}
+      \strng{authorbibnamehash}{600a1fc6b93c6dd01e2775dcc84a4cf7}
+      \strng{authornamehash}{759c3cf0ac67d0ac335b94ef8ddd18f0}
+      \strng{authorfullhash}{600a1fc6b93c6dd01e2775dcc84a4cf7}
+      \strng{authorfullhashraw}{600a1fc6b93c6dd01e2775dcc84a4cf7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transport can play a key role in mitigating climate change, through reducing traffic, emissions and dependency on private vehicles. Transport is also crucial to connect remote areas to central or urban areas. Yet, sustainable and flexible transport is among the greatest challenges for rural areas and rural–urban regions. Innovative transport concepts and approaches are urgently needed to foster sustainable and integrated regional development. This article addresses challenges of sustainability, accessibility, and connectivity through examining complementary systems to existing public transport, including demand-responsive transport and multimodal mobility. We draw upon case studies from the Metropolitan Area of Styria, Ljubljana Urban Region and rural Wales ({GUSTmobil}, {REGIOtim}, {EURBAN}, Bicikelj, Bwcabus, Grass Routes). In-depth analysis through a mixed-methods case study design captures the complexity behind these chosen examples, which form a basis for analysing the effects of services on accessibility for different groups, connectivity to public transport and usability as a “first and last mile” feeder. We further explore the weaknesses of complementary transport systems, including legal, organisational and financial barriers, and offer potential solutions to structure and communicate complementary transport systems to improve access and use. Looking ahead, we use the case studies to anticipate innovative, sustainable “mobility as a service” ({MaaS}) solutions within and between urban and rural areas and consider how future public policy orientations and arrangements can enable positive change. A main concern of our article and the contribution to scientific literature is through exploring the benefit of well-established multi-level governance arrangements when introducing smaller-scale mobility solutions to improve rural–urban accessibility. It becomes clear that not a one-size-fits-all model but placed-based and tailored approaches lead to successful and sustainable concepts.}
+      \field{issn}{2071-1050}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Number: 3 Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{3}
+      \field{title}{Developing Sustainable and Flexible Rural–Urban Connectivity through Complementary Mobility Services}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1280}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su13031280
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/C96J3XWT/Bauchinger et al. - 2021 - Developing Sustainable and Flexible Rural–Urban Connectivity through Complementary Mobility Services.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/13/3/1280
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/13/3/1280
+      \endverb
+      \keyw{public transport,complementary mobility,micro-public transport,mobility,multimodal mobility,rural–urban,sustainable transport}
+    \endentry
     \entry{braekers_vehicle_2016}{article}{}{}
       \name{author}{3}{}{%
         {{hash=3cf86c8dcf831e8150d8777451c24bd2}{%
@@ -79,6 +157,144 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0360835215004775
+      \endverb
+    \endentry
+    \entry{brake_demand_2004}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=74470ab8a94d89f5c3a2e11863425305}{%
+           family={Brake},
+           familyi={B\bibinitperiod},
+           given={Jenny},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ffbac84ff5823832f9ad360839fa5a6}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4b0489e93fe21a7f106227c134b80b1c}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{deecd75102723277e5540f86e8b326be}
+      \strng{fullhash}{5205443866f2e2788ebf7bb52bcf59a7}
+      \strng{fullhashraw}{5205443866f2e2788ebf7bb52bcf59a7}
+      \strng{bibnamehash}{5205443866f2e2788ebf7bb52bcf59a7}
+      \strng{authorbibnamehash}{5205443866f2e2788ebf7bb52bcf59a7}
+      \strng{authornamehash}{deecd75102723277e5540f86e8b326be}
+      \strng{authorfullhash}{5205443866f2e2788ebf7bb52bcf59a7}
+      \strng{authorfullhashraw}{5205443866f2e2788ebf7bb52bcf59a7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper focuses on recent British experience with telematics-based Demand Responsive Transport ({DRT}) services in rural areas. In recent years, the ability of {DRT} concepts to provide eﬃcient, viable transport services has been greatly enhanced by the use of transport telematics as demonstrated in a variety of environments across Europe. The success of British local authorities in winning substantial funding under the Rural and Urban Bus Challenge programmes for the implementation of {DRT} has resulted in widespread interest in ﬂexible forms of transport. It is thus timely to evaluate the impact of this substantial investment. Drawing on the experience of a number of {UK} schemes, the paper assesses the reasons for the new-found success of what is becoming a relatively well-accepted mode by concentrating on a variety of factors including: service characteristics (particularly route ﬂexibility, ﬂexibility of booking method and pre-booking regime), emerging markets and the overall contribution of {DRT} to increased social inclusion and intermodality. Impediments to the development of {DRT} services are highlighted. The paper also discusses current research into the next generation of {DRT} services and concludes by identifying some key issues for policy-makers concerned with the future implementation of {DRT} services.}
+      \field{issn}{09666923}
+      \field{journaltitle}{Journal of Transport Geography}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Transport Geography}
+      \field{shorttitle}{Demand responsive transport}
+      \field{title}{Demand responsive transport: towards the emergence of a new market segment}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{323\bibrangedash 337}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.jtrangeo.2004.08.011
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/2WYEY6K3/Brake et al. - 2004 - Demand responsive transport towards the emergence of a new market segment.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0966692304000651
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0966692304000651
+      \endverb
+    \endentry
+    \entry{calabro_designing_2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=70ae24ec955a21b6e777233992ea1119}{%
+           family={Calabrò},
+           familyi={C\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2940c79338e3e2630ec8cb95bedd84b2}{%
+           family={Pira},
+           familyi={P\bibinitperiod},
+           given={Michela\bibnamedelima Le},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=2f7c2ca1c58f0d163bcfc0807c52b72e}{%
+           family={Giuffrida},
+           familyi={G\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0daef3e65380cdfb1c9a15869d096fd4}{%
+           family={Inturri},
+           familyi={I\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7aaaa953a0f7f2cee0804e3245f067c1}{%
+           family={Ignaccolo},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e9a6334beaf0f9dd39d90543efc1800c}{%
+           family={Correia},
+           familyi={C\bibinitperiod},
+           given={Gonçalo\bibnamedelimb H.\bibnamedelimi De\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e418249bc0554357848d41fcfaae1c63}
+      \strng{fullhash}{6dd928aebc5ec44c44119d3723afc289}
+      \strng{fullhashraw}{6dd928aebc5ec44c44119d3723afc289}
+      \strng{bibnamehash}{6dd928aebc5ec44c44119d3723afc289}
+      \strng{authorbibnamehash}{6dd928aebc5ec44c44119d3723afc289}
+      \strng{authornamehash}{e418249bc0554357848d41fcfaae1c63}
+      \strng{authorfullhash}{6dd928aebc5ec44c44119d3723afc289}
+      \strng{authorfullhashraw}{6dd928aebc5ec44c44119d3723afc289}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an agent-based model ({ABM}) to simulate and compare two different operation strategies of a public transport service in small-sized cities, namely a fixed-route transit ({FRT}) and a demand-responsive transport ({DRT}) service, under varying demand rates and supply configurations. The {ABM} builds upon a previous work by the Authors, where flexible and feeder services of a Mass Rapid Transit system were simulated. In this paper, instead of a many-to-one pattern typical of a feeder service, we considered a many-to-many one. The objective is to investigate the conditions that make a {DRT} more attractive than a {FRT} in small-sized cities and guide its design considering the demand fluctuation, land-use pattern, service constraints and passenger preferences. A dispatching algorithm for the {DRT} allows to assign each new trip request to a vehicle, and a couple of origin and destination stops, updating the vehicle schedule in real time. The service includes fixed and virtual stops, allowing request consolidation and balancing operator-related (cost of the service) and user-related (quality of service) needs. The model is applied to Vittoria (Italy), a small city with 60,000 residents in Southern Italy where most trips are made by car, also due to the absence of an urban public transport service. First results highlight the benefits of providing a flexible service compared to a fixed one to minimize detours, waiting times and walking distances experienced by passengers while allowing for a higher shareability and efficiency of the service.}
+      \field{issn}{23521465}
+      \field{journaltitle}{Transportation Research Procedia}
+      \field{langid}{english}
+      \field{shortjournal}{Transportation Research Procedia}
+      \field{title}{Designing demand responsive transport services in small-sized cities using an agent-based model}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{69}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{759\bibrangedash 766}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.trpro.2023.02.233
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/V32ST767/Calabrò et al. - 2023 - Designing demand responsive transport services in small-sized cities using an agent-based model.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352146523002466
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352146523002466
       \endverb
     \endentry
     \entry{cirella_transport_2019}{article}{}{}
@@ -152,6 +368,283 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S2210539519300823
       \endverb
     \endentry
+    \entry{coutinho_impacts_2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=714d0a7210cef97c7e34306e019dc8c1}{%
+           family={Coutinho},
+           familyi={C\bibinitperiod},
+           given={Felipe\bibnamedelima Mariz},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0448f56e57228604d6a95c842be46f83}{%
+           family={Oort},
+           familyi={O\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=c794a06c8896b5f0318376aabc6774ef}{%
+           family={Christoforou},
+           familyi={C\bibinitperiod},
+           given={Zoi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f5c3c2e796802e5eaaeadf65a6a72851}{%
+           family={Alonso-González},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={María\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=28029da6230f4cb17e76c3f1be2a5682}{%
+           family={Cats},
+           familyi={C\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d5615764e15dbb9b2d463dc17bd7f9ce}{%
+           family={Hoogendoorn},
+           familyi={H\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9d16361503d44c7d4c8e5d84c89b0e5}
+      \strng{fullhash}{0d40a35fa0fae26d9b366087cf175d54}
+      \strng{fullhashraw}{0d40a35fa0fae26d9b366087cf175d54}
+      \strng{bibnamehash}{0d40a35fa0fae26d9b366087cf175d54}
+      \strng{authorbibnamehash}{0d40a35fa0fae26d9b366087cf175d54}
+      \strng{authornamehash}{e9d16361503d44c7d4c8e5d84c89b0e5}
+      \strng{authorfullhash}{0d40a35fa0fae26d9b366087cf175d54}
+      \strng{authorfullhashraw}{0d40a35fa0fae26d9b366087cf175d54}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The diffusion of the smartphone and the urban sprawl is pushing both private and public actors to revisit the concept of demand-responsive transport ({DRT}). This paper provides a historical overview of {DRT} experiences, understanding their pros and cons. In addition, it presents the case study of Mokumflex, a 12-month {DRT} pilot program that replaced the regular bus service in low-density areas of Amsterdam, the Netherlands. Based on a close collaboration with the private enterprise that operated the service and also with the local bus operator, we performed an empirical before and after comparison. These insights help to understand the impacts of {DRT} systems and support (future) design of {DRT} and public transport. A set of indicators was chosen for the intermodal comparison: travel distances, ridership, costs, Greenhouse Gases ({GHG}), emissions and population's perception. Ridership dropped from 78.1 passengers/day to 15.9 passengers/day, however, for being “demand-tailored”, passenger-km reduced even more, going from 1252.8 km/day to 136.6 km/day, hence reducing the costs and {GHG} emissions per passenger. In regards to population's perception, the system enjoyed a good evaluation.}
+      \field{day}{1}
+      \field{issn}{0739-8859}
+      \field{journaltitle}{Research in Transportation Economics}
+      \field{month}{11}
+      \field{series}{Thredbo 16 conference}
+      \field{shortjournal}{Research in Transportation Economics}
+      \field{shorttitle}{Impacts of replacing a fixed public transport line by a demand responsive transport system}
+      \field{title}{Impacts of replacing a fixed public transport line by a demand responsive transport system: Case study of a rural area in Amsterdam}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{83}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100910}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.retrec.2020.100910
+      \endverb
+      \verb{file}
+      \verb 1-s2.0-S0739885920301086-main:/Users/alexanderklaus/Zotero/storage/2TDYDZTJ/1-s2.0-S0739885920301086-main.pdf:application/pdf;Full Text PDF:/Users/alexanderklaus/Zotero/storage/DZNUGTE4/Coutinho et al. - 2020 - Impacts of replacing a fixed public transport line by a demand responsive transport system Case stu.pdf:application/pdf;ScienceDirect Snapshot:/Users/alexanderklaus/Zotero/storage/U4FUHW7Z/S0739885920301086.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0739885920301086
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0739885920301086
+      \endverb
+      \keyw{Demand responsive transport,Efficient operations,Fixed public transport,Ridership,Sustainability}
+    \endentry
+    \entry{dorso_transforming_2025}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=225b44e352abe917abe87774bae39639}{%
+           family={D’Orso},
+           familyi={D\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e060ee54de31c61186a51f5b83d688b1}{%
+           family={Torrisi},
+           familyi={T\bibinitperiod},
+           given={Vincenza},
+           giveni={V\bibinitperiod}}}%
+        {{hash=fefa5cee41139b2609070440772f8701}{%
+           family={Leonardi},
+           familyi={L\bibinitperiod},
+           given={Pierfrancesco},
+           giveni={P\bibinitperiod}}}%
+        {{hash=81d11cbdb97385399dec24f6a321d351}{%
+           family={Migliore},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7aaaa953a0f7f2cee0804e3245f067c1}{%
+           family={Ignaccolo},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=049715f0f0cfec0701657cfe0245c3c8}{%
+           family={D’Angelo},
+           familyi={D\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{93e7437160744b7518629ca03944e7ca}
+      \strng{fullhash}{81ae47cabe2389bc6cc1abf29e8549bd}
+      \strng{fullhashraw}{81ae47cabe2389bc6cc1abf29e8549bd}
+      \strng{bibnamehash}{81ae47cabe2389bc6cc1abf29e8549bd}
+      \strng{authorbibnamehash}{81ae47cabe2389bc6cc1abf29e8549bd}
+      \strng{authornamehash}{93e7437160744b7518629ca03944e7ca}
+      \strng{authorfullhash}{81ae47cabe2389bc6cc1abf29e8549bd}
+      \strng{authorfullhashraw}{81ae47cabe2389bc6cc1abf29e8549bd}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In low density areas, due to limited economic resources, public transport ({PT}) companies usually operate services with low frequency, poor accessibility and reliability and high waiting times at stops. Several studies highlighted that introducing Demand Responsive Transport Services ({DRTs}) can improve {PT} performance in these areas. In Italy, several {DRTs} have been launched, characterized by flexible schedules with different operational configurations: fixed route, with and without detours and flexible route. Considering the importance of sharing lessons from pilots, the paper presents a {DRT} pilot study, conducted in Palermo (Italy) within the {WEAKI} {TRANSIT} project, identifying strategies for planning and designing on-demand shared systems. The pilot was conducted in a suburban area in the north of Palermo, covering about 10.5 km2 with the neighbourhoods of Partanna Mondello and Tommaso Natale. This area is poorly served by {PT} companies with low-frequency and low-reliability bus lines, thus a stop-based {DRT} service with two fixed routes and detours was hypothesized. The pilot was conducted during November and December 2022, with four cars, operating from 3 to 7 p.m., except Sunday. The service, free of charge, was addressed to students and teaching staff by University of Palermo. Through {SP} surveys, simulation model and pilot, we evaluate operational performance of the services (i.e. travel distance, waiting and in-vehicle times). We found the introduction of {DRTs} lead to increasing accessibility to main transit hubs and facilities, and a decrease in waiting times at stops and travel times. Nevertheless, considerations about financial feasibility and legal framework are highlighted.}
+      \field{issn}{23521465}
+      \field{journaltitle}{Transportation Research Procedia}
+      \field{langid}{english}
+      \field{shortjournal}{Transportation Research Procedia}
+      \field{shorttitle}{Transforming travel experience in low density areas}
+      \field{title}{Transforming travel experience in low density areas: evidence from a {DRT} pilot study and simulation model}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{90}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{895\bibrangedash 902}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.trpro.2025.06.041
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/FGWI7TEA/D’Orso et al. - 2025 - Transforming travel experience in low density areas evidence from a DRT pilot study and simulation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352146525005502
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352146525005502
+      \endverb
+    \endentry
+    \entry{daduna_evolution_2020}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=73a9f13a2da511955b5827f3bb662c81}{%
+           family={Daduna},
+           familyi={D\bibinitperiod},
+           given={Joachim\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=28e4f412995cd32168f059866616faf0}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2e44e3517d7c279fb135a104cefeb0d2}{%
+           family={Rosenzweig},
+           familyi={R\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{fullhash}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{fullhashraw}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{bibnamehash}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{authorbibnamehash}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{authornamehash}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{authorfullhash}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{authorfullhashraw}{73a9f13a2da511955b5827f3bb662c81}
+      \strng{editorbibnamehash}{c84aa523ec53e21eb3c95462dab20939}
+      \strng{editornamehash}{c84aa523ec53e21eb3c95462dab20939}
+      \strng{editorfullhash}{c84aa523ec53e21eb3c95462dab20939}
+      \strng{editorfullhashraw}{c84aa523ec53e21eb3c95462dab20939}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Public transport in rural areas is currently often characterized by inadequate services, so that motorized private transport dominates these areas. This situation is considered to be unsatisfactory from an economic and social policy perspective, as it has considerable negative environmental effects. The main problems here are a decline in economic performance and an aging population as well as an increasing rural exodus. With the development of autonomously driving vehicles, it is now possible to achieve fundamental changes in the design of public transport services especially in terms of cost structures and attractiveness. However, this does not mean that the current structures of line-based service should be eliminated and completely replaced by new, quasi-individual forms of services. Rather, the objective is to extend the existing structures in order to significantly improve mobility provision through more flexibility and thus more attractiveness. The technical basics required for this exist or are already very advanced in the developments. In addition to the necessary vehicles, it is in particular the information and communication systems required for extensive interconnected network structures. However, to make the transformation successful, new organizational concepts and in particular a fundamental rethinking are required. It is not only the technical design of transport, but also to ensure the mobility needs of the population. The related developments and future tasks are outlined and discussed below.}
+      \field{booktitle}{Design, User Experience, and Usability. Case Studies in Public and Personal Interactive Systems}
+      \field{isbn}{978-3-030-49757-6}
+      \field{langid}{english}
+      \field{title}{Evolution of Public Transport in Rural Areas - New Technologies and Digitization}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{82\bibrangedash 99}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-030-49757-6_6
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/UHIV75B2/Daduna - 2020 - Evolution of Public Transport in Rural Areas - New Technologies and Digitization.pdf:application/pdf
+      \endverb
+      \keyw{Autonomous vehicles,Public transport in rural areas,Quasi-individual mobility}
+    \endentry
+    \entry{daniels_flexible_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e9d99e3e117adb1da57399b70f8be54d}{%
+           family={Daniels},
+           familyi={D\bibinitperiod},
+           given={Rhonda},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a6634cded9748eb9b5187825e93b34ee}{%
+           family={Mulley},
+           familyi={M\bibinitperiod},
+           given={Corinne},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{fullhash}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{fullhashraw}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{bibnamehash}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{authorbibnamehash}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{authornamehash}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{authorfullhash}{ffad624679d25896b5d6058d4cdb32de}
+      \strng{authorfullhashraw}{ffad624679d25896b5d6058d4cdb32de}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Flexible transport services include a range of passenger transport mobility offers, where services are flexible in one or more of the dimensions of route, vehicle allocation, vehicle operator, type of payment and passenger category. Although flexible transport services are used increasingly in Europe and the {USA} as part of the public transport mix where regular services are not sustainable, there are few working examples of these services in urban Australia, although there are many opportunities. Through a series of semi-structured interviews with key stakeholders in New South Wales, Australia, the article identifies barriers to greater use of flexible transport services in low-density urban areas. These five sets of barriers include: institutional frameworks such as regulation; economic issues of funding and cost; operational issues such as fleet and vehicles; operator and community attitudes, awareness and cultures; and information and education. The article makes recommendations to enable and encourage greater use of flexible transport services by transport service planners and providers as part of the public transport mix in low-density urban environments where it can be more difficult to provide regular and scheduled public transport.}
+      \field{day}{1}
+      \field{issn}{0811-1146}
+      \field{journaltitle}{Urban Policy and Research}
+      \field{month}{3}
+      \field{note}{Publisher: Routledge \_eprint: https://doi.org/10.1080/08111146.2012.660872}
+      \field{number}{1}
+      \field{shorttitle}{Flexible Transport Services}
+      \field{title}{Flexible Transport Services: Overcoming Barriers to Implementation in Low-Density Urban Areas}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{30}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{59\bibrangedash 76}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1080/08111146.2012.660872
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/6W4H87A5/Daniels und Mulley - 2012 - Flexible Transport Services Overcoming Barriers to Implementation in Low-Density Urban Areas.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/08111146.2012.660872
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/08111146.2012.660872
+      \endverb
+      \keyw{barriers to implementation,Flexible transport services,low-density urban public transport}
+    \endentry
     \entry{das_planning_2012}{article}{}{}
       \name{author}{3}{}{%
         {{hash=98b61782ae99e706b5c3dd8f4fa240ad}{%
@@ -213,6 +706,200 @@
       \endverb
       \verb{url}
       \verb https://ascelibrary.org/doi/10.1061/%28ASCE%29TE.1943-5436.0000419
+      \endverb
+    \endentry
+    \entry{fielbaum_improving_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1ab3ee3009c24c8f0441467400a0027e}{%
+           family={Fielbaum},
+           familyi={F\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod}}}%
+        {{hash=66eb5a15670674ff4bdd8f89970a6966}{%
+           family={Tirachini},
+           familyi={T\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=248bd79f5e503f11eb095282260ee29f}{%
+           family={Alonso-Mora},
+           familyi={A\bibinithyphendelim M\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d185d729f96d20f67c3708ed31558a87}
+      \strng{fullhash}{90fa1fcdbf2e3d75722c0004ff9195ee}
+      \strng{fullhashraw}{90fa1fcdbf2e3d75722c0004ff9195ee}
+      \strng{bibnamehash}{90fa1fcdbf2e3d75722c0004ff9195ee}
+      \strng{authorbibnamehash}{90fa1fcdbf2e3d75722c0004ff9195ee}
+      \strng{authornamehash}{d185d729f96d20f67c3708ed31558a87}
+      \strng{authorfullhash}{90fa1fcdbf2e3d75722c0004ff9195ee}
+      \strng{authorfullhashraw}{90fa1fcdbf2e3d75722c0004ff9195ee}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ride-sourcing companies have worsened congestion in numerous cities worldwide, as many users are attracted from more sustainable modes. To reverse this trend, it is crucial to leverage the technology of connecting users and vehicles online and use it to strengthen public transport, which can be achieved by integrating on-demand pooled services with existing fixed-line services. We propose an efficient and practical integration idea: namely, to complement fixed bus lines with a fleet of smaller vehicles that follow flexible (on-demand) routes side-by-side with the fixed routes, so that part of the demand that would have used the fixed line can ride the flexible service instead. With this scheme, a smaller bus fleet is required, partially compensating for the increase in operators’ costs stemming from the flexible vehicles. This integration strategy favors mostly two types of users: those traveling in low-demand periods, through lower waiting times, and those located far from the bus stops, because the on-demand vehicles can reduce their access time. We develop simulations in real-world scenarios from Santiago, Chile, and Berlin, Germany, for the cases of human-driven and automated vehicles. Results show that when vehicles are automated: (i) A small number of on-demand vehicles can reduce average walking times from approximately 12 to 2 min while reducing operators’ costs, leading to a Pareto improvement, (ii) A larger number of on-demand vehicles can diminish total costs by 13\%–39\%, through a reduction in users’ costs, although increasing operators’ costs. If vehicles are not automated, total costs are reduced by more than 10\% in all of the scenarios analyzed, but a Pareto improvement is not always possible. In general, this mixed fixed/on-demand system outperforms the use of on-demand ridepooling only. Results are more promising in Berlin, because large buses are cheaper in Santiago and run more crowded, so it is more costly to partially replace them by smaller vehicles.}
+      \field{issn}{09658564}
+      \field{journaltitle}{Transportation Research Part A: Policy and Practice}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{shortjournal}{Transportation Research Part A: Policy and Practice}
+      \field{title}{Improving public transportation via line-based integration of on-demand ridepooling}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{190}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{104289}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.tra.2024.104289
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/RSMH37IM/Fielbaum et al. - 2024 - Improving public transportation via line-based integration of on-demand ridepooling.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0965856424003379
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0965856424003379
+      \endverb
+    \endentry
+    \entry{filippi_exploiting_2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=13b8e0e1184a37ed619ca51918b4bce2}{%
+           family={Filippi},
+           familyi={F\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=339fe9a73acf501f593613e57463055d}{%
+           family={Guastaroba},
+           familyi={G\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a755b365f2e314f375bcd5ae059ef402}{%
+           family={Peirano},
+           familyi={P\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2c6eb77d1549a1fba324299ac99179e1}{%
+           family={Speranza},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi Grazia},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SSRN}%
+      }
+      \strng{namehash}{d01e3c449ceb669fac6b0f940fe1efff}
+      \strng{fullhash}{878b271f481b9eb32c8c116539fca6fc}
+      \strng{fullhashraw}{878b271f481b9eb32c8c116539fca6fc}
+      \strng{bibnamehash}{878b271f481b9eb32c8c116539fca6fc}
+      \strng{authorbibnamehash}{878b271f481b9eb32c8c116539fca6fc}
+      \strng{authornamehash}{d01e3c449ceb669fac6b0f940fe1efff}
+      \strng{authorfullhash}{878b271f481b9eb32c8c116539fca6fc}
+      \strng{authorfullhashraw}{878b271f481b9eb32c8c116539fca6fc}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Urban transit systems usually operate according to fixed-route and fixed-schedule schemes by employing fixed-capacity vehicles, despite the mobility demand is unevenly spread out in both space and time. Modular buses are an emerging technology in which modules of relatively small capacity can be dynamically docked together to form greater capacity buses and can, therefore, make the transit system capable of adapting the capacity to the actual mobility demand. A module can be shifted from one line to another at pre-defined intersections and can be relocated when empty, if beneficial. We call these two operations sharing and rebalancing, respectively. Given a transit network comprising multiple bus lines and a mobility demand, we present an integer linear program to determine an optimal assignment of modules to lines, so that the mobility demand is met with a minimum total number of modules. Computational experiments show that, by exploiting the flexibility of modular buses, the total capacity deployed can be reduced by 49\% with respect to a conventional transit system, whereas the average occupancy ratio increases from 41.22\% to 72.85\%.}
+      \field{langid}{english}
+      \field{title}{Exploiting the Flexibility of Modular Buses in an Urban Transit System}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2139/ssrn.4902459
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/838WCWA3/Filippi et al. - 2024 - Exploiting the Flexibility of Modular Buses in an Urban Transit System.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ssrn.com/abstract=4902459
+      \endverb
+      \verb{url}
+      \verb https://www.ssrn.com/abstract=4902459
+      \endverb
+    \endentry
+    \entry{gal_traveling_2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=572d697196c3c5fd4271b35ce4dfb1ff}{%
+           family={Gal},
+           familyi={G\bibinitperiod},
+           given={Avigdor},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5f62b4770ffa25ecd056625a4bdb7eac}{%
+           family={Mandelbaum},
+           familyi={M\bibinitperiod},
+           given={Avishai},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7af56f590f40d6e5606ca24d1dc38ee}{%
+           family={Schnitzler},
+           familyi={S\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f6dd0e41b77c20944608098eccae51f0}{%
+           family={Senderovich},
+           familyi={S\bibinitperiod},
+           given={Arik},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1cec7755ad13856b52f164e9d9b6f840}{%
+           family={Weidlich},
+           familyi={W\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{927438724cca3dc2dd696445e608042d}
+      \strng{fullhash}{702fb6ec1bb0577dd7c643d770fb2a1f}
+      \strng{fullhashraw}{702fb6ec1bb0577dd7c643d770fb2a1f}
+      \strng{bibnamehash}{702fb6ec1bb0577dd7c643d770fb2a1f}
+      \strng{authorbibnamehash}{702fb6ec1bb0577dd7c643d770fb2a1f}
+      \strng{authornamehash}{927438724cca3dc2dd696445e608042d}
+      \strng{authorfullhash}{702fb6ec1bb0577dd7c643d770fb2a1f}
+      \strng{authorfullhashraw}{702fb6ec1bb0577dd7c643d770fb2a1f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Urban mobility impacts urban life to a great extent. To enhance urban mobility, much research was invested in traveling time prediction: given an origin and destination, provide a passenger with an accurate estimation of how long a journey lasts. In this work, we investigate a novel combination of methods from Queueing Theory and Machine Learning in the prediction process. We propose a prediction engine that, given a scheduled bus journey (route) and a ‘source/destination’ pair, provides an estimate for the traveling time, while considering both historical data and real-time streams of information that are transmitted by buses. We propose a model that uses natural segmentation of the data according to bus stops and a set of predictors, some use learning while others are learning-free, to compute traveling time. Our empirical evaluation, using bus data that comes from the bus network in the city of Dublin, demonstrates that the snapshot principle, taken from Queueing Theory, works well yet suffers from outliers. To overcome the outliers problem, we use Machine Learning techniques as a regulator that assists in identifying outliers and propose prediction based on historical data.}
+      \field{issn}{03064379}
+      \field{journaltitle}{Information Systems}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Information Systems}
+      \field{title}{Traveling time prediction in scheduled transportation with journey segments}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{64}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{266\bibrangedash 280}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.is.2015.12.001
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/IE9BK3HE/Gal et al. - 2017 - Traveling time prediction in scheduled transportation with journey segments.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0306437915002112
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0306437915002112
       \endverb
     \endentry
     \entry{guiver_buses_2007}{article}{}{}
@@ -282,6 +969,70 @@
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0967070X07000157
       \endverb
+    \endentry
+    \entry{hatzenbuhler_network_2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e6f635efb392b83781a33a53f1936d53}{%
+           family={Hatzenbühler},
+           familyi={H\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=28029da6230f4cb17e76c3f1be2a5682}{%
+           family={Cats},
+           familyi={C\bibinitperiod},
+           given={Oded},
+           giveni={O\bibinitperiod}}}%
+        {{hash=af6fc9ee35fbf101ab664e1a1d2f759d}{%
+           family={Jenelius},
+           familyi={J\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5a15ef471315495ce7378d0e2ceaee5}
+      \strng{fullhash}{122ac71b7b1dd7ee2c7e815ea56252b2}
+      \strng{fullhashraw}{122ac71b7b1dd7ee2c7e815ea56252b2}
+      \strng{bibnamehash}{122ac71b7b1dd7ee2c7e815ea56252b2}
+      \strng{authorbibnamehash}{122ac71b7b1dd7ee2c7e815ea56252b2}
+      \strng{authornamehash}{d5a15ef471315495ce7378d0e2ceaee5}
+      \strng{authorfullhash}{122ac71b7b1dd7ee2c7e815ea56252b2}
+      \strng{authorfullhashraw}{122ac71b7b1dd7ee2c7e815ea56252b2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The maturing of autonomous driving technology in recent years has led to several pilot projects and the initial integration of autonomous pods and buses into the public transport ({PT}) system. An emerging field of interest is the design of public transport networks operating autonomous buses and the potential to attract higher levels of travel demand. In this work a multi-objective optimization and multi-agent simulation framework is developed to study potential changes in the network design and frequency settings compared to conventional {PT} systems when autonomous vehicles ({AV}) systems are deployed on fixed-route networks. During the optimization process multiple deployment scenarios (network configurations and service frequency) are evaluated and optimized considering the operator cost, user cost and infrastructure preparation costs of the system. User-focused network design and operator-focused network design are studied for a real-world urban area in Sweden. The results provide insights into the network design and level of service implications brought about by the deployment of autonomous bus ({AB}) when those are integrated in route-based {PT} systems. We show that the deployment of autonomous buses result with a network design that increases service ridership. In the context of our case study this increase is likely to primarily substitute walking.}
+      \field{day}{1}
+      \field{issn}{1572-9435}
+      \field{journaltitle}{Transportation}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Transportation}
+      \field{title}{Network design for line-based autonomous bus services}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{49}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{467\bibrangedash 502}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/s11116-021-10183-7
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/9VT6QU83/Hatzenbühler et al. - 2022 - Network design for line-based autonomous bus services.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11116-021-10183-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11116-021-10183-7
+      \endverb
+      \keyw{Public transport,Transport Geography,Transport Research,Automotive Infrastructure and Services,Transportation Technology and Traffic Engineering,{ADAS},Connectivity,E/E,Automated bus,Network design,Network topology,Simulation-based multi-objective optimization}
     \endentry
     \entry{ho_survey_2018}{article}{}{}
       \name{author}{6}{}{%
@@ -358,6 +1109,118 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0191261517304484
+      \endverb
+    \endentry
+    \entry{jimenez_urban_2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8c1cf795227e4097d29d1702d015440a}{%
+           family={Jiménez},
+           familyi={J\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88b9b50f36c6a75ead19d0d4d79b0f87}{%
+           family={Román},
+           familyi={R\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{fullhash}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{fullhashraw}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{bibnamehash}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{authorbibnamehash}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{authornamehash}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{authorfullhash}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \strng{authorfullhashraw}{d09f6d19bb4a7cecbdcc888d59e7795f}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study proposes a methodology to optimize the assignment of an urban bus ﬂeet to a set of ﬁxed routes, taking into account the differences among routes and the differences among vehicle types and propulsion technologies in order to reduce pollutant emissions ({CO}2, {CO}, {THC}, {NOx} and {PM}). A Mixed Integer Linear Programming optimization model is stated and two scenarios are assessed: minimization of {CO}2 and {NOx}. The results show that it is feasible to obtain a ﬂeet distribution in which emissions for any given pollutant are reduced without increase in emissions of other pollutants.}
+      \field{issn}{13665545}
+      \field{journaltitle}{Transportation Research Part E: Logistics and Transportation Review}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Transportation Research Part E: Logistics and Transportation Review}
+      \field{title}{Urban bus fleet-to-route assignment for pollutant emissions minimization}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{85}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{120\bibrangedash 131}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.tre.2015.11.003
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/XI9TBAX5/Jiménez und Román - 2016 - Urban bus fleet-to-route assignment for pollutant emissions minimization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1366554515002069
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1366554515002069
+      \endverb
+    \endentry
+    \entry{kim_integrating_2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2199666cc61fe2dae4d64c01951d9425}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Myungseob\bibnamedelima (Edward)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+        {{hash=fbebfad0522636f2701368639b9b5131}{%
+           family={Schonfeld},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{fullhash}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{fullhashraw}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{bibnamehash}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{authorbibnamehash}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{authornamehash}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{authorfullhash}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \strng{authorfullhashraw}{e2bb587a0a0567ae0870c10d84f72bcd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Conventional bus service (with ﬁxed routes and schedules) has lower average cost than ﬂexible bus service (with demand-responsive routes) at high demand densities. At low demand densities ﬂexible bus service has lower average costs and provides convenient door-to-door service. Bus size and operation type are related since larger buses have lower average cost per passenger at higher demand densities. The operation type and other decisions are jointly optimized here for a bus transit system connecting a major terminal to local regions. Conventional and ﬂexible bus sizes, conventional bus route spacings, areas of service zones for ﬂexible buses, headways, and ﬂeet sizes are jointly optimized in multi-dimensional nonlinear mixed integer optimization problems. To solve them, we propose a hybrid approach, which combines analytic optimization with a Genetic Algorithm. Numerical analysis conﬁrms that the proposed method provides near-optimal solutions and shows how the proposed Mixed Fleet Variable Type Bus Operation ({MFV}) can reduce total cost compared to alternative operations such as Single Fleet Conventional Bus ({SFC}), Single Fleet Flexible Bus ({SFF}), Mixed Fleet Conventional Bus ({MFC}) and Mixed Fleet Flexible Bus ({MFF}). With consistent system-wide bus sizes, capital costs are reduced by sharing ﬂeets over times and over regions. The sensitivity of results to several important parameters is also explored.}
+      \field{issn}{01912615}
+      \field{journaltitle}{Transportation Research Part B: Methodological}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{shortjournal}{Transportation Research Part B: Methodological}
+      \field{title}{Integrating bus services with mixed fleets}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{55}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{227\bibrangedash 244}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.trb.2013.06.013
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/XSDBP6SF/Kim und Schonfeld - 2013 - Integrating bus services with mixed fleets.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0191261513001124
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0191261513001124
       \endverb
     \endentry
     \entry{lian_-demand_2023}{article}{}{}
@@ -639,6 +1502,144 @@
       \verb https://www.jstor.org/stable/25767975
       \endverb
     \endentry
+    \entry{rashvand_real-time_2024}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=4f65278b96f9b8f45079bc060b42baeb}{%
+           family={Rashvand},
+           familyi={R\bibinitperiod},
+           given={Narges},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0928a673f15fe2a5830c421d01066c8d}{%
+           family={Hosseini},
+           familyi={H\bibinitperiod},
+           given={Sanaz\bibnamedelima Sadat},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ef918dba87c58495ad528cac0b243a01}{%
+           family={Azarbayjani},
+           familyi={A\bibinitperiod},
+           given={Mona},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ee8dad02e157f54ac2773a8ba705baec}{%
+           family={Tabkhi},
+           familyi={T\bibinitperiod},
+           given={Hamed},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{2ed45a9cf2d5e03ba2c355efef033003}
+      \strng{fullhash}{d2fdfc368466e605f3fc522e3ed756b5}
+      \strng{fullhashraw}{d2fdfc368466e605f3fc522e3ed756b5}
+      \strng{bibnamehash}{d2fdfc368466e605f3fc522e3ed756b5}
+      \strng{authorbibnamehash}{d2fdfc368466e605f3fc522e3ed756b5}
+      \strng{authornamehash}{2ed45a9cf2d5e03ba2c355efef033003}
+      \strng{authorfullhash}{d2fdfc368466e605f3fc522e3ed756b5}
+      \strng{authorfullhashraw}{d2fdfc368466e605f3fc522e3ed756b5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In urban settings, bus transit stands as a significant mode of public transportation, yet faces hurdles in delivering accurate and reliable arrival times. This discrepancy often culminates in delays and a decline in ridership, particularly in areas with a heavy reliance on bus transit. A prevalent challenge is the mismatch between actual bus arrival times and their scheduled counterparts, leading to disruptions in fixed schedules. Our study, utilizing New York City bus data, reveals an average delay of approximately eight minutes between scheduled and actual bus arrival times. This research introduces an innovative, {AI}-based, data-driven methodology for predicting bus arrival times at various transit points (stations), offering a collective prediction for all bus lines within large metropolitan areas. Through the deployment of a fully connected neural network, our method elevates the accuracy and efficiency of public bus transit systems. Our comprehensive evaluation encompasses over 200 bus lines and 2 million data points, showcasing an error margin of under 40 seconds for arrival time estimates. Additionally, the inference time for each data point in the validation set is recorded at below 0.006 ms, demonstrating the potential of our Neural-Net-based approach in substantially enhancing the punctuality and reliability of bus transit systems.}
+      \field{day}{4}
+      \field{eprinttype}{arxiv}
+      \field{month}{3}
+      \field{number}{{arXiv}:2303.15495}
+      \field{shorttitle}{Real-Time Bus Arrival Prediction}
+      \field{title}{Real-Time Bus Arrival Prediction: A Deep Learning Approach for Enhanced Urban Mobility}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2303.15495
+      \endverb
+      \verb{eprint}
+      \verb 2303.15495 [cs]
+      \endverb
+      \verb{file}
+      \verb Preprint PDF:/Users/alexanderklaus/Zotero/storage/NGFFK8TS/Rashvand et al. - 2024 - Real-Time Bus Arrival Prediction A Deep Learning Approach for Enhanced Urban Mobility.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2303.15495
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2303.15495
+      \endverb
+      \keyw{Computer Science - Machine Learning}
+    \endentry
+    \entry{rosca_designing_2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=15f41c776e20cf8835dd82179d4a1cf0}{%
+           family={Rosca},
+           familyi={R\bibinitperiod},
+           given={Cosmina-Mihaela},
+           giveni={C\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=44e8e8cde1ac8ed6f371762a2411adf6}{%
+           family={Stancu},
+           familyi={S\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3ebf69a1496e1da1a540b48b4afbe650}{%
+           family={Neculaiu},
+           familyi={N\bibinitperiod},
+           given={Cosmin-Florinel},
+           giveni={C\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=6824f999f10de0354d2209fe9ef638df}{%
+           family={Gortoescu},
+           familyi={G\bibinitperiod},
+           given={Ionuț-Adrian},
+           giveni={I\bibinithyphendelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{adcaa8af8b318ae8e0a93d365917db65}
+      \strng{fullhash}{9384b5e99d42a09e2cf30c86b730d8f4}
+      \strng{fullhashraw}{9384b5e99d42a09e2cf30c86b730d8f4}
+      \strng{bibnamehash}{9384b5e99d42a09e2cf30c86b730d8f4}
+      \strng{authorbibnamehash}{9384b5e99d42a09e2cf30c86b730d8f4}
+      \strng{authornamehash}{adcaa8af8b318ae8e0a93d365917db65}
+      \strng{authorfullhash}{9384b5e99d42a09e2cf30c86b730d8f4}
+      \strng{authorfullhashraw}{9384b5e99d42a09e2cf30c86b730d8f4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many countries encourage their populations to use public urban transport to decrease pollution and traffic congestion. However, this can generate overcrowded routes at certain times and low economic efficiency for public urban transport companies when buses carry few passengers. This article proposes a Public Urban Transport Scheduling System ({PUTSS}) algorithm for allocating a public urban transport fleet based on the number of passengers waiting for a bus and considering the efficiency of public urban transport companies. The {PUTSS} algorithm integrates artificial intelligence ({AI}) methods to identify the number of people waiting at each station through real-time image acquisition. The technique presented is Azure Computer Vision. In a case study, the accuracy of correctly identifying the number of persons in an image was computed using the Microsoft Azure Computer Vision service. The proposed {PUTSS} algorithm also uses Google Maps Service for congestion-level identification. Employing these modern tools in the algorithm makes improving public urban transport services possible. The algorithm is integrated into a software application developed in C\#, simulating a real-world scenario involving two public urban transport vehicles. The global accuracy rate of 89.81\% demonstrates the practical applicability of the software product.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Number: 19 Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{19}
+      \field{title}{Designing and Implementing a Public Urban Transport Scheduling System Based on Artificial Intelligence for Smart Cities}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{8861}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app14198861
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/A82EXR85/Rosca et al. - 2024 - Designing and Implementing a Public Urban Transport Scheduling System Based on Artificial Intelligen.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/14/19/8861
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/14/19/8861
+      \endverb
+      \keyw{{AI} methods,Azure service,C\#,Google Maps Service,Microsoft Azure Computer Vision,optimization algorithm,public urban transport,smart cities}
+    \endentry
     \entry{takamatsu_bus_2020}{article}{}{}
       \name{author}{2}{}{%
         {{hash=38df8d8744319ea55de7103993eee4d3}{%
@@ -695,6 +1696,141 @@
       \verb https://pubsonline.informs.org/doi/abs/10.1287/trsc.2019.0918
       \endverb
       \keyw{bus and railway network,event–activity network,mathematical optimization,timetable design}
+    \endentry
+    \entry{tang_data-driven_2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6beeeba0c1d137bc243bcf9497ed5b1b}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jinjun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f933721eda523afb4ddd1f8c01aba5fe}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2397ba80d9f74d4a20f1c53472bd4148}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f366ed4d779dfffcffc0a514cf788132}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=10823b6d64e8068836ff795955b9efb9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yinhai},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{cca37181348f50bcd430949e499544ab}
+      \strng{fullhash}{b823303cf03d4835aa78f31c7a7dc723}
+      \strng{fullhashraw}{b823303cf03d4835aa78f31c7a7dc723}
+      \strng{bibnamehash}{b823303cf03d4835aa78f31c7a7dc723}
+      \strng{authorbibnamehash}{b823303cf03d4835aa78f31c7a7dc723}
+      \strng{authornamehash}{cca37181348f50bcd430949e499544ab}
+      \strng{authorfullhash}{b823303cf03d4835aa78f31c7a7dc723}
+      \strng{authorfullhashraw}{b823303cf03d4835aa78f31c7a7dc723}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reasonable bus timetable can reduce the operating costs of bus company and improve the quality of bus services. A data-driven method is proposed to optimize bus timetable in this study. Firstly, a bi-objective optimization model is constructed considering minimize the total waiting time of passengers and the departure times of bus company. Then, Global Positioning System ({GPS}) trajectories of buses and passenger information collected from Smart Card are fused and applied to calculate the key parameters or variables in optimization model, including time-dependent travel time, bus dwell time and passenger volume. Finally, by adopting a specific coding scheme, an improved Non-dominated Sorting Genetic Algorithm-{II} ({NSGA}-{II}) is designed to quickly search Pareto optimal solutions. Furthermore, an experiment is conducted in Beijing city from one bus line to validate the effectiveness of the proposed method. Comparing with empirical scheduling method and traditional single-objective optimization base on {GA}, the results show that the proposed model could quickly provide high-quality and reasonable timetable schemes for the administrator in urban transit system.}
+      \field{issn}{1558-0016}
+      \field{journaltitle}{{IEEE} Transactions on Intelligent Transportation Systems}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{A Data-Driven Timetable Optimization of Urban Bus Line Based on Multi-Objective Genetic Algorithm}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2417\bibrangedash 2429}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TITS.2020.3025031
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/QQSCRWZF/Tang et al. - 2021 - A Data-Driven Timetable Optimization of Urban Bus Line Based on Multi-Objective Genetic Algorithm.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9208784/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9208784/
+      \endverb
+      \keyw{Optimization,bus timetable,Companies,data-driven method,Encoding,Genetic algorithms,Global Positioning System,multi-objective,non-dominated sorting genetic algorithm-{II} ({NSGA}-{II}),Scheduling,Smart cards,Urban transit}
+    \endentry
+    \entry{tian_autonomous_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6e7cde655093f768e1eab8fff8801cf1}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Qingyun},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c9a011f219e9390458f47d3a4c80027b}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yun\bibnamedelima Hui},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8345ab14e0965082df4acf4dc7e2721d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelimb Z.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb30fa6b030462ef5566ac130e739b7d}
+      \strng{fullhash}{b90c5917eae198added0ab38b6f2ebc8}
+      \strng{fullhashraw}{b90c5917eae198added0ab38b6f2ebc8}
+      \strng{bibnamehash}{b90c5917eae198added0ab38b6f2ebc8}
+      \strng{authorbibnamehash}{b90c5917eae198added0ab38b6f2ebc8}
+      \strng{authornamehash}{bb30fa6b030462ef5566ac130e739b7d}
+      \strng{authorfullhash}{b90c5917eae198added0ab38b6f2ebc8}
+      \strng{authorfullhashraw}{b90c5917eae198added0ab38b6f2ebc8}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The emerging technology of autonomous vehicles has been widely recognized as a promising urban mobility solution in the future. This paper considers the integration of autonomous vehicles into bus transit systems and proposes a modeling framework to determine the optimal bus fleet size and its assignment onto multiple bus lines in a bus service network considering uncertain demand. The mixed-integer stochastic programming approach is applied to formulate the problem. We apply the sample average approximation ({SAA}) method to solve the formulated stochastic programming problem. To tackle the nonconvexity of the {SAA} problem, we first present a reformulation method that transforms the problem into a mixed-integer conic quadratic program ({MICQP}), which can be solved to its global optimal solution by using some existing solution methods. However, this {MICQP} based approach can only handle the small-size problems. For the cases with large problem size, we apply the approach of quadratic transform with linear alternating algorithm, which allows for efficient solution to large-scale instances with up to thousands of scenarios in a reasonable computational time. Numerical results demonstrate the benefits of introducing autonomous buses as they are flexible to be assigned across different bus service lines, especially when demand uncertainty is more significant. The introduction of autonomous buses would enable further reduction of the required fleets and total cost. The model formulation and solution methods proposed in this study can be used to provide bus transit operators with operational guidance on including autonomous buses into bus services, especially on the autonomous and conventional bus fleets composition and allocation.}
+      \field{day}{1}
+      \field{issn}{1572-9435}
+      \field{journaltitle}{Transportation}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shortjournal}{Transportation}
+      \field{title}{Autonomous and conventional bus fleet optimization for fixed-route operations considering demand uncertainty}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{48}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2735\bibrangedash 2763}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s11116-020-10146-4
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/J46A8JGP/Tian et al. - 2021 - Autonomous and conventional bus fleet optimization for fixed-route operations considering demand unc.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s11116-020-10146-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11116-020-10146-4
+      \endverb
+      \keyw{Transportation Economics,Autonomous bus service,Conic programming,Continuous Optimization,Demand uncertainty,Discrete Optimization,Operations Research and Decision Theory,Operations Research,Management Science,Quadratic transform,Stochastic programming,Transportation Technology and Traffic Engineering}
     \endentry
     \entry{tsigdinos_route_2024}{article}{}{}
       \name{author}{6}{}{%
@@ -1026,6 +2162,133 @@
       \verb https://doi.org/10.1007/s11116-013-9506-1
       \endverb
       \keyw{Flexible public transport,Area-wide socio-economic factors,Demand Responsive Transport ({DRT}),Multilevel statistical modelling,Paratransit,System-wide effects}
+    \endentry
+    \entry{wei_optimizing_2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=1cf0368e6005a6c39eb88c5303a95fa2}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Junjun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b5085f082bd7897e331be892fc93a5d5}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Kejun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=98f6b8108916c82ba62b217392d85436}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0e1156675a7a052cf1ea599d707172a1}{%
+           family={Ju},
+           familyi={J\bibinitperiod},
+           given={Qingling},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=876489dac35eb0e1870403c315f3336e}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Piao},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{91d2debc8973106b596ed4533337bb1d}
+      \strng{fullhash}{52d415f961a7ca6b420fdb6e52c0beaf}
+      \strng{fullhashraw}{52d415f961a7ca6b420fdb6e52c0beaf}
+      \strng{bibnamehash}{52d415f961a7ca6b420fdb6e52c0beaf}
+      \strng{authorbibnamehash}{52d415f961a7ca6b420fdb6e52c0beaf}
+      \strng{authornamehash}{91d2debc8973106b596ed4533337bb1d}
+      \strng{authorfullhash}{52d415f961a7ca6b420fdb6e52c0beaf}
+      \strng{authorfullhashraw}{52d415f961a7ca6b420fdb6e52c0beaf}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Metros are usually built and added on the basis of a completed bus network in Chinese cities. After the metro construction, it is faced with the problem of how to adjust and optimize the original bus lines based on the new metro system. This research mainly proposes a bus line optimization method based on bus and metro integration. In the consideration of the geographical space, the cooperation and competition relationship between bus and metro lines is qualitatively introduced according to the geographical location and service range of metro (800 m radius) and bus (500 m radius) stations. The competition and cooperation indexes are applied to define the co-opetition relationship between bus and metro lines. The bus line optimization model is constructed based on the co-opetition coefficient and Changsha Metro Line Number 2 is chosen as a case study to verify the optimization model. The results show that the positive competition, efficient cooperation, and travel efficiency between metro and bus has been significantly enhanced after optimization. Moreover, this paper provides a reasonable reference for public transport network planning and resource allocation.}
+      \field{issn}{2071-1050}
+      \field{journaltitle}{Sustainability}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Number: 4 Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{4}
+      \field{title}{Optimizing Bus Line Based on Metro-Bus Integration}
+      \field{urlday}{7}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1493}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/su12041493
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/alexanderklaus/Zotero/storage/9BI36AK3/Wei et al. - 2020 - Optimizing Bus Line Based on Metro-Bus Integration.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2071-1050/12/4/1493
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2071-1050/12/4/1493
+      \endverb
+      \keyw{bus line,co-opetition,competition,cooperation,metro station}
+    \endentry
+    \entry{white_roles_2016}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ae95728f7a1406f1c13e713f5d14e90}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{fullhash}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{fullhashraw}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{bibnamehash}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{authorbibnamehash}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{authornamehash}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{authorfullhash}{5ae95728f7a1406f1c13e713f5d14e90}
+      \strng{authorfullhashraw}{5ae95728f7a1406f1c13e713f5d14e90}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The roles of ‘conventional’ (fixed-route and fixed-timetable) bus services is examined and compared to demand-responsive services, taking rural areas in England as the basis for comparison. It adopts a ‘rural’ definition of settlements under a population of 10,000.Evidence from the National Travel Survey, technical press reports and academic work is brought together to examine the overall picture.Inter-urban services between towns can provide a cost-effective way of serving rural areas where smaller settlements are suitably located. The cost structures of both fixed-route and demand-responsive services indicate that staff time and cost associated with vehicle provision are the main elements. Demand-responsive services may enable larger areas to be covered, to meet planning objectives of ensuring a minimum of level of service, but experience often shows high unit cost and public expenditure per passenger trip. Economic evaluation indicates user benefits per passenger trip of similar magnitude to existing average public expenditure per trip on fixed-route services. Considerable scope exists for improvements to conventional services through better marketing and service reliability.The main issue in England is the level of funding for rural services in general, and the importance attached to serving those without access to cars in such areas.The boundary between fixed-route and demand-responsive operation may lie at relatively low population densities.The chapter uses statistical data, academic research and operator experience of enhanced conventional bus services to provide a synthesis of outcomes in rural areas.}
+      \field{booktitle}{Paratransit: Shaping the Flexible Transport Future}
+      \field{day}{7}
+      \field{isbn}{978-1-78635-226-2}
+      \field{month}{10}
+      \field{title}{The Roles of ‘Conventional’ and Demand-Responsive Bus Services}
+      \field{urlday}{31}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{0}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1108/S2044-994120160000008015
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/alexanderklaus/Zotero/storage/2JMVTLGC/2016 - The Roles of ‘Conventional’ and Demand-Responsive Bus Services.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1108/S2044-994120160000008015
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1108/S2044-994120160000008015
+      \endverb
+      \warn{\item Range field 'pages' in entry 'white_roles_2016' is malformed, falling back to literal}
     \endentry
     \entry{zhen_feeder_2024}{article}{}{}
       \name{author}{2}{}{%
