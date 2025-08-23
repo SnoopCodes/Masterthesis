@@ -587,8 +587,7 @@ Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, dahe
 
 \textbf{EINORDNUNG ÜBER EINEN TABELARISCHEN VERGLEICH IN HINBLICK AUF OPTIMIERUNGSZIELE, WIE: total rider time, total number of vehicles --> UNterscheidung auch durch: "aus sicht des betreibers" oder aus sicht des fahrgastes"}
 
-    
-
+       
 \begin{landscape}
     \begingroup
     \scriptsize
@@ -596,28 +595,24 @@ Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, dahe
     % ---- Fallbacks (stören nicht, falls schon definiert) ----
     \makeatletter
     \@ifundefined{LH}{\newcommand{\LH}[1]{\textbf{#1}}}{}%
-    \@ifundefined{rotH}{\newcommand{\rotH}[1]{\rotatebox{90}{\makecell[c]{#1}}}}{}%
+    \@ifundefined{rotH}{\newcommand{\rotH}[1]{\rotatebox{90}{\makecell[l]{#1}}}}{}% linksbündige Rot-Köpfe
     \@ifundefined{yes}{\newcommand{\yes}{\textbf{X}}}{}%
-    \@ifundefined{no}{\newcommand{\no}{}}{}%
+    \@ifundefined{no}{\newcommand{\no}{\textbf{-}}}{}%
     \makeatother
     \providecommand{\Xhline}[1]{\specialrule{#1}{0pt}{0pt}}% falls \Xhline fehlt
-    
-    % ---- Spaltentypen für xltabular ----
-    % Benötigt: \usepackage{array,ragged2e} (hast du laut Log)
     
     \setlength{\tabcolsep}{2pt}
     
     \begin{xltabular}{\textwidth}{%
-      L{1.7cm} L{1.7cm} L{1.9cm} L{1.9cm}%
-      *{5}{C{0.40cm}}% 5 Netz/Bedienlogik
-      *{8}{C{0.40cm}}% 8 Nebenbedingungen
-      L{1.6cm}% Modellklasse (Text)
-      *{3}{C{0.40cm}} L{1.6cm}% Lösungsmethodik (3 Kreuze + Solver)
+      L{1.7cm} L{2.5cm} L{1.9cm} L{1.7cm}% 4 Textspalten
+      *{5}{C{0.30cm}}% 5 Netz/Bedienlogik
+      *{8}{C{0.30cm}}% 8 Nebenbedingungen
+      C{0.30cm} C{0.30cm} C{0.30cm} C{0.30cm}% 4 Lösungsmethodik (Exakt, Metaheuristik, Dekomposition, Solver)
       L{1.7cm}% Datengrundlage (Text)
       L{5.6cm}% Zentrale Erkenntnisse (Text)
     }
     
-    \caption{Forschungsergebnisse zu nicht BLSP-verwandten Systemen}\label{tab:nicht_verwandt}\\
+    \caption{Forschungsergebnisse zu BLSP-verwandten Systemen}\label{tab:verwandteSys}\\
     \toprule
     % ---------- Kopf 1 ----------
     \multirow{2}{*}{\LH{Paper}} &
@@ -626,35 +621,34 @@ Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, dahe
     \multirow{2}{*}{\LH{Nachfrage-\\dynamik}} &
     \multicolumn{5}{c}{\LH{Netz \& Bedienlogik}} &
     \multicolumn{8}{c}{\LH{Nebenbedingungen}} &
-    \multirow{2}{*}{\LH{Modell-\\klasse}} &
+    % (Modellklasse entfällt)
     \multicolumn{4}{c}{\LH{Lösungsmethodik}} &
     \multirow{2}{*}{\LH{Daten-\\grundlage}} &
     \multirow{2}{*}{\LH{Zentrale Erkenntnisse}} \\
     % ---------- Kopf 2 ----------
     & & & &
-    \rotH{Feste Stop-\\Sequenz} &
-    \rotH{Fahrplan-\\segmente} &
-    \rotH{Multi-\\Linien/Netz} &
-    \rotH{Transfers\\modelliert} &
-    \rotH{Pickup/\\Delivery} &
+    \rotH{Feste Stopsequenz} &
+    \rotH{Fahrplansegmente} &
+    \rotH{Multi-Linien/Netz} &
+    \rotH{Transfers modelliert} &
+    \rotH{Pickup/Delivery} &
     \rotH{Kapazität} &
-    \rotH{Max. Mit-\\fahrzeit} &
-    \rotH{Feste Abfahrts-\\zeiten} &
-    \rotH{Routen-/\\Schichtdauer} &
-    \rotH{Fahrer/\\Schichten} &
-    \rotH{Pausen/\\Ruhezeiten} &
-    \rotH{Hetero-\\gene Flotte} &
-    \rotH{Multi-\\Depot} &
-    & % Modellklasse hat keine Unterkategorien
+    \rotH{Max. Mitfahrzeit} &
+    \rotH{Feste Abfahrtszeiten} &
+    \rotH{Routen-/Schichtdauer} &
+    \rotH{Fahrer/Schichten} &
+    \rotH{Pausen/Ruhezeiten} &
+    \rotH{Heterogene Flotte} &
+    \rotH{Multi-Depot} &
     \rotH{Exakt} &
-    \rotH{Meta-\\heuristik} &
-    \rotH{Dekom-\\position} &
-    \makecell[l]{\bfseries Solver} &
-    & \\ % Datengrundlage & Zentrale Erkenntnisse
+    \rotH{Metaheuristik} &
+    \rotH{Dekomposition} &
+    \rotH{Solver} &
+    & \\
     \midrule
     \endfirsthead
     
-    \multicolumn{24}{l}{\small\itshape Fortsetzung von Tabelle~\ref{tab:nicht_verwandt}.}\\[0.25\baselineskip]
+    \multicolumn{23}{l}{\small\itshape Fortsetzung von Tabelle~\ref{tab:verwandteSys}.}\\[0.25\baselineskip]
     \toprule
     \multirow{2}{*}{\LH{Paper}} &
     \multirow{2}{*}{\LH{Zielsetzung}} &
@@ -662,60 +656,59 @@ Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, dahe
     \multirow{2}{*}{\LH{Nachfrage-\\dynamik}} &
     \multicolumn{5}{c}{\LH{Netz \& Bedienlogik}} &
     \multicolumn{8}{c}{\LH{Nebenbedingungen}} &
-    \multirow{2}{*}{\LH{Modell-\\klasse}} &
     \multicolumn{4}{c}{\LH{Lösungsmethodik}} &
     \multirow{2}{*}{\LH{Daten-\\grundlage}} &
     \multirow{2}{*}{\LH{Zentrale Erkenntnisse}} \\
     & & & &
-    \rotH{Feste Stop-\\Sequenz} &
-    \rotH{Fahrplan-\\segmente} &
-    \rotH{Multi-\\Linien/Netz} &
-    \rotH{Transfers\\modelliert} &
-    \rotH{Pickup/\\Delivery} &
+    \rotH{Feste Stopsequenz} &
+    \rotH{Fahrplansegmente} &
+    \rotH{Multi-Linien/Netz} &
+    \rotH{Transfers modelliert} &
+    \rotH{Pickup/Delivery} &
     \rotH{Kapazität} &
-    \rotH{Max. Mit-\\fahrzeit} &
-    \rotH{Feste Abfahrts-\\zeiten} &
-    \rotH{Routen-/\\Schichtdauer} &
-    \rotH{Fahrer/\\Schichten} &
-    \rotH{Pausen/\\Ruhezeiten} &
-    \rotH{Hetero-\\gene Flotte} &
-    \rotH{Multi-\\Depot} &
-    & 
+    \rotH{Max. Mitfahrzeit} &
+    \rotH{Feste Abfahrtszeiten} &
+    \rotH{Routen-/Schichtdauer} &
+    \rotH{Fahrer/Schichten} &
+    \rotH{Pausen/Ruhezeiten} &
+    \rotH{Heterogene Flotte} &
+    \rotH{Multi-Depot} &
     \rotH{Exakt} &
-    \rotH{Meta-\\heuristik} &
-    \rotH{Dekom-\\position} &
-    \makecell[l]{\bfseries Solver} &
+    \rotH{Metaheuristik} &
+    \rotH{Dekomposition} &
+    \rotH{Solver} &
     & \\
     \midrule
     \endhead
     
     \midrule
-    \multicolumn{24}{r}{\small\itshape Fortsetzung auf der nächsten Seite} \\
+    \multicolumn{23}{r}{\small\itshape Fortsetzung auf der nächsten Seite} \\
     \endfoot
     
     \bottomrule
     \endlastfoot
+
+    \textcite{abdelwahed_balancing_2023} & Konzept evaluieren & max Servicegrad & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \no & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
     
-    % ---------- Beispielzeile (genau 24 Spalten = 23x &) ----------
-    Author et al. (20XX) &
-    Ziel kurz &
-    Kostenminimierung &
-    statisch &
-    \yes & \no & \yes & \no & \no &
-    \yes & \no & \no & \yes & \no & \no & \no & \no &
-    MILP &
-    \yes & \no & \no & Gurobi &
-    Realdaten &
-    Zentrale Erkenntnis in ein bis zwei Sätzen. \\
+    \textcite{bakas_flexible_2016} & Konzept evaluieren & min Fahrzeuge & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    
+    \textcite{marinelli_integrated_2024} & Konzept evaluieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    
+    \textcite{melis_integrated_2024} & Konzept evaluieren & min Kosten & Statisch & \yes & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    
+    \textcite{melis_static_2022} & Planung/Dimensionierung & min Fahrtzeit & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    
+    \textcite{pei_real-time_2019} & Minimierung der Kosten & min Kosten & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \no & – & — & Realdaten & BLSP-nahe Modelle verbessern Servicequalität bei begrenzten Kosten deutlich. \\ \hline
+    
+    \textcite{yang_gis-based_2016} & Planung/Dimensionierung & min Kosten & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
     
     % ... weitere Zeilen hier ...
     
     \end{xltabular}
     
     \endgroup
-    \end{landscape}
-       
-     
+\end{landscape}
+    
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
