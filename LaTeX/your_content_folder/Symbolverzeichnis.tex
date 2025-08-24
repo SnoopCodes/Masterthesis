@@ -3,15 +3,36 @@
 \markboth{Symbolverzeichnis}{Symbolverzeichnis}
 
 \begin{longtable}[l]{@{}>{\centering\arraybackslash}p{5cm}p{11cm}@{}}
-\textbf{Symbol} & \textbf{Bedeutung} \\
-\midrule
-$l$ & Index einer Buslinie \\
-$l'$ & Index einer Nachfolgertour \\
-$L$ & Menge aller Buslinien \\
-$j$ & Index einer Haltestelle innerhalb einer Linie \\
-$m_l$ & Anzahl der Haltestellen auf Linie $l$ \\
-$t_{s_j,s_{j'}}^l$ & Fahrzeit zwischen Haltestellen $s_j$ und $s_{j'}$ auf Linie $l$ \\
-$K$ & Menge der verfügbaren Busse \\
-$Q_k$ & Kapazität des Busses $k$ \\
-$d_{s_j,s_{j'}^l}$ & Nachfrage zwischen zwei Haltestellen einer Linie $l$ \\
+    \textbf{Symbol} & \textbf{Bedeutung} \\
+    \midrule
+    $L$ & Menge aller Buslinien \\
+    $l$ & Index einer Tour \\ 
+    $l'$ & Index einer Nachfolgertour \\
+
+    $i, j, h$ & Index einer Haltestelle innerhalb einer Linie \\
+    $j'$ & Index einer Nachfolgerhaltestelle\\
+    $m_l$ & Letzte Haltestelle der Linie $l$ \\
+    $s_j^l$ & Knoten der Haltestelle $j$ auf Linie $l$ \\
+    $s_{m_l}^l$ & Knoten der letzten Haltestelle der Linie $l$ \\
+    $D$ & Depotknoten \\
+
+    $\bar{t}_{s_j^l}$ & Abfahrtzeit am Knoten $s_j^l$ \\
+    $t_{s_j,s_{j'}}^l$ & Fahrzeit zwischen Knoten $s_j$ und $s_{j'}$ \\
+
+    $K$ & Menge der verfügbaren Busse \\
+    $k$ & Index eines Busses \\
+    $Q_k$ & Kapazität des Busses $k$ \\
+    $d_{s_j^l,s_{j'}^l}$ & Nachfrage zwischen zwei Haltestellen einer Linie $l$ \\
+    $a_k$ & Zeitpunkt, zu dem der Bus $k$ verfügbar wird \\
+    $b_k$ & Zeitpunkt, zu dem der Bus $k$ eine Pause beginnt \\
+    $c_k$ & Zeitpunkt, zu dem der Bus $k$ nicht mehr verfügbar ist \\
+    $p$ & Länge der Pause eines Fahrers \\
+
+    $V, \bar{V}$ & Menge aller Knoten im System \\
+    $A, \bar{A}, \hat{A}$ & Menge aller zugelassenen Verbindungen im System \\
+    
+    $x_{ij}$ & Binäre Entscheidungsvariable - 1, wenn die Verbindung $(i,j) \in A$ bzw. $\bar{A},\hat{A}$ genutzt wird, sonst 0\\
+    $x_{ijk}$ & Binäre Entscheidungsvariable - 1, wenn die Verbindung $(i,j) \in A$ bzw. $\bar{A},\hat{A}$ mit dem Bus $k$ bedient wird, sonst 0\\
+    
+
 \end{longtable}

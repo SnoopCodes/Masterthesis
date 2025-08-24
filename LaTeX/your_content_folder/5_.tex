@@ -11,20 +11,47 @@ Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}),
 
 Der generierte Datensatz besteht aus folgenden Tabellen:
 
-Tabelle 1 beinhaltet die unterschiedlichen Buslinien inklusive aller sich auf der jeweiligen Linie befindlichen Haltestellen. Für jede Haltestelle sind die Koordinaten (in X- und Y-Richtung), sowie die einzuhaltende Abfahrtzeit festgelegt. 
+Tabelle \ref{tab:buslines} beinhaltet die unterschiedlichen Buslinien inklusive aller sich auf der jeweiligen Linie befindlichen Haltestellen. Für jede Haltestelle sind die Koordinaten (in X- und Y-Richtung), sowie die einzuhaltende Abfahrtzeit festgelegt. 
 
-Tabelle 2 legt fest zu welchen unterschiedlichen Startzeiten die einzelnen Touren je Buslinie vom Depot aus gestartet werden. 
+Tabelle \ref{tab:lines} legt fest zu welchen unterschiedlichen Startzeiten die einzelnen Touren je Buslinie vom Depot aus gestartet werden. 
 
-Tabelle 3 stellt eine fiktive Nachfragesituation zu Beginn eines Betrachtungszeitraums dar. Die hier simuliert Nachfragesituation umfasst insgesamt \textbf{XXXXXX} angemeldete Kundenfahrten. 
+Tabelle \ref{tab:busses} legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Verfügung stehenden Busse fest. Je Bus sind die Kapazität, sowie die, dem Bus zugeteilten, Schicht- und Pausenzeiten des Busfahrers festgelegt.
 
-Tabelle 4 legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Verfügung stehenden Busse fest. Je Bus sind die Kapazität, sowie die, dem Bus zugeteilten, Schicht- und Pausenzeiten des Busfahrers festgelegt.
+Tabelle \ref{tab:demand} stellt eine fiktive Nachfragesituation zu Beginn eines Betrachtungszeitraums dar. Die hier simuliert Nachfragesituation umfasst insgesamt 18 \textbf{ggf. anpassen, wenn Datensatz nochmal größer wird} angemeldete Kundenfahrten. 
+
+\begin{table}[htbp]
+    \centering
+    % Erste Reihe
+    \begin{minipage}{0.5\textwidth}
+      \centering
+      \caption{Haltestellen der Buslinien}\label{tab:buslines}
+      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/bus-lines.csv}
+    \end{minipage}\hfill
+    \begin{minipage}{0.5\textwidth}
+      \centering
+      \caption{Touren inkl. Startzeiten}\label{tab:lines}
+      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/lines.csv}
+    \end{minipage}
+\end{table}
+\begin{table}
+    \centering
+    \caption{Fiktive Busse inkl. Eigenschaften und Fahrerschichten/-pausen}\label{tab:busses}
+    \csvautobooktabular[separator=comma]{your_content_folder/tabellen/busses.csv}
+\end{table}  
+\newpage
+\begin{table}
+      \centering
+      \caption{Fiktive Nachfragesituation}\label{tab:demand}
+      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/demand.csv}
+\end{table}
+    
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 \section{Struktur der Implementierung}
-Die in  Kapitel \ref{chapter:4} beschriebenen Szenarien wurden jeweils in eigenen Jupyter Notebooks umgesetzt, sodass der Code unmittelbar ausgeführt werden konnte. Die Notebooks sind alle gleich strukturiert aufgebaut: 1. Begonnen wird mit der Einbindung aller relevanter Bibliotheken. 2. Anschließend werden alle, für das Szenario relevante, Eingangsdaten in Form von CSV-Dateien geladen und in pandas Dataframes geschrieben. 3. Alle relevanten Eingabeparameter werden gesetzt. 4. Die Strukturen des Graphenmodells, die Knoten und Kanten, werden aufgebaut. 5. Die szenario-spezifischen Sets $A$ und $V$ werden aufgebaut. 6. Die szenario-spezifische Modelldefinition wird vorgenommen. 7. Das Model wird gelöst und die Parameter-bezogenen Ergebnisse, sowie der Lösungsstatus, der Zielfunktionswert \textbf{NOCH ANDERE???}, die \textbf{erreichte GAP und Laufzeit ????} werden ausgegeben. 8. Zur grafischen Darstellung wird am Ende ein 3D-Plot ausgegeben, der die gefahrenen Touren im Zeitverlauf darstellt. \textbf{HIE IRGENDWIE NOCH UNSICHER, OB DAS ALLES IST UND SO BLEIBEN SOLL}
+Die in  Kapitel \ref{chapter:4} beschriebenen Szenarien wurden jeweils in eigenen Jupyter Notebooks umgesetzt, sodass der Code unmittelbar ausgeführt werden konnte. Die Notebooks sind alle gleich strukturiert aufgebaut: 1. Begonnen wird mit der Einbindung aller relevanter Bibliotheken. 2. Anschließend werden alle, für das Szenario relevante, Eingangsdaten in Form von CSV-Dateien geladen und in pandas Dataframes geschrieben. 3. Alle relevanten Eingabeparameter werden gesetzt. 4. Die Strukturen des Graphenmodells, die Knoten und Kanten, werden aufgebaut. 5. Die szenario-spezifischen Sets $A$ bzw. $\bar{A}$ oder $\hat{A} $ und $V$ bzw. $\bar{V}$ oder $\hat{V}$ werden aufgebaut. 6. Die szenario-spezifische Modelldefinition wird vorgenommen. 7. Das Model wird gelöst und die Parameter-bezogenen Ergebnisse, sowie der Lösungsstatus, der Zielfunktionswert \textbf{NOCH ANDERE???}, die \textbf{erreichte GAP und Laufzeit ????} werden ausgegeben. 8. Zur grafischen Darstellung wird am Ende ein 3D-Plot ausgegeben, der die gefahrenen Touren im Zeitverlauf darstellt. \textbf{HIE IRGENDWIE NOCH UNSICHER, OB DAS ALLES IST UND SO BLEIBEN SOLL}
 
 \textbf{Relevante Klassen/Methoden (z.B. für Pfadgenerierung, Kapazitätsprüfung) ????}
 

@@ -3,7 +3,7 @@
 
 \textbf{CHECKEN, OB ICH HIER SAGEN MUSS, DASS DIESER TEIL SEHR NAH AN DEM PAPAER VON Schulz \& Vlćek IST ???}
 
-Von den 9 Szenarien werden im nachfolgend die mathematischen Modellformulierungen dieser Szenarien aufgestellt:
+Ausgewählt aus den, von Schulz \& Vlćek aufgestellten, 9 Szenarien werden im nachfolgend die mathematischen Modellformulierungen dieser Szenarien aufgestellt:
 
 \textbf{WÄRE ES NICHT EIGENTLICH GUT FÜR EINEN VERGLECIH AM ENDE DAS SZENARIO 3.A) ZU BETRACHTEN, UM DEN ON-DEMAND EFFEKT BESSER DARSTELLEN ZU KÖNNEN?}
 
@@ -145,7 +145,7 @@ Die Zielfunktion \ref{eq:4.6} wurde im Vergleich zu den vorigen Szenarien 1.A) u
 \section{Szenario 3.C)}
 \label{sec:4.5}
 \label{sec:Szenario 3.C)}
-In diesem Szenario wird das in Kapitel \ref{sec:Szenario 2.C)} beschriebene Modell lediglich durch die Berücksichtigung der Schicht- und Pausenzeiten der Busfahrer erweitert. Die Fahrzeiten zwischen zwei Haltestellen $t_{s_i^l,s_j^{l'}}$ mit $l,l' \in L, i = \{1,...,m_l\}, j =\{1,...,m_{l'}\}$, sowie zwischen dem Depot und den Haltestellen $t_{D,s_i^l}$, $t_{s_i^l,D}$ mit $l \in L, i,j = \{1,...,m_l\}$, als auch die Zeiten zu denen jede Haltestellen auf den unterschiedlichen Touren bedient werden muss $\bar{t}_{s_i^l}$ mit $l \in L, i = \{1,...,m_l\}$ sind bekannt. Daher können genau die Entscheidungsvariablen der Bus-spezifischen, mit den Schicht- und Pausenzeiten der Fahrer unvereinbaren, Verbindungen im Vorfeld des Lösens auf 0 gesetzt werden:
+In diesem Szenario wird das in Kapitel \ref{sec:Szenario 2.C)} beschriebene Modell von Schulz \& Vlćek durch die Berücksichtigung der Schicht- und Pausenzeiten der Busfahrer erweitert. Die Fahrzeiten zwischen zwei Haltestellen $t_{s_i^l,s_j^{l'}}$ mit $l,l' \in L, i = \{1,...,m_l\}, j =\{1,...,m_{l'}\}$, sowie zwischen dem Depot und den Haltestellen $t_{D,s_i^l}$, $t_{s_i^l,D}$ mit $l \in L, i,j = \{1,...,m_l\}$, als auch die Zeiten zu denen jede Haltestellen auf den unterschiedlichen Touren bedient werden muss $\bar{t}_{s_i^l}$ mit $l \in L, i = \{1,...,m_l\}$ sind bekannt. Daher können laut Schulz \& Vlćek genau die Entscheidungsvariablen der Bus-spezifischen, mit den Schicht- und Pausenzeiten der Fahrer unvereinbaren, Verbindungen im Vorfeld des Lösens auf 0 gesetzt werden:
 \begin{itemize}
     \item[(i)] $x_{D s_i^l k} = 0$ \quad if \quad $\bar{t}_{s_i^l} - t_{D s_i^l} < a_k$,
     
@@ -160,7 +160,7 @@ In diesem Szenario wird das in Kapitel \ref{sec:Szenario 2.C)} beschriebene Mode
         \land \bar{t}_{s_j^{l'}} > b_k + p)$
 \end{itemize}
 
-Durch (i) wird sichergestellt, dass kein Bus das Depot vor dem Schichtbeginn $a_k$ verlassen kann. (ii) sorgt dafür, dass kein Bus eine Tour bedienen kann, die nach dem Schichtende enden würde. (iii) stellt zum Einen sicher, dass kein Bus an einer Haltestelle während einer Pause sein darf und um anderen, dass keine Fahrt zwischen zwei Haltestellen vor der Pause beginnen und nach der Pause enden darf. (iv) spiegelt (iii) für den Fall wieder, dass es sich bei der Fahrt um einen Wechsel zwischen Buslinien handelt. Dabei darf die Fahrt nur mit dem Zusatz zu (iii) stattfinden, wenn die Zeitspanne zwischen den beiden Haltestellen groß genug ist, um die Fahrtzeit und die Pausenzeit zu beinhalten.
+Durch (i) stellen Schulz \& Vlćek sicher, dass kein Bus das Depot vor dem Schichtbeginn $a_k$ verlassen kann. Mit (ii) sorgen Schulz \& Vlćek dafür, dass kein Bus eine Tour bedienen kann, die nach dem Schichtende enden würde. Durch (iii) stellen Schulz \& Vlćek sicher, dass a) kein Bus an einer Haltestelle während einer Pause sein darf und b) keine Fahrt zwischen zwei Haltestellen vor der Pause beginnen und nach der Pause enden darf. (iv) spiegelt (iii) für den Fall wieder, dass es sich bei der Fahrt um einen Wechsel zwischen Buslinien handelt. Dabei lassen Schulz \& Vlćek die Fahrt nur mit dem Zusatz zu (iii) stattfinden, wenn die Zeitspanne zwischen den beiden Haltestellen groß genug ist, um die Fahrtzeit und die Pausenzeit zu beinhalten.
 
 
 %%%%%%%%%%%%%%%%%%%%

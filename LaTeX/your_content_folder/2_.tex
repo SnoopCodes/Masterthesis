@@ -2,13 +2,7 @@
 
 \chapter{Literaturüberblick}
 \label{chapter:2}
-Das von Schulz \& Vlćek vorgeschlagene System stellt eine Kombination des klassischen Linienbusverkehrs und Elementen eines, auf Abruf basierenden Ridepooling-Dienstes dar. Das präsentierte mathematische Modell ist im Bereich der OR-Probleme mit der Problemfamilie des Dial-a-Ride Problems und des Vehicle Routing Problems (VRP) verwandt. Eine ausführlichere Einordnung erfolgt in Kapitel \ref{sec:Einordnung}. Mit dem vorgeschlagenen System werden Elemente aus unterschiedlichen Systemen, Problemstellungen und Modellen verknüpft. Um ein einheitliches Verständnis zu schaffen, wird in diesem Kapitel die Definition zentraler Begriffe vorgenommen. Im Anschluss ein Überblick zur Forschung auf den gebieten der zentralen Begrife gegeben, bevor das Modell von Schulz \& Vlćek in die Menge verwandter Untersuchungen eingeordnet wird. Da Schulz \& Vlćek ein öffentliches Bus-System in einer ländlicheren Gegend untersuchen, fokussiert sich die folgende Literaturübersicht auf Forschungsarbeiten die auf den ländlichen Kontext anwendbar sind. \textbf{noch unsicher ob der vorige Satz drinne bleibt} Andere Mobilitätsformen wie zum Beispiel das klassische Taxi oder U-Bahnen werden zur kontextuellen Abgrenzung erwähnt, sind aber kein Teil des Untersuchungsbereiches dieser Arbeit.
-
-\textbf{Methodik} Nachfolgend wird ein Überblick der Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben. Dabei wird unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Kontexte wie private Bereiche (Universiäts-Campus-Shuttle, etc.) sind nicht Teil des Untersuchungsbereiches. Bei der systematischen Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. Alle verwendeten Veröffentlichungen sind in Anhang \textbf{XXXXX} jenem Searchstring zugeordnet, mit dem sie gefunden wurden. An dieser Stelle sei erwähnt, dass dieselben Veröffentlichungen teilweise mit mehreren Searchstrings gefunden wurden, allerdings nur einem Searchstring zugeordnet wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. Es wurden nur Veröffentlichungen berücksichtigt, die in einer vollständigen PDF-Version mittels des VPN-Zugangs der Universität Hamburg oder der Helmut-Schmidt-Universität zugänglich waren. Für die, in Kapitel \ref{sec:2.1} präsentierte, Literatur wurden die Searchstrings auf der Plattform Scopus im Rahmen der Funktion \glqq TITLE-ABS-KEY()\grqq{} gesucht. Die, in Kapitel \ref{sec:2.2} genutzte, Literatur zur Einordnung / Abgrenzung des BLSP wurde auf Scopus durch Eingabe der Searchstrings innerhalb der Funktion \glqq TITLE()\grqq{} gefunden. Die Literatur wurde anhand des Titels und Abtracts bewertet und somit für die weitere Analyse und eventuelle spätere Verwendung in dieser Arbeit ausgewählt. 
-
-EVTL. generelle Vorgehnswiese:
-1. Suche mit Searchstrings aus Begriffskombinationen der zentralen Begriffe nach generellem Forschungskontext. 2. Suche nach Review-Papern zu den BLSP-verwandten Problemen DARP und VRP. 3. Suche mit Searchstrings nach Veröffentlichungen zu relevanten Varianten des DARP und VRP die mit dem BLSP verwandt sein könnten. 4. Die Herkunft aller Veröffentlichungen die ich benutzen will habe ich in csv-DAteien den jeweiligen Searchstrings mit denen ich sie gefunden habe zugeordnet. 5. Die gefunden Veröffentlichungen habe ich als, bis jetzt zuletzt erfolgten Schritt, nun den (Unter-)Kapiteln zugeordnet in denen ich sie verwenden möchte.
-
+Das von Schulz \& Vlćek vorgeschlagene System stellt eine Kombination des klassischen Linienbusverkehrs und Elementen eines, auf Abruf basierenden Ridepooling-Dienstes dar. Das präsentierte mathematische Modell ist im Bereich der OR-Probleme mit der Problemfamilie des Dial-a-Ride Problems und des Vehicle Routing Problems (VRP) verwandt. Eine ausführlichere Einordnung des BLSP erfolgt in Kapitel \ref{sec:Einordnung}. Mit dem, von Schulz \& Vlćek, vorgeschlagenen System werden Elemente aus unterschiedlichen Systemen, Problemstellungen und Modellen verknüpft. Um ein einheitliches Verständnis zu schaffen, wird in diesem Kapitel die Definition zentraler Begriffe vorgenommen. Im Anschluss ein Überblick zur Forschung auf den Gebieten der zentralen Begriffe in Bezug auf das Verkehrsmittel Bus gegeben, bevor das Modell von Schulz \& Vlćek in die Menge verwandter Untersuchungen eingeordnet wird. 
 
 Die in der Arbeit genutzten zentralen Begriffe werden wie folgt definiert:
 
@@ -19,27 +13,23 @@ Die in der Arbeit genutzten zentralen Begriffe werden wie folgt definiert:
 \textbf{Hier evtl. nochmal Klarstellung, dass on-demand zwar demand-responsive ist, aber nicht andersrum, wie fälschlicherweise von \textcite{wang_multilevel_2014} in ihrem Paper behauptet}
 
 \textbf{Ridepooling} wird vom \textcite{verband_der_automobilindustrie_ridepooling_2025} (\textbf{Achtung online Quelle} - Schulz \& Vlćek nutzen hier \parencite{vansteenwegen_survey_2022}) als kombinierte Mobilitätsform von ÖPNV und Taxi definiert. Der Ablauf bei dieser besonderen Form des Personenverkehrswerden ist wie folgt: Der Fahrgast wird an seinem individuellen Startpunkt abgeholt. Auf dem Weg zum individuellen Ziel steigen andere Fahrgäste zu und/oder wieder aus. Je nach Zielpunkt werden die Routen so kombiniert, dass benachbarte Ziele mit einem Fahrzeug bedient werden können.   
+
+
+\textbf{Methodik} Bei der systematischen Vorgehensweise wurden die Suchbegriffe in englischer Sprache verwendet, da die meisten Veröffentlichungen heutzutage auf englischer Sprache getätigt werden. Die Suchbegriffe wurden miteinander verknüpft und in sogenannten Searchstrings verwendet. In Anhang \textbf{XXXXX}sind allen verwendeten Veröffentlichungen der Searchstring und die Datenbank zugeordnet auf der sie bzw. durch den sie gefunden wurden. An dieser Stelle sei erwähnt, dass dieselben Veröffentlichungen teilweise mit mehreren Searchstrings gefunden wurden, allerdings nur einem Searchstring zugeordnet wurden. Die Recherche der nachfolgend präsentierten Literatur erfolgte mittels der gebildeten Searchstrings in den wissenschaftlichen Online-Datenbanken Google Schoolar und Scopus. Reihenfolge bei der Recherche: 1. Zuerst wurde die Forschung auf den Gebieten der zentralen Begriffe gesichtet und geordnet. 2. Anschließend wurde eine Suche nach Veröffentlichungen zu den BLSP-verwandten Problemen DARP und VRP mit Review- oder State-of-the-Art Charakter durchgeführt, um einen Aufschlagspunkt für Lesende zu geben, wenn sich intensiver mit den verwandte Problemen beschäftigen werden möchte, da die Probleme zwar für die Einordnung des BLSP relevant, aber selbst nicht Teil des Betrachtungsraums dieser Arbeit sind. 3. Zu relevanten Varianten des DARP und VRP, die mit dem BLSP verwandt sein könnten, wurde eine Suche mit Searchstrings ausschließlich in der Scopus Datenbank durchgeführt. In allen Schritten wurden nur Veröffentlichungen berücksichtigt, die in einer vollständigen PDF-Version mittels des VPN-Zugangs der Universität Hamburg oder der Helmut-Schmidt-Universität zugänglich waren. Für die, in Kapitel \ref{sec:2.1} präsentierte, Literatur wurden die Searchstrings auf der Plattform Scopus im Rahmen der Funktion \glqq TITLE-ABS-KEY()\grqq{} gesucht. Bei der Recherche von Literatur in Kapitel \ref{sec:2.1} wurde bereits in den Searchstrings unterschieden, ob die Forschung im ländlichen oder städtischen Raum durchgeführt wurde. Umgebungen wie private Bereiche (Universiäts-Campus-Shuttle, etc.) sind nicht Teil des Untersuchungsbereiches. Andere Mobilitätsformen wie zum Beispiel das klassische Taxi oder U-Bahnen werden zur kontextuellen Abgrenzung erwähnt, sind aber kein Teil des Untersuchungsbereiches dieser Arbeit. Die verwandten OR-Probleme des DARP und des VRP inkl. ihrer Varianten werden zur Abgrenzung genutzt, werden aber als bekannt vorausgesetzt. Die, in Kapitel \ref{sec:2.2} genutzte, Literatur zur Einordnung / Abgrenzung des BLSP wurde auf Scopus durch Eingabe der Searchstrings innerhalb der Funktion \glqq TITLE()\grqq{} gefunden. Die Literatur wurde anhand des Titels und Abstract bewertet und somit für die weitere Analyse und eventuelle spätere Verwendung in dieser Arbeit ausgewählt. 
+
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
-\section{Forschung auf den Gebieten der zentrale Begriffe}
+\section{Forschung auf den Gebieten der zentralen Begriffe}
 \label{sec:2.1}
 \label{sec:Kontext}
 
-\textbf{GLEIDERUNG DIESES ABSCHNITTS:}
-\begin{enumerate}
-    \item Fachliche Einleitung
-    \begin{itemize}
-        \item gnerelle relevante Statements
-        \item auf andere Forschungsaspekte hinweisen, die nicht weiter betrachtet wurden
-    \end{itemize}
-    \item Präsentation der Forschungsergebnisse durch Tabellen
-\end{enumerate}
+\subsection{ BLEIBT NICHT: generelle relevante Statements}
+\textbf{ MEINE EIGENEN ERSTEN IDEEN:}
 
-\textbf{An dieser Stelle sei erwähnt, dass in diesem Kapitel zunächst die Breite der Forschung dargestellt wird, bevor in Kapitel \ref{sec:2.2} das Modell von Schulz \& Vlćek eingeordnet wird.}
+Es ist ersichtlich, das dieses Thema seit mehr als 20 Jahren eine große Aufmerksamkeit genießt. IN 2003 haben Quelle bereits eine Übersicht erstellt. 2014 noch eine und die eneuste 2022 von Quelle
 
-Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
 
 line-based sind einfach der backbone in urban areas und sind, wenn nicht asl einziges, dann das teil des zentralen public transport networks um hohe Nachfrage kosteneffizient zu bedienen (hinweis Richtung Forschung zu feeder-networks). werden verwendet als Schulbusse, Schienenersatzverkehr, ...
 
@@ -47,13 +37,126 @@ on-demand häufig als "Feeder" zu den hoch-volumigen Systemen wie Metro oder Lin
 
 Generell Zielkonflikt von echten on-demand Lösungen in rural areas: geringere Kosten (durch weniger Fahrzeuge) vs. Abdeckung(?) Soll darauf hinführen, dass Schulz \& Vlćek weniger Busse nutzen bei Beibehaltung der Flexibilität.
 
+\textbf{ACHTUNG GPT:}
+
+
+1. On-Demand/DRT ist besonders geeignet für gering verdichtete bzw. ländliche Räume, in denen Linienbusse oft hohe Kosten je Fahrgast aufweisen und die Abdeckung sinkt. Belege: Berrada \& Poulhès (2021); Al-Suleiman et al. (2023).3. Flexible, integrierte Bedienformen (geplant + on-demand) sind für ländliche Räume besonders geeignet, weil sie spezielle Zeitfenster/Relaisaufgaben abdecken und die Erreichbarkeit erhöhen.(Porru et al., 2020, S. 2; S. 6).
+\textbf{--> Erhöhen ERreichbarkeit, aber zu welchem Preis und ab welcher Nachfrage?}
+\textbf{--> hier nochmal die ergebnisse von schasché 2022 angucken}
+
+3. Ride-Pooling kann die Gesamt-Fahrleistung (km) substanziell senken, sofern Nachfrage, Heterogenität der Nutzerpräferenzen und Preissetzung zusammenpassen; Servicequalität bleibt dabei handhabbar. Beleg: de Ruijter et al. (2023).1. Pooling senkt Systemaufwand und dämpft Fahrzeug-km, wenn Nachfrage ausreichend gebündelt werden kann; Effizienz steigt mit Bevölkerungs-/Anfragedichte.(Zwick et al., 2021).2. Ride-sharing kann erhebliche Effizienzgewinne erzielen, ohne das Servicelevel zu verschlechtern; allerdings bestehen Trade-offs (Privatsphäre, Gesamtreisezeit).(Ruch et al., 2021, S. 4). Smartphone-basierte Buchung erleichtert die Nutzung.(Shaheen \& Cohen, 2019, S. 2, 5).* Ride-Pooling-Effizienz \& Dichteeffekte: Zwick et al., 2021; Ruch et al., 2021
+\textbf{-->> Entscheident für Effizienz von Ridepooling ist die Tripdichte, sonst zuviele vehicles beötigt, um die Nachfrage zu bedienen. ICT trägt zu eienr besseren Nutzbarkeit bei}
+
+4. Entscheidungsrelevante Attribute für ländliche Nutzer*innen bei Bus-/On-Demand-Alternativen sind u. a. Wartezeit, Verlässlichkeit, Preis und Bedienform. Belege: Bronsvoort et al. (2021); Ceder (2021).
+
+5. Systemverfügbarkeit/„Availability“ wird primär durch räumliche und zeitliche Abdeckung bestimmt (Haltestellen-Nähe, Headway/Takt); diese Größen sind mess- und steuerbar. Beleg: Eboli et al. (2014).
+
+1. Trip-Dichte ist ein zentraler Hebel für Flottengröße und Pooling-Rate bei ride-hailing/-pooling, selbst bei fixen Wartezeit-Zielen (z. B. 90\% < 10 min). Beleg: Kaddoura \& Schlenther (2021).
+
+2. GTFS-basierte Analysen ermöglichen fahrplangetreue Reisezeiten inkl. Umstiegs-/Wartezeiten; ländliche Regionen weisen deutlich schlechtere Erreichbarkeit auf. Belege: Kotavaara et al. (2021, S. 5, S. 9).
+
+4. Feeder-Systeme (z. B. Shuttle vs. Fußweg) besitzen kritische Nachfrageschwellen, ab denen sie systemisch vorteilhaft werden; Parameter wie Gehgeschwindigkeit und Dichte sind ausschlaggebend. Beleg: Li \& Luo (2025, S. 6–7).4. Feeder-Dienste können formale Netze wirksam ergänzen; die Entscheidung zwischen fixed und demand-responsive hängt vom Kontext und Netzdesign (Transfers, Tarife) ab.(McLeod et al., 2017, S. 4–5; S. 15).
+\textbf{--> Feeder}
+
+7. Netz-Topologie (Ring, Grid, Stern) beeinflusst die Pooling-Effizienz und Backlog-Skalierung. Beleg: Manik \& Molkenthin (2020, S. 7).
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\subsection{ BLEIBT NICHT: auf andere Forschungsaspekte hinweisen, die nicht weiter betrachtet wurden}
+* Pricing/Fares → de Ruijter (2023); Bronsvoort (2021); Ceder (2021); Al-Suleiman (2023); Fernández L. (2008).
+* Pricing / Marktgleichgewicht / Tarife:Estrada (2021); Fielbaum (2023); Hansen \& Sener (2023); Hansson (2019); Jin (2016)
+* Pricing/Ökonomie (Randbezug über DRT-Vergleiche): Mageean \& Nelson, 2003.
+
+
+
+* Accessibility/Equity/Inclusion → Eboli (2014); Ceder (2021); Berrada \& Poulhès (2021); Bronsvoort (2021); de Ruijter (2023); Al-Suleiman (2023); Fernández L. (2008).
+* Accessibility/Equity (räumlich/zeitlich): Kotavaara et al., 2021; Mageean \& Nelson, 2003.
+
+
+
+
+* Energie/Charging/Emissionen → Al-Suleiman (2023); Berrada \& Poulhès (2021); Bronsvoort (2021); Ceder (2021); de Ruijter (2023); Eboli (2014); Fernández L. (2008).
+
+
+
+
+
+* Simulation/Agent-based / Realtime-Dispatching → Bronsvoort (2021); Ceder (2021); de Ruijter (2023); Fernández L. (2008).
+* Simulation / Realtime-Dispatching /  Online-Steuerung:Hansen \& Sener (2023); Jin (2016); (teilweise) Estrada (2021)
+* Realtime/Online-Dispatching \& Simulation: Kaddoura \& Schlenther, 2021; Liu \& Wang, 2022; Li et al., 2024.
+
+
+
+
+
+* Shift Scheduling / Crew Rostering → Eboli (2014) (Randbezug/Erwähnung); Bronsvoort (2021) (Randbezug).
+* Shift Scheduling / Personalplanung: Tóth \& Krész, 2013
+
+
+
+* Multiobjective/Robustness → Berrada \& Poulhès (2021); Fernández L. (2008).
+
+
+
+* KI/ML \& Prognose (z. B. Reisezeiten, Nachfrage):Gal (2017); Hansen \& Sener (2023); (teilweise) Gorev (2020)
+* KI/ML/Prognose \& RL-Planung: Li et al., 2024; Liu \& Wang, 2022 (datengetrieben); Kotavaara et al., 2021 (GTFS-gestützte Analytik).
+
+
+
+
+* Feeder/Connector-Design \& Schwellenwerte: Li \& Luo, 2025.
+* Feeder/Connector \& Netzdesign: McLeod et al., 2017
+
+
+
+
+* Disruption Management / Resilienz (Betriebsstörungen):Jin (2016)
+* Disruption/Resilienz (Betriebsstörungen): Liu \& Wang, 2022.
+
+
+
+
+* Skaleneffekte \& Flottendimensionierung:Fielbaum (2023)
+
+
+
+* Fixed-route mit Request-Stops (Deviations/Connector):Gorev (2020); Estrada (2021)
+
+
+
+* Netz-/Topologieeffekte: Manik \& Molkenthin, 2020.
+
+* Präferenzen \& Zahlungsbereitschaft (WTP) für Service-Level:Hansson (2019)
+* Nutzerakzeptanz / Erwartungsmanagement (rural DRT): Schaschü et al., 2022
+
+* Smart-Mobility-Integration \& Realtime-Information: Porru et al., 2020; Shaheen \& Cohen, 2019; McLeod et al., 2017
+
+
+
+* Emissionen/Stau (Policy-Motivation): Shaheen \& Cohen, 2019
+
+
+Anwendungsbereiche \& typische Zielkonflikte darstellen (evtl. Grafik dazu anfertigen: Taxi als flexibelstes on-demand, keine festen Routen und krasses Gegenteil ist Linienbus mit festem Fahrplan und Routen)
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\subsection{BLEIBT NICHT: Forschungsergebnisse auf den Gebieten der zentralen Begriffe}
+
+
+\textbf{An dieser Stelle sei erwähnt, dass in diesem Kapitel zunächst die Breite der Forschung dargestellt wird, bevor in Kapitel \ref{sec:2.2} das Modell von Schulz \& Vlćek eingeordnet wird.}
+
 Aussage darüber, dass viel zu "on-demand rural" mit "line-based rural" gefunden wurde -> zeigt enge verbundenheit der begriffe usw.
 
-Es ist ersichtlich, das dieses Thema seit mehr als 20 Jahren eine große Aufmerksamkeit genießt. IN 2003 haben Quelle bereits eine Übersicht erstellt. 2014 noch eine und die eneuste 2022 von Quelle
 
 Ridepooling: dem zugrundeliegend ist das DARP -> wofür entwickelt (Quelle), dann überführen auf Busse (Quelle) siehe Schulz \& Vlćek, \textbf{ganze wichtig: reiter et al. 2024} - das beschreiben Schulz \& Vlćek als sehr nah dran, aber Schulz \& Vlćek berücksichtigen einen vorgegebenen Fahrplan. 
 
 Ridepooling: Synonyme Verwendung der Begriffe Ride-sharing, ridepooling usw
+
 
 \begin{landscape} 
     \begin{table}[p]
@@ -551,6 +654,8 @@ Auch das VRP ist ein seit Jahrzehnten erforschtes Problem \parencite{orloff_fund
         \hline
         \endlastfoot
 
+        \textcite{abdelwahed_balancing_2023} & Komfort und Emissionen balancieren & & & & & & & Dynamische Netze verbessern Komfort-Emissions-Trade-off \\ \hline
+
         \textcite{edward_kim_optimal_2019} & Konzept evaluieren & Zonen-Flex-Route & Headway-basiert & flexibel & Zone & stochastisch/unsicher & reine First/Last-Mile & Ansätze reduzieren Wartezeiten und Betriebskosten bei moderater Flotte deutlich. \\ \hline
         
         \textcite{kim_optimal_2021} & Planung/Dimensionierung & Zonen-Flex-Route & Headway-basiert & flexibel & Zone & stationär & reine First/Last-Mile & Ansätze reduzieren Wartezeiten und Betriebskosten bei moderater Flotte deutlich. \\ \hline
@@ -585,9 +690,8 @@ Irgendwie Aussage darüber, dass in der Forschung oft gesagt wird, dass durch au
 
 Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, daher: semi-flexible Systeme --> \textbf{HIER EVENTUELL mehrere Quellen die Felxibilitt definieren?}
 
-\textbf{EINORDNUNG ÜBER EINEN TABELARISCHEN VERGLEICH IN HINBLICK AUF OPTIMIERUNGSZIELE, WIE: total rider time, total number of vehicles --> UNterscheidung auch durch: "aus sicht des betreibers" oder aus sicht des fahrgastes"}
+\textbf{EINORDNUNG unter anderem ÜBER EINEN TABELARISCHEN VERGLEICH IN HINBLICK AUF OPTIMIERUNGSZIELE, aber auch Text: Textlich beschreiben welche aspekte für die abgrenzung des BLSP wichtig sind und dann auf tabelle verweisen, das diese aspekte dahingehen gegenübergestellt sind.}
 
-       
 \begin{landscape}
     \begingroup
     \scriptsize
@@ -687,28 +791,261 @@ Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, dahe
     
     \bottomrule
     \endlastfoot
+    %%%%%%%%%%%%%%%%%%
+    % PER NOTIZ HIER %
+    %%%%%%%%%%%%%%%%%%
+    \textcite{bakas_flexible_2016} & Flex-Dienst im Liniennetz optimieren & min Kosten & Statisch &
+    \no & \no & \yes & \yes & \yes &
+    \yes & \yes & \yes & \yes & \no & \no &
+    \no & \no & \no & \yes & – & – & Synthetische Daten (bis 500 Nutzer) & Tabu-Search reduziert Kosten gegenüber Fixnetz \\ \hline
+    
+    \textcite{marinelli_integrated_2024} & Integrierten On-Demand-Bus planen & min Reisezeit+Wartezeit & Statisch &
+    \no & \no & \yes & \no & \yes &
+    \yes & \yes & \yes & \yes & \no & \no &
+    \yes & \no & \yes & \no & – & – & Fallstudie/Simulierte Nachfrage & MILP integriert Kapazität, Zeitfenster, Heterogenität \\ \hline
+    
+    \textcite{melis_integrated_2024} & On-Demand mit Fixnetz integrieren & min Mitfahrzeit & Statisch &
+    \no & \no & \yes & \yes & \no &
+    \yes & \yes & \yes & \no & \no & \no &
+    \no & \no & \no & \yes & – & – & Synthetische/kalibrierte Daten & Integration senkt Nutzer-Mitfahrzeiten signifikant \\ \hline
+    
+    \textcite{melis_static_2022} & Statisches On-Demand-Routing lösen & min Kosten/Distanz & Statisch &
+    \no & \no & \no & \no & \yes &
+    \yes & \yes & \yes & \yes & \no & \no &
+    \no & \no & \no & \yes & – & – & Synthetische Benchmarks & ALNS liefert hochwertige Lösungen für ODBRP \\ \hline
+    
+    \textcite{pei_real-time_2019} & Flexible Linienlänge in Echtzeit planen & min Kosten (Nutzer+Betreiber) & Dynamisch &
+    \yes & \no & \no & \no & \no &
+    \yes & \no & \yes & \no & \no & \no &
+    \no & \no & \yes & \no & – & Xpress & Realdaten (Guangzhou, Lin. 15) & Echtzeit-Anpassung reduziert Gesamtzeiten >10\,\% \\ \hline
 
-    \textcite{abdelwahed_balancing_2023} & Konzept evaluieren & max Servicegrad & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \no & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    %%%%%%%%%%%%%%%
+    % DARP - capacity
+    %%%%%%%%%%%%%%%
+    \textcite{charikar_finite_1998} & Tourlänge approximieren & min Strecke & Statisch & \no & \no & \no & \no & \yes & \yes & \no & \no & \no & \no & \no & \no & \no & \no & \no & – & – & Theorie (keine Daten) & Erster Approximationsalgorithmus mit Garantien \\ \hline
+
+    \textcite{maalouf_new_2014} & Dynamische Zuweisung verbessern & multiobj & Dynamisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \no & \no & – & – & Synthetische/Simulierte Anfragen & Fuzzy-Regeln reduzieren Distanz und Fahrzeit \\ \hline
     
-    \textcite{bakas_flexible_2016} & Konzept evaluieren & min Fahrzeuge & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    \textcite{madsen_heuristic_1995} & DARPTW heuristisch lösen & multiobj & Statisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \yes & \yes & \no & \no & \no & \no & – & – & Realdaten (Kopenhagen CFFS) & Insertion-Heuristik REBUS performant im Betrieb \\ \hline
     
-    \textcite{marinelli_integrated_2024} & Konzept evaluieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & \no & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    \textcite{tang_ant_2021} & ACO für DARPTW entwickeln & min Fahrzeuge+Strecke & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \no & \yes & – & – & Benchmark-Instanzen (DARPTW) & ACO erreicht wettbewerbsfähige DARPTW-Lösungen \\ \hline
     
-    \textcite{melis_integrated_2024} & Konzept evaluieren & min Kosten & Statisch & \yes & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    \textcite{tellez_fleet_2018} & Flottengröße und -mix optimieren & min Kosten & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \yes & \no & \yes & – & MILP (nicht spezifiziert) & Synthetische Instanzen & Rekonfiguration senkt Kosten signifikant \\ \hline
     
-    \textcite{melis_static_2022} & Planung/Dimensionierung & min Fahrtzeit & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    \textcite{wong_solution_2006} & Mehrdimensionale Kapazität behandeln & min Gesamtkosten & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \yes & – & – & Simulation/Beispieldaten & Tabu-Thresholding verbessert Lösungsqualität \\ \hline
     
-    \textcite{pei_real-time_2019} & Minimierung der Kosten & min Kosten & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \no & – & — & Realdaten & BLSP-nahe Modelle verbessern Servicequalität bei begrenzten Kosten deutlich. \\ \hline
+
+    %%%%%%%%%%%%%%%
+    % DARP - integrated
+    %%%%%%%%%%%%%%%
+
+    \textcite{amor_new_2019} & IDARP mit Fahrplan formulieren & min Kosten & Statisch & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \yes & \no & \yes & \yes & – & Xpress & Realdaten/Fallstudie & Methoden senken durchschnittliche Wartezeit \\ \hline
     
-    \textcite{yang_gis-based_2016} & Planung/Dimensionierung & min Kosten & Statisch & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & — & synthetisch & Modelle zeigen Vorteile semi-flexibler Linien gegenüber reinem DRT. \\ \hline
+    \textcite{hall_integrated_2009} & IDARP definieren und lösen & min Kosten & Statisch & \no & \no & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \no & \no & \no & \yes & – & CPLEX & Synthetische Benchmarks & Methoden senken durchschnittliche Wartezeit \\ \hline
     
-    % ... weitere Zeilen hier ...
+    \textcite{hassan_integrated_2021} & Fixnetz-Auswahl im IDARP optimieren & min Kosten & Statisch & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \yes & – & Gurobi & Synthetische Benchmarks & Kosten sinken bei vergleichbarer Servicequalität \\ \hline
     
+    \textcite{posada_integrated_2017} & IDARP mit Fahrplan formulieren & min Kosten & Statisch & \no & \yes & \yes & \yes & \yes & \yes & \no & \yes & \yes & \no & \yes & \yes & \no & \yes & \yes & – & Xpress & Realdaten/Fallstudie & Methoden senken durchschnittliche Wartezeit \\ \hline
+    
+    \textcite{saathoff_practice-oriented_2025} & Praxisnahe IDARP-Lösungen entwickeln & min Wartezeit & Statisch & \no & \no & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \no & \no & \yes & \yes & – & CPLEX & Synthetische Benchmarks & Methoden senken durchschnittliche Wartezeit \\ \hline
+    
+    \textcite{schenekemberg_hybrid_2025} & Hybridheuristik für integrierten Dienst & min Kosten & Statisch & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \yes & – & Xpress & Realdaten/Fallstudie & Hybridheuristik reduziert Fahrzeugkilometer deutlich \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % DARP - line-baed
+    %%%%%%%%%%%%%%%
+
+    \textcite{lauerbach_complexity_2025} & Wendungen im liDARP zählen & min Wendungen & Statisch & \yes & \no & \yes & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \no & \no & – & – & Theorie (keine Daten) & Wendungszählung weist hohe Komplexität auf \\ \hline
+    
+    \textcite{reiter_line-based_2024} & liDARP modellieren und lösen & multiobj & Statisch & \yes & \no & \yes & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \yes & \no & – & Gurobi/CPLEX & Synthetische Benchmarks & Event‑basierte MILP respektiert Warte‑ und Reisezeit \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % DARP - static
+    %%%%%%%%%%%%%%%
+
+    \textcite{cordeau_tabu_2003} & DARP effizient lösen & min Kosten & Dynamisch & \no & \yes & \no & \no & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \yes & \yes & CG & – & Synthetische Daten & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{pfeiffer_new_2022} & DARP effizient lösen & multiobj & Dynamisch & \no & \yes & \no & \no & \yes & \yes & \yes & \yes & \no & \yes & \yes & \yes & \yes & \yes & \yes & – & CPLEX & Nicht spezifiziert & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{melis_static_2022} & Linienbasierte Bedienung planen & min Kosten & Dynamisch & \yes & \yes & \yes & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \no & – & – & Synthetische Daten & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{xiang_fast_2006} & DARP effizient lösen & min Kosten & Dynamisch & \no & \yes & \yes & \no & \yes & \yes & \no & \yes & \yes & \yes & \yes & \no & \no & \yes & \yes & CG & – & Realdaten & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{zidi_multi-agent_2011} & DARP effizient lösen & multiobj & Dynamisch & \no & \yes & \no & \no & \yes & \yes & \yes & \yes & \no & \yes & \no & \yes & \no & \yes & \yes & – & – & Synthetische Daten & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{kim_model_2011} & DARP effizient lösen & min Kosten & Dynamisch & \no & \yes & \yes & \no & \yes & \yes & \yes & \yes & \yes & \yes & \no & \yes & \yes & \yes & \yes & – & CPLEX & Realdaten & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{pfeiffer_alns_2022} & DARP effizient lösen & multiobj & Dynamisch & \no & \yes & \no & \no & \yes & \yes & \yes & \yes & \no & \yes & \yes & \no & \no & \yes & \yes & – & CPLEX & Synthetische Daten & PD-Ansatz erhöht Flexibilität \\ \hline
+    
+    \textcite{luo_rejected-reinsertion_2007} & DARP effizient lösen & min Kosten & Dynamisch & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \yes & \no & \no & \no & \yes & \yes & CG & – & Realdaten & Integration verbessert Erreichbarkeit/Kosten \\ \hline
+
+    %%%%%%%%%%%%%%%
+    % DARP - time windows
+    %%%%%%%%%%%%%%%
+
+    \textcite{belhaiza_data_2017} & Fahrtzeit minimieren & min Fahrtzeit & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \yes & -- & eigener & synthetische Daten & Hybrid-VNS verbessert Benchmarks. \\ \hline
+    
+    \textcite{belhaiza_data-driven_2023} & Mehrziele balancieren & multiobj & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \yes & -- & eigener & Realdaten + Benchmarks & Mehrziel-ALNS liefert starke Lösungen. \\ \hline
+    
+    \textcite{ben_abdelkrim_mathematical_2023} & Kosten minimieren & min Kosten & Statisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & -- & LINGO & Realdaten (Fallstudie) & MIP zeigt Fallstudienlösungen. \\ \hline
+    
+    \textcite{deleplanque_dial--ride_2013} & Kosten minimieren & min Kosten & Statisch & \no & \no & \no & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \no & -- & eigener & synthetische Daten & Transfers senken Kosten deutlich. \\ \hline
+    
+    \textcite{gschwind_effective_2015} & Kosten minimieren & min Kosten & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \yes & \no & CG & CPLEX & Benchmarks (Cordeau) & B\&P/CG löst DARP exakt. \\ \hline
+    
+    \textcite{hame_adaptive_2011} & Unzufriedenheit minimieren & multiobj & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \yes & \no & -- & eigener & synthetische Daten & Exakt für Single-Vehicle-DARP. \\ \hline
+    
+    \textcite{jaw_heuristic_1986} & Mehrziele balancieren & multiobj & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \no & \no & -- & eigener & Realdaten & Insertion-Heuristik skaliert gut. \\ \hline
+
+    \textcite{madsen_heuristic_1995} & Kosten \& Unzufriedenheit minimieren & multiobj & Statisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \no & \no & -- & eigener & Realdaten (CFFS) & Heuristik skaliert für Großinstanzen. \\ \hline
+    
+    \textcite{psaraftis_exact_1983} & Gesamtbedienzeit minimieren & min Gesamtdauer & Statisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & -- & eigener & synthetische Daten & Exakter Algorithmus für Single-Vehicle DARPTW. \\ \hline
+    
+    \textcite{urra_hyperheuristic_2015} & Kosten \& Ride-Time minimieren & multiobj & Statisch & \no & \no & \no & \no & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \no & \no & \yes & -- & eigener & synthetische Benchmarks & Hyperheuristik verbessert Benchmarks konsistent. \\ \hline
+    
+    \textcite{yi_online_2005} & Distanz minimieren & min Distanz & Dynamisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \no & \no & -- & eigene Online-Strategien & theoretische Analyse & Strategien mit Wettbewerbsraten analysiert. \\ \hline
+    
+    \textcite{yi_online_2006} & Bedienrate maximieren & max bediente Anfragen & Dynamisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \no & \no & -- & eigene Online-Strategien & theoretische Analyse & Garantien für bediente Anfragen gezeigt. \\ \hline
+    
+    \textcite{yi_online_2009} & Bedienrate maximieren & max bediente Anfragen & Dynamisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \no & \no & -- & eigene Online-Strategien & theoretische Analyse & Ungleiche Fenster: neue Wettbewerbsraten. \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % VRP - CVRP
+    %%%%%%%%%%%%%%%
+
+    \textcite{anuar_multi-depot_2021} & Kosten unter Unsicherheit & min erwartete Kosten & Stochastisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \yes & \yes & \yes & – & CPLEX & Realdaten + Benchmarks & Stochastik via Straßenkapazität berücksichtigt. \\ \hline
+
+    \textcite{banerjee_single_2023} & Kosten minimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & — & Gurobi & synthetische Benchmarks (Golden) & Heterogene Flotte mit SD+PickUp. \\ \hline
+    
+    \textcite{bernardo_achieving_2023} & Robustheit erhöhen & min erwartete Kosten & Stochastisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & — & Xpress & Realdaten + Benchmarks & Robuste Lösungen bei unsicherer Nachfrage. \\ \hline
+    
+    \textcite{birtolo_capacity_2025} & Simulationswerkzeug evaluieren & — & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \yes & \no & \no & — & Xpress & Realdaten + Solomon-Benchmarks & Digitale Simulation für CVRPTW-Netzwerk. \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % VRP - HVRP
+    %%%%%%%%%%%%%%%
+
+    \textcite{amiri_bi-objective_2023} & Kosten \& Emissionen minimieren & multiobj & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \no & \no & \yes & – & CPLEX & Realdaten + synthetisch & Gemischte Flotte spart Kosten und Emissionen \\ \hline
+    
+    \textcite{fadda_heterogeneous_2023} & Kosten unter Tiefgangsgrenzen minimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \no & \yes & – & eigener & Realdaten + synthetisch & Matheuristik löst maritime HVRP effizient \\ \hline
+    
+    \textcite{fernando_applying_2022} & Retail-Distribution optimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \yes & \yes & \no & \yes & – & OR-Tools & Realdaten & Mehrdepots senken Gesamtkosten im Retail \\ \hline
+    
+    \textcite{kritikos_heterogeneous_2013} & Kosten mit Überladung minimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \no & \yes & – & Xpress & Synthetische Benchmarks & Überladungen über Strafkosten modelliert \\ \hline
+    
+    \textcite{mancini_real-life_2016} & Mehrperiodische Distribution planen & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \yes & \no & \no & \yes & \yes & \no & \yes & – & Xpress & Realdaten & Mehrperiodenansatz verbessert Ressourcennutzung \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % VRP - MDVRP
+    %%%%%%%%%%%%%%%
+    
+    \textcite{alinaghian_time-dependent_2022} & Emissionen minimieren & min Emissionen & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \no & \yes & – & CPLEX & Synthetische Daten & Zeitabhängigkeit verbessert Routingqualität \\ \hline
+    
+    \textcite{azadeh_closeopen_2019} & Gesamtkosten minimieren & min Kosten & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \no & \yes & – & CPLEX & Realdaten + Benchmarks & Zeitabhängigkeit verbessert Routingqualität \\ \hline
+    
+    \textcite{bettinelli_branch-and-cut-and-price_2011} & Kosten minimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \yes & \no & CG & CPLEX & Synthetische Benchmarks & Branch-and-price skaliert effizient \\ \hline
+    
+    \textcite{dao-tuan_multi-criteria_2018} & Kosten und Emissionen minimieren & multiobj & Stochastisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \no & \yes & – & Synthetische Daten & Abwägung Kosten–Emissionen verbessert Planung \\ \hline
+    
+    \textcite{erdes_multi-depot_2024} & Einsatz von E-Fahrzeugen optimieren & min Kosten & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \yes & \no & \no & – & CPLEX & Realdaten + Benchmarks & Zeitabhängigkeit verbessert Routingqualität \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % VRP - MTVRP
+    %%%%%%%%%%%%%%%
+
+    \textcite{bernardino_multi-trip_2025} & Kosten und Auslastung minimieren & min Kosten & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \yes & \yes & \no & \yes & – & CPLEX & Realdaten + Benchmarks & Dekomposition und Heuristik liefern starke Lösungen \\ \hline
+    
+    \textcite{brandao_tabu_1997} & Kosten minimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \no & \no & \yes & – & eigener & Synthetische Benchmarks & Tabu-Suche löst MTVRP effizient \\ \hline
+    
+    \textcite{cinar_reduction_2015} & Emissionen reduzieren & min Emissionen & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \yes & \no & \no & \yes & \no & \no & \yes & – & CPLEX & Synthetische Benchmarks & SA senkt Kraftstoffverbrauch signifikant \\ \hline
+    
+    \textcite{huang_exact_2024} & Gesamtkosten minimieren & min Kosten & Statisch & \no & \no & \no & \no & \yes & \yes & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & DD & CPLEX & Realdaten + Benchmarks & Branch-and-price löst NEMT-MTVRP optimal \\ \hline
+    
+    \textcite{nguyen_modeling_2022} & Kosten und Fahrzeuge minimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \yes & \no & \yes & – & eigener & Realdaten + Benchmarks & Heuristiken verbessern Abdeckung bei Multidepots \\ \hline
+
+    %%%%%%%%%%%%%%%
+    % VRP - PVRP
+    %%%%%%%%%%%%%%%
+
+    \textcite{anityasari_analysing_2025} & Transporteffizienz verbessern & min Kosten & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \no & \no & \no & – & – & Realdaten (Surabaya) & Periodische Planung reduziert Gesamtdistanz \\ \hline
+    
+    \textcite{rahimi-vahed_fleet-sizing_2015} & Optimale Flottengröße bestimmen & min Kosten & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & \no & \yes & – & eigener & Synthetische Benchmarks & Modularheuristik bestimmt Flottengröße effizient \\ \hline
+    
+    \textcite{rothenbacher_branch-and-price-and-cut_2019} & Flexible Einsatzpläne optimieren & min Strecke & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & CG & CPLEX & Synthetische Benchmarks & B\&P\&C löst PVRPTW sehr effizient \\ \hline
+    
+    \textcite{salamatbakhsh-varjovi_robust_2018} & Robuste Routenplanung entwickeln & min Kosten & Stochastisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \no & \no & \yes & – & eigener; CPLEX & Synthetische Benchmarks & Differential Evolution effizient für robustes PVRPTW \\ \hline
+    
+
+
+    %%%%%%%%%%%%%%%
+    % VRP - VRPTW
+    %%%%%%%%%%%%%%%
+    \textcite{agra_robust_2013} & Robuste Routen planen & min Kosten & Stochastisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & \no & Xpress & Golden & Exakter Ansatz skaliert begrenzt effizient \\ \hline
+    
+    \textcite{arenas-vasco_effect_2024} & Formulierungen vergleichen & min Kosten & Zeitabhängig & \no & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \yes & \yes & \yes & \no & \no & — & Synthetische Benchmarks & Verbesserte Lösungen gegenüber Benchmarks \\ \hline
+    
+    \textcite{babaee_tirkolaee_developing_2019} & Stadtreinigung optimieren & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \no & \yes & \yes & \no & CPLEX & Solomon & Exakter Ansatz skaliert begrenzt effizient \\ \hline
+    
+    \textcite{barrero_graspvnd_2021} & Heterogene Flotte planen & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \no & \no & \yes & \no & — & Solomon & GRASP/VND erzielt starke Qualität \\ \hline
+    
+    \textcite{braysy_well-scalable_2009} & Flottengröße \& Mix planen & min Kosten & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \no & \no & \yes & \no & — & Solomon \& Homberger & Metaheuristik skaliert sehr gut \\ \hline
+    
+
+    %%%%%%%%%%%%%%%
+    % VRP - VSP
+    %%%%%%%%%%%%%%%
+    
+    \textcite{carpaneto_branch_1989} & MDVSP kostenminimal lösen & min Kosten & Statisch & \yes & \yes & \yes & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \yes & \yes & \no & — & — & Synthetische Benchmarks & B\&B liefert starke Untergrenzen \\ \hline
+    
+    \textcite{chau_electric_2024} & E\text{-}Busplanung mit Multi\text{-}Port & min Kosten & Statisch & \yes & \yes & \yes & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \yes & \no & — & CPLEX & Synthetische Benchmarks & Multi\text{-}Port reduziert Lade\text{-}Konflikte \\ \hline
+    
+    \textcite{gintner_solving_2005} & Praxisfälle groß lösen & min Kosten & Statisch & \yes & \yes & \yes & \no & \no & \no & \no & \yes & \no & \no & \no & \yes & \yes & \no & \no & CG & — & Realdaten & CG skaliert für Praxisfälle \\ \hline
+    
+    \textcite{gkiotsalitis_exact_2023} & MD\text{-}EBSP exakt lösen & min Kosten & Statisch & \yes & \yes & \yes & \no & \no & \no & \no & \yes & \no & \no & \no & \yes & \yes & \yes & \no & — & — & Synthetische Benchmarks & MILP löst MD\text{-}EBSP bis Optimalität \\ \hline
+    
+    \textcite{guo_multi-objective_2024} & Emissionen \& Leerfahrten minimieren & multiobj & Statisch & \no & \no & \no & \no & \no & \yes & \no & \yes & \no & \no & \no & \yes & \no & \no & \yes & — & — & Realdaten + Benchmarks & Hybrid\text{-}GWO/GA schlägt Baselines \\ \hline
+    
+    \textcite{huisman_robust_2004} & Robuste dynamische Umläufe planen & min Kosten & Dynamisch & \yes & \yes & \yes & \no & \no & \no & \no & \yes & \no & \no & \no & \no & \no & \no & \no & — & Realdaten & Robustplanung reduziert Störungen \\ \hline
+
     \end{xltabular}
     
     \endgroup
 \end{landscape}
-    
+
+
+Hier dann Part mit Aussagen darüber wie sich Verwandschaft zum BLSP definiert und wie sich abgrenzt ????
+
+\textbf{ANTWORTEN VON GPT:}
+1. Wodurch definiert sich die Verwandtschaft zum BLSP?
+Ein Beitrag ist „BLSP-verwandt“, wenn er wesentliche Strukturmerkmale teilt:
+\begin{itemize}
+    \item Linienbasiert  Fahrplan: Es existieren vorgegebene Linien, Haltestellen und Zeitpunkte; nicht Tür-zu-Tür.
+    \item On-Demand auf Linienebene: Es werden nur Fahrten/Segmente mit positiver, vorab bekannter Nachfrage bedient (Trips/Stopsegmente ohne Nachfrage werden ausgelassen).
+    \item Die Planung tour-/fahrplanzeitlich strukturiert (Startzeiten/„Fahrplansegmente“).
+    \item Zielgröße „Flotteneinsatz“: Primäres Optimierungsziel ist die Minimierung der benötigten Busse (und implizit Fahrpersonal), nicht z. B. reine Fahrgastzeitminimierung.
+    \item ÖPNV-Personenverkehr statt Güter-VRP/DARP-Varianten; BLSP liegt zwischen klassischem Linienverkehr und Ridepooling, bei beibehaltetem Fahrplan (Abgrenzung zum line-based DARP ohne Fahrplan).
+\end{itemize}
+Je mehr dieser Merkmale erfüllt sind, desto „näher“ am BLSP. Fehlen Linien/Fahrplan (klassisches VRP/DARP) oder handelt es sich um Güterlogistik, ist die Verwandtschaft nur entfernt.
+
+2. Hauptaspekte zur Einordnung (a) und Abgrenzung (b)
+
+\begin{itemize}
+    \item Bedienparadigma: Linienbasiert (fixe Reihenfolge) vs. semi-flexibel (Segmente überspringbar) vs. voll flexibel (Ridepooling). BLSP = linienbasiert \& semi-flexibel.
+    \item Fahrplanbindung: Zeitplan ist gegeben (BLSP), im Gegensatz zu line-based DARP ohne Fahrplan.
+    \item Nachfragewissen \& On-Demand-Regel: Vorab bekannt/angemeldet -> nur nachgefragte Teile werden gefahren.
+    \item Netz-Scope: Einzellinie vs. Mehrere Linien mit möglichen Wechseln/Übergängen: Transfers explizit modelliert oder nicht. (BLSP betrachtet mehrere Linien: Transfers werden v. a. in verwandter Literatur diskutiert.)
+    \item Zielgrößen: v. a. min \#Busse (BLSP) alternative/ergänzende Ziele wären Wartezeit, Anschlussverluste, Fahrgastzeit, Emissionen.
+    \item Restriktionen: Kapazität, Schichten/Pausen (ggf. vorgegeben), Zeitfenster/Fahrplansegmente.
+    \item Ressourcen/Flotte: Homogen/heterogen ggf. autonome Busse (kein Fahrpersonalmodell).
+    \item Depotstruktur \& Energie: Ein- oder Mehrdepot; (Nicht-)Berücksichtigung von Laden/Tanken. (BLSP: 1 Depot Laden/Tanken nicht modelliert.)
+    \item Rechenansatz \& Komplexität: Netzwerkfluss-Formulierung (Setting 1), IP-Modell mit Rücksprungkanten (Setting 2/3), NP-schwer bei Kapazitätsbindung klare „easy/hard“-Grenzen.
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
@@ -718,7 +1055,7 @@ Modell von Schulz \& Vlćek ist Kombination aus Linienverkehr \& on-demand, dahe
 \label{sec:2.3}
 \label{sec:OffeneForschungsfragen}
 \begin{itemize}
-    \item welche offenen Punkte aus anderen Papern greifen Schulz \& Vlćek eventuell auf?
+    \item welche offenen Punkte aus anderen Papern greifen Schulz \& Vlćek eventuell auf? -> angeblich systematische szenarien zur wirkung uaf flottenbedarf aus \textcite{vansteenwegen_survey_2022} + Einfluss von Fahrerpausen
     \item Kapazitätsfragen, Depotstruktur, Echtzeitfähigkeit
     \item kombination von on-demand und line-based nochmal evtl. aufgreifen nachdem entsprechend mit searchstring bewiesen oder nicht bewiesen ist, dass es diese kombination so noch nicht extensiv gibt
     \item Zukunftsperspektiven: adaptive Fahrpläne, Realtime-Demand

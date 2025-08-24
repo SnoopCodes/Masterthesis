@@ -1,0 +1,28 @@
+
+% Fallbacks, only if not defined elsewhere
+\makeatletter
+\@ifundefined{yes}{\newcommand{\yes}{\textbf{X}}}{}
+\@ifundefined{no}{\newcommand{\no}{}}
+\makeatother
+
+\begin{table}[htbp]
+\centering
+\caption{Forschungsergebnisse zu semi-flexiblen, verwandten Systemen}
+\scriptsize
+\begin{adjustbox}{max width=\textwidth, max height=0.9\textheight, center}
+\begin{tabular}{l p{2.3cm} p{2.5cm} c c c c c c c c c c c c c c c c c c p{1.8cm} p{2.8cm}}
+\toprule
+Paper & Zielsetzung & Optimierungsziel & Nachfrage & Feste Seq. & Fahrplan & Multi-Linien & Transfers & P/D-Paarung & Kap. & MaxRide & Zeitfenst. & Dauer & Fahrer & Pausen & Hetero & Multi-Depot & Exakt & Meta & Dekompo. & Solver & Daten & Zentrale Erkenntnis \\ \midrule
+\textcite{abdelwahed_et_al__2023} & Integriere On-Demand-Busse & min the total travel distance as shown in Eq & Dynamisch & \yes & \yes & \yes & \yes & \no & \yes & \no & \yes & \yes & \yes & \no & \no & \no & \yes & \yes & CG & CPLEX & Realdaten & Verbessert Effizienz gegenüber Basis \\ \hline
+Paper & Zielsetzung & Optimierungsziel & Nachfrage & Feste Seq. & Fahrplan & Multi-Linien & Transfers & P/D-Paarung & Kap. & MaxRide & Zeitfenst. & Dauer & Fahrer & Pausen & Hetero & Multi-Depot & Exakt & Meta & Dekompo. & Solver & Daten & Zentrale Erkenntnis \\ \midrule
+\textcite{abdelwahed_et_al__2023} & Integriere On-Demand-Busse & min the total travel distance & Dynamisch & \yes & \yes & \yes & \yes & \no & \yes & \no & \yes & \yes & \yes & \no & \no & \no & \yes & \yes & CG & CPLEX & Realdaten & Verbessert Effizienz gegenüber Basis \\ \hline
+\textcite{bakas_et_al__2016} & Dynamisches Bussnetz designen & min the overall operator & Dynamisch & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \yes & \no & \yes & – & Xpress & Realdaten & In this paper, a flexible transportation service is proposed for \\ \hline
+\textcite{marinelli_und_gallo_2024} & Integriere On-Demand-Busse & min cost & Dynamisch & \yes & \yes & \yes & \no & \yes & \yes & \yes & \yes & \yes & \no & \no & \yes & \yes & \yes & \yes & LR & – & Realdaten & In this context, this paper investigates the improvements that could \\ \hline
+\textcite{melis_et_al__2024} & Integriere On-Demand-Busse & min the total user ride time & Dynamisch & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \yes & \no & \no & \no & \yes & \yes & BD & Xpress & Realdaten & Verbessert Effizienz gegenüber Basis \\ \hline
+\textcite{melis_und_so_rensen_2022} & Integriere On-Demand-Busse & min the travel costs & Dynamisch & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \no & \no & \no & \no & \yes & – & Xpress & Realdaten & Verbessert Effizienz gegenüber Basis \\ \hline
+\textcite{pei_et_al__2019} & Dynamisches Bussnetz designen & min system costMixed-integer & Dynamisch & \yes & \yes & \yes & \yes & \no & \yes & \no & \yes & \no & \yes & \no & \yes & \no & \no & \yes & – & Xpress & Realdaten & This operation mode can meet the travel demands of passengers \\ \hline
+\textcite{yang_et_al__2016} & DFR-Routen identifizieren & min Kosten & Dynamisch & \yes & \yes & \yes & \no & \no & \no & \no & \no & \no & \no & \no & \yes & \no & \no & \yes & – & – & Realdaten & A GIS-based method to identify cost-effective routes for rural deviated \\ \hline
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
