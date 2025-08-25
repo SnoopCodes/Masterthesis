@@ -9,7 +9,7 @@ Das Modell von Schulz \& Vlćek wurde in der Programmiersprache Julia in der Ent
 
 Das, dem Modell zugrundeliegende, Graphenmodell (siehe Kapitel \ref{chapter:3}), sowie die Nachfrage nach Fahrten von und nach einzelnen Haltestellen dieses Netzwerks, wird in der Implementierung mittels eines Testdatensatzes aufgebaut. %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Glaube zu lang
 
-Der generierte Datensatz besteht aus folgenden Tabellen:
+Der generierte Datensatz besteht aus folgenden Tabellen (siehe Anhang \ref{sec:dataset} für die Daten):
 
 Tabelle \ref{tab:buslines} beinhaltet die unterschiedlichen Buslinien inklusive aller sich auf der jeweiligen Linie befindlichen Haltestellen. Für jede Haltestelle sind die Koordinaten (in X- und Y-Richtung), sowie die einzuhaltende Abfahrtzeit festgelegt. 
 
@@ -18,32 +18,6 @@ Tabelle \ref{tab:lines} legt fest zu welchen unterschiedlichen Startzeiten die e
 Tabelle \ref{tab:busses} legt die Parameter der fiktiven, in dem Betrachtungszeitfenster zur Verfügung stehenden Busse fest. Je Bus sind die Kapazität, sowie die, dem Bus zugeteilten, Schicht- und Pausenzeiten des Busfahrers festgelegt.
 
 Tabelle \ref{tab:demand} stellt eine fiktive Nachfragesituation zu Beginn eines Betrachtungszeitraums dar. Die hier simuliert Nachfragesituation umfasst insgesamt 18 \textbf{ggf. anpassen, wenn Datensatz nochmal größer wird} angemeldete Kundenfahrten. 
-
-\begin{table}[htbp]
-    \centering
-    % Erste Reihe
-    \begin{minipage}{0.5\textwidth}
-      \centering
-      \caption{Haltestellen der Buslinien}\label{tab:buslines}
-      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/bus-lines.csv}
-    \end{minipage}\hfill
-    \begin{minipage}{0.5\textwidth}
-      \centering
-      \caption{Touren inkl. Startzeiten}\label{tab:lines}
-      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/lines.csv}
-    \end{minipage}
-\end{table}
-\begin{table}
-    \centering
-    \caption{Fiktive Busse inkl. Eigenschaften und Fahrerschichten/-pausen}\label{tab:busses}
-    \csvautobooktabular[separator=comma]{your_content_folder/tabellen/busses.csv}
-\end{table}  
-\newpage
-\begin{table}
-      \centering
-      \caption{Fiktive Nachfragesituation}\label{tab:demand}
-      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/demand.csv}
-\end{table}
     
 
 %%%%%%%%%%%%%%%%%%%%

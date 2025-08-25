@@ -1,6 +1,31 @@
 \chapter{Implementierung}
-\section{Beispieldatensatz}
+\section{Beispieldatensatz}\label{sec:dataset}
+
+\begin{table}[htbp]
+    \centering
+    % Erste Reihe
+    \begin{minipage}{0.5\textwidth}
+      \centering
+      \caption{Haltestellen der Buslinien}\label{tab:buslines}
+      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/bus-lines.csv}
+    \end{minipage}\hfill
+    \begin{minipage}{0.5\textwidth}
+      \centering
+      \caption{Touren inkl. Startzeiten}\label{tab:lines}
+      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/lines.csv}
+    \end{minipage}
+\end{table}
+\begin{table}
+    \centering
+    \caption{Fiktive Busse inkl. Eigenschaften und Fahrerschichten/-pausen}\label{tab:busses}
+    \csvautobooktabular[separator=comma]{your_content_folder/tabellen/busses.csv}
+\end{table}  
+\begin{table}
+      \centering
+      \caption{Fiktive Nachfragesituation}\label{tab:demand}
+      \csvautobooktabular[separator=comma]{your_content_folder/tabellen/demand.csv}
+\end{table}
 
 \section{Code der implementierten Settings}
 
-\section{BEI BEDARF ????}
+Siehe digitaler Anhang auf dem abgegebenen USB-Stick.
